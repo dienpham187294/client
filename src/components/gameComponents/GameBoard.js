@@ -14,9 +14,9 @@ function Reading({ socket }) {
 
             <div className="col-md-2 sm-12 mt-3" style={{ padding: "10px" }}>
                 <div>
-                    <button onClick={() => SetPageRead("HowToPlayMonopoly")} className="btn btn-outline-primary mt-3" style={{ width: "100%" }}> Guild</button>
-                    <button onClick={() => SetPageRead("PlayMonopoly")} className="btn btn-outline-primary mt-3" style={{ width: "100%" }}> Play Monopoly </button>
-                    <button onClick={() => SetPageRead("PlayChess")} className="btn btn-outline-primary mt-3" style={{ width: "100%" }}>Play Chess</button>
+                    <button onClick={() => SetPageRead("Guild")} className="btn btn-outline-primary mt-3" style={{ width: "100%" }}> Guild</button>
+                    <button onClick={() => SetPageRead("PlayMonopoly")} className="btn btn-outline-primary mt-3" style={{ width: "100%" }}> Conversation </button>
+                    <button onClick={() => SetPageRead("PlayChess")} className="btn btn-outline-primary mt-3" style={{ width: "100%" }}>In Fruit Shop</button>
                 </div>
             </div>
             <div className="col-md-10 sm-2 mt-3">

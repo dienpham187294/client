@@ -1,5 +1,5 @@
 //Funtion readOutlould
-function read(abc, i) {
+function Read(abc, i) {
     let ut = new SpeechSynthesisUtterance(abc);
     let synth = window.speechSynthesis;
     let voices = synth.getVoices();
@@ -11,7 +11,7 @@ function read(abc, i) {
     }
 }
 
-export { read }
+export { Read }
 
 
 

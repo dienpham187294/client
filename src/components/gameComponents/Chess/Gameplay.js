@@ -12,10 +12,11 @@ function MonoGameSence({ gamePlayData, setMessageCheck, messageCheck, socket }) 
 
     return (
         <Container>
-            <p className="border border-primary mt-3" />
-            <Mheader gamePlayData={gamePlayData} setMessageCheck={setMessageCheck} messageCheck={messageCheck} />
+
             <p className="border border-primary mt-3" />
             <Mbody gamePlayData={gamePlayData} socket={socket} />
+            <p className="border border-primary mt-3" />
+            <Mheader gamePlayData={gamePlayData} setMessageCheck={setMessageCheck} messageCheck={messageCheck} />
             <p className="border border-primary mt-3" />
             <Mfooter />
             <p className="border border-primary mt-3" />
