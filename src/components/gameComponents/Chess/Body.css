@@ -1,6 +1,20 @@
-#ChessBody{
-    width: 800px;
+#ChessBody {
+    width: 100%;
     height: 300px;
     border: 1px solid green;
     border-radius: 6px;
+}
+
+#ChessBody_ArrOfAnwer div {
+    border: 1px solid blue;
+    border-radius: 6px;
+    min-height: 80px;
+    width: 320px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#ChessBody_ArrOfAnwer div:hover {
+    background-color: yellow;
 }

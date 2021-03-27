@@ -6,7 +6,7 @@ import { Dictaphone } from '../../../helpers/RegChess';
 import { getCookie } from "../../../helpers/functionCookies";
 import CheckMassageAndCommand from "../../../helpers/CheckMessage"
 
-function Chess({ socket }) {
+function LearnChess({ socket }) {
     const [message, setMessage] = useState('Message first');
     const [messageCheck, setMessageCheck] = useState(".");
     const [sence, setSence] = useState(true); //First lobby sence is true
@@ -86,4 +86,4 @@ function Chess({ socket }) {
     );
 }
 
-export default Chess;
+export default LearnChess;

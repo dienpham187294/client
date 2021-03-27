@@ -11,9 +11,9 @@ import Reading from './components/gameComponents/Reading';
 import GameBoard from "./components/gameComponents/GameBoard"
 import Vocabulary from './components/gameComponents/Vocabulary';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-let socket = io("http://127.0.0.1:4444");
+// let socket = io("http://127.0.0.1:4444");
 // https://app-dienpham.herokuapp.com/
-// let socket = io("https://app-dienpham.herokuapp.com/");
+let socket = io("https://app-dienpham.herokuapp.com/");
 const App = () => {
   return (
     <div className="container">

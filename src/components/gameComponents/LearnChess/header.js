@@ -11,7 +11,7 @@ function Mheader({ gamePlayData, setMessageCheck, messageCheck }) {
         if (gamePlayData.length > 0) {
             gamePlayData[0].members.forEach(eee => {
                 if (eee.status) {
-                    arrPlayers.push(e("div", { key: eee.id, style: { width: "20%", display: "inline-block", borderRadius: "6px", backgroundColor: eee.turn ? "red" : "transparent" } }, [<p>{eee.username}</p>, <p>Score: {eee.score}</p>, <p>Level: {eee.level}</p>]))
+                    arrPlayers.push(e("div", { key: eee.id, style: { width: "20%", display: "inline-block", borderRadius: "6px", backgroundColor: eee.turn ? "red" : "transparent" } }, eee.username))
                 }
             });;
         }
