@@ -10,21 +10,21 @@ if (process.brower) {
 }
 let commands = [];
 
-
+let arr = ["can you speak again"]
 
 function Dictaphone({ Data, Total }) {
     useEffect(() => {
         commands = [{
-            command: Data,
+            command: Data.concat(arr),
             callback: (command) => { Total.fnObj.Xuly(`${command}`) },
             isFuzzyMatch: true,
-            fuzzyMatchingThreshold: 0.4,
+            fuzzyMatchingThreshold: 0.6,
             bestMatchOnly: true
         }]
     }, [Data])
     const {
         listening,
-        // finalTranscript
+        interimTranscript
     } = useSpeechRecognition({
         commands
     });
@@ -32,6 +32,16 @@ function Dictaphone({ Data, Total }) {
     const stopListening = () => SpeechRecognition.stopListening({ continuous: false, language: 'en-GB' });
 
 
+    useEffect(() => {
+        if (interimTranscript !== "") {
+            try {
+                $("#showInterimID").text(interimTranscript)
+            } catch (error) {
+
+            }
+        }
+
+    }, [interimTranscript])
     return (<div>
         <p>Microphone: {listening ? 'on' : 'off'}</p>
         <button
@@ -39,6 +49,7 @@ function Dictaphone({ Data, Total }) {
             onClick={startListening}
         >Click to talk</button>
         <button
+            id="idStopLisening"
             className="ml-3"
             onClick={stopListening}
         >Click to stop</button>

@@ -15,7 +15,7 @@ function Dictaphone({ Data, Xuly }) {
             command: Data,
             callback: (command) => { Xuly(`${command}`) },
             isFuzzyMatch: true,
-            fuzzyMatchingThreshold: 0.4,
+            fuzzyMatchingThreshold: 0.6,
             bestMatchOnly: true
         }]
     }, [Data])
@@ -32,7 +32,9 @@ function Dictaphone({ Data, Xuly }) {
     const stopListening = () => SpeechRecognition.stopListening({ continuous: false, language: 'en-GB' });
 
     useEffect(() => {
-        $("#interrimID").text(interimTranscript)
+        if (interimTranscript !== "") {
+            $("#interrimID").text(interimTranscript)
+        }
     }, [interimTranscript])
     return (<div style={{ display: "none" }}>
         <p>Microphone: {listening ? 'on' : 'off'}</p>
@@ -41,6 +43,7 @@ function Dictaphone({ Data, Xuly }) {
             onClick={startListening}
         >Click to talk</button>
         <button
+            id="idStopLisening"
             className="ml-3"
             onClick={stopListening}
         >Click to stop</button>
