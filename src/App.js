@@ -18,7 +18,7 @@ const socket = io(T0_linkApi);
 function App() {
   useEffect(() => {
     socket.on("connect_01", (data) => {
-      // alert(data)
+      console.log(data)
     });
   }, [])
   return (
