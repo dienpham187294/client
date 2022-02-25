@@ -3,7 +3,7 @@ import $ from "jquery"
 import DataTool from "./S_Data_tool"
 import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../Read/ReadMessage"
-import showDataGameOnline from "./showDataGameOnline"
+// import showDataGameOnline from "./showDataGameOnline"
 import secondToMinutes from "../filedulieu1/dataHelperFunction/secondToMinutes";
 import inter from "./funtionInside/inter";
 import checkMessageReturnNumber from "./funtionInside/checkMessageReturnNumber"
@@ -11,15 +11,15 @@ import PickRandom from "./funtionInside/PickRandom"
 import showReview from "./funtionInside/showReview"
 import ShowInfoHint from "./funtionInside/ShowInfoHint"
 import showSubmitSyxtax from "./funtionInside/showSubmitSyxtax"
-import getOnline from "./funtionInside/getOnline"
+// import getOnline from "./funtionInside/getOnline"
 import showHintPartWhenOpenTool from "./funtionInside/showHintPartWhenOpenTool"
 import showOptionToRead from "./funtionInside/showOptionToRead"
 import showTopLeftPart1 from "./funtionInside/showTopLeftPart1"
-import showTopCenter1 from "./funtionInside/showTopCenter1"
+import showTopCenter1 from "./funtionInside/M1_left__showTopCenter1"
 import showBottomPart1 from "./funtionInside/showBottomPart1"
 import showDivReview from "./funtionInside/showDivReview"
 import showDivNext from "./funtionInside/showDivNext"
-import showToPickPerson from "./funtionInside/A4a_showToPickPerson"
+import showToPickPerson from "./funtionInside/M0_left_2_showToPickPerson"
 import Check_ImageOrNot from "./funtionInside/Check_ImageOrNot"
 import showCenterCountDown from "./funtionInside/showCenterCountDown"
 import showHintAlot from "./funtionInside/ShowInfoHint_01_Inaction"
@@ -93,11 +93,6 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             props.Total.fnObj.Xuly = Xuly
             props.Total.fnObj.SET_ShowHint = SET_ShowHint
             props.Total.fnObj.SET_Info_Icon_Reactdata = SET_Info_Icon_Reactdata
-            // props.Total.fnObj.getOnline = function () {
-            //     try {
-            //         getOnline(props.NameOflession, idMember, Score, SET_DataOnline)
-            //     } catch (error) { console.log(error) }
-            // }
         }, []
     );
 
@@ -108,7 +103,17 @@ function ArrOfPeopeAppear_ReactJSX(props) {
         }
     }, [Score])
 
+    useEffect(() => {
+        try {
+            if (!StatusShowToPick) {
+                $("#ID_PixijsDiv").hide()
 
+            } else {
+                $("#ID_PixijsDiv").show()
+                SET_Avatar_Reactdata(null)
+            }
+        } catch (error) { }
+    }, [StatusShowToPick])
     function Xuly(Info_message) {
         if (Info_message === "can you speak again") {
             ReadMessage()
@@ -362,7 +367,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             if (Info_Avatar_Reactdata !== null) {
                 return (
                     <div>
-                        <div className="GameSence_Playing_OneShow">
+                        <div className="M0_GameSence_Playing_OneShow">
                             <div>
                                 <div className="row">
                                     {showTopCenter1(
@@ -406,7 +411,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     return (
         <>
-            <div className="GameSence_Playing">
+            <div className="M0_GameSence_Playing">
                 {Show_OnePeopeAppear_ReactData()}
                 {showHintPartWhenOpenTool(ShowHint, Info_Icon_Reactdata)}
                 {showToPickPerson(

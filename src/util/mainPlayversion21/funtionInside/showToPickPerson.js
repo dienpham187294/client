@@ -13,7 +13,7 @@ export default function showToPickPerson(
             <>
                 {StatusShowToPick ?
                     <div style={{
-                        position: "fixed", top: "70px", bottom: "1px", right: "1px", padding: "5%",
+                        position: "fixed", top: "70px", width: "400px",
                         left: "250px", backgroundColor: "white", overflow: "auto", textAlign: "center", zIndex: 4,
                         border: "5px solid blue", borderRadius: '5px'
                     }}>
@@ -110,9 +110,12 @@ function showDivMain(
                         <div key={i}
                             style={{ display: "inline-block", margin: "5px", border: "1px solid green", borderRadius: "5px" }}
                             onClick={() => {
+
+                                Total.fnObj.SET_DataAction(null)
                                 updateDataShowToPick(DataShowToPick, SET_DataShowToPick, e)
                                 AddTo_Show_ArrOfPeopeAppear_ReactData(e)
-                                SET_StatusShowToPick(false)
+                                // SET_StatusShowToPick(false)
+                                Total.fnObj.SET_Boqua(B => B + 1)
                                 Total.stObj.inputSumit = ""
                             }}
                         >

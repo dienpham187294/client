@@ -294,3 +294,37 @@ a:hover {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.M0_GameSence_Playing {
+    border: 1px solid forestgreen;
+    border-radius: 6px;
+    max-height: 600px;
+    overflow: auto;
+    text-align: center;
+}
+.M0_GameSence_Playing_OneShow {
+    position: fixed;
+    border-radius: 6px;
+    border: 5px solid green;
+    background-color: whitesmoke;
+    left: 650px;   
+    width: 900px;
+    top: 70px;
+    bottom: 0px;
+    overflow: auto;
+    z-index: 2;
+}
+.M0_L_inside_listdiv{
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.M0_L_inside_listdiv_div2 div {
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+.M0_L_inside_listdiv_div2 :hover{
+    background-color: yellow;
+}

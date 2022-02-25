@@ -93,11 +93,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             props.Total.fnObj.Xuly = Xuly
             props.Total.fnObj.SET_ShowHint = SET_ShowHint
             props.Total.fnObj.SET_Info_Icon_Reactdata = SET_Info_Icon_Reactdata
-            // props.Total.fnObj.getOnline = function () {
-            //     try {
-            //         getOnline(props.NameOflession, idMember, Score, SET_DataOnline)
-            //     } catch (error) { console.log(error) }
-            // }
+            props.Total.fnObj.SET_Boqua = SET_Boqua
+            props.Total.fnObj.SET_DataAction = SET_DataAction
         }, []
     );
 
@@ -248,18 +245,19 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             if (command.end_successfull) {
                 State_of_Anwer = "none";
                 SET_Score(S => S + 1)
-                $("#divCountdown").show();
-                iNguoitieptheo = 3
-                interNguoitieptheo = setInterval(() => {
-                    iNguoitieptheo -= 1;
-                    $("#countDown").text(iNguoitieptheo)
-                    if (iNguoitieptheo === 0) {
-                        $("#divCountdown").hide();
-                        $("#countDown").text(3)
-                        SET_StatusShowToPick(true)
-                        clearInterval(interNguoitieptheo)
-                    }
-                }, (1000));
+                SET_Avatar_Reactdata(null)
+                // $("#divCountdown").show();
+                // iNguoitieptheo = 3
+                // interNguoitieptheo = setInterval(() => {
+                //     iNguoitieptheo -= 1;
+                //     $("#countDown").text(iNguoitieptheo)
+                //     if (iNguoitieptheo === 0) {
+                //         $("#divCountdown").hide();
+                //         $("#countDown").text(3)
+                //         clearInterval(interNguoitieptheo)
+                //     }
+                // }, (1000));
+
             }
 
             if (command.action !== undefined) {
@@ -362,7 +360,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             if (Info_Avatar_Reactdata !== null) {
                 return (
                     <div>
-                        <div className="GameSence_Playing_OneShow">
+                        <div className="M0_GameSence_Playing_OneShow">
                             <div>
                                 <div className="row">
                                     {showTopCenter1(
@@ -382,13 +380,13 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                     </div>
                                 </div>
                                 <hr />
-                                {showBottomPart1(
+                                {/* {showBottomPart1(
                                     props, SET_Boqua, SET_StatusShowToPick, SET_DataAction
-                                )}
-                                {showDivNext()}
-                                {showCenterCountDown()}
-                                {showDivReview(ShowReview, props, secondToMinutes, timeCount, showReview, SET_ShowReview,
-                                    Score, Sai, Boqua)}
+                                )} */}
+                                {/* {showDivNext()} */}
+                                {/* {showCenterCountDown()} */}
+                                {/* {showDivReview(ShowReview, props, secondToMinutes, timeCount, showReview, SET_ShowReview,
+                                    Score, Sai, Boqua)} */}
 
                             </div>
                         </div>
@@ -399,7 +397,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
         } catch (error) {
             console.log(error)
         }
-        return null
+        return <div className="M0_GameSence_Playing_OneShow">waiting...</div>
     }
     /*END JUST ONE TO SHOW */
 

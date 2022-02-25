@@ -34,7 +34,7 @@ export default
                 }}>
                 {showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable)}
                 {dataRoot.map((e, index) =>
-                    <div key={index} style={{ position: "fixed", bottom: "10%", left: "1px" }}>
+                    <div key={index} style={{ position: "fixed", bottom: "10%", left: "650px" }}>
 
                         <div>
                             {dataRoot.map((eee, indexeee) =>
@@ -126,6 +126,8 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                                             Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
                                         }}
                                         src={eeee} width="150px" height={"150px"} style={{ margin: "5px 25px", cursor: "pointer" }} /> :
+
+
                                     <b
                                         onClick={() => {
                                             Total.stObj.inputSumit += "===" + eeee;
@@ -133,7 +135,8 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                                             Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
                                         }}
                                         style={{ cursor: "pointer" }}
-                                    >{eeee}</b>
+                                    ><>{eeee}</></b>
+
                                 }
                             </div>
                         )

@@ -39,8 +39,7 @@ export default function Thuchanhnangcao() {
     try {
       // SET_Data_InfoOflession(D0_DL[0].hoctap)
       // SET_NameOflession(D0_DL[0].nameoflession)
-      // SET_DataToolR(D0_DL[0].dataTool)
-
+      SET_DataToolR(D0_DL[0].dataTool)
       SET_Data_Game(shuffleArr(shuffleArr(D0_DL[1].coerdataoflession)))
       SET_PageChange(1);
     } catch (error) {
@@ -60,19 +59,15 @@ export default function Thuchanhnangcao() {
 function MDG(
   SET_PageChange,
   SET_Data_Game,
-
   SET_huongdan,
   SET_NameOflession,
-
   SET_DataToolR
 ) {
   this.fnObj = {
     "SET_PageChange": SET_PageChange,
     "SET_Data_Game": SET_Data_Game,
-
     "SET_huongdan": SET_huongdan,
     "SET_NameOflession": SET_NameOflession,
-
     "SET_DataToolR": SET_DataToolR
   }
   this.stObj = {
