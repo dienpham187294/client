@@ -3,13 +3,11 @@ import Check_ImageOrNot from "./Check_ImageOrNot"
 let saveData;
 export default
     function ShowBigView(dataRoot, data, Total, SET_Data_phongto, UpdateDataTable, SET_UpdateDataTable) {
-
     useEffect(() => {
         if (data !== null) {
             SET_UpdateDataTable(data)
         }
     }, [data])
-
 
     try {
         if (data === null) {
@@ -18,53 +16,15 @@ export default
         return (
             <div
                 style={{
-                    // position: "fixed",
-                    // border: "5px solid violet",
-                    // borderRadius: "4px",
-                    // top: "25%",
-                    // bottom: "5px",
-                    // left: "5px",
-                    // right: "5px",
                     height: "350px",
                     backgroundColor: "white",
                     overflow: "auto",
                     zIndex: 3,
-                    padding: "5%",
+                    padding: "1px",
                     textAlign: "left"
                 }}>
                 {showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable)}
-                {dataRoot.map((e, index) =>
-                    <div key={index} style={{ position: "fixed", bottom: "10%", left: "650px" }}>
-
-                        <div>
-                            {dataRoot.map((eee, indexeee) =>
-                                <div
-                                    key={indexeee}
-                                    style={{
-                                        cursor: "pointer",
-                                    }}>
-                                    <button
-
-                                        className="btn btn-primary mt-1"
-                                        onClick={() => {
-                                            SET_Data_phongto(eee)
-                                        }}
-                                    >
-                                        {showListTable(eee, indexeee)}
-                                    </button>
-                                </div>
-                            )}
-                        </div>
-
-                    </div >
-
-                )}
-                {/* <button
-                    className="btn btn-danger"
-                    onClick={() => { SET_Data_phongto(null) }}
-                    style={{ position: "fixed", bottom: "10%", right: "10%" }}
-                >Trở lại</button> */}
-
+                {showTable_01(dataRoot, SET_Data_phongto)}
             </div>
 
         )
@@ -77,7 +37,44 @@ export default
 
 
 
+function showTable_01(dataRoot, SET_Data_phongto) {
+    try {
+        if (dataRoot.length <= 1) {
+            return null
+        }
+        return <div
+            style={{ position: "fixed", bottom: "10%", left: "1200px", border: "1px solid black", padding: "15px", backgroundColor: "rgb(48, 65, 86)", color: "white" }}>
+            <i>Pick Table</i>
+            {dataRoot.map((e, index) =>
+                <div key={index}>
+                    <div>
+                        {dataRoot.map((eee, indexeee) =>
+                            <div
+                                key={indexeee}
+                                style={{
+                                    cursor: "pointer",
+                                }}>
+                                <button
+                                    className="btn btn-primary mt-1"
+                                    onClick={() => {
+                                        SET_Data_phongto(eee)
+                                    }}
+                                >
+                                    {showListTable(eee, indexeee)}
+                                </button>
+                            </div>
+                        )}
+                    </div>
 
+                </div >
+            )}
+        </div>
+    } catch (error) {
+        return null
+    }
+
+
+}
 function showListTable(eee, indexeee) {
 
     try {
@@ -89,14 +86,14 @@ function showListTable(eee, indexeee) {
                             src={eee[0]} width="40px" height={"30px"} /> :
                         <span
                             style={{ width: "80px" }}
-                        >{eee[0].slice(0, 6)}</span>
+                        >Table {indexeee + 1}</span>
                 }
             </>
         )
     } catch (error) {
         return <span
             style={{ width: "80px" }}
-        >Table {indexeee}</span>
+        >Table {indexeee + 1}</span>
     }
 
 }
@@ -111,7 +108,7 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                             <div
                                 key={indexeeee}
                                 style={{
-                                    display: Check_ImageOrNot(eeee) ? "inline-block" : "initial",
+                                    display: "inline-block",
                                     border: "1px solid black",
                                     borderRadius: "5px",
                                     padding: "10px",
@@ -127,16 +124,16 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                                         }}
                                         src={eeee} width="150px" height={"150px"} style={{ margin: "5px 25px", cursor: "pointer" }} /> :
 
-
-                                    <b
-                                        onClick={() => {
-                                            Total.stObj.inputSumit += "===" + eeee;
-                                            Total.fnObj.SET_Info_Icon_Reactdata(eeee)
-                                            Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
-                                        }}
-                                        style={{ cursor: "pointer" }}
-                                    ><>{eeee}</></b>
-
+                                    <div>
+                                        <i
+                                            onClick={() => {
+                                                Total.stObj.inputSumit += "===" + eeee;
+                                                Total.fnObj.SET_Info_Icon_Reactdata(eeee)
+                                                Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
+                                            }}
+                                            style={{ cursor: "pointer" }}
+                                        ><>{eeee}</></i>
+                                    </div>
                                 }
                             </div>
                         )
@@ -171,8 +168,6 @@ function showTable00(eee, SET_UpdateDataTable, data, Total) {
                         else {
                             sortTable(e.currentTarget.value, SET_UpdateDataTable, data)
                         }
-                        // SET_Data_phongto(["1", "2", "3"])
-
                     }}
                     placeholder="Enter letters to search!"
                     type={"text"} className="form-control" />

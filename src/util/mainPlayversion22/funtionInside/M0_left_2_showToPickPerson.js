@@ -14,7 +14,7 @@ export default function showToPickPerson(
             <>
                 {StatusShowToPick ?
                     <div style={{
-                        position: "fixed", top: "70px", width: "400px",
+                        position: "fixed", top: "70px", width: "250px",
                         left: "250px", bottom: "0px", backgroundColor: "white", overflowY: "auto", textAlign: "center", zIndex: 4,
                         border: "5px solid blue", borderRadius: '5px'
                     }}>
@@ -27,7 +27,7 @@ export default function showToPickPerson(
                     id="ID_PixijsDiv"
                     style={{
                         position: "fixed", top: "70px",
-                        left: "650px", backgroundColor: "white",
+                        left: "500px", backgroundColor: "white",
                         overflow: "auto", textAlign: "center", zIndex: 4,
                         border: "5px solid blue", borderRadius: '5px'
                     }}

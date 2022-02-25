@@ -18,12 +18,12 @@ function PixiJSDiv() {
             const { Application } = require("pixi.js");
             const app = new Application({
                 width: 800,
-                height: 800,
-                backgroundColor: "tranparent"
+                height: 600,
+                backgroundColor: "tranparent"   
             });
             let bg = PIXI.Sprite.from('https://i.postimg.cc/VkTnKBrp/MapGame.jpg')
             bg.width = 800;
-            bg.height = 800;
+            bg.height = 600;
             app.stage.addChild(bg);
             app.interactive = true;
             app.renderer.view.addEventListener('click', function (e) {

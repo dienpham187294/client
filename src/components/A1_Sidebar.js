@@ -16,7 +16,8 @@ export default function A1_sidebar(props) {
             </div>
             <div>
                 <Link to={'/thuchanhcoban'}>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-bicycle"></i>
                         <span> Luyện tập cơ bản</span>
                     </button>
@@ -24,7 +25,8 @@ export default function A1_sidebar(props) {
             </div>
             <div>
                 <Link to={'/thuchanhnangcao'}>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-bicycle"></i>
                         <span> Luyện tập nâng cao</span>
                     </button>
@@ -32,7 +34,8 @@ export default function A1_sidebar(props) {
             </div>
             <div>
                 <Link to={'/hockienthucchuyenmon'}>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-journals"></i>
                         <span>  Học kiến thức chuyên môn (sử dụng tiếng anh)</span>
                     </button>
@@ -40,7 +43,8 @@ export default function A1_sidebar(props) {
             </div>
             <div>
                 <Link to={'/nhacipalyrics'}>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-file-music"></i>
                         <span>  Nhạc IPA-Lyrics</span>
                     </button>
@@ -49,7 +53,8 @@ export default function A1_sidebar(props) {
             <div>
                 <Link to={'/nhacipalyrics'}>
                     <i></i>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-book"></i>
                         <span>  Bài học lý thuyết (Ngữ pháp)</span>
                     </button>
@@ -58,7 +63,8 @@ export default function A1_sidebar(props) {
             <div>
                 <Link to={'/nhacipalyrics'}>
                     <i></i>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-book"></i>
                         <span>  Bài học lý thuyết (Phiên âm và nhịp điệu)</span>
                     </button>
@@ -66,7 +72,8 @@ export default function A1_sidebar(props) {
             </div>
             <div>
                 <Link to={'/muakhoahoc'}>
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-cart-plus"></i>
                         <span>  Mua khóa học</span>
                     </button>
@@ -74,15 +81,16 @@ export default function A1_sidebar(props) {
             </div>
             <div>
                 <Link to={'/hoso'}>
-
-                    <button type="button" className="btn btn-secondary">
+                    <button
+                        type="button" className="btn btn-secondary">
                         <i className="bi bi-person-bounding-box"></i>
                         <span>  Hồ sơ</span>
                     </button>
                 </Link>
             </div>
             <div>
-                <button type="button" className="btn btn-secondary">
+                <button
+                    type="button" className="btn btn-secondary">
                     <i className="bi bi-box-arrow-in-left"></i>
                     <span>  Đăng xuất</span>
                 </button>

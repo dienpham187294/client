@@ -10,7 +10,6 @@ function DataTool(props) {
 
         return (
             <>
-                {/* {Show_SmallView(props.Data, props.Total, SET_Data_phongto)} */}
                 {ShowBigView(props.Data, Data_phongto, props.Total, SET_Data_phongto, UpdateDataTable, SET_UpdateDataTable)}
             </>
         )

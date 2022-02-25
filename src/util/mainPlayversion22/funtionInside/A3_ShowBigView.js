@@ -18,13 +18,6 @@ export default
         return (
             <div
                 style={{
-                    // position: "fixed",
-                    // border: "5px solid violet",
-                    // borderRadius: "4px",
-                    // top: "25%",
-                    // bottom: "5px",
-                    // left: "5px",
-                    // right: "5px",
                     height: "350px",
                     backgroundColor: "white",
                     overflow: "auto",
@@ -59,12 +52,6 @@ export default
                     </div >
 
                 )}
-                {/* <button
-                    className="btn btn-danger"
-                    onClick={() => { SET_Data_phongto(null) }}
-                    style={{ position: "fixed", bottom: "10%", right: "10%" }}
-                >Trở lại</button> */}
-
             </div>
 
         )
@@ -89,7 +76,7 @@ function showListTable(eee, indexeee) {
                             src={eee[0]} width="40px" height={"30px"} /> :
                         <span
                             style={{ width: "80px" }}
-                        >{eee[0].slice(0, 6)}</span>
+                        >Table {indexeee}</span>
                 }
             </>
         )
