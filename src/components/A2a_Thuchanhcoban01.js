@@ -39,8 +39,7 @@ export default function Thuchanhcoban01() {
     try {
       // SET_Data_InfoOflession(D0_DL[0].hoctap)
       // SET_NameOflession(D0_DL[0].nameoflession)
-      // SET_DataToolR(D0_DL[0].dataTool)
-
+      SET_DataToolR(D0_DL[0].dataTool)
       SET_Data_Game(shuffleArr(shuffleArr(D0_DL[1].coerdataoflession)))
       SET_PageChange(1);
     } catch (error) {
