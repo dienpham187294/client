@@ -11,9 +11,9 @@ export default function showTopCenter1(
             <div className="row">
 
                 <div className="col-8">
-
+{/* 
                     <b> Điểm: {Score} <span style={{ color: "red" }}>Chọn sai: {Sai} </span> | <span style={{ color: "red" }}>{Boqua}</span> </b>
-                    <span id="thoigian"></span>
+                    <span id="thoigian"></span> */}
                     <br />
                     {props.ShowInterim ? <span id="showInterimID" style={{ height: "50px", color: "violet" }}></span> : <span id="showInterimID" style={{ color: "violet", backgroundColor: "violet" }}></span>}
                     {/* <hr /> */}
