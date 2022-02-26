@@ -8,7 +8,7 @@ import InfoLession from "../util/mainPlayversion21/S_Lession"
 import GamePlay from "../util/mainPlayversion21/S_GamePlay"
 
 const ShowInterim = true
-export default function Thuchanhcoban01() {
+export default function Thuchanhkienthuc01() {
   const [PageChange, SET_PageChange] = useState(0)
   // const [Data_InfoOflession, SET_Data_InfoOflession] = useState([])
   const [Data_Game, SET_Data_Game] = useState([])
@@ -28,7 +28,7 @@ export default function Thuchanhcoban01() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id: qString.id })
     };
-    fetch(T0_linkApi + "loadDataThuchanhcoban", requestOptions)
+    fetch(T0_linkApi + "loadDataThuchanhkienthuc", requestOptions)
       .then((res) => res.json())
       .then((json) => {
         setD0_DL(json.data)

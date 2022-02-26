@@ -397,7 +397,9 @@ function ArrOfPeopeAppear_ReactJSX(props) {
         } catch (error) {
             console.log(error)
         }
-        return <div className="M0_GameSence_Playing_OneShow">waiting...</div>
+        return <div className="M0_GameSence_Playing_OneShow">
+            waiting...
+            </div>
     }
     /*END JUST ONE TO SHOW */
 

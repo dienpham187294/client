@@ -54,7 +54,7 @@ function showRequestList(DataShowToPick) {
                             <div className="col-6"> {ShowImage(e.total)}</div>
                             <div className="col-6 M0_L_inside_listdiv_div2">
                                 <div> <i>Do it</i></div>
-                                <div> <i>How to do!</i></div>
+                                <div> <i>Guide!</i></div>
                             </div>
                         </div>
                         <div style={{ textAlign: "left" }}>

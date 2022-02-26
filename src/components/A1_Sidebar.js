@@ -2,16 +2,9 @@ import { Link } from 'react-router-dom';
 export default function A1_sidebar(props) {
     return (
         <div className="A1_01_sidebar">
-            {/* <div>
-                <b><i className="A1_01_sidebar_name">EngPraticeCenter</i></b>
-                <i onClick={() => {
-                      props.setA1_sidebar_offon(!props.A1_sidebar_offon)
-                }} style={{ cursor: "pointer" }} className="bi bi-arrow-left-circle-fill fa-2x"></i>
-                
-            </div> */}
             <div style={{ textAlign: "center" }}>
-                <Link to={'/dangky'}>
-                    <i className="A1_01_a_span_sidebar">Học thử MIỄN PHÍ</i>
+                <Link to={'/trangchu'}>
+                    <i className="A1_01_a_span_sidebar">Tìm hiểu chi tiết </i>
                 </Link>
             </div>
             <div>
@@ -33,7 +26,7 @@ export default function A1_sidebar(props) {
                 </Link>
             </div>
             <div>
-                <Link to={'/hockienthucchuyenmon'}>
+                <Link to={'/thuchanhkienthuc'}>
                     <button
                         type="button" className="btn btn-secondary">
                         <i className="bi bi-journals"></i>

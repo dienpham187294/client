@@ -28,7 +28,7 @@ export default function Thuchanhcoban02() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id: qString.id })
     };
-    fetch(T0_linkApi + "loadDataThuchanhcanban", requestOptions)
+    fetch(T0_linkApi + "loadDataThuchanhcoban", requestOptions)
       .then((res) => res.json())
       .then((json) => {
         setD0_DL(json.data)

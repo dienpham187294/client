@@ -328,3 +328,12 @@ a:hover {
 .M0_L_inside_listdiv_div2 :hover{
     background-color: yellow;
 }
+.A2_trangchu_div1{
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+}
+.A2_trangchu_topcontent{
+    color: black;
+    letter-spacing: 2px;
+}

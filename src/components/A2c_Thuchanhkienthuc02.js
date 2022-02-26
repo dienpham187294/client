@@ -8,16 +8,16 @@ import InfoLession from "../util/mainPlayversion21/S_Lession"
 import GamePlay from "../util/mainPlayversion21/S_GamePlay"
 
 const ShowInterim = true
-export default function Thuchanhcoban01() {
+export default function Thuchanhkienthuc02() {
   const [PageChange, SET_PageChange] = useState(0)
-  // const [Data_InfoOflession, SET_Data_InfoOflession] = useState([])
-  const [Data_Game, SET_Data_Game] = useState([])
-  const [DataToolR, SET_DataToolR] = useState([])
+  const [Data_InfoOflession, SET_Data_InfoOflession] = useState([])
+  // const [Data_Game, SET_Data_Game] = useState([])
+  // const [DataToolR, SET_DataToolR] = useState([])
 
-  // const [Data_structure, SET_Data_structure] = useState([])
-  const [huongdan, SET_huongdan] = useState("")
-  const [NameOflession, SET_NameOflession] = useState("")
-  const Total = new MDG(SET_PageChange, SET_Data_Game, SET_huongdan, SET_NameOflession, SET_DataToolR)
+  const [Data_structure, SET_Data_structure] = useState([])
+  // const [huongdan, SET_huongdan] = useState("")
+  // const [NameOflession, SET_NameOflession] = useState("")
+  // const Total = new MDG(SET_PageChange, SET_Data_Game, SET_Data_InfoOflession, SET_huongdan, SET_NameOflession, SET_Data_structure, SET_DataToolR)
   const [D0_DL, setD0_DL] = useState([])
 
   const [D1_StatusChange, setD1_StatusChange] = useState(1)
@@ -28,7 +28,7 @@ export default function Thuchanhcoban01() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id: qString.id })
     };
-    fetch(T0_linkApi + "loadDataThuchanhcoban", requestOptions)
+    fetch(T0_linkApi + "loadDataThuchanhkienthuc", requestOptions)
       .then((res) => res.json())
       .then((json) => {
         setD0_DL(json.data)
@@ -37,11 +37,9 @@ export default function Thuchanhcoban01() {
   }, [])
   useEffect(() => {
     try {
-      // SET_Data_InfoOflession(D0_DL[0].hoctap)
-      // SET_NameOflession(D0_DL[0].nameoflession)
-      SET_DataToolR(D0_DL[0].dataTool)
-      SET_Data_Game(shuffleArr(shuffleArr(D0_DL[1].coerdataoflession)))
-      SET_PageChange(1);
+      SET_Data_InfoOflession(D0_DL[0].hoctap)
+      SET_Data_structure(shuffleArr(shuffleArr(D0_DL[1].coerdataoflession)))
+      SET_PageChange(2);
     } catch (error) {
 
     }
@@ -50,7 +48,7 @@ export default function Thuchanhcoban01() {
 
   return (
     <div>
-      {PageChange === 1 ? <GamePlay Data={Data_Game} huongdan={huongdan} NameOflession={NameOflession} Total={Total} ShowInterim={ShowInterim} DataToolR={DataToolR} /> : null}
+      {PageChange === 2 ? <InfoLession Data={Data_InfoOflession} Data_Game={Data_structure} /> : null}
 
       {/* {PageChange === 0 ? <UpLoadFile Total={Total} DL={D0_DL} />
         : PageChange === 2 ? <InfoLession Data={Data_InfoOflession} Total={Total} Data_Game={Data_structure} />
@@ -60,26 +58,3 @@ export default function Thuchanhcoban01() {
   )
 }
 
-
-function MDG(
-  SET_PageChange,
-  SET_Data_Game,
-
-  SET_huongdan,
-  SET_NameOflession,
-
-  SET_DataToolR
-) {
-  this.fnObj = {
-    "SET_PageChange": SET_PageChange,
-    "SET_Data_Game": SET_Data_Game,
-
-    "SET_huongdan": SET_huongdan,
-    "SET_NameOflession": SET_NameOflession,
-
-    "SET_DataToolR": SET_DataToolR
-  }
-  this.stObj = {
-    "inputSumit": "",
-  }
-}
