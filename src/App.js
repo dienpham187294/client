@@ -59,19 +59,19 @@ function App() {
 
 
             
-            <Route path='/thuchanh/tieng-anh-lop-1' element={<B1_Lop1 />} />
-            <Route path='/thuchanh/tieng-anh-lop-2' element={<B1_Lop2 />} />
-            <Route path='/thuchanh/tieng-anh-lop-3-tap-1' element={<B1_lop31 />} />
-            <Route path='/thuchanh/tieng-anh-lop-3-tap-2' element={<B1_lop32 />} />
-            <Route path='/thuchanh/tieng-anh-lop-4-tap-1' element={<B1_lop41 />} />
-            <Route path='/thuchanh/tieng-anh-lop-4-tap-2' element={<B1_lop42 />} />
-            <Route path='/thuchanh/tieng-anh-lop-5-tap-1' element={<B1_lop51 />} />
-            <Route path='/thuchanh/tieng-anh-lop-5-tap-2' element={<B1_lop52 />} />
-            <Route path='/thuchanh/tieng-anh-lop-6-tap-1' element={<B1_lop61 />} />
-            <Route path='/thuchanh/tieng-anh-lop-6-tap-2' element={<B1_lop62 />} />
-            <Route path='/thuchanh/tieng-anh-lop-7-tap-1' element={<B1_lop71 />} />
-            <Route path='/thuchanh/tieng-anh-lop-7-tap-2' element={<B1_lop72 />} />
-            <Route path='/thuchanh/tieng-anh-lop-8' element={<B1_Lop8 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-1' element={<B1_Lop1 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-2' element={<B1_Lop2 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-3-tap-1' element={<B1_lop31 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-3-tap-2' element={<B1_lop32 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-4-tap-1' element={<B1_lop41 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-4-tap-2' element={<B1_lop42 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-5-tap-1' element={<B1_lop51 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-5-tap-2' element={<B1_lop52 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-6-tap-1' element={<B1_lop61 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-6-tap-2' element={<B1_lop62 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-7-tap-1' element={<B1_lop71 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-7-tap-2' element={<B1_lop72 />} />
+            <Route path='/thuchanh/app/tieng-anh-lop-8' element={<B1_Lop8 />} />
           </Routes>
         </div>
       </div>
