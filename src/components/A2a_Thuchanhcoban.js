@@ -54,7 +54,7 @@ function showD0_ListMenu(D0_ListMenu) {
                   </Link>
                 </td>
                 <td>
-                  <Link to={"/video?id=" + e.fileName}>
+                  <Link to={"/video?id=" + e.id}>
                     <i>{"Video"}</i>
                   </Link>
                 </td>
