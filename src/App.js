@@ -17,6 +17,19 @@ import Thuchanhnangcao from './components/A2b_Thuchanhnangcao';
 import Thuchanhkienthuc from "./components/A2c_Thuchanhkienthuc"
 import Thuchanhkienthuc01 from "./components/A2c_Thuchanhkienthuc01"
 import Thuchanhkienthuc02 from "./components/A2c_Thuchanhkienthuc02"
+import B1_Lop1 from './components/thuchanhTAPhothong/B1_Lop1';
+import B1_Lop2 from './components/thuchanhTAPhothong/B1_Lop2';
+import B1_lop31 from "./components/thuchanhTAPhothong/B1_Lop3_1"
+import B1_lop32 from "./components/thuchanhTAPhothong/B1_Lop3_2"
+import B1_lop41 from "./components/thuchanhTAPhothong/B1_Lop4_1"
+import B1_lop42 from "./components/thuchanhTAPhothong/B1_Lop4_2"
+import B1_lop51 from "./components/thuchanhTAPhothong/B1_Lop5_1"
+import B1_lop52 from "./components/thuchanhTAPhothong/B1_Lop5_2"
+import B1_lop61 from "./components/thuchanhTAPhothong/B1_Lop6_1"
+import B1_lop62 from "./components/thuchanhTAPhothong/B1_Lop6_2"
+import B1_lop71 from "./components/thuchanhTAPhothong/B1_Lop7_1"
+import B1_lop72 from "./components/thuchanhTAPhothong/B1_Lop7_2"
+import B1_Lop8 from "./components/thuchanhTAPhothong/B1_Lop8"
 const socket = io(T0_linkApi);
 function App() {
   useEffect(() => {
@@ -43,6 +56,22 @@ function App() {
             <Route path='/thuchanhkienthuc' element={<Thuchanhkienthuc />} />
             <Route path='/thuchanhkienthuc01' element={<Thuchanhkienthuc01 />} />
             <Route path='/thuchanhkienthuc02' element={<Thuchanhkienthuc02 />} />
+
+
+            
+            <Route path='/thuchanh/tieng-anh-lop-1' element={<B1_Lop1 />} />
+            <Route path='/thuchanh/tieng-anh-lop-2' element={<B1_Lop2 />} />
+            <Route path='/thuchanh/tieng-anh-lop-3-tap-1' element={<B1_lop31 />} />
+            <Route path='/thuchanh/tieng-anh-lop-3-tap-2' element={<B1_lop32 />} />
+            <Route path='/thuchanh/tieng-anh-lop-4-tap-1' element={<B1_lop41 />} />
+            <Route path='/thuchanh/tieng-anh-lop-4-tap-2' element={<B1_lop42 />} />
+            <Route path='/thuchanh/tieng-anh-lop-5-tap-1' element={<B1_lop51 />} />
+            <Route path='/thuchanh/tieng-anh-lop-5-tap-2' element={<B1_lop52 />} />
+            <Route path='/thuchanh/tieng-anh-lop-6-tap-1' element={<B1_lop61 />} />
+            <Route path='/thuchanh/tieng-anh-lop-6-tap-2' element={<B1_lop62 />} />
+            <Route path='/thuchanh/tieng-anh-lop-7-tap-1' element={<B1_lop71 />} />
+            <Route path='/thuchanh/tieng-anh-lop-7-tap-2' element={<B1_lop72 />} />
+            <Route path='/thuchanh/tieng-anh-lop-8' element={<B1_Lop8 />} />
           </Routes>
         </div>
       </div>
