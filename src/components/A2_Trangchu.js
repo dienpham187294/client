@@ -70,10 +70,10 @@ export default function Trangchu() {
 
 
             <div className="row">
-                <div className="col-6" style={{ textAlign: "center" }}>
+                <div className="col-lg-6 sm-12" style={{ textAlign: "center" }}>
                     <PixiJSDiv />
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6 sm-12">
                     <p>+ Một trò chơi nhập vai, có nhiều người giao tiếp với nhau, học viên sẽ thực sự hòa nhập vào cuộc sống trong trò chơi. </p>
                     <p>+ Không những chơi mà còn là thực hành tiếng anh.
                         Trò chơi sử dụng nghe và nói làm phương tiện điều khiển chủ yếu.

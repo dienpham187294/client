@@ -244,6 +244,9 @@ a:hover {
     overflow-y: auto;
     
 }
+
+
+
 .A1_01_sidebar_name{
     color: white;
     margin-right: 1em;
@@ -336,4 +339,16 @@ a:hover {
 .A2_trangchu_topcontent{
     color: black;
     letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px){
+    .A1_01_sidebar{
+        width: 0
+    }
+    .A2_content {
+        left: 0;
+    }
+    .A0_02_topcontent{
+        display: none;
+    }
 }

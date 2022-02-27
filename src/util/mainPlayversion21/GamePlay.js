@@ -101,7 +101,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     useEffect(() => {
         if (Score === 1) {
-            timeCount = 0
+            timeCount = 1
         }
     }, [Score])
 
