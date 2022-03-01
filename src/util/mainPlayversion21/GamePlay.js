@@ -437,19 +437,17 @@ function showAction(DataAction, SET_DataAction, Data_Commands, showOptionToRead,
 
 
         <div style={{
-            position: "fixed", top: "20%", bottom: "20%", right: "20%", padding: "5%",
-            left: "20%", backgroundColor: "white", overflow: "auto", textAlign: "center", zIndex: 4,
-            border: "5px solid blue", borderRadius: '5px'
+            position: "fixed", top: "70px", bottom: "0px", width: "800px", padding: "5px",
+            left: "500px", backgroundColor: "white", textAlign: "center", zIndex: 4,
+            border: "1px solid black", borderRadius: '5px'
         }}>
-            <div className="row">
-                <div className="col-12" style={{ textAlign: "center" }}>
-                    <h5>{DataAction.name}</h5>
-                </div>
-                <hr />
+            <div className="col-12" style={{ textAlign: "left", backgroundColor: "rgb(48, 65, 86)", color: "white", padding: "15px" }}>
+                <h5>{DataAction.name}</h5>
+            </div>
+            <hr />
+            <div className="row" style={{ height: "300px", overflow: "auto" }}>
                 <div className="row" style={{ textAlign: "left" }}>
                     <div className="col-6 border-right">
-                        <b>A---</b>
-                        <hr />
                         {DataAction.list.map((e, i) =>
                             <p
                                 key={i}
@@ -463,8 +461,6 @@ function showAction(DataAction, SET_DataAction, Data_Commands, showOptionToRead,
                         )}
                     </div>
                     <div className="col-6">
-                        <b>B---</b>
-                        <hr />
                         {DataAction.list.map((e, i) =>
                             <p
                                 key={i}
@@ -481,7 +477,7 @@ function showAction(DataAction, SET_DataAction, Data_Commands, showOptionToRead,
             </div>
             <hr />
             <div>
-                {checkAction(DataAction) ? <h5>{showOptionToRead(Score, Data_Commands)}</h5> : null}
+                {checkAction(DataAction) ? <i>{showOptionToRead(Score, Data_Commands)}</i> : null}
                 {checkAction(DataAction) ? <h5 style={{ color: "red" }}>Done</h5> : null}
             </div>
 
