@@ -9,7 +9,6 @@ function GamePlay(props) {
     const [ArrOfPeopeAppear_ReactData] = useState(props.Data);
     const [ALLTable_ReactData] = useState([]);
     const [Info_message, SET_Info_message] = useState(null)
-
     const [Data_Commands, SET_Data_Commands] = useState(["hi how are you"])
 
     try {

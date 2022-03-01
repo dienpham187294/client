@@ -408,6 +408,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
         <>
             <div className="GameSence_Playing">
                 <div>
+                    <i>{props.NameOflession} | </i>
                     <b> Điểm: {Score} <span style={{ color: "red" }}>Chọn sai: {Sai} </span> | <span style={{ color: "red" }}>{Boqua}</span> </b>
                     <span id="thoigian"></span>
                 </div>

@@ -13,9 +13,9 @@ export default function showToPickPerson(
             <>
                 {StatusShowToPick ?
                     <div style={{
-                        position: "fixed", top: "70px", width: "250px",
-                        left: "250px", backgroundColor: "white", overflow: "auto", textAlign: "center", zIndex: 4,
-                        border: "5px solid blue", borderRadius: '5px'
+                        position: "fixed", top: "90px", width: "250px",
+                        left: "250px", backgroundColor: "white", overflowX: "hidden", textAlign: "center", zIndex: 4,
+                        // border: "1px solid blue", borderRadius: '5px'
                     }}>
                         {
                             showDivMain(
@@ -100,7 +100,7 @@ function showDivMain(
                 style={{
                     border: "1px solid black",
                     borderRadius: "10px",
-                    width: "100%",
+                    width: "90%",
                     margin: "5px"
                 }}
                 key={ii}>
