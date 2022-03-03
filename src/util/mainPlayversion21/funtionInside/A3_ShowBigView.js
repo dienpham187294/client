@@ -3,9 +3,15 @@ import Check_ImageOrNot from "./Check_ImageOrNot"
 let saveData;
 export default
     function ShowBigView(dataRoot, data, Total, SET_Data_phongto, UpdateDataTable, SET_UpdateDataTable) {
+
+
+    const [dataListTable, SetdataListTable] = useState([])
+
+
     useEffect(() => {
         if (data !== null) {
-            SET_UpdateDataTable(data)
+            SET_UpdateDataTable(data);
+            SetdataListTable(dataRoot)
         }
     }, [data])
 
@@ -14,19 +20,20 @@ export default
             return null
         }
         return (
-            <div
-                style={{
-                    height: "350px",
-                    backgroundColor: "white",
-                    overflow: "auto",
-                    zIndex: 3,
-                    padding: "1px",
-                    textAlign: "left"
-                }}>
-                {showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable)}
-                {showTable_01(dataRoot, SET_Data_phongto)}
-            </div>
-
+            <>
+                <div
+                    style={{
+                        height: "350px",
+                        backgroundColor: "white",
+                        overflow: "auto",
+                        zIndex: 3,
+                        padding: "1px",
+                        textAlign: "left"
+                    }}>
+                    {showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable)}
+                </div>
+                {showTable_01(dataListTable, SET_Data_phongto)}
+            </>
         )
 
     } catch (error) {
@@ -45,28 +52,23 @@ function showTable_01(dataRoot, SET_Data_phongto) {
         return <div
             style={{ position: "fixed", bottom: "10%", left: "1200px", border: "1px solid black", padding: "15px", backgroundColor: "rgb(48, 65, 86)", color: "white" }}>
             <i>Pick Table</i>
-            {dataRoot.map((e, index) =>
-                <div key={index}>
-                    <div>
-                        {dataRoot.map((eee, indexeee) =>
-                            <div
-                                key={indexeee}
-                                style={{
-                                    cursor: "pointer",
-                                }}>
-                                <button
-                                    className="btn btn-primary mt-1"
-                                    onClick={() => {
-                                        SET_Data_phongto(eee)
-                                    }}
-                                >
-                                    {showListTable(eee, indexeee)}
-                                </button>
-                            </div>
-                        )}
-                    </div>
 
-                </div >
+            {dataRoot.map((eee, indexeee) =>
+                <div
+                    key={indexeee}
+                    style={{
+                        cursor: "pointer",
+                    }}>
+                    <button
+                        className="btn btn-primary mt-1"
+                        onClick={() => {
+                            SET_Data_phongto(eee)
+                        }}
+                    >
+                        {showListTable(eee, indexeee)}
+
+                    </button>
+                </div>
             )}
         </div>
     } catch (error) {
