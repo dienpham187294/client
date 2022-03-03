@@ -318,7 +318,15 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             console.log(error)
         }
         return <div className="M0_GameSence_Playing_OneShow">
-            waiting...
+            <div>
+                <i>{props.NameOflession} | </i>
+                <b> Điểm: {Score}
+                    <span style={{ color: "red" }}> Chọn sai: {Sai} </span>
+                    | <span style={{ color: "red" }}>{Boqua}</span> </b>
+                <span>
+                    {secondToMinutes(D4_Time)}
+                </span>
+            </div>
         </div>
     }
     /*END JUST ONE TO SHOW */
@@ -327,15 +335,6 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     return (
         <>
             <div className="GameSence_Playing">
-                <div>
-                    <i>{props.NameOflession} | </i>
-                    <b> Điểm: {Score}
-                        <span style={{ color: "red" }}> Chọn sai: {Sai} </span>
-                        | <span style={{ color: "red" }}>{Boqua}</span> </b>
-                    <span>
-                        {secondToMinutes(D4_Time)}
-                    </span>
-                </div>
                 {Show_OnePeopeAppear_ReactData()}
                 {showHintPartWhenOpenTool(ShowHint, Info_Icon_Reactdata)}
                 {showToPickPerson(
