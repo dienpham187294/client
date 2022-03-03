@@ -15,7 +15,6 @@ export default function showToPickPerson(
                     <div style={{
                         position: "fixed", top: "90px", width: "250px",
                         left: "250px", backgroundColor: "white", overflowX: "hidden", textAlign: "center", zIndex: 4,
-                        // border: "1px solid blue", borderRadius: '5px'
                     }}>
                         {
                             showDivMain(
@@ -30,29 +29,14 @@ export default function showToPickPerson(
                                 ArrOfPeopeAppear_ReactData
                             )
                         }
-                        {/* <button
-                            className="btn btn-outline-danger ml-3"
-                            style={{
-                                position: "fixed",
-                                bottom: "5%",
-                                left: "5%"
-                            }}
-                            onClick={() => {
-                                Total.fnObj.SET_PageChange(0)
-                                try {
-                                    $("#idStopLisening")[0].click()
-
-                                } catch (error) { }
-                            }}
-                        >Chọn bài</button> */}
                     </div>
                     :
                     null}
             </>
         )
     } catch (error) {
-        console.log(error)
-        return null
+
+        return <div><h1>Kết thúc</h1></div>
     }
 }
 function showDivMain(

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { createSpeechlySpeechRecognition } from '@speechly/speech-recognition-polyfill';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import $ from "jquery";
-import { async } from 'regenerator-runtime';
+// import { async } from 'regenerator-runtime';
 const appId = '6b82e0d7-8610-45b8-96cd-22f51d4c50f1';
 const SpeechlySpeechRecognition = createSpeechlySpeechRecognition(appId);
 if (process.brower) {
@@ -16,7 +16,9 @@ function Dictaphone({ Data, Total }) {
     useEffect(() => {
         commands = [{
             command: Data.concat(arr),
-            callback: (command) => { Total.fnObj.Xuly(`${command}`) },
+            callback: (command, n, i, e) => {
+                Total.fnObj.Xuly(`${command}`)
+            },
             isFuzzyMatch: true,
             fuzzyMatchingThreshold: 0.6,
             bestMatchOnly: true
@@ -36,9 +38,7 @@ function Dictaphone({ Data, Total }) {
         if (interimTranscript !== "") {
             try {
                 $("#showInterimID").text(interimTranscript)
-            } catch (error) {
-
-            }
+            } catch (error) { }
         }
 
     }, [interimTranscript])
@@ -53,18 +53,9 @@ function Dictaphone({ Data, Total }) {
             className="ml-3"
             onClick={stopListening}
         >Click to stop</button>
-        <input disabled type="text" id="messageRes" defaultValue="" />
     </div>
     );
 };
 export default Dictaphone;
 
 
-// async function writeMessage(massgage) {
-//     try {
-//         await $("#messageRes").val(massgage);
-//         await $("#messageResBtn").click();
-//     } catch (error) {
-//         console.log("e")
-//     }
-// }

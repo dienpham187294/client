@@ -3,43 +3,31 @@ import $ from "jquery"
 import DataTool from "./S_Data_tool"
 import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../Read/ReadMessage"
-import showDataGameOnline from "./showDataGameOnline"
 import secondToMinutes from "../filedulieu1/dataHelperFunction/secondToMinutes";
 import inter from "./funtionInside/inter";
-import checkMessageReturnNumber from "./funtionInside/checkMessageReturnNumber"
+// import checkMessageReturnNumber from "./funtionInside/checkMessageReturnNumber"
+
 import PickRandom from "./funtionInside/PickRandom"
-import showReview from "./funtionInside/showReview"
 import ShowInfoHint from "./funtionInside/ShowInfoHint"
 import showSubmitSyxtax from "./funtionInside/showSubmitSyxtax"
-import getOnline from "./funtionInside/getOnline"
 import showHintPartWhenOpenTool from "./funtionInside/showHintPartWhenOpenTool"
 import showOptionToRead from "./funtionInside/showOptionToRead"
 import showTopLeftPart1 from "./funtionInside/showTopLeftPart1"
 import showTopCenter1 from "./funtionInside/showTopCenter1"
-import showBottomPart1 from "./funtionInside/showBottomPart1"
-import showDivReview from "./funtionInside/showDivReview"
-import showDivNext from "./funtionInside/showDivNext"
 import showToPickPerson from "./funtionInside/showToPickPerson"
 import Check_ImageOrNot from "./funtionInside/Check_ImageOrNot"
-import showCenterCountDown from "./funtionInside/showCenterCountDown"
 import showHintAlot from "./funtionInside/ShowInfoHint_01_Inaction"
+
+const stringSimilarity = require("string-similarity");
+let ArrPictch = [0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1]
 
 let VoicePick = 1;
 let State_of_Anwer = "none";
 let Data_temp_Strickmode;
 let AllData_OfOne;
-
-
 let rateRead = 1.1
 let pitchRead = 1.2
-
-let idMember;
-let iNguoitieptheo, interNguoitieptheo;
-
-let i1 = 0
-let timeCount = 0;
-let ArrHoldThingToReview = [];
-
+let timeCount;
 
 
 function ArrOfPeopeAppear_ReactJSX(props) {
@@ -51,42 +39,19 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     const [Score, SET_Score] = useState(0)
     const [Sai, SET_Sai] = useState(0)
     const [Boqua, SET_Boqua] = useState(0)
-    // const [Data_TableTool, SET_Data_TableTool] = useState([])
-    const [DataOnline, SET_DataOnline] = useState([])
     const [ShowHint, SET_ShowHint] = useState(false)
-    const [ShowReview, SET_ShowReview] = useState("")
     const [StatusShowToPick, SET_StatusShowToPick] = useState(true)
     const [DataShowToPick, SET_DataShowToPick] = useState([0, 1, 2])
     const [DataAction, SET_DataAction] = useState(null)
-
+    const [D4_Time, setD4_Time] = useState(0)
 
     useEffect(() => {
         props.SET_Data_Commands(Info_StrickAnwers_Reactdata)
-        if (i1 === 0) {
-            if (timeCount === 0) {
-                setInterval(() => {
-                    timeCount += 1;
-                    $("#thoigian").text(secondToMinutes(timeCount))
-                }, 1000);
-            }
-            if (localStorage.getItem("idMember") !== null) {
-                idMember = localStorage.getItem("idMember")
-            } else {
-                idMember = Date.now() + PickRandom(["a", "b", "c", "d", "e", "f"]);
-                localStorage.setItem("idMember", idMember)
-            }
-            i1++
-        }
-
     }, [Info_StrickAnwers_Reactdata])
-
-
-
 
     useEffect(
         () => {
             inter()
-            props.Total.stObj.timebegin = Date.now()
             props.Total.stObj.indexOfPeople = 0
             props.Total.fnObj.AddTo_Show_ArrOfPeopeAppear_ReactData = AddTo_Show_ArrOfPeopeAppear_ReactData
             props.Total.fnObj.Submit_Show_OnePeopeAppear_ReactData = Submit_Show_OnePeopeAppear_ReactData
@@ -101,7 +66,10 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     useEffect(() => {
         if (Score === 1) {
-            timeCount = 1
+            timeCount = Date.now()
+        }
+        if (Score > 1) {
+            setD4_Time((Date.now() - timeCount) / 1000)
         }
     }, [Score])
 
@@ -113,71 +81,52 @@ function ArrOfPeopeAppear_ReactJSX(props) {
         else {
             try {
                 if (State_of_Anwer !== "none") {
-                    if (State_of_Anwer === "strictmode") {
-                        // Buoc 1 lay du lieu cuc bo 
-                        let Data_Strict = Data_temp_Strickmode
-                        //Buoc 2 xu ly data
-                        let Rate = 6
-                        let Length_C = 0
-                        let MessageArr = ["none"]
-                        //----------------------
-                        Data_Strict.forEach(e => {
+                    // Buoc 1 lay du lieu cuc bo 
+                    let Data_Strict = Data_temp_Strickmode
+                    let STAND_i = 0
+                    let RES_i = 0
+                    Data_Strict.forEach((e, i) => {
+                        e.manspeak.forEach(ee => {
+                            let CHECK_i = stringSimilarity.compareTwoStrings(Info_message, ee)
+                            if (CHECK_i > STAND_i) {
+                                STAND_i = CHECK_i
+                                RES_i = i
+                            }
+                        })
+                    })
+                    //----------------------
+
+                    let data = Data_Strict[RES_i]
+                    if (data.robotspeak.length > 0) {
+                        ReadMessage(PickRandom(data.robotspeak), VoicePick, rateRead, pitchRead);
+                    }
+                    if (data.handling_next.length > 0) {
+                        Data_temp_Strickmode = (data.handling_next)
+                        let arrTemp = [];
+                        data.handling_next.forEach(e => {
                             e.manspeak.forEach(ee => {
-                                let TEMP_CHECK = checkMessageReturnNumber(Info_message, ee)
-                                if (TEMP_CHECK[0] >= Rate) {
-                                    if (TEMP_CHECK[0] === Length_C && TEMP_CHECK[1] > Length_C) {
-                                        Rate = TEMP_CHECK[0];
-                                        Length_C = TEMP_CHECK[1];
-                                        MessageArr.push(e);
-                                    } else {
-                                        Rate = TEMP_CHECK[0];
-                                        Length_C = TEMP_CHECK[1];
-                                        MessageArr.push(e)
-                                    }
-                                }
+                                arrTemp.push(ee)
                             })
                         })
-                        //----------------------
-
-                        if (MessageArr[MessageArr.length - 1] !== "none") {
-
-                            ArrHoldThingToReview.push({
-                                "textToRead": Info_message,
-                                "textReadAlready": $("#showInterimID").text()
+                        SET_Info_StrickAnwers_Reactdata(arrTemp)
+                    } else {
+                        Data_temp_Strickmode = (AllData_OfOne.middle.handling_next)
+                        let arrTemp = [];
+                        AllData_OfOne.middle.handling_next.forEach(e => {
+                            e.manspeak.forEach(ee => {
+                                arrTemp.push(ee)
                             })
-
-                            let data = MessageArr[MessageArr.length - 1];
-                            if (data.robotspeak.length > 0) {
-                                ReadMessage(PickRandom(data.robotspeak), VoicePick, rateRead, pitchRead);
-                            }
-                            if (data.handling_next.length > 0) {
-                                Data_temp_Strickmode = (data.handling_next)
-                                let arrTemp = [];
-                                data.handling_next.forEach(e => {
-                                    e.manspeak.forEach(ee => {
-                                        arrTemp.push(ee)
-                                    })
-                                })
-                                SET_Info_StrickAnwers_Reactdata(arrTemp)
-                            } else {
-                                Data_temp_Strickmode = (AllData_OfOne.middle.handling_next)
-                                let arrTemp = [];
-                                AllData_OfOne.middle.handling_next.forEach(e => {
-                                    e.manspeak.forEach(ee => {
-                                        arrTemp.push(ee)
-                                    })
-                                })
-                                SET_Info_StrickAnwers_Reactdata(arrTemp)
-
-                            }
-                            if (data.icon !== undefined && data.icon !== "") {
-                                SET_Info_Icon_Reactdata(data.icon)
-                            }
-                            Submit_check_funtion_indata(data.function);
-                        }
+                        })
+                        SET_Info_StrickAnwers_Reactdata(arrTemp)
 
                     }
+                    if (data.icon !== undefined && data.icon !== "") {
+                        SET_Info_Icon_Reactdata(data.icon)
+                    }
+                    Submit_check_funtion_indata(data.function);
                 }
+
+
             } catch (error) {
                 console.log(error)
             }
@@ -185,12 +134,18 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     }
 
-    async function AddTo_Show_ArrOfPeopeAppear_ReactData(index) {
+    function AddTo_Show_ArrOfPeopeAppear_ReactData(index) {
         try {
-            // console.log(index, props.ArrOfPeopeAppear_ReactData[index]);
             if (props.ArrOfPeopeAppear_ReactData[index] !== undefined) {
                 props.ArrOfPeopeAppear_ReactData[index].total.status = false;
                 let n = props.ArrOfPeopeAppear_ReactData[index]
+                if (n.total.gender === "female") {
+                    VoicePick = (1);
+                } else {
+                    VoicePick = (2);
+                }
+                rateRead = ArrPictch[index]
+                pitchRead = ArrPictch[index + 1]
                 AllData_OfOne = (n);
                 State_of_Anwer = "strictmode"
                 Data_temp_Strickmode = (n.begin.handling_next)
@@ -200,23 +155,12 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                         Arr_HoldAllManSpeak.push(ee)
                     })
                 })
-
-                // SET_Data_TableTool(props.ArrOfPeopeAppear_ReactData[index].total.Tabletool)
-
                 SET_Info_StrickAnwers_Reactdata(Arr_HoldAllManSpeak)
-                await SET_Avatar_Reactdata(n.total.image);
-                // if (n.total.icon !== "" && n.total.icon !== undefined) {
+                SET_Avatar_Reactdata(n.total.image);
                 SET_Info_Icon_Reactdata(n.total.icon)
-                // }
-                await SET_Info_ToSunmit_Reactdata([])
-                await SET_Info_ToSunmit_Reactdata(n.total.submitsyntax)
-                if (n.total.gender === "female") {
-                    VoicePick = (1);
-                } else {
-                    VoicePick = (2);
-                }
-                rateRead = PickRandom([0.9, 1.0, 1.1, 1.2])
-                pitchRead = PickRandom([0.9, 1.0, 1.1, 1.2])
+                SET_Info_ToSunmit_Reactdata([])
+                SET_Info_ToSunmit_Reactdata(n.total.submitsyntax)
+
                 ReadMessage(PickRandom(n.total.robotspeakfirst), VoicePick, rateRead, pitchRead)
             } else {
                 alert("Kết thúc")
@@ -246,18 +190,6 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 State_of_Anwer = "none";
                 SET_Score(S => S + 1)
                 SET_Avatar_Reactdata(null)
-                // $("#divCountdown").show();
-                // iNguoitieptheo = 3
-                // interNguoitieptheo = setInterval(() => {
-                //     iNguoitieptheo -= 1;
-                //     $("#countDown").text(iNguoitieptheo)
-                //     if (iNguoitieptheo === 0) {
-                //         $("#divCountdown").hide();
-                //         $("#countDown").text(3)
-                //         clearInterval(interNguoitieptheo)
-                //     }
-                // }, (1000));
-
             }
 
             if (command.action !== undefined) {
@@ -364,30 +296,18 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                             <div>
                                 <div className="row">
                                     {showTopCenter1(
-                                        props, showOptionToRead, Score, Info_StrickAnwers_Reactdata,
-                                        showSubmitSyxtax, Info_ToSunmit_Reactdata,
-                                        Boqua, SET_Score, SET_ShowReview, ArrHoldThingToReview, Sai
+                                        props,
+                                        showSubmitSyxtax,
+                                        Info_ToSunmit_Reactdata,
                                     )}
                                     {showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, Info_Icon_Reactdata, SET_ShowHint, ShowHint)}
                                 </div>
                                 <hr />
                                 <div className="row">
-                                    {/* <div className="col-4">
-                                        {showDataGameOnline(DataOnline, props.Total)}
-                                    </div> */}
                                     <div className="col-12" style={{ textAlign: "center" }}>
                                         <DataTool Data={props.DataToolR} Total={props.Total} />
                                     </div>
                                 </div>
-                                <hr />
-                                {/* {showBottomPart1(
-                                    props, SET_Boqua, SET_StatusShowToPick, SET_DataAction
-                                )} */}
-                                {/* {showDivNext()} */}
-                                {/* {showCenterCountDown()} */}
-                                {/* {showDivReview(ShowReview, props, secondToMinutes, timeCount, showReview, SET_ShowReview,
-                                    Score, Sai, Boqua)} */}
-
                             </div>
                         </div>
 
@@ -409,8 +329,12 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             <div className="GameSence_Playing">
                 <div>
                     <i>{props.NameOflession} | </i>
-                    <b> Điểm: {Score} <span style={{ color: "red" }}>Chọn sai: {Sai} </span> | <span style={{ color: "red" }}>{Boqua}</span> </b>
-                    <span id="thoigian"></span>
+                    <b> Điểm: {Score}
+                        <span style={{ color: "red" }}> Chọn sai: {Sai} </span>
+                        | <span style={{ color: "red" }}>{Boqua}</span> </b>
+                    <span>
+                        {secondToMinutes(D4_Time)}
+                    </span>
                 </div>
                 {Show_OnePeopeAppear_ReactData()}
                 {showHintPartWhenOpenTool(ShowHint, Info_Icon_Reactdata)}

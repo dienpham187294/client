@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
-import UpLoadFile from "../util/mainPlayversion21/S_Uploadfile"
+// import UpLoadFile from "../util/mainPlayversion21/S_Uploadfile"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
-import InfoLession from "../util/mainPlayversion21/S_Lession"
+// import InfoLession from "../util/mainPlayversion21/S_Lession"
 import GamePlay from "../util/mainPlayversion21/S_GamePlay"
 
 const ShowInterim = true
