@@ -40,7 +40,7 @@ function GamePlay(props) {
                             Data_TableTool={props.Data_TableTool}
                             SET_Data_Commands={SET_Data_Commands}
                             Total={props.Total}
-                            huongdan={props.huongdan}
+                            Move={props.Move}
                             SET_Data_TableTool={props.SET_Data_TableTool}
                             NameOflession={props.NameOflession}
                             ShowInterim={props.ShowInterim}

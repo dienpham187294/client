@@ -11,6 +11,8 @@ export default function showTopCenter1(
                     {props.ShowInterim ?
                         <span id="showInterimID" style={{ height: "50px", color: "violet" }}></span>
                         : <span id="showInterimID" style={{ color: "violet", backgroundColor: "violet" }}></span>}
+                    <br />
+                    <span id="percentID"></span>
                 </div>
                 <div className="col-4">
                     {showSubmitSyxtax(Info_ToSunmit_Reactdata)}

@@ -7,14 +7,14 @@ import Dictaphone from "../../helpers/RegcognitionV1-0-1AI0.2LearnBasic"
 // import MD_Image from "../../models/md_image"
 import ReadMessage from "../Read/ReadMessage"
 // import ThucHanhA from "../../../pages/thuchanh/thuchanhde"
-let statusCount = 0;
+// let statusCount = 0;
 let Int_nextDatalearn = 0;
 export default function Show_TAPhothong(DL) {
     const [Data_Learn, SET_Data_Learn] = useState("")
 
-    const [Name, SET_Name] = useState("---")
+    const [Name] = useState("---")
 
-    const [Status, SET_Status] = useState("")
+    const [Status] = useState("")
 
     const [Num_page, SET_Num_page] = useState(1)
 
@@ -24,7 +24,7 @@ export default function Show_TAPhothong(DL) {
 
     const [Docthu, SET_Docthu] = useState("")
 
-    const [Game_Nghevachoncau, SET_Game_Nghevachoncau] = useState(false)
+  
 
     const [Score, SET_Score] = useState(0)
 
@@ -68,7 +68,7 @@ export default function Show_TAPhothong(DL) {
                                 <div
                                     style={{ cursor: "pointer", backgroundColor: Page === "hoctap" ? "yellow" : "transparent" }}
                                     onClick={() => { SET_Page("hoctap") }} className="col-3">Học tập</div>
-                          
+
                                 <div
                                     style={{ cursor: "pointer", backgroundColor: Page === "phienam" ? "yellow" : "transparent" }}
                                     onClick={() => { SET_Page("phienam") }} className="col-3">Phiên âm</div>
@@ -182,24 +182,7 @@ export default function Show_TAPhothong(DL) {
                                 </div>
                                 : null}
 
-                            {Page === "trochoi" ?
-                                <div>
-                                    <div id="id_trochoi">
-                                        <div style={{ display: "none" }}>
-                                            <Read_ReactSpeech />
-                                        </div>
-
-                                        {/* <h3 style={{ backgroundColor: "black", color: "yellow", padding: "5px" }}>Trò chơi:</h3> */}
-                                        <div style={{ border: "1px solid black", borderRadius: "5px", padding: "10px", display: "inline-block", cursor: "pointer" }} onClick={() => { SET_Game_Nghevachoncau(true) }}>
-                                            <h3 style={{ color: "red" }}> Nghe và chọn câu</h3>
-                                            <i>Bấm để chơi</i>
-                                        </div>
-
-                                        <br />
-                                        {/* {Game_Nghevachoncau ? md_img.game_withlisten(DL.slice(0, parseInt(Num_page) + 1), SET_Game_Nghevachoncau) : null} */}
-                                    </div>
-                                </div>
-                                : null}
+                 
                         </div>
                     }
                     <hr />

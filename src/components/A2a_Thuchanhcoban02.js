@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
-import UpLoadFile from "../util/mainPlayversion21/S_Uploadfile"
+// import UpLoadFile from "../util/mainPlayversion21/S_Uploadfile"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
 import InfoLession from "../util/mainPlayversion21/S_Lession"
-import GamePlay from "../util/mainPlayversion21/S_GamePlay"
+// import GamePlay from "../util/mainPlayversion21/S_GamePlay"
 
-const ShowInterim = true
+// const ShowInterim = true
 export default function Thuchanhcoban02() {
   const [PageChange, SET_PageChange] = useState(0)
   const [Data_InfoOflession, SET_Data_InfoOflession] = useState([])

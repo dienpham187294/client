@@ -16,8 +16,8 @@ function Dictaphone({ Data, Total }) {
     useEffect(() => {
         commands = [{
             command: Data.concat(arr),
-            callback: (command, n, i, e) => {
-                Total.fnObj.Xuly(`${command}`)
+            callback: (command, n, i) => {
+                Total.fnObj.Xuly(`${command}`, n, i, Total)
             },
             isFuzzyMatch: true,
             fuzzyMatchingThreshold: 0.6,
@@ -42,7 +42,7 @@ function Dictaphone({ Data, Total }) {
         }
 
     }, [interimTranscript])
-    return (<div>
+    return (<div style={{ display: "none" }}>
         <p>Microphone: {listening ? 'on' : 'off'}</p>
         <button
             id="idClickMiniGame"

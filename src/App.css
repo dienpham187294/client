@@ -312,7 +312,7 @@ a:hover {
     background-color: whitesmoke;
     left: 500px;   
     width: 800px;
-    top: 90px;
+    top: 70px;
     bottom: 0px;
     overflow: auto;
     z-index: 2;
@@ -351,4 +351,73 @@ a:hover {
     .A0_02_topcontent{
         display: none;
     }
+}
+
+.E_S_MOVE{
+    position: fixed;
+    border-radius: 6px;
+    border: 5px solid green;
+    background-color: whitesmoke;
+    left: 500px;   
+    width: 800px;
+    top: 70px;
+    bottom: 0px;
+    overflow: auto;
+    z-index: 3;
+    text-align: left;
+}
+.E_S_MOVE div {
+    display: inline-table;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+}
+.E_S_MOVE :hover{
+    background-color: yellow;
+}
+.E_S_MOVE_BTN{
+    position: fixed;
+    bottom: 0px;
+    left: 500px;
+    z-index: 4;
+}
+.F_S_People{
+    position: fixed;
+    top: 70px;
+    width: 250px;
+    left: 250px;
+    bottom: 0px;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    z-index: 5;
+}
+.F_S_People :hover {
+    background-color: yellow;
+    color: black;
+}
+.F_S_People_01 {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 10px;
+    width: 60px;
+    margin: 5px;
+    display: inline-table;
+    background-color: rgb(48, 65, 86);
+    color  : white;
+    cursor: pointer
+}
+.F_S_People_02{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: red;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
 }

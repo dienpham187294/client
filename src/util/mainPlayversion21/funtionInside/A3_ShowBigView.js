@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Check_ImageOrNot from "./Check_ImageOrNot"
+import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot"
 let saveData;
 export default
     function ShowBigView(dataRoot, data, Total, SET_Data_phongto, UpdateDataTable, SET_UpdateDataTable) {
@@ -122,19 +122,19 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                                         onClick={() => {
                                             Total.stObj.inputSumit += "===" + eeee;
                                             Total.fnObj.SET_Info_Icon_Reactdata(eeee)
-                                            Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
+                                            Total.fnObj.Handle_01(Total)
                                         }}
                                         src={eeee} width="150px" height={"150px"} style={{ margin: "5px 25px", cursor: "pointer" }} /> :
+                                    <div
+                                        onClick={() => {
+                                            Total.stObj.inputSumit += "===" + eeee;
+                                            Total.fnObj.SET_Info_Icon_Reactdata(eeee)
+                                            Total.fnObj.Handle_01(Total)
+                                        }}
+                                        style={{ cursor: "pointer" }}
 
-                                    <div>
-                                        <i
-                                            onClick={() => {
-                                                Total.stObj.inputSumit += "===" + eeee;
-                                                Total.fnObj.SET_Info_Icon_Reactdata(eeee)
-                                                Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
-                                            }}
-                                            style={{ cursor: "pointer" }}
-                                        ><>{eeee}</></i>
+                                    >
+                                        <i><>{eeee}</></i>
                                     </div>
                                 }
                             </div>
@@ -198,8 +198,8 @@ function showtableWithoutInput(eee, Total) {
                                 <td key={ii2}>{
                                     Check_ImageOrNot(e1[ee2])
                                         ? <img
-                                            style={{ cursor: "pointer" }}
-                                            src={e1[ee2]} width="150px" height={"150px"} style={{ margin: "5px 0px" }} />
+                                            style={{ cursor: "pointer", margin: "5px 0px" }}
+                                            src={e1[ee2]} width="150px" height={"150px"} />
                                         : <span
                                         >{e1[ee2]}</span>
                                 }</td>

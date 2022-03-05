@@ -1,4 +1,4 @@
-import Check_ImageOrNot from "./Check_ImageOrNot"
+import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot"
 
 export default function showHintAlot(input, title) {
 

@@ -28,7 +28,7 @@ export default function Video() {
     return (
         <div>
             <div id="videoID" className="respondiframe">
-                <iframe className="responsive-iframe" src={srcYoutube} allowFullScreen></iframe>
+                <iframe title="videotittle" className="responsive-iframe" src={srcYoutube} allowFullScreen></iframe>
             </div>
         </div>
     )

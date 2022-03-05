@@ -1,10 +1,10 @@
 
-import Check_ImageOrNot from "./Check_ImageOrNot";
+import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot";
 import PickRandom from "./PickRandom";
 import $ from "jquery"
 export default function showToPickPerson(
     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
-    ArrOfPeopeAppear_ReactData, AddTo_Show_ArrOfPeopeAppear_ReactData,
+    ArrOfPeopeAppear_ReactData, ADD_01,
     Total
 ) {
     try {
@@ -13,7 +13,7 @@ export default function showToPickPerson(
             <>
                 {StatusShowToPick ?
                     <div style={{
-                        position: "fixed", top: "90px", width: "250px",
+                        position: "fixed", top: "70px", width: "250px",
                         left: "250px", backgroundColor: "white", overflowX: "hidden", textAlign: "center", zIndex: 4,
                     }}>
                         {
@@ -21,8 +21,7 @@ export default function showToPickPerson(
                                 DataShowToPick,
                                 updateDataShowToPick,
                                 SET_DataShowToPick,
-
-                                AddTo_Show_ArrOfPeopeAppear_ReactData,
+                                ADD_01,
                                 SET_StatusShowToPick,
                                 Total,
                                 Show,
@@ -43,8 +42,7 @@ function showDivMain(
     DataShowToPick,
     updateDataShowToPick,
     SET_DataShowToPick,
-
-    AddTo_Show_ArrOfPeopeAppear_ReactData,
+    ADD_01,
     SET_StatusShowToPick,
     Total,
     Show,
@@ -97,8 +95,7 @@ function showDivMain(
 
                                 Total.fnObj.SET_DataAction(null)
                                 updateDataShowToPick(DataShowToPick, SET_DataShowToPick, e)
-                                AddTo_Show_ArrOfPeopeAppear_ReactData(e)
-                                // SET_StatusShowToPick(false)
+                                ADD_01(e, Total)
                                 Total.fnObj.SET_Boqua(B => B + 1)
                                 Total.stObj.inputSumit = ""
                             }}
@@ -136,13 +133,6 @@ function updateDataShowToPick(DataShowToPick, SET_DataShowToPick, index) {
                 ArrNew.push(numI + i + 1)
             })
         }
-
-        // if (lengthOfNow === 1) {
-        //     PickRandom([Arr1, Arr2]).forEach((e, i) => {
-        //         ArrNew.push(numI + i + 1)
-        //     })
-        // }
-
         SET_DataShowToPick(ArrNew)
 
     } catch (error) {
