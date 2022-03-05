@@ -13,9 +13,9 @@ function Dictaphone({ Data, Xuly }) {
     useEffect(() => {
         commands = [{
             command: Data,
-            callback: (command) => { Xuly(`${command}`) },
+            callback: (command, n, i) => { Xuly(`${command}`, n, i) },
             isFuzzyMatch: true,
-            fuzzyMatchingThreshold: 0.6,
+            fuzzyMatchingThreshold: 0.2,
             bestMatchOnly: true
         }]
     }, [Data])
@@ -36,7 +36,7 @@ function Dictaphone({ Data, Xuly }) {
             $("#interrimID").text(interimTranscript)
         }
     }, [interimTranscript])
-    return (<div style={{ display: "none" }}>
+    return (<div>
         <p>Microphone: {listening ? 'on' : 'off'}</p>
         <button
             className='btn btn-primary'

@@ -7,7 +7,6 @@ export default function Thuchanhcoban() {
   const [D0_ListMenu, setD0_ListMenu] = useState([])
 
   useEffect(() => {
-    console.log(123)
     fetch(T0_linkApi + "menuThuchanhcoban")
       .then((res) => res.json())
       .then((json) => {
