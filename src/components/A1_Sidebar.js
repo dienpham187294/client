@@ -20,7 +20,7 @@ export default function A1_sidebar(props) {
                 <Link to={'/thuchanhnangcao'}>
                     <button
                         type="button" className="btn btn-secondary">
-                        <i className="bi bi-bicycle"></i>
+                        <i class="bi bi-symmetry-horizontal"></i>
                         <span> Luyện tập nâng cao</span>
                     </button>
                 </Link>
@@ -39,7 +39,7 @@ export default function A1_sidebar(props) {
                     <i></i>
                     <button
                         type="button" className="btn btn-secondary">
-                        <i className="bi bi-book"></i>
+                        <i class="bi bi-paragraph"></i>
                         <span>  Luyện ghép âm</span>
                     </button>
                 </Link>
@@ -71,6 +71,26 @@ export default function A1_sidebar(props) {
                         type="button" className="btn btn-secondary">
                         <i className="bi bi-book"></i>
                         <span>  Bài học lý thuyết (Phiên âm và nhịp điệu)</span>
+                    </button>
+                </Link>
+            </div>
+            <div>
+                <Link to={'/thudonhay'}>
+                    <i></i>
+                    <button
+                        type="button" className="btn btn-secondary">
+                        <i class="bi bi-reception-2"></i>
+                        <span>  Thử độ nhạy (Tiếng việt)</span>
+                    </button>
+                </Link>
+            </div>
+            <div>
+                <Link to={'/thudonhaycn'}>
+                    <i></i>
+                    <button
+                        type="button" className="btn btn-secondary">
+                        <i class="bi bi-reception-2"></i>
+                        <span>  Thử độ nhạy (Tiếng trung)</span>
                     </button>
                 </Link>
             </div>

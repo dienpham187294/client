@@ -33,6 +33,8 @@ import B1Lop8 from "./components/thuchanhTAPhothong/B1_Lop8"
 import CreateDocuments from './components/CreateDocument/B1_CreateDocument';
 import LuyenGhepAm from './components/B_LuyenGhepAm';
 import LuyenGhepAm01 from './components/B_LuyenGhepAm01';
+import ThuDoNhay from './components/B_ThuDoNhay';
+import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
 const socket = io(T0_linkApi);
 function App() {
   useEffect(() => {
@@ -78,6 +80,8 @@ function App() {
             <Route path='/CreateDocument' element={<CreateDocuments />} />
             <Route path='/luyenghepam' element={<LuyenGhepAm />} />
             <Route path='/luyenghepam01' element={<LuyenGhepAm01 />} />
+            <Route path='/thudonhay' element={<ThuDoNhay />} />
+            <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
           </Routes>
         </div>
       </div>
