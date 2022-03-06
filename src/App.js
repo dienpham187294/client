@@ -35,6 +35,8 @@ import LuyenGhepAm from './components/B_LuyenGhepAm';
 import LuyenGhepAm01 from './components/B_LuyenGhepAm01';
 import ThuDoNhay from './components/B_ThuDoNhay';
 import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
+import CMUSIC from "./components/C_Music"
+import CMUSIC01 from "./components/C_Music01"
 const socket = io(T0_linkApi);
 function App() {
   useEffect(() => {
@@ -78,10 +80,15 @@ function App() {
             <Route path='/thuchanh/app/tieng-anh-lop-7-tap-2' element={<B1lop72 />} />
             <Route path='/thuchanh/app/tieng-anh-lop-8' element={<B1Lop8 />} />
             <Route path='/CreateDocument' element={<CreateDocuments />} />
-            <Route path='/luyenghepam' element={<LuyenGhepAm />} />
-            <Route path='/luyenghepam01' element={<LuyenGhepAm01 />} />
+            <Route path='/luyen-ghep-am' element={<LuyenGhepAm />} />
+            <Route path='/luyen-ghep-am-01' element={<LuyenGhepAm01 />} />
             <Route path='/thudonhay' element={<ThuDoNhay />} />
             <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
+            <Route path='/nhacipalyrics' element={<CMUSIC />} />
+            <Route path='/nhacipalyrics-detail' element={<CMUSIC01 />} />
+
+
+
           </Routes>
         </div>
       </div>

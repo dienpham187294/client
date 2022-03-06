@@ -35,7 +35,7 @@ export default function A1_sidebar(props) {
                 </Link>
             </div>
             <div>
-                <Link to={'/luyenghepam'}>
+                <Link to={'/luyen-ghep-am'}>
                     <i></i>
                     <button
                         type="button" className="btn btn-secondary">
@@ -55,7 +55,7 @@ export default function A1_sidebar(props) {
             </div>
 
             <div>
-                <Link to={'/nhacipalyrics'}>
+                <Link to={'/nguphap'}>
                     <i></i>
                     <button
                         type="button" className="btn btn-secondary">
@@ -65,7 +65,7 @@ export default function A1_sidebar(props) {
                 </Link>
             </div>
             <div>
-                <Link to={'/nhacipalyrics'}>
+                <Link to={'/phienam'}>
                     <i></i>
                     <button
                         type="button" className="btn btn-secondary">

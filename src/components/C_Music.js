@@ -2,23 +2,23 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 
-export default function LuyenGhepAm() {
+export default function CMUSIC() {
 
-    const [DATA_GHEPAM, setDATA_GHEPAM] = useState([])
+    const [DList_Songs, setDList_Songs] = useState([])
 
     useEffect(() => {
-     
-        fetch(T0_linkApi + "menuIPA")
+
+        fetch(T0_linkApi + "menuMusic")
             .then((res) => res.json())
             .then((json) => {
-                setDATA_GHEPAM(json.data)
+                setDList_Songs(json.data)
             })
     }, [])
 
     return (
         <div>
             {
-                showDATA_GHEPAM(DATA_GHEPAM)
+                showDList_Songs(DList_Songs)
             }
 
         </div>
@@ -26,24 +26,28 @@ export default function LuyenGhepAm() {
 }
 
 
-function showDATA_GHEPAM(DATA_GHEPAM) {
+function showDList_Songs(DList_Songs) {
     try {
         return (
             <table className="table">
                 <thead>
                     <tr>
-                        <th>Luyện ghép âm</th>
+                        <th>Bài hát</th>
+                        <th>Ca sĩ/Ban nhạc</th>
                     </tr>
                 </thead>
                 <tbody>
                     {
-                        DATA_GHEPAM.map((e, i) =>
+                        DList_Songs.map((e, i) =>
                             <tr key={i}>
                                 <td>
-                                    <i><b>{e.IPA}</b></i>
+                                    <i><b>{e.name}</b></i>
                                 </td>
                                 <td>
-                                    <Link to={"/luyen-ghep-am-01?id=" + e.id}>
+                                    <i><b>{e.author}</b></i>
+                                </td>
+                                <td>
+                                    <Link to={"/nhacipalyrics-detail?id=" + e.id}>
                                         <i>{"Luyện tập"}</i>
                                     </Link>
                                 </td>
