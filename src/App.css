@@ -425,3 +425,9 @@ a:hover {
     font-weight: 700;
     font-size: larger;
 }
+.H_S_Data_ScoreList {
+    text-align: left;
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}

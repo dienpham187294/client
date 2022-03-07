@@ -2,13 +2,12 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 
-export default function Thuchanhkienthuc() {
+export default function Thuchanh_menu(props) {
 
   const [D0_ListMenu, setD0_ListMenu] = useState([])
 
   useEffect(() => {
-    console.log(123)
-    fetch(T0_linkApi + "menuThuchanhkienthuc")
+    fetch(T0_linkApi + props.ApiReq)
       .then((res) => res.json())
       .then((json) => {
         setD0_ListMenu(json.data)

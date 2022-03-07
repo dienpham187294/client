@@ -4,7 +4,8 @@ import queryString from 'query-string';
 import GamePlay from "../util/mainPlayversion21/S_GamePlay"
 
 const ShowInterim = true
-export default function Thuchanhcoban01() {
+
+export default function Thuchanh_01(props) {
   const [PageChange, SET_PageChange] = useState(0)
   const [Data_Game, SET_Data_Game] = useState([])
   const [DataToolR, SET_DataToolR] = useState([])
@@ -20,12 +21,13 @@ export default function Thuchanhcoban01() {
   const [D1_StatusChange, setD1_StatusChange] = useState(1)
   useEffect(() => {
     let qString = queryString.parse(window.location.search)
+    SET_NameOflession(qString.id)
     let requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id: qString.id })
     };
-    fetch(T0_linkApi + "loadDataThuchanhkienthuc", requestOptions)
+    fetch(T0_linkApi + props.ApiReq, requestOptions)
       .then((res) => res.json())
       .then((json) => {
         setD0_DL(json.data)
@@ -34,7 +36,6 @@ export default function Thuchanhcoban01() {
   }, [])
   useEffect(() => {
     try {
-      SET_NameOflession(D0_DL[0].nameoflession)
       SET_Move(D0_DL[0].move)
       SET_DataToolR(D0_DL[0].dataTool)
       SET_Data_Game(D0_DL[1].coerdataoflession)
@@ -54,7 +55,9 @@ export default function Thuchanhcoban01() {
           NameOflession={NameOflession}
           Total={Total}
           ShowInterim={ShowInterim}
-          DataToolR={DataToolR} />
+          DataToolR={DataToolR}
+          SOCKET={props.SOCKET} />
+
         : null}
     </div>
   )

@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import io from "socket.io-client";
 import Header from './components/A1_Header';
@@ -10,13 +10,11 @@ import Trangchu from './components/A2_Trangchu';
 import A1sidebar from "./components/A1_Sidebar"
 import Video from './components/A2_Video';
 import T0_linkApi from './util/toolAll/T0_linkApi';
-import Thuchanhcoban from './components/A2a_Thuchanhcoban';
-import Thuchanhcoban01 from './components/A2a_Thuchanhcoban01';
-import Thuchanhcoban02 from './components/A2a_Thuchanhcoban02';
+import Thuchanh_menu from './components/A2a_Thuchanh_menu';
+import Thuchanh_01 from './components/A2a_Thuchanh_01';
+import Thuchanh_02 from './components/A2a_Thuchanh_02';
 import Thuchanhnangcao from './components/A2b_Thuchanhnangcao';
-import Thuchanhkienthuc from "./components/A2c_Thuchanhkienthuc"
-import Thuchanhkienthuc01 from "./components/A2c_Thuchanhkienthuc01"
-import Thuchanhkienthuc02 from "./components/A2c_Thuchanhkienthuc02"
+
 import B1Lop1 from './components/thuchanhTAPhothong/B1_Lop1';
 import B1Lop2 from './components/thuchanhTAPhothong/B1_Lop2';
 import B1lop31 from "./components/thuchanhTAPhothong/B1_Lop3_1"
@@ -38,10 +36,13 @@ import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
 import CMUSIC from "./components/C_Music"
 import CMUSIC01 from "./components/C_Music01"
 const socket = io(T0_linkApi);
+
+
 function App() {
+  const [SOCKET, setSOCKET] = useState(null)
   useEffect(() => {
     socket.on("connect_01", (data) => {
-      console.log(data)
+      setSOCKET(socket)
     });
   }, [])
   return (
@@ -56,13 +57,13 @@ function App() {
             <Route path='/trangchu' element={<Trangchu />} />
             <Route path='/about' element={<About />} />
             <Route path='/video' element={<Video />} />
-            <Route path='/thuchanhcoban' element={<Thuchanhcoban />} />
-            <Route path='/thuchanhcoban01' element={<Thuchanhcoban01 />} />
-            <Route path='/thuchanhcoban02' element={<Thuchanhcoban02 />} />
+            <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} />} />
+            <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
+            <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
             <Route path='/thuchanhnangcao' element={<Thuchanhnangcao />} />
-            <Route path='/thuchanhkienthuc' element={<Thuchanhkienthuc />} />
-            <Route path='/thuchanhkienthuc01' element={<Thuchanhkienthuc01 />} />
-            <Route path='/thuchanhkienthuc02' element={<Thuchanhkienthuc02 />} />
+            <Route path='/thuchanhkienthuc' element={<Thuchanh_menu ApiReq={"menuThuchanhkienthuc"} />} />
+            <Route path='/thuchanhkienthuc01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} />} />
+            <Route path='/thuchanhkienthuc02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} />} />
 
 
 

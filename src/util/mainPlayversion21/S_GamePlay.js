@@ -46,6 +46,7 @@ function GamePlay(props) {
                             ShowInterim={props.ShowInterim}
                             DataToolR={props.DataToolR}
                             Data_Commands={Data_Commands}
+                            SOCKET={props.SOCKET}
                         /> : ""}
                 </div>
 
