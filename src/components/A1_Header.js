@@ -5,7 +5,7 @@ export default function Header() {
             <div className="row A0_topconent">
                 <div className="col-6">
                     <Link to="/trangchu">
-                        <b><i className="A0_01_topcontent">EngPraticeCenter</i></b>
+                        <b><i className="A0_01_topcontent">EngTrainingEnvironment</i></b>
                     </Link>
 
                 </div>
