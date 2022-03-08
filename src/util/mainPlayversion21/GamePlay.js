@@ -13,7 +13,7 @@ import showSubmitSyxtax from "./funtionInside/showSubmitSyxtax"
 import showHintPartWhenOpenTool from "./funtionInside/showHintPartWhenOpenTool"
 import showOptionToRead from "./funtionInside/showOptionToRead"
 import showTopLeftPart1 from "./funtionInside/B_S_TopLeftPart1"
-import showTopCenter1 from "./funtionInside/A_S_TopCenter1"
+import A_S_TopCenter1 from "./funtionInside/A_S_TopCenter1"
 import showToPickPerson from "./funtionInside/showToPickPerson"
 
 import showHintAlot from "./funtionInside/ShowInfoHint_01_Inaction"
@@ -84,6 +84,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             props.Total.fnObj.SET_Info_Icon_Reactdata = SET_Info_Icon_Reactdata
             props.Total.fnObj.SET_Boqua = SET_Boqua
             props.Total.fnObj.SET_DataAction = SET_DataAction
+            props.Total.fnObj.SET_Sai = SET_Sai
 
             props.Total.fnObj.SET_Avatar_Reactdata = SET_Avatar_Reactdata
             props.Total.fnObj.SET_Info_ToSunmit_Reactdata = SET_Info_ToSunmit_Reactdata
@@ -182,10 +183,11 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                         <div className="M0_GameSence_Playing_OneShow">
                             <div>
                                 <div className="row">
-                                    {showTopCenter1(
+                                    {A_S_TopCenter1(
                                         props,
                                         showSubmitSyxtax,
                                         Info_ToSunmit_Reactdata,
+                                        props.NameOflession, Score, Sai, Boqua, D4_Time
                                     )}
                                     {showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, Info_Icon_Reactdata, SET_ShowHint, ShowHint)}
                                 </div>
