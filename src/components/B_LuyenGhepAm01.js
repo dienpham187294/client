@@ -9,6 +9,7 @@ export default function LuyenGhepAm01() {
 
     const [DATA_GHEPAM, setDATA_GHEPAM] = useState([])
     const [DataCmd, setDataCmd] = useState([])
+    const [ListRes, setListRes] = useState([])
     useEffect(() => {
         let qString = queryString.parse(window.location.search)
         let requestOptions = {
@@ -23,6 +24,17 @@ export default function LuyenGhepAm01() {
                 setDataCmd(json.data[0].Words)
             })
     }, [])
+
+    function Xuly(cmd, n, i) {
+        // $("#res").text("Đúng " + Math.floor(i * 100) + "%")
+        setListRes(oldArray => [{
+            cmd: cmd,
+            n: n,
+            i: Math.floor(i * 100) + "%"
+        }, ...oldArray])
+
+    }
+
     return (
         <div>
             {
@@ -34,6 +46,9 @@ export default function LuyenGhepAm01() {
             <Dictaphone
                 Data={DataCmd} Xuly={Xuly}
             />
+            {
+                S_02(ListRes)
+            }
         </div >
     )
 }
@@ -85,6 +100,39 @@ function S_01(DATA_GHEPAM) {
 }
 
 
-function Xuly(cmd, n, i) {
-    $("#res").text("Đúng " + Math.floor(i * 100) + "%")
+// function Xuly(cmd, n, i) {
+//     $("#res").text("Đúng " + Math.floor(i * 100) + "%")
+// }
+
+function S_02(ListRes) {
+
+    try {
+
+        return (
+            <table className="table">
+                <tbody>
+                    {ListRes.map((e, i) =>
+                        <tr key={i} style={{ backgroundColor: i == 0 ? "yellow" : "white" }}>
+                            <td >
+                                {i == 0 ? ">>>" + ListRes.length : null}
+                            </td>
+                            <td >
+                                {e.cmd}
+                            </td>
+                            <td>
+                                {e.n}
+                            </td>
+                            <td>
+                                {e.i}
+                            </td>
+                        </tr>
+                    )}
+
+                </tbody>
+
+            </table>
+        )
+    } catch (error) {
+        return null
+    }
 }

@@ -8,6 +8,7 @@ import $ from "jquery"
 export default function CMUSIC01() {
 
     const [DATA_Lyrics, setDATA_Lyrics] = useState([])
+    const [ListRes, setListRes] = useState([])
     const [DataCmd, setDataCmd] = useState("Hi how are you!")
     const [IPA, setIPA] = useState("...")
     const [srcYoutube, SET_SrcYoutube] = useState("")
@@ -26,6 +27,21 @@ export default function CMUSIC01() {
                 // setDataCmd(json.data[0].Words)
             })
     }, [])
+    useEffect(() => {
+        setListRes([])
+    }, [DataCmd])
+
+    function Xuly(cmd, n, i) {
+        // $("#res").text("Đúng " + Math.floor(i * 100) + "%")
+        setListRes(oldArray => [{
+            cmd: cmd,
+            n: n,
+            i: Math.floor(i * 100) + "%"
+        }, ...oldArray])
+
+    }
+
+
     return (
         <div>
             <hr />
@@ -41,6 +57,9 @@ export default function CMUSIC01() {
                     <Dictaphone
                         Data={DataCmd} Xuly={Xuly}
                     />
+                    {
+                        S_02(ListRes)
+                    }
                 </div>
                 <div className="col-6" style={{
                     height: "300px", overflowY: "auto"
@@ -60,6 +79,40 @@ export default function CMUSIC01() {
         </div >
     )
 }
+
+function S_02(ListRes) {
+
+    try {
+
+        return (
+            <table className="table">
+                <tbody>
+                    {ListRes.map((e, i) =>
+                        <tr key={i} style={{ backgroundColor: i == 0 ? "yellow" : "white" }}>
+                            <td >
+                                {i == 0 ? ">>>" + ListRes.length : null}
+                            </td>
+                            <td >
+                                {e.cmd}
+                            </td>
+                            <td>
+                                {e.n}
+                            </td>
+                            <td>
+                                {e.i}
+                            </td>
+                        </tr>
+                    )}
+
+                </tbody>
+
+            </table>
+        )
+    } catch (error) {
+        return null
+    }
+}
+
 
 function S_01(DATA_Lyrics, setDataCmd, setIPA, IPA) {
 
@@ -95,7 +148,3 @@ function S_01(DATA_Lyrics, setDataCmd, setIPA, IPA) {
     }
 }
 
-
-function Xuly(cmd, n, i) {
-    $("#res").text("Đúng " + Math.floor(i * 100) + "%")
-}
