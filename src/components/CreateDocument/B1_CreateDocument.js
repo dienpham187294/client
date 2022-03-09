@@ -30,6 +30,9 @@ function C1_Create() {
                     console.log(JSON.stringify(arr))
                 })
             })
+
+
+
         } catch (error) {
             console.log(error)
         }
@@ -39,9 +42,16 @@ function C1_Create() {
 
         <div className="row">
             <input type="file" id="input" />
+            <button
+                onClick={() => {
+                    $("#input").val("")
+                    $("#ResID").text("")
+                }}
+            >
+                Reset
+            </button>
             <hr />
-            <div id="ResID"></div>
-            
+            <div id="ResID" style={{ padding: "35px" }}></div>
         </div>
 
     )
