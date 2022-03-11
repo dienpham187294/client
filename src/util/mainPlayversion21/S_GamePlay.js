@@ -27,7 +27,7 @@ function GamePlay(props) {
             <div className="row">
                 <div className="col-md-2 sm-12" style={{ maxHeight: "300px", overflow: "auto" }}>
                     <Dictaphone
-                        Data={Data_Commands} Total={props.Total}
+                        Data={Data_Commands} Total={props.Total} ThreshHold={props.ThreshHold}
                     />
                 </div>
                 <div className="col-md-9 sm-12">{
