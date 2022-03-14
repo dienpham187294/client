@@ -5,7 +5,7 @@ export default function A1_sidebar(props) {
             <div className="A1_01_sidebar_02" >
                 <div>
                     <Link to={'/trangchu'}>
-                        Phương án rèn luyện
+                        Gamification
                     </Link>
                 </div>
             </div>
