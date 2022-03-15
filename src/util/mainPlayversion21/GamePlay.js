@@ -58,6 +58,9 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     useEffect(
         () => {
             inter()
+            props.SOCKET.on("emit_RES_Server_FirstTime", (data) => {
+                setData_ScoreList(data.data);
+            })
 
             props.SOCKET.on("emit_RES_Server", (data) => {
                 setData_ScoreList(oldArray => [data, ...oldArray]);
@@ -105,13 +108,17 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
 
     useEffect(() => {
+        if (Score === 0) {
+            props.SOCKET.emit("emit_RES_Client_FirstTime", { id: props.SOCKET.id })
+        }
         if (Score === 1) {
             props.Total.stObj.timeCount = Date.now()
+
         }
         if (Score > 1) {
             setD4_Time(secondToMinutes((Date.now() - props.Total.stObj.timeCount) / 1000))
         }
-        if (Score % 5 === 0) {
+        if (Score % 5 === 0 && Score > 0) {
 
             let currentdate = new Date();
             let datetime = "Last Sync: " + currentdate.getDate() + "/"

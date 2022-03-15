@@ -12,15 +12,17 @@ let commands = [];
 
 let arr = ["can you speak again"]
 
-function Dictaphone({ Data, Total, ThresHold }) {
+function Dictaphone({ Data, Total, ThreshHold }) {
+  
+
     useEffect(() => {
         commands = [{
             command: Data.concat(arr),
             callback: (command, n, i) => {
-                Total.fnObj.Xuly(`${command}`, n, i, Total)
+                Total.fnObj.Xuly(`${command}`, n, i, Total, ThreshHold)
             },
             isFuzzyMatch: true,
-            fuzzyMatchingThreshold: ThresHold,
+            fuzzyMatchingThreshold: 0.2,
             bestMatchOnly: true
         }]
     }, [Data])

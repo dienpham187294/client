@@ -2,10 +2,21 @@ import $ from "jquery"
 import ReadMessage from "../../../Read/ReadMessage";
 import PickRandom from "../PickRandom";
 const stringSimilarity = require("string-similarity");
-export default function Xuly(Info_message, nZ, iZ, Total) {
+let i = 0
+let i1 = 0
+export default function Xuly(Info_message, nZ, iZ, Total, ThreshHold) {
 
-    $("#percentID").text(Math.floor(iZ * 100) + "%")
-
+    if (iZ < ThreshHold) {
+        i++
+        $("#percentID_SAI").text(Math.floor(iZ * 100) + "% : " + i)
+        // $("#percentID_DUNG").text(null)
+        return null
+    }
+    else {
+        i1++
+        // $("#percentID_SAI").text(null)
+        $("#percentID_DUNG").text(Math.floor(iZ * 100) + "% : " + i1)
+    }
     if (Info_message === "can you speak again") {
         ReadMessage()
     }

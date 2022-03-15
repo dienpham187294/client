@@ -10,7 +10,7 @@ function GamePlay(props) {
     const [ALLTable_ReactData] = useState([]);
     const [Info_message, SET_Info_message] = useState(null)
     const [Data_Commands, SET_Data_Commands] = useState(["hi how are you"])
-
+  
     try {
         if (props.Data.length === 0) {
             return <div>Đang chờ dữ liệu</div>

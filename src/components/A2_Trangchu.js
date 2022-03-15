@@ -23,9 +23,9 @@ export default function Trangchu() {
                 </p>
                 <h2><strong>Gamification là gì?</strong><br /><img
                     src="https://media.bitdegree.org/storage/media/images/2019/06/pixel-cells-3976295_640-300x231.png"
-                    alt="New idea realisation" width="300" height="231"
+                    alt="New idea realisation"
                     data-src="https://media.bitdegree.org/storage/media/images/2019/06/pixel-cells-3976295_640-300x231.png"
-                    class="float-right ml-4" /></h2>
+                    class="mw-100 mb-5" /></h2>
                 <p>Gamification là gì chắc hẳn là câu hỏi đầu tiên bạn thắc mắc khi nhìn thấy từ này. Gamification là việc
                     áp dụng việc thiết kế trò chơi vào những nơi không liên quan đến trò chơi, như cách thêm cấp độ, kinh
                     nghiệm và điểm sức khỏe hoặc các đặc điểm khác liên quan khác của trò chơi.</p>
@@ -42,9 +42,9 @@ export default function Trangchu() {
                     yếu tố giáo dục nhưng lại hoạt động theo cách khác.</p>
                 <h2><strong>Tại sao nên sử dụng Gamification trong giáo dục?</strong><br /><img
                     src="https://media.bitdegree.org/storage/media/images/2019/06/abstract-1264071_640-300x206.png"
-                    alt="Children education fairytale" width="300" height="206"
+                    alt="Children education fairytale"
                     data-src="https://media.bitdegree.org/storage/media/images/2019/06/abstract-1264071_640-300x206.png"
-                    class="float-right ml-4" /></h2>
+                    class="mw-100 mb-5" /></h2>
                 <p>Trong thời đại khủng hoảng của sự tương tác, cần có những phương pháp và cách thức mới để thu hút không
                     chỉ học viên trẻ mà cả những học viên lớn tuổi trong quá trình học tập suốt đời. Việc gamification quá
                     trình học tập thúc đẩy mong muốn tự nhiên của mọi người giao tiếp, học hỏi, đạt thành tựu, cạnh tranh,
@@ -121,9 +121,9 @@ export default function Trangchu() {
                 <h2 id="-strong-e-learning-gamification-s-d-ng-c-aacute-c-y-u-t-n-agrave-o-strong-"><strong>E-learning
                     gamification sử dụng các yếu tố nào?</strong></h2>
                 <p><img src="https://media.bitdegree.org/storage/media/images/2019/06/Gamified-profile-237x300.jpg"
-                    alt="Game elements used in profile" width="237" height="300"
+                    alt="Game elements used in profile"
                     data-src="https://media.bitdegree.org/storage/media/images/2019/06/Gamified-profile-237x300.jpg"
-                    class="float-right ml-4" /></p>
+                    class="mw-100 mb-5" /></p>
                 <p>Được đặt tinh tế trong các phần khác nhau của quá trình học tập được trò chơi hóa có thể mang lại nhiều
                     sự đa dạng trong khi học. Các nguyên liệu thường được sử dụng là:</p>
                 <ul>
@@ -156,9 +156,9 @@ export default function Trangchu() {
                 <h2 id="-strong-t-aacute-m-ng-c-c-t-l-otilde-i-c-a-gamification-strong-"><strong>Tám động cơ cốt lõi của
                     Gamification</strong></h2>
                 <p><img src="https://media.bitdegree.org/storage/media/images/2019/06/octalysis-300x297.png"
-                    alt="Eight core drivers of octalysis" width="300" height="297"
+                    alt="Eight core drivers of octalysis"
                     data-src="https://media.bitdegree.org/storage/media/images/2019/06/octalysis-300x297.png"
-                    class="float-right ml-4" /></p>
+                    class="mw-100 mb-5" /></p>
                 <p>Một trong những cách hiệu quả nhất để tương tác với người dùng được phát hiện bởi sáng lập viên của <a
                     href="https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/">“Octalysis”
                     framework</a> Yu-Kai Chou, người đã phát triển một thiết kế trò chơi điện tử ứng dụng hóa con người

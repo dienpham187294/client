@@ -450,3 +450,13 @@ a:hover {
     max-height: 300px;
     overflow-y: auto;
 }
+#percentID_SAI {
+    background-color: red;
+    color: white;
+    padding: 0 5px;
+}
+#percentID_DUNG {
+    background-color: green;
+    color: white;
+    padding:0 5px;
+}

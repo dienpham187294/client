@@ -56,7 +56,9 @@ export default function Thuchanh_01(props) {
           Total={Total}
           ShowInterim={ShowInterim}
           DataToolR={DataToolR}
-          SOCKET={props.SOCKET} />
+          SOCKET={props.SOCKET}
+          ThreshHold={props.ThreshHold}
+        />
         : null}
     </div>
   )

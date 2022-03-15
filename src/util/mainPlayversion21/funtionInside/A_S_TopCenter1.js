@@ -24,7 +24,8 @@ export default function showTopCenter1(
                         <span id="showInterimID" style={{ height: "50px", color: "violet" }}></span>
                         : <span id="showInterimID" style={{ color: "violet", backgroundColor: "violet" }}></span>}
                     <br />
-                    <span id="percentID"></span>
+                    <span id="percentID_SAI"></span>
+                    <span id="percentID_DUNG"></span>
                 </div>
                 <div className="col-4">
                     {showSubmitSyxtax(Info_ToSunmit_Reactdata)}
