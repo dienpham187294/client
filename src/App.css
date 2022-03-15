@@ -360,7 +360,7 @@ a:hover {
     letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     .A1_01_sidebar{
         width: 0
     }

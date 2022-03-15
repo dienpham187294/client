@@ -6,7 +6,8 @@ export default function Trangchu() {
                 <h1 className="A2_Trangchu_posttittle"> Gamification trong giáo dục: Hình thức e-learning tương tác mới</h1>
                 <img
                     src="https://www.bitdegree.org/storage/file-294696-ubhF6PPJFUi5ZITt.jpg"
-                    alt="Gamification trong giáo dục: Hình thức e-learning tương tác mới cover image" class="mw-100 mb-5" />
+                    alt="Gamification trong giáo dục: Hình thức e-learning tương tác mới cover image"
+                    class="mw-100 mb-5" />
             </div>
             <div class="article-intro">
                 <p>Kể từ khi bắt đầu nền giáo dục lịch sử loài người đã phục vụ nhân dân như một quá trình đạt được kiến
