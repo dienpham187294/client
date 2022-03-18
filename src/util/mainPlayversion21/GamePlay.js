@@ -126,7 +126,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
         if (Score > 1) {
             setD4_Time(secondToMinutes((Date.now() - props.Total.stObj.timeCount) / 1000))
         }
-        if (Score % 5 === 0 && Score > 0) {
+        if (Score > 0) {
 
             let currentdate = new Date();
             let datetime = "Last Sync: " + currentdate.getDate() + "/"
