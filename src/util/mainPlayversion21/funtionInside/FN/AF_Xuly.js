@@ -5,17 +5,18 @@ const stringSimilarity = require("string-similarity");
 let i = 0
 let i1 = 0
 export default function Xuly(Info_message, nZ, iZ, Total, ThreshHold) {
-
+    console.log(ThreshHold)
     if (iZ < ThreshHold) {
         i++
-        $("#percentID_SAI").text(Math.floor(iZ * 100) + "% : " + i)
-        // $("#percentID_DUNG").text(null)
+        Total.fnObj.seteS_CountPercentWrong(Math.floor(iZ * 100) + "%(" + i + ")")
+
+
         return null
     }
     else {
         i1++
-        // $("#percentID_SAI").text(null)
-        $("#percentID_DUNG").text(Math.floor(iZ * 100) + "% : " + i1)
+        Total.fnObj.seteS_CountPercentRight(Math.floor(iZ * 100) + "%(" + i1 + ")")
+
     }
     if (Info_message === "can you speak again") {
         ReadMessage()

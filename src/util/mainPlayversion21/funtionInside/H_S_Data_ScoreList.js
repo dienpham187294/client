@@ -7,7 +7,6 @@ export default function H_S_Data_ScoreList(Data_ScoreList) {
 
                 {Data_ScoreList.map((e, i) =>
                     <div key={i}>
-
                         <b>Điểm: {e.score} </b> ---
                         <b>Thời gian: {e.time}</b>
                         <br />

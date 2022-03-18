@@ -57,11 +57,11 @@ function App() {
             <Route path='/trangchu' element={<Trangchu />} />
             <Route path='/about' element={<About />} />
             <Route path='/video' element={<Video />} />
-            <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} />} />
+            <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"thuchanhcoban01"} />} />
             <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
             <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
             <Route path='/thuchanhnangcao' element={<Thuchanhnangcao />} />
-            <Route path='/thuchanhkienthuc' element={<Thuchanh_menu ApiReq={"menuThuchanhkienthuc"} />} />
+            <Route path='/thuchanhkienthuc' element={<Thuchanh_menu ApiReq={"menuThuchanhkienthuc"} Linkto={"thuchanhkienthuc01"} />} />
             <Route path='/thuchanhkienthuc01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} ThreshHold={0.7} />} />
             <Route path='/thuchanhkienthuc02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} />} />
 

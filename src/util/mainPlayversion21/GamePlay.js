@@ -51,6 +51,10 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     const [Data_F_S_People, setData_F_S_People] = useState([])
 
     const [Data_ScoreList, setData_ScoreList] = useState([])
+
+
+    const [eS_CountPercentWrong, seteS_CountPercentWrong] = useState("")
+    const [eS_CountPercentRight, seteS_CountPercentRight] = useState("")
     useEffect(() => {
         props.SET_Data_Commands(Info_StrickAnwers_Reactdata)
     }, [Info_StrickAnwers_Reactdata])
@@ -103,6 +107,10 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             props.Total.fnObj.ADD_02 = ADD_02
             props.Total.fnObj.setSTATUS_E_S_MOVE = setSTATUS_E_S_MOVE
 
+
+
+            props.Total.fnObj.seteS_CountPercentRight = seteS_CountPercentRight
+            props.Total.fnObj.seteS_CountPercentWrong = seteS_CountPercentWrong
         }, []
     );
 
@@ -194,7 +202,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                         props,
                                         showSubmitSyxtax,
                                         Info_ToSunmit_Reactdata,
-                                        props.NameOflession, Score, Sai, Boqua, D4_Time
+                                        props.NameOflession, Score, Sai, Boqua, D4_Time,
+                                        eS_CountPercentRight, eS_CountPercentWrong
                                     )}
                                     {showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, Info_Icon_Reactdata, SET_ShowHint, ShowHint)}
                                 </div>
@@ -222,6 +231,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 <span>
                     {D4_Time}
                 </span>
+                <span id="percentID_SAI">{eS_CountPercentWrong}</span>
+                <span id="percentID_DUNG">{eS_CountPercentRight}</span>
             </div>
             <div className="H_S_Data_ScoreList">
                 {H_S_Data_ScoreList(Data_ScoreList)}

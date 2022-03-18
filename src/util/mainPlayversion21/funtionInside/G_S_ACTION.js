@@ -3,7 +3,7 @@ export default
     let ArrT2 = JSON.parse(JSON.stringify(DataAction));
     return (
         <div style={{
-            position: "fixed", top: "70px", bottom: "0px", width: "800px", padding: "5px",
+            position: "fixed", top: "220px", bottom: "0px", width: "800px", padding: "5px",
             left: "500px", backgroundColor: "white", textAlign: "center", zIndex: 4,
             border: "1px solid black", borderRadius: '5px'
         }}>

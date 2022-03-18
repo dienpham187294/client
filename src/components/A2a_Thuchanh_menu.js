@@ -17,7 +17,7 @@ export default function Thuchanh_menu(props) {
   return (
     <div>
       {
-        showD0_ListMenu(D0_ListMenu)
+        showD0_ListMenu(D0_ListMenu, props.Linkto)
       }
 
     </div>
@@ -25,7 +25,7 @@ export default function Thuchanh_menu(props) {
 }
 
 
-function showD0_ListMenu(D0_ListMenu) {
+function showD0_ListMenu(D0_ListMenu, Linkto) {
   try {
     return (
       <table className="table">
@@ -43,7 +43,7 @@ function showD0_ListMenu(D0_ListMenu) {
                   <i><b>{e.name}</b></i>
                 </td>
                 <td>
-                  <Link to={"/thuchanhcoban01?id=" + e.fileName}>
+                  <Link to={"/" + Linkto + "?id=" + e.fileName}>
                     <i>{"Luyện tập"}</i>
                   </Link>
                 </td>
