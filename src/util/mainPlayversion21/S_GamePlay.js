@@ -1,5 +1,5 @@
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Dictaphone from "../../helpers/RegcognitionV1-0-1AI0.5_01"
 import ArrOfPeopeAppear_ReactJSX from "./GamePlay"
 // import $ from "jquery"
@@ -10,7 +10,12 @@ function GamePlay(props) {
     const [ALLTable_ReactData] = useState([]);
     const [Info_message, SET_Info_message] = useState(null)
     const [Data_Commands, SET_Data_Commands] = useState(["hi how are you"])
-  
+
+    useEffect(() => { console.log(Data_Commands) }, [Data_Commands])
+
+
+
+
     try {
         if (props.Data.length === 0) {
             return <div>Đang chờ dữ liệu</div>
