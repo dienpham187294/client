@@ -4,18 +4,20 @@ import PickRandom from "../PickRandom";
 const stringSimilarity = require("string-similarity");
 let i = 0
 let i1 = 0
+let p01 = 100
+let p02 = 100
 export default function Xuly(Info_message, nZ, iZ, Total, ThreshHold) {
-    console.log(ThreshHold)
+    // console.log(ThreshHold)
     if (iZ < ThreshHold) {
         i++
-        Total.fnObj.seteS_CountPercentWrong(Math.floor(iZ * 100) + "%(" + i + ")")
-
-
+        p01 = Math.floor((p01 + iZ * 100) / 2)
+        Total.fnObj.seteS_CountPercentWrong(p01 + "%(" + i + ")")
         return null
     }
     else {
         i1++
-        Total.fnObj.seteS_CountPercentRight(Math.floor(iZ * 100) + "%(" + i1 + ")")
+        p02 = Math.floor((p02 + iZ * 100) / 2)
+        Total.fnObj.seteS_CountPercentRight(p02 + "%(" + i1 + ")")
 
     }
     if (Info_message === "can you speak again") {
