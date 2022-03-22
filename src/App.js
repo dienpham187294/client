@@ -9,6 +9,7 @@ import Contact from './components/A2_Contact';
 import Trangchu from './components/A2_Trangchu';
 import A1sidebar from "./components/A1_Sidebar"
 import Video from './components/A2_Video';
+import A1Pricing from './components/A1_Pricing';
 import T0_linkApi from './util/toolAll/T0_linkApi';
 import Thuchanh_menu from './components/A2a_Thuchanh_menu';
 import Thuchanh_01 from './components/A2a_Thuchanh_01';
@@ -57,6 +58,10 @@ function App() {
             <Route path='/trangchu' element={<Trangchu />} />
             <Route path='/about' element={<About />} />
             <Route path='/video' element={<Video />} />
+            <Route path='/pricing' element={<A1Pricing />} />
+
+
+
             <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"thuchanhcoban01"} />} />
             <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
             <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />

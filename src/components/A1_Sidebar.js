@@ -98,11 +98,11 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/muakhoahoc'}>
+                    <Link to={'/pricing'}>
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-cart-plus"></i>
-                            <span>  Mua khóa học</span>
+                            <span>  Các khóa học</span>
                         </button>
                     </Link>
                 </div>

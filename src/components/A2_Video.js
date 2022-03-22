@@ -3,7 +3,7 @@ import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
 export default function Video() {
 
-    const [srcYoutube, SET_SrcYoutube] = useState("https://www.youtube.com/embed/a-48STRZtIQ")
+    const [srcYoutube, SET_SrcYoutube] = useState("")
 
     useEffect(() => {
         let qString = queryString.parse(window.location.search)
