@@ -40,7 +40,7 @@ function showDATA_GHEPAM(DATA_GHEPAM) {
                         DATA_GHEPAM.map((e, i) =>
                             <tr key={i}>
                                 <td>
-                                    <i><b>{e.IPA}</b></i>
+                                    <i><b>{e.Words}</b></i>
                                 </td>
                                 <td>
                                     <Link to={"/luyen-ghep-am-01?id=" + e.id}>

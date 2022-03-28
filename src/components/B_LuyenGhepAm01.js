@@ -59,9 +59,19 @@ function S_01(DATA_GHEPAM) {
     try {
         let n = DATA_GHEPAM[0].IPA.split(" ")
         let n1 = DATA_GHEPAM[0].Words.split(" ")
+
+
+
         return (
             <table className="table">
                 <tbody>
+                    <tr>
+                        {n1.map((e, i) =>
+                            <td
+                                className="BLuyenGhepAMTd"
+                                key={i}> {e} </td>
+                        )}
+                    </tr>
                     <tr>
                         {n.map((e, i) =>
                             <td
