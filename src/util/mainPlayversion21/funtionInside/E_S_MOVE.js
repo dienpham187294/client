@@ -5,7 +5,7 @@ export default function E_S_MOVE(data, Mark, setSTATUS, setData) {
 
     return (
         <div className="E_S_MOVE">
-            <i><b>Move to where you should!</b></i>
+            <i><b>e-Elevator!</b></i>
             <hr />
             {S_data(data, Mark, setSTATUS, setData)}
         </div>
@@ -27,7 +27,7 @@ function S_data(data, Mark, setSTATUS, setData) {
                             }
                         }}
                         key={i}>
-                        <img src={e.img} width="80px" height="80px" />
+                        <img src={e.img} height="80px" />
                         <i>{e.nameDepart}</i>
                     </div>
                 )}

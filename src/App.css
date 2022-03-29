@@ -387,7 +387,7 @@ a:hover {
     bottom: 0px;
     overflow: auto;
     z-index: 3;
-    text-align: left;
+    text-align: center;
 }
 .E_S_MOVE div {
     display: inline-table;
@@ -397,6 +397,9 @@ a:hover {
     border-radius: 6px;
     margin: 5px;
     cursor: pointer;
+    height: 180px;
+    font-weight: bolder;
+
 }
 .E_S_MOVE :hover{
     background-color: yellow;
