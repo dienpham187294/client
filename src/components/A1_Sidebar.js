@@ -5,7 +5,7 @@ export default function A1_sidebar(props) {
             <div className="A1_01_sidebar_02" >
                 <div>
                     <Link to={'/trangchu'}>
-                        Gamification
+                        Thực hành qua trò chơi
                     </Link>
                 </div>
             </div>
@@ -15,7 +15,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-bicycle"></i>
-                            <span> Luyện tập cơ bản</span>
+                            <span> Luyện tập logic ghép âm</span>
                         </button>
                     </Link>
                 </div>
@@ -24,7 +24,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-symmetry-horizontal"></i>
-                            <span> Luyện tập nâng cao</span>
+                            <span> Luyện tập 5000 từ vựng</span>
                         </button>
                     </Link>
                 </div>
@@ -43,7 +43,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-paragraph"></i>
-                            <span>  Luyện ghép âm</span>
+                            <span>  Luyện ghép âm - câu đơn</span>
                         </button>
                     </Link>
                 </div>
@@ -102,7 +102,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-cart-plus"></i>
-                            <span>  Các khóa học</span>
+                            <span>  Các khóa thực hành</span>
                         </button>
                     </Link>
                 </div>

@@ -47,6 +47,7 @@ export default function A1Pricing() {
                                     <h5>Làm gì trong khóa:</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
                                         <li>Học nguyên tắc ghép âm.</li>
+                                        <li>Chơi trò chơi.*</li>
                                         <li>Thực hành trên 3000 lần.***</li>
                                     </ul>
 
@@ -72,10 +73,10 @@ export default function A1Pricing() {
                                 <div className="card-body">
                                     <h1 className="card-title pricing-card-title">9 triệu<small className="text-muted fw-light">/3 tháng</small></h1>
                                     <hr />
-                                  
+
                                     <h5>Làm gì trong khóa:</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
-
+                                        <li>Chơi trò chơi.*</li>
                                         <li>Thực hành trên 20.000 lần.***</li>
                                     </ul>
 
@@ -113,6 +114,7 @@ export default function A1Pricing() {
                     </div>
 
                 </main>
+                <i>*Tất cả các bài thực hành đều dưới dạng trò chơi - kết hợp công nghệ nhận diện giọng nói.</i>
                 <i>***90% thời gian sẽ dành cho thực hành (nói chuẩn- nghe phản hồi - xử lý thông tin - phản hồi lại) .</i>
                 <br />
                 <i>***Mỗi lần nói chuẩn và nghe phản hồi tính là một lần thực hành.</i>
