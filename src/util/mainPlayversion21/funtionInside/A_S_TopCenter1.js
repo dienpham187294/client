@@ -19,13 +19,16 @@ export default function showTopCenter1(
                         <span>
                             {D4_Time}
                         </span>
+
                     </div>
 
                     {props.ShowInterim ?
                         <span id="showInterimID" style={{ height: "50px", color: "violet" }}></span>
                         : <span id="showInterimID" style={{ color: "violet", backgroundColor: "violet" }}></span>}
 
-
+                    <div id="ArrRead">
+                  
+                    </div>
                 </div>
                 <div className="col-4">
                     <span id="percentID_SAI">{eS_CountPercentWrong}</span>
@@ -33,6 +36,7 @@ export default function showTopCenter1(
                     <hr />
                     {showSubmitSyxtax(Info_ToSunmit_Reactdata)}
                     <span id="complete" style={{ color: "red" }}></span>
+
                 </div>
             </div>
         </div>

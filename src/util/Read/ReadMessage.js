@@ -3,7 +3,37 @@ let i = 0
 let saveText = "";
 let saveVoiNum = 0;
 let savePitch = 0
-export default async function ReadMessage(text, voiceNum, rate, pitch) {
+
+
+
+
+export default async function ReadMessage(text, voiceNum, rate, pitch, mode) {
+    if (typeof (text) === "string" && mode === undefined) {
+        $("#ArrRead").hide()
+    }
+    if (typeof (text) !== "string") {
+        $("#ArrRead").show()
+        let div1 = `<hr/>`
+        text.forEach((e, i) => {
+            let iT = i + 1
+            div1 += `<span class="SUB_ReadArrPick" id="ArrRead` + i + `">` + iT + `</span>`
+
+
+        });
+        $("#ArrRead").html(div1)
+
+        text.forEach((e, i) => {
+
+            $("#ArrRead" + i).on("click", function () {
+                ReadMessage(e, voiceNum, rate, pitch, "keep")
+            });
+
+        });
+
+        text = text[0]
+    }
+
+
     if (text !== undefined) {
         saveText = text;
         saveVoiNum = voiceNum;

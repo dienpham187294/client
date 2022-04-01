@@ -469,3 +469,11 @@ a:hover {
     color: blue;
 
 }
+.SUB_ReadArrPick{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 0 2px;
+    cursor: pointer;
+    
+}
