@@ -59,9 +59,11 @@ export default function A1Pricing() {
                                         <li>Phản xạ cơ bản</li>
                                         <li>Nắm được trên 300 từ vựng - 80 câu</li>
                                     </ul>
+                                    {/* <a href="https://forms.gle/ifL2hpdT4HU4AU1eA">
+                                        <button type="button" className="w-100 btn btn-lg btn-outline-primary">Đăng ký trải nghiệm miễn phí</button>
+                                    </a> */}
 
 
-                                    <button type="button" className="w-100 btn btn-lg btn-outline-primary">Đăng ký miễn phí</button>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +90,10 @@ export default function A1Pricing() {
                                         <li>Phản xạ tốt.</li>
                                         <li>Nắm được trên 5000 từ vựng-2000 câu.</li>
                                     </ul>
-                                    <button type="button" className="w-100 btn btn-lg btn-primary">Đăng ký</button>
+                                    {/* <a href="https://forms.gle/ifL2hpdT4HU4AU1eA">
+                                        <button type="button" className="w-100 btn btn-lg btn-primary">Đăng ký</button>
+                                    </a> */}
+
                                 </div>
                             </div>
 
@@ -115,9 +120,18 @@ export default function A1Pricing() {
 
                 </main>
                 <i>*Tất cả các bài thực hành đều dưới dạng trò chơi - kết hợp công nghệ nhận diện giọng nói.</i>
+                <br />
                 <i>***90% thời gian sẽ dành cho thực hành (nói chuẩn- nghe phản hồi - xử lý thông tin - phản hồi lại) .</i>
                 <br />
                 <i>***Mỗi lần nói chuẩn và nghe phản hồi tính là một lần thực hành.</i>
+
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSebjbO-4u7yHQt-7DGb16Tca0GEfq6s8bXZPxiC0UZQ5dS0MA/viewform?embedded=true"
+                    width="100%"
+                    height="1000"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0">Đang tải…</iframe>
                 {/* <footer className="pt-4 my-md-5 pt-md-5 border-top">
                     <div className="row">
                         <div className="col-12 col-md">
