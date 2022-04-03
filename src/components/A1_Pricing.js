@@ -42,7 +42,7 @@ export default function A1Pricing() {
                                     <h4 className="my-0 fw-normal">Rèn luyện logic phát âm</h4>
                                 </div>
                                 <div className="card-body">
-                                    <h1 className="card-title pricing-card-title">0 đồng<small className="text-muted fw-light">/8 buổi</small></h1>
+                                    <h1 className="card-title pricing-card-title">2 triệu đồng<small className="text-muted fw-light">/8 buổi</small></h1>
                                     <hr />
                                     <h5>Làm gì trong khóa:</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
@@ -53,8 +53,7 @@ export default function A1Pricing() {
 
                                     <h5>Đạt được sau khóa:</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
-                                        <li>Thuần thục ghép âm.</li>
-                                        <li>Nói được mọi từ.</li>
+                                        <li>Hiểu được - làm được ghép âm.</li>
                                         <li>Nói nguyên câu chắc chắn người nghe sẽ hiểu.</li>
                                         <li>Phản xạ cơ bản</li>
                                         <li>Nắm được trên 300 từ vựng - 80 câu</li>
