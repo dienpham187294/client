@@ -38,7 +38,7 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
         <tbody>
           {
             D0_ListMenu.map((e, i) =>
-              <tr key={i}>
+              <tr key={i} style={{ backgroundColor: e.name.includes("Full") ? "yellow" : "transparent" }}>
                 <td>
                   <i><b>{e.name}</b></i>
                 </td>
