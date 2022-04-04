@@ -5,13 +5,91 @@ export default function A1Pricing() {
     return (
         <div>
 
-            {/* <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                <symbol id="check" viewBox="0 0 16 16">
-                    <title>Check</title>
-                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-                </symbol>
-            </svg> */}
+            <div className="container px-4 py-5" id="featured-3">
 
+                <h2 className="pb-2 border-bottom">VÌ SAO BẠN CẦN MỘT NƠI ĐỂ THỰC HÀNH TIẾNG ANH?</h2>
+                <h5 style={{ color: "blue" }}> <b><i>HỌC SẼ CHO BẠN KIẾN THỨC NHƯNG ĐỂ LÀM ĐƯỢC BẠN CẦN THỰC HÀNH ĐỦ NHIỀU!</i></b></h5>
+                <div className="A1Pricing_div1">
+                    <i>KADI là nền tảng chuyên cung cấp CÁC TRÒ CHƠI NHẬP VAI như một môi trường thực hành tiếng anh dành cho mọi người.
+                        <br />
+                        Nhờ ứng dụng nền tảng internet và công nghệ AI nhận diện giọng nói vào các trò chơi, việc thực hành tiếng Anh giao tiếp trực tuyến đã dễ dàng, linh hoạt và thú vị hơn bao giờ hết.</i>
+
+                </div>
+
+
+
+                <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div>
+
+                        <h2>TRÒ CHƠI THÚ VỊ</h2>
+                        <i className="abc bi bi-controller" ></i>
+                        <p>
+                            Chúng ta luôn <b>thích chơi hơn học</b>.
+                            <br /><br />
+                            Các trò chơi của KADI giúp quá trình thực hành của bạn trở nên <b>vui vẻ và thú vị</b> hơn.
+                        </p>
+
+                    </div>
+                    <div >
+
+                        <h2>THỰC HÀNH CHỦ ĐỘNG</h2>
+                        <i className="abc bi bi-emoji-wink"></i>
+                        <p>
+                            Thực hành <b>dễ dàng</b> mọi lúc, mọi nơi, chỉ cần máy tính và internet là thực hành được.
+                            <br /><br />
+                            <b>Tiết kiệm</b> thời gian, chi phí đi lại.
+                            <br /><br />
+                            Khóa thực hành phù hợp với <b>mọi lứa tuổi và trình độ</b>.
+                        </p>
+
+                    </div>
+                    <div >
+
+                        <h2>HOÀN THIỆN LIÊN TỤC</h2>
+                        <i class="abc bi bi-sort-up"></i>
+                        <p>
+                            <b>Không ai có thể học một lần là làm được.</b>
+                            <br />
+                            <br />
+                            Thực tế bạn <b>phải làm và chỉnh sửa liên tục</b> nhiều lần cho đến khi làm được.
+                            <br />
+                            <br />
+                            Với quá trình thực hành <b>hàng ngàn lần</b> qua trò chơi và sự <b>hỗ trợ liên tục</b> của <b>NGƯỜI HƯỚNG DẪN</b>, chúng tôi sẽ giúp bạn vừa thực hành, vừa hoàn thiện khả năng phát âm, phản xạ, từ vựng cho đến khi bạn tự tin giao tiếp Tiếng Anh trong thực tế.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div style={{ width: "100%", textAlign: "center", color: "blue" }}>
+                <h1>KADI CAM KẾT</h1>
+                <hr />
+            </div>
+            <div className="row">
+                <div className="col-6">
+
+                    <h2>Cam kết kỹ năng đạt được</h2>
+                    {/* <i class="abc bi bi-sort-up"></i> */}
+                    <p>
+                        Sau khóa học, học viên có thể tự tin giao tiếp tốt trong thực tế.
+                    </p>
+
+                </div>
+                <div className="col-6">
+
+                    <h2>Cam kết đầu ra</h2>
+                    {/* <i class="abc bi bi-sort-up"></i> */}
+                    <p>
+                        Tặng 01 khóa học miễn phí tương đương trong trường hợp học viên đã theo đúng lộ trình nhưng chưa đạt được cam kết khóa học.
+                        Cam kết tạo môi trường luyện nghe nói hàng ngày liên tục và sự hướng dẫn thường xuyên.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div></div>
             <div className="container py-3">
                 <header>
                     <div className="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
@@ -42,7 +120,7 @@ export default function A1Pricing() {
                                     <h4 className="my-0 fw-normal">Rèn luyện logic phát âm</h4>
                                 </div>
                                 <div className="card-body">
-                                    <h1 className="card-title pricing-card-title">2 triệu đồng<small className="text-muted fw-light">/8 buổi</small></h1>
+                                    <h1 className="card-title pricing-card-title">5 triệu<small className="text-muted fw-light">/khóa</small></h1>
                                     <hr />
                                     <h5>Làm gì trong khóa:</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
@@ -54,9 +132,8 @@ export default function A1Pricing() {
                                     <h5>Đạt được sau khóa:</h5>
                                     <ul className="list-unstyled mt-3 mb-4">
                                         <li>Hiểu được - làm được ghép âm.</li>
-                                        <li>Nói nguyên câu chắc chắn người nghe sẽ hiểu.</li>
+                                        <li>Nói chuẩn ổn định trên 60%.</li>
                                         <li>Phản xạ cơ bản</li>
-                                        <li>Nắm được trên 300 từ vựng - 80 câu</li>
                                     </ul>
                                     {/* <a href="https://forms.gle/ifL2hpdT4HU4AU1eA">
                                         <button type="button" className="w-100 btn btn-lg btn-outline-primary">Đăng ký trải nghiệm miễn phí</button>
@@ -72,7 +149,7 @@ export default function A1Pricing() {
                                     <h4 className="my-0 fw-normal">Rèn luyện 5000 từ vựng</h4>
                                 </div>
                                 <div className="card-body">
-                                    <h1 className="card-title pricing-card-title">9 triệu<small className="text-muted fw-light">/3 tháng</small></h1>
+                                    <h1 className="card-title pricing-card-title">15 triệu<small className="text-muted fw-light">/khóa</small></h1>
                                     <hr />
 
                                     <h5>Làm gì trong khóa:</h5>
@@ -85,7 +162,6 @@ export default function A1Pricing() {
                                     <ul className="list-unstyled mt-3 mb-4">
 
                                         <li>Xử lý được 90% vấn đề giao tiếp thông dụng.</li>
-
                                         <li>Phản xạ tốt.</li>
                                         <li>Nắm được trên 5000 từ vựng-2000 câu.</li>
                                     </ul>
@@ -170,6 +246,6 @@ export default function A1Pricing() {
                 </footer> */}
             </div>
 
-        </div>
+        </div >
     )
 }

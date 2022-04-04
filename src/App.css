@@ -14,6 +14,7 @@ ul {
     list-style-type: none;
     padding: 5px;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -28,7 +29,7 @@ a:hover {
     max-height: 600px;
     overflow: auto;
     text-align: center;
-    
+
 }
 
 .GameSence_Playing_Arrpeople {
@@ -42,7 +43,8 @@ a:hover {
     width: 60px;
     cursor: pointer;
 }
-.GameSence_Playing_Timeout{
+
+.GameSence_Playing_Timeout {
     position: fixed;
     padding: auto;
     background-color: whitesmoke;
@@ -53,12 +55,13 @@ a:hover {
     left: 20%;
     right: 20%;
 }
+
 .GameSence_Playing_OneShow {
     position: fixed;
     border-radius: 6px;
     border: 5px solid green;
     background-color: whitesmoke;
-    left: 250px;   
+    left: 250px;
     right: 0px;
     top: 70px;
     bottom: 0px;
@@ -85,207 +88,231 @@ a:hover {
     color: red;
 } */
 @media only screen and (min-width: 600px) {
-    .bodyInfomationDiv{
+    .bodyInfomationDiv {
         text-align: center;
     }
-  }
+}
 
-  @media only screen and (max-width: 600px) {
-    .bodyInfomationDiv2{
+@media only screen and (max-width: 600px) {
+    .bodyInfomationDiv2 {
         text-align: justify;
         text-justify: inter-word;
     }
-  }
+}
 
 
 
-.respondiframe{
+.respondiframe {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
     /* text-align: center; */
-    
+
 }
+
 .responsive-iframe {
     position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 90%;
-  height: 90%;
-  margin-left: 50%;
-  transform :translateX(-50%)
-  }
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
 
-  .box_featured{
-      border: 1px solid green;
-      border-radius: 10px;
-      padding: 35px;
-      height: 100%;
-  }
-  .box_featured:hover{
-     border: 5px solid blue;
-      color: black;
-  }
-  .lydosohuuwebsiterieng{
-      border: 5px solid green;
-      border-radius: 10px;
-      text-align: left;
-      min-width: 365px;
-      width: 50%;
-      margin-left: 50%;
-      transform: translateX(-50%);
-      padding: 30px;
-      /* background-color:#81DAF5 ; */
-  }
+.box_featured {
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 35px;
+    height: 100%;
+}
 
-  .hotrotragop{
-      border: 3px solid green;
-      border-radius: 10px;
-      padding: 24px;
-  }
+.box_featured:hover {
+    border: 5px solid blue;
+    color: black;
+}
+
+.lydosohuuwebsiterieng {
+    border: 5px solid green;
+    border-radius: 10px;
+    text-align: left;
+    min-width: 365px;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    /* background-color:#81DAF5 ; */
+}
+
+.hotrotragop {
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 24px;
+}
 
 
-  .mapdiv{
-      border: 1px solid black;
-      border-radius: 10px;
-      cursor: pointer;
-      margin: 5px;
-      width: 150px;
-      height: 150px;
-  }
-  #myDIV {
+.mapdiv {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+#myDIV {
     width: 100%;
     height: 50px;
     background: white;
     position: relative;
     animation: mynewmove 2s;
-  }
-  
-  /* @keyframes mymove {
+}
+
+/* @keyframes mymove {
     from {left: 0px;}
     to {left: 200px;}
   } */
-  
-  @keyframes mynewmove {
-    from {top: -400px;}
-    to {top: 5px;}
-  }
-.btnHover:hover{
+
+@keyframes mynewmove {
+    from {
+        top: -400px;
+    }
+
+    to {
+        top: 5px;
+    }
+}
+
+.btnHover:hover {
     background-color: yellow;
 }
-.divT{
+
+.divT {
     position: relative;
     border: 1px solid black;
     display: inline-table;
     padding: 5px;
     width: 200px;
     margin-left: 3px;
-   
+
 }
 
-.divT1{
+.divT1 {
     border: 3px solid black;
     padding: 15px;
-    margin:15px;
+    margin: 15px;
     width: fit-content;
 }
 
-.divT2{
+.divT2 {
     position: relative;
     border: 3px solid blue;
     display: inline-table;
     padding: 15px;
     width: 200px;
-    margin:15px;
+    margin: 15px;
 }
+
 .span0 {
     cursor: pointer;
 }
-.span1{
+
+.span1 {
     color: blue;
     font-weight: 700;
 }
-.span2{
+
+.span2 {
     color: red;
     font-weight: 700;
 }
-.span3{
+
+.span3 {
     background-color: black;
     color: white;
 }
-.A0_topconent{
+
+.A0_topconent {
     border-bottom: solid 1px #e6e6e6;
     height: 70px;
     line-height: 70px;
     padding: 0 30px;
-    box-shadow:0 2px 4px rgb(0 0 0 / 10%)
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%)
 }
-.A0_01_topcontent{
+
+.A0_01_topcontent {
     color: black;
     font-size: 20px;
     letter-spacing: -1px;
     margin-right: 1em;
 }
 
-.A0_02_topcontent{
+.A0_02_topcontent {
     color: black;
     letter-spacing: 2px;
     float: right;
 }
+
 .A1_sidebar {
     display: inline-block;
 }
+
 .A1_01_sidebar {
     position: fixed;
-    top:70px;
-    bottom:0;
+    top: 70px;
+    bottom: 0;
     width: 250px;
     background-color: rgb(48, 65, 86);
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 /* .A1_01_sidebar:hover {
     overflow-y: auto;
 } */
 
 
-.A1_01_sidebar_name{
+.A1_01_sidebar_name {
     color: white;
     margin-right: 1em;
     letter-spacing: -1px;
     font-size: larger;
 }
-.A1_01_sidebar_01 div{
-   padding: 20px;
-   height: fit-content;
-   width: 100%; 
-   color: white;
-   
+
+.A1_01_sidebar_01 div {
+    padding: 20px;
+    height: fit-content;
+    width: 100%;
+    color: white;
+
 }
 
-.bi{
+.bi {
     float: left;
- }
-.A1_01_sidebar_01 div button{
-    width: 100%; 
- }
+}
 
-.A1_01_sidebar_02{
+.A1_01_sidebar_01 div button {
+    width: 100%;
+}
+
+.A1_01_sidebar_02 {
     /* box-sizing: border-box; */
     color: rgb(255, 255, 255);
     width: 100%;
     /* height: 56px; */
     line-height: 56px;
     padding: 5px;
-    
+
     /* border: 1px solid black;
     border-radius: 6px; */
 
     text-align: center;
 }
+
 .A1_01_sidebar_02 div {
     border: 1px solid black;
     border-radius: 6px;
@@ -307,6 +334,7 @@ a:hover {
     padding: 0 15px;
     /* background-color: black; */
 }
+
 .dropdown-menu {
     max-height: 400px;
     overflow-y: auto;
@@ -320,19 +348,21 @@ a:hover {
     overflow: auto;
     text-align: center;
 }
+
 .M0_GameSence_Playing_OneShow {
     position: fixed;
     border-radius: 6px;
     border: 5px solid green;
     background-color: whitesmoke;
-    left: 500px;   
+    left: 500px;
     width: 800px;
     top: 70px;
     bottom: 0px;
     overflow: auto;
     z-index: 2;
 }
-.M0_L_inside_listdiv{
+
+.M0_L_inside_listdiv {
     border: 1px solid black;
     margin-top: 5px;
 }
@@ -343,45 +373,50 @@ a:hover {
     margin-top: 5px;
     padding: 5px;
 }
-.M0_L_inside_listdiv_div2 :hover{
+
+.M0_L_inside_listdiv_div2 :hover {
     background-color: yellow;
 }
 
-.A2_Trangchu_posttittle{
+.A2_Trangchu_posttittle {
     font-size: 24px !important;
     line-height: 32px !important;
     font-weight: 700;
     color: black;
     margin-bottom: 1.5rem
 }
-.A2_trangchu_div1{
+
+.A2_trangchu_div1 {
     /* background-color: aqua; */
     text-align: center;
     padding: 30px;
 }
-.A2_trangchu_topcontent{
+
+.A2_trangchu_topcontent {
     color: black;
     letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 1024px){
-    .A1_01_sidebar{
+@media only screen and (max-width: 1024px) {
+    .A1_01_sidebar {
         width: 0
     }
+
     .A2_content {
         left: 0;
     }
-    .A0_02_topcontent{
+
+    .A0_02_topcontent {
         display: none;
     }
 }
 
-.E_S_MOVE{
+.E_S_MOVE {
     position: fixed;
     border-radius: 6px;
     border: 5px solid green;
     background-color: whitesmoke;
-    left: 500px;   
+    left: 500px;
     width: 800px;
     top: 70px;
     bottom: 0px;
@@ -389,6 +424,7 @@ a:hover {
     z-index: 3;
     text-align: center;
 }
+
 .E_S_MOVE div {
     display: inline-table;
     width: 100px;
@@ -401,16 +437,19 @@ a:hover {
     font-weight: bolder;
 
 }
-.E_S_MOVE :hover{
+
+.E_S_MOVE :hover {
     background-color: yellow;
 }
-.E_S_MOVE_BTN{
+
+.E_S_MOVE_BTN {
     position: fixed;
     bottom: 0px;
     left: 500px;
     z-index: 4;
 }
-.F_S_People{
+
+.F_S_People {
     position: fixed;
     top: 70px;
     width: 250px;
@@ -422,10 +461,12 @@ a:hover {
     text-align: center;
     z-index: 5;
 }
+
 .F_S_People :hover {
     background-color: yellow;
     color: black;
 }
+
 .F_S_People_01 {
     border: 1px solid black;
     padding: 3px;
@@ -434,23 +475,26 @@ a:hover {
     margin: 5px;
     display: inline-table;
     background-color: rgb(48, 65, 86);
-    color  : white;
+    color: white;
     cursor: pointer
 }
-.F_S_People_02{
+
+.F_S_People_02 {
     width: 100%;
     padding: 5px 10px;
     background-color: red;
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     cursor: pointer;
     border-radius: 6px;
 }
+
 .BLuyenGhepAMTd {
     font-weight: 700;
     font-size: larger;
 }
+
 .H_S_Data_ScoreList {
     text-align: left;
     padding: 5px;
@@ -458,22 +502,41 @@ a:hover {
     overflow-y: auto;
     font-size: small;
 }
+
 #percentID_SAI {
     font-size: small;
     font-weight: 1200;
     color: red;
-  
+
 }
+
 #percentID_DUNG {
     font-weight: 1200;
     color: blue;
 
 }
-.SUB_ReadArrPick{
+
+.SUB_ReadArrPick {
     border: 1px solid green;
     border-radius: 5px;
     padding: 0 15px;
     margin: 0 2px;
     cursor: pointer;
-    
+
+}
+
+.A1Pricing_div1 {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+  
+}
+
+.abc {
+    font-size: 5em;
+    color: blue;
 }

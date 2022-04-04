@@ -53,9 +53,9 @@ function App() {
         <A1sidebar />
         <div className="A2_content">
           <Routes>
-            <Route exact path='/' element={<Trangchu />} />
+            <Route exact path='/' element={<A1Pricing />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/trangchu' element={<Trangchu />} />
+            <Route path='/trangchu' element={<A1Pricing />} />
             <Route path='/about' element={<About />} />
             <Route path='/video' element={<Video />} />
             <Route path='/pricing' element={<A1Pricing />} />
