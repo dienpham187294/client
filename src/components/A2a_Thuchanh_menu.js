@@ -52,11 +52,11 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
                     <i>{"Học tập"}</i>
                   </Link>
                 </td>
-                <td>
+                {/* <td>
                   <Link to={"/video?id=" + e.id}>
                     <i>{"Video"}</i>
                   </Link>
-                </td>
+                </td> */}
               </tr>
 
             )
