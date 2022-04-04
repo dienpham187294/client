@@ -31,15 +31,17 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
       <table className="table">
         <thead>
           <tr>
-            <th>Tên bài học</th>
-
+            <th>Bài thực hành</th>
+            <th>Luyện tập</th>
+            <th>Học tập</th>
+            <th>Video</th>
           </tr>
         </thead>
         <tbody>
           {
             D0_ListMenu.map((e, i) =>
               <tr key={i} style={{ backgroundColor: e.name.includes("Full") ? "yellow" : "transparent" }}>
-                <td>
+                <td className="iconX1">
                   <i><b>{e.name}</b></i>
                 </td>
                 <td>
@@ -52,11 +54,11 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
                     <i>{"Học tập"}</i>
                   </Link>
                 </td>
-                {/* <td>
+                <td>
                   <Link to={"/video?id=" + e.id}>
-                    <i>{"Video"}</i>
+                    <i className="iconX15 bi bi-play-btn"></i>
                   </Link>
-                </td> */}
+                </td>
               </tr>
 
             )
