@@ -8,30 +8,40 @@ let savePitch = 0
 
 
 export default async function ReadMessage(text, voiceNum, rate, pitch, mode) {
-    if (typeof (text) === "string" && mode === undefined) {
-        $("#ArrRead").hide()
-    }
-    if (typeof (text) !== "string") {
-        $("#ArrRead").show()
-        let div1 = `<hr/>`
-        text.forEach((e, i) => {
-            let iT = i + 1
-            div1 += `<span class="SUB_ReadArrPick" id="ArrRead` + i + `">` + iT + `</span>`
+
+    if (text === undefined) {
+        text = saveText
+        voiceNum = saveVoiNum
+        rate = 0.8
+        pitch = savePitch
+    } else {
+
+        if (typeof (text) === "string" && mode === undefined) {
+            $("#ArrRead").hide()
+        }
+        if (typeof (text) !== "string") {
+            $("#ArrRead").show()
+            let div1 = `<hr/>`
+            text.forEach((e, i) => {
+                let iT = i + 1
+                div1 += `<span class="SUB_ReadArrPick" id="ArrRead` + i + `">` + iT + `</span>`
 
 
-        });
-        $("#ArrRead").html(div1)
+            });
+            $("#ArrRead").html(div1)
 
-        text.forEach((e, i) => {
+            text.forEach((e, i) => {
 
-            $("#ArrRead" + i).on("click", function () {
-                ReadMessage(e, voiceNum, rate, pitch, "keep")
+                $("#ArrRead" + i).on("click", function () {
+                    ReadMessage(e, voiceNum, rate, pitch, "keep")
+                });
+
             });
 
-        });
-
-        text = text[0]
+            text = text[0]
+        }
     }
+
 
 
     if (text !== undefined) {
@@ -40,12 +50,6 @@ export default async function ReadMessage(text, voiceNum, rate, pitch, mode) {
         savePitch = pitch
     }
 
-    if (text === undefined) {
-        text = saveText
-        voiceNum = saveVoiNum
-        rate = 0.8
-        pitch = savePitch
-    }
 
 
     try {

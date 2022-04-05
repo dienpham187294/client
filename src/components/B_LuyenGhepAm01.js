@@ -10,20 +10,44 @@ export default function LuyenGhepAm01() {
     const [DATA_GHEPAM, setDATA_GHEPAM] = useState([])
     const [DataCmd, setDataCmd] = useState([])
     const [ListRes, setListRes] = useState([])
+    const [ID, setID] = useState(-1)
     useEffect(() => {
         let qString = queryString.parse(window.location.search)
-        let requestOptions = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: qString.id })
-        };
-        fetch(T0_linkApi + "loadDataIPA", requestOptions)
-            .then((res) => res.json())
-            .then((json) => {
-                setDATA_GHEPAM(json.data)
-                setDataCmd(json.data[0].Words)
-            })
+        setID(qString.id)
+        // let requestOptions = {
+        //     method: 'POST',
+        //     headers: { 'Content-Type': 'application/json' },
+        //     body: JSON.stringify({ id: qString.id })
+        // };
+        // fetch(T0_linkApi + "loadDataIPA", requestOptions)
+        //     .then((res) => res.json())
+        //     .then((json) => {
+        //         setDATA_GHEPAM(json.data)
+        //         setDataCmd(json.data[0].Words)
+        //     })
     }, [])
+    useEffect(() => {
+        if (ID !== -1) {
+            let requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id: ID })
+            };
+            fetch(T0_linkApi + "loadDataIPA", requestOptions)
+                .then((res) => res.json())
+                .then((json) => {
+                    try {
+                        setDATA_GHEPAM(json.data)
+                        setDataCmd(json.data[0].Words)
+                    } catch (error) {
+
+                    }
+
+                })
+        }
+        // let qString = queryString.parse(window.location.search)
+        // setID(qString.id)
+    }, [ID])
 
     function Xuly(cmd, n, i) {
         // $("#res").text("Đúng " + Math.floor(i * 100) + "%")
@@ -37,6 +61,21 @@ export default function LuyenGhepAm01() {
 
     return (
         <div>
+            <div style={{ width: "100%", textAlign: "center", padding: "20px" }}>
+                <button
+                    style={{ width: "120px", textAlign: "center", padding: "5px 10px", marginRight: "20px" }}
+                    onClick={() => {
+                        if (ID > 1) {
+                            setID(ID => (ID - 1))
+                        }
+                    }}
+                    className="btn btn-primary" type="button"><i className="bi bi-arrow-left-square-fill"></i>Back</button>
+
+                <button
+                    style={{ width: "120px", textAlign: "center", padding: "5px 10px" }}
+                    onClick={() => { setID(ID => ID + 1) }}
+                    className="btn btn-primary" type="button">Next<i className="bi bi-arrow-right-square-fill"></i></button>
+            </div>
             {
                 S_01(DATA_GHEPAM)
             }

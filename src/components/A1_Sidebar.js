@@ -15,7 +15,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-bicycle"></i>
-                            <span> Luyện tập logic ghép âm</span>
+                            <span> Thực hành <br /> Khóa logic ghép âm</span>
                         </button>
                     </Link>
                 </div>
@@ -24,7 +24,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-symmetry-horizontal"></i>
-                            <span> Luyện tập 5000 từ vựng</span>
+                            <span> Thực hành <br /> Khóa 5000 từ vựng</span>
                         </button>
                     </Link>
                 </div>
@@ -33,7 +33,8 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-journals"></i>
-                            <span>  Học kiến thức chuyên môn (sử dụng tiếng anh)</span>
+                            <span>  Học kiến thức <br />
+                                Mua bán sáp nhập</span>
                         </button>
                     </Link>
                 </div>
@@ -43,7 +44,17 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-paragraph"></i>
-                            <span>  Luyện ghép âm - câu đơn</span>
+                            <span>  Luyện nói</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/luyen-nghe'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-paragraph"></i>
+                            <span>  Luyện nghe</span>
                         </button>
                     </Link>
                 </div>

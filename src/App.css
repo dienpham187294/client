@@ -533,18 +533,30 @@ a:hover {
     font-size: 2em;
     letter-spacing: 1px;
     font-weight: 500;
-  
+
 }
 
 .abc {
     font-size: 5em;
     color: blue;
 }
+
 .iconX1 {
     font-size: 1em;
     color: blue;
 }
+
 .iconX15 {
     font-size: 1.5em;
     color: blue;
 }
+
+.Dlisten_PA {
+    display: inline-table;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 15px 5%;
+}
+

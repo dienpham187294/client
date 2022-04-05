@@ -36,6 +36,8 @@ import ThuDoNhay from './components/B_ThuDoNhay';
 import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
 import CMUSIC from "./components/C_Music"
 import CMUSIC01 from "./components/C_Music01"
+import DLUYENGHE from "./components/D_LuyenNghe"
+import DLUYENGHE1 from "./components/D_LuyenNghe01"
 const socket = io(T0_linkApi);
 
 
@@ -88,6 +90,9 @@ function App() {
             <Route path='/CreateDocument' element={<CreateDocuments />} />
             <Route path='/luyen-ghep-am' element={<LuyenGhepAm />} />
             <Route path='/luyen-ghep-am-01' element={<LuyenGhepAm01 />} />
+
+            <Route path='/luyen-nghe' element={<DLUYENGHE />} />
+            <Route path='/luyen-nghe-01' element={<DLUYENGHE1 />} />
             <Route path='/thudonhay' element={<ThuDoNhay />} />
             <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
             <Route path='/nhacipalyrics' element={<CMUSIC />} />
