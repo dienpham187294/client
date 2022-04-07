@@ -28,7 +28,7 @@ export default function Thuchanh_menu(props) {
 function showD0_ListMenu(D0_ListMenu, Linkto) {
   try {
     return (
-      <table className="table">
+      <table className="table table-striped">
         <thead>
           <tr>
             <th>Bài thực hành</th>

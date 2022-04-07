@@ -38,6 +38,8 @@ import CMUSIC from "./components/C_Music"
 import CMUSIC01 from "./components/C_Music01"
 import DLUYENGHE from "./components/D_LuyenNghe"
 import DLUYENGHE1 from "./components/D_LuyenNghe01"
+import BaiHocPhienAm from "./components/A2_BaiHocPhienAm"
+import VideoAll from "./components/A2_Video_All"
 const socket = io(T0_linkApi);
 
 
@@ -53,6 +55,7 @@ function App() {
       <div>
         <Header />
         <A1sidebar />
+        <VideoAll />
         <div className="A2_content">
           <Routes>
             <Route exact path='/' element={<A1Pricing />} />
@@ -61,8 +64,7 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/video' element={<Video />} />
             <Route path='/pricing' element={<A1Pricing />} />
-
-
+            <Route path='/ipa-study' element={<BaiHocPhienAm />} />
 
             <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"thuchanhcoban01"} />} />
             <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />

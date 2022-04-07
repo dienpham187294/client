@@ -79,7 +79,7 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/phienam'}>
+                    <Link to={'/ipa-study'}>
                         <i></i>
                         <button
                             type="button" className="btn btn-secondary">
