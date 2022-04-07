@@ -89,12 +89,22 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
+                    <Link to={'/3000-basic-words'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>Luyện tập<br /> <i>Hơn 3000 từ vựng cơ bản nhất</i></span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
                     <Link to={'/thudonhay'}>
                         <i></i>
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-reception-2"></i>
-                            <span>  Thử độ nhạy (Tiếng việt)</span>
+                            <span>Thử độ nhạy<br />Tiếng việt</span>
                         </button>
                     </Link>
                 </div>
@@ -104,7 +114,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-reception-2"></i>
-                            <span>  Thử độ nhạy (Tiếng trung)</span>
+                            <span>  Thử độ nhạy<br />Tiếng trung</span>
                         </button>
                     </Link>
                 </div>

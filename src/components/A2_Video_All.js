@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
 import $ from "jquery"
+
 export default function Video() {
 
     const [srcYoutube, SET_SrcYoutube] = useState(null)
@@ -19,6 +20,7 @@ export default function Video() {
                     SetSrcVideo
                 </button>
             </div>
+
             {srcYoutube !== null ?
                 <div className="A2_Video_All">
                     <button

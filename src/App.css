@@ -110,7 +110,6 @@ a:hover {
     /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
     /* text-align: center; */
     opacity: 1
-
 }
 
 .responsive-iframe {
@@ -123,7 +122,7 @@ a:hover {
     height: 90%;
     margin-left: 50%;
     transform: translateX(-50%);
-   
+
 }
 
 .box_featured {
@@ -571,6 +570,7 @@ a:hover {
     /* background-color: black; */
     /* opacity: 0.7; */
     z-index: 7;
+    /* overflow: auto; */
 }
 
 .A2_Video_All button {
@@ -578,6 +578,46 @@ a:hover {
     top: 0px;
     right: 20px;
     width: 50px;
+    height: 50px;
+    z-index: 8;
+    border-radius: 5px;
+    color: red;
+    font-weight: 1300;
+    font-size: 25px;
+}
+
+.A2Words3000ArrIndex {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 4px 4px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.bColor {
+    background-color: yellow;
+}
+
+.A2Words3000Practice {
+    position: fixed;
+    top:5%;
+    bottom:5%;
+    left:5%;
+    right:5%;
+    background-color: white;
+    border-radius: 10px;
+    /* opacity: 0.7; */
+    z-index: 7;
+    /* overflow: auto; */
+    padding: 5%;
+}
+
+.A2Words3000PracticeBtn {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    width: 150px;
     height: 50px;
     z-index: 8;
     border-radius: 5px;
