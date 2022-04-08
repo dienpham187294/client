@@ -10,15 +10,15 @@ if (process.brower) {
 }
 let commands = [];
 function Dictaphone({ Data, Xuly }) {
-    useEffect(() => {
-        commands = [{
-            command: Data,
-            callback: (command, n, i) => { Xuly(`${command}`, n, i) },
-            isFuzzyMatch: true,
-            fuzzyMatchingThreshold: 0.2,
-            bestMatchOnly: true
-        }]
-    }, [Data])
+    // useEffect(() => {
+    //     commands = [{
+    //         command: Data,
+    //         callback: (command, n, i) => { Xuly(`${command}`, n, i) },
+    //         isFuzzyMatch: true,
+    //         fuzzyMatchingThreshold: 0.2,
+    //         bestMatchOnly: true
+    //     }]
+    // }, [Data])
 
 
 
@@ -33,7 +33,9 @@ function Dictaphone({ Data, Xuly }) {
 
     useEffect(() => {
         if (interimTranscript !== "") {
-            $("#interrimID").text(interimTranscript)
+
+            Xuly(interimTranscript)
+
         }
     }, [interimTranscript])
     return (<div>

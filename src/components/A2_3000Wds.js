@@ -3,15 +3,19 @@ import bangantu from "../util/filedulieu/3000tuthongdung/tuvung3000thongdung"
 import sounds44 from "../util/filedulieu/3000tuthongdung/sounds44"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr"
 import A2Words3000Practice from "./A2_3000WdsPractice"
+
 const ArrCount = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 export default function A2Words3000() {
     const [Words, SET_Words] = useState(bangantu)
     const [ThapNhat, SET_ThapNhat] = useState(0)
-    const [CaoNhat, SET_CaoNhat] = useState(20)
+    const [CaoNhat, SET_CaoNhat] = useState(4)
     const [ArrSounds, SET_ArrSounds] = useState([])
 
     const [ArrPractice, SET_ArrPractice] = useState(null)
+
+
+
     return (
         <>
             <div >

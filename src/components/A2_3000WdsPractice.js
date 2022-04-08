@@ -7,9 +7,28 @@ let i = 0
 export default function A2Words3000Practice(props) {
     const [DataCmd, setDataCmd] = useState(props.ArrPractice[0].word)
     const [practice, setpractice] = useState(props.ArrPractice[0])
+    const [InterRim, setInterRim] = useState("")
 
+    function Xuly(interim) {
+        try {
+            if (interim.includes(DataCmd)) {
+                let i = interim.split(DataCmd).join(`<i class="cmdInterrim">` + DataCmd + `</i>`)
 
+                let str = `<div>` +
+                    i
+                    + `</div>`
 
+                $("#res").html(str)
+            } else {
+                $("#res").text(interim)
+            }
+
+            // $("#res").html(arr)
+
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     return (
         <div className="A2Words3000Practice">
@@ -35,8 +54,9 @@ export default function A2Words3000Practice(props) {
             <div>
                 {showWords([practice])}
             </div>
-            <p id="interrimID"></p>
-            <h1 id="res"></h1>
+            {/* <p id="interrimID"></p> */}
+            <div id="res"></div>
+            <h1 >{InterRim}</h1>
             <ReadReactSpeech />
             <Dictaphone
                 Data={DataCmd} Xuly={Xuly}
@@ -47,16 +67,85 @@ export default function A2Words3000Practice(props) {
             >
                 Exit
             </button>
+            <div>{showDetail(practice.meanGoogle)}</div>
         </div>
 
 
     )
 }
 
-function Xuly(cmd, n, i) {
-    $("#res").text("Đúng " + Math.floor(i * 100) + "%")
+
+function showDetail(word) {
+    try {
+
+        return (
+            <div className="A2Words3000PracticeMeanGoogle_I">
+                {word.map((e, i) =>
+                    <div key={i}>
+                        {/* <h5>{e.word}</h5> */}
+                        <hr />
+                        {showMeaning(e.meaning)}
+                    </div>
+                )}
+            </div>
+        )
+    } catch (error) {
+        return null
+    }
 }
 
+function showMeaning(Mean) {
+    try {
+        let ArrIn = Object.keys(Mean)
+        return (
+            <div className="A2Words3000PracticeMeanGoogle_II">
+                {ArrIn.map((e, i) =>
+                    <div key={i}>
+                        <h5>Từ loại: {e}</h5>
+                        {showMeaningDetail(Mean[e])}
+                    </div>
+                )}
+            </div>
+        )
+    } catch (error) {
+        return null
+    }
+}
+
+function showMeaningDetail(Detail) {
+    try {
+
+        return (
+            <div className="A2Words3000PracticeMeanGoogle_III">
+                {Detail.map((e, i) =>
+                    <div className="A2Words3000PracticeMeanGoogle_IIII" key={i}>
+                        <b>Definition:</b>   {e.definition}
+                        <br />
+                        <b>Axample:</b>  <h5 style={{ color: "blue" }}>{e.example}</h5>
+                        <br />
+                        <b>Synonyms:</b> {showSynonyms(e.synonyms)}
+                    </div>
+                )}
+            </div>
+        )
+    } catch (error) {
+        return null
+    }
+}
+
+function showSynonyms(Synonyms) {
+    try {
+        return (
+            <div>
+                {Synonyms.map((e, i) =>
+                    <div className="A2Words3000ArrIndex" key={i}>{e}</div>
+                )}
+            </div>
+        )
+    } catch (error) {
+        return null
+    }
+}
 
 function showWords(Words) {
     try {
