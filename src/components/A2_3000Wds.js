@@ -11,6 +11,7 @@ export default function A2Words3000() {
     const [ThapNhat, SET_ThapNhat] = useState(0)
     const [CaoNhat, SET_CaoNhat] = useState(4)
     const [ArrSounds, SET_ArrSounds] = useState([])
+    const [ArrSoundsDeny, SET_ArrSoundsDeny] = useState([])
 
     const [ArrPractice, SET_ArrPractice] = useState(null)
 
@@ -28,8 +29,12 @@ export default function A2Words3000() {
                     {showArrIndex(ArrCount, CaoNhat, SET_CaoNhat)}
                 </div>
                 <div>
-                    <i>Chọn âm</i>
+                    <i>Chọn âm xuất hiện</i>
                     {showSounds(sounds44, ArrSounds, SET_ArrSounds)}
+                </div>
+                <div>
+                    <i>Chọn âm loại bỏ</i>
+                    {showSounds(sounds44, ArrSoundsDeny, SET_ArrSoundsDeny)}
                 </div>
             </div>
             <hr />
@@ -47,6 +52,11 @@ export default function A2Words3000() {
                         }
                         ArrSounds.forEach(ee => {
                             if (!e.ipaUK.includes(ee)) {
+                                i = false
+                            }
+                        })
+                        ArrSoundsDeny.forEach(ee => {
+                            if (e.ipaUK.includes(ee)) {
                                 i = false
                             }
                         })
