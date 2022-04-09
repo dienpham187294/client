@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import bangantu from "../util/filedulieu/3000tuthongdung/tuvung3000thongdung"
 import sounds44 from "../util/filedulieu/3000tuthongdung/sounds44"
+import partofspeech from "../util/filedulieu/3000tuthongdung/partofspeech"
+import engletters from "../util/filedulieu/3000tuthongdung/engletters"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr"
 import A2Words3000Practice from "./A2_3000WdsPractice"
 
@@ -12,7 +14,8 @@ export default function A2Words3000() {
     const [CaoNhat, SET_CaoNhat] = useState(4)
     const [ArrSounds, SET_ArrSounds] = useState([])
     const [ArrSoundsDeny, SET_ArrSoundsDeny] = useState([])
-
+    const [ArrPartOfspeech, SET_ArrPartOfspeech] = useState([])
+    const [Arrengletters, SET_Arrengletters] = useState([])
     const [ArrPractice, SET_ArrPractice] = useState(null)
 
 
@@ -36,6 +39,14 @@ export default function A2Words3000() {
                 <div>
                     <b>  <i>Remove IPA!</i></b>
                     {showSounds(sounds44, ArrSoundsDeny, SET_ArrSoundsDeny)}
+                </div>
+                <div>
+                    <b>    <i>Choose Parts Of Speech! </i></b>
+                    {showSounds(partofspeech, ArrPartOfspeech, SET_ArrPartOfspeech)}
+                </div>
+                <div>
+                    <b>    <i>Choose Words! </i></b>
+                    {showSounds(engletters, Arrengletters, SET_Arrengletters)}
                 </div>
             </div>
             <hr />
@@ -61,7 +72,21 @@ export default function A2Words3000() {
                                 i = false
                             }
                         })
+                        ArrPartOfspeech.forEach(ee => {
+                            if (!e.partsOfSpeech.includes(ee)) {
+                                i = false
+                            }
+                        })
+                        Arrengletters.forEach(ee => {
+                            try {
+                                if (!e.word.includes(ee)) {
+                                    i = false
+                                }
+                            } catch (error) {
+                                i = false
+                            }
 
+                        })
                         if (i) {
                             arrOutput.push(e)
                         }
