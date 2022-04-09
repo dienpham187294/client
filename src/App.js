@@ -14,7 +14,7 @@ import T0_linkApi from './util/toolAll/T0_linkApi';
 import Thuchanh_menu from './components/A2a_Thuchanh_menu';
 import Thuchanh_01 from './components/A2a_Thuchanh_01';
 import Thuchanh_02 from './components/A2a_Thuchanh_02';
-import Thuchanhnangcao from './components/A2b_Thuchanhnangcao';
+import Thuchanhnangcao from './components/A2a_Thuchannangcao';
 
 import B1Lop1 from './components/thuchanhTAPhothong/B1_Lop1';
 import B1Lop2 from './components/thuchanhTAPhothong/B1_Lop2';
@@ -75,7 +75,7 @@ function App() {
             <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"thuchanhcoban01"} />} />
             <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
             <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
-            <Route path='/thuchanhnangcao' element={<Thuchanhnangcao />} />
+            <Route path='/thuchanhnangcao' element={<Thuchanhnangcao SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
             <Route path='/thuchanhkienthuc' element={<Thuchanh_menu ApiReq={"menuThuchanhkienthuc"} Linkto={"thuchanhkienthuc01"} />} />
             <Route path='/thuchanhkienthuc01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} ThreshHold={0.7} />} />
             <Route path='/thuchanhkienthuc02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} />} />

@@ -1,59 +1,39 @@
 import { useEffect, useState } from "react";
-import Check_ImageOrNot from "./Check_ImageOrNot"
+import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot"
 let saveData;
 export default
     function ShowBigView(dataRoot, data, Total, SET_Data_phongto, UpdateDataTable, SET_UpdateDataTable) {
 
+
+    const [dataListTable, SetdataListTable] = useState([])
+
+
     useEffect(() => {
         if (data !== null) {
-            SET_UpdateDataTable(data)
+            SET_UpdateDataTable(data);
+            SetdataListTable(dataRoot)
         }
     }, [data])
-
 
     try {
         if (data === null) {
             return null
         }
         return (
-            <div
-                style={{
-                    height: "350px",
-                    backgroundColor: "white",
-                    overflow: "auto",
-                    zIndex: 3,
-                    padding: "5%",
-                    textAlign: "left"
-                }}>
-                {showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable)}
-                {dataRoot.map((e, index) =>
-                    <div key={index} style={{ position: "fixed", bottom: "10%", left: "1px" }}>
-
-                        <div>
-                            {dataRoot.map((eee, indexeee) =>
-                                <div
-                                    key={indexeee}
-                                    style={{
-                                        cursor: "pointer",
-                                    }}>
-                                    <button
-
-                                        className="btn btn-primary mt-1"
-                                        onClick={() => {
-                                            SET_Data_phongto(eee)
-                                        }}
-                                    >
-                                        {showListTable(eee, indexeee)}
-                                    </button>
-                                </div>
-                            )}
-                        </div>
-
-                    </div >
-
-                )}
-            </div>
-
+            <>
+                <div
+                    style={{
+                        height: "350px",
+                        backgroundColor: "white",
+                        overflow: "auto",
+                        zIndex: 3,
+                        padding: "1px",
+                        textAlign: "left"
+                    }}>
+                    {showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable)}
+                </div>
+                {showTable_01(dataListTable, SET_Data_phongto)}
+            </>
         )
 
     } catch (error) {
@@ -64,7 +44,39 @@ export default
 
 
 
+function showTable_01(dataRoot, SET_Data_phongto) {
+    try {
+        if (dataRoot.length <= 1) {
+            return null
+        }
+        return <div
+            style={{ position: "fixed", bottom: "10%", left: "1200px", border: "1px solid black", padding: "15px", backgroundColor: "rgb(48, 65, 86)", color: "white" }}>
+            <i>Pick Table</i>
 
+            {dataRoot.map((eee, indexeee) =>
+                <div
+                    key={indexeee}
+                    style={{
+                        cursor: "pointer",
+                    }}>
+                    <button
+                        className="btn btn-primary mt-1"
+                        onClick={() => {
+                            SET_Data_phongto(eee)
+                        }}
+                    >
+                        {showListTable(eee, indexeee)}
+
+                    </button>
+                </div>
+            )}
+        </div>
+    } catch (error) {
+        return null
+    }
+
+
+}
 function showListTable(eee, indexeee) {
 
     try {
@@ -76,14 +88,14 @@ function showListTable(eee, indexeee) {
                             src={eee[0]} width="40px" height={"30px"} /> :
                         <span
                             style={{ width: "80px" }}
-                        >Table {indexeee}</span>
+                        >Table {indexeee + 1}</span>
                 }
             </>
         )
     } catch (error) {
         return <span
             style={{ width: "80px" }}
-        >Table {indexeee}</span>
+        >Table {indexeee + 1}</span>
     }
 
 }
@@ -98,7 +110,7 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                             <div
                                 key={indexeeee}
                                 style={{
-                                    display: Check_ImageOrNot(eeee) ? "inline-block" : "initial",
+                                    display: "inline-block",
                                     border: "1px solid black",
                                     borderRadius: "5px",
                                     padding: "10px",
@@ -110,17 +122,20 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                                         onClick={() => {
                                             Total.stObj.inputSumit += "===" + eeee;
                                             Total.fnObj.SET_Info_Icon_Reactdata(eeee)
-                                            Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
+                                            Total.fnObj.Handle_01(Total)
                                         }}
                                         src={eeee} width="150px" height={"150px"} style={{ margin: "5px 25px", cursor: "pointer" }} /> :
-                                    <b
+                                    <div
                                         onClick={() => {
                                             Total.stObj.inputSumit += "===" + eeee;
                                             Total.fnObj.SET_Info_Icon_Reactdata(eeee)
-                                            Total.fnObj.Submit_Show_OnePeopeAppear_ReactData(Total.stObj.inputSumit)
+                                            Total.fnObj.Handle_01(Total)
                                         }}
                                         style={{ cursor: "pointer" }}
-                                    >{eeee}</b>
+
+                                    >
+                                        <i><>{eeee}</></i>
+                                    </div>
                                 }
                             </div>
                         )
@@ -155,8 +170,6 @@ function showTable00(eee, SET_UpdateDataTable, data, Total) {
                         else {
                             sortTable(e.currentTarget.value, SET_UpdateDataTable, data)
                         }
-                        // SET_Data_phongto(["1", "2", "3"])
-
                     }}
                     placeholder="Enter letters to search!"
                     type={"text"} className="form-control" />
@@ -185,8 +198,8 @@ function showtableWithoutInput(eee, Total) {
                                 <td key={ii2}>{
                                     Check_ImageOrNot(e1[ee2])
                                         ? <img
-                                           
-                                            src={e1[ee2]} width="150px" height={"150px"} style={{ cursor: "pointer", margin: "5px 0px" }} />
+                                            style={{ cursor: "pointer", margin: "5px 0px" }}
+                                            src={e1[ee2]} width="150px" height={"150px"} />
                                         : <span
                                         >{e1[ee2]}</span>
                                 }</td>

@@ -20,20 +20,21 @@ export default function A2Words3000() {
     return (
         <>
             <div >
+                <hr />
                 <div>
-                    <i>Chọn số kí tự thấp nhất</i>
+                    <b>    <i>Choose the lowest number of characters!</i></b>
                     {showArrIndex(ArrCount, ThapNhat, SET_ThapNhat)}
                 </div>
                 <div>
-                    <i>Chọn số kí tự cao nhất</i>
+                    <b>     <i>Choose the highest number of characters!</i></b>
                     {showArrIndex(ArrCount, CaoNhat, SET_CaoNhat)}
                 </div>
                 <div>
-                    <i>Chọn âm xuất hiện</i>
+                    <b>    <i>Choose IPA! </i></b>
                     {showSounds(sounds44, ArrSounds, SET_ArrSounds)}
                 </div>
                 <div>
-                    <i>Chọn âm loại bỏ</i>
+                    <b>  <i>Remove IPA!</i></b>
                     {showSounds(sounds44, ArrSoundsDeny, SET_ArrSoundsDeny)}
                 </div>
             </div>
@@ -68,7 +69,7 @@ export default function A2Words3000() {
                     SET_Words(arrOutput)
                 }}
             >
-                Run!
+                Sort!
             </button>
             <button
                 className="btn btn-primary m-1"
@@ -76,7 +77,7 @@ export default function A2Words3000() {
                     SET_ArrPractice(shuffleArr(Words))
                 }}
             >
-                Luyện tập
+                Practice!
             </button>
             <hr />
             <div>
@@ -100,9 +101,9 @@ function showWords(Words) {
                     <tr>
                         <th>IPA_UK</th>
                         <th>IPA_US</th>
-                        <th>Từ vựng</th>
-                        <th>Từ loại</th>
-                        <th>Nghĩa</th>
+                        <th>Words</th>
+                        <th>Parts Of Speech</th>
+                        <th>Meaning</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -177,7 +178,7 @@ function showSounds(arrSound, getA, setA) {
                 <button
                     className="btn btn-primary"
                     onClick={() => setA([])}
-                >Reset</button>
+                >Clear!</button>
             </div>
         )
 

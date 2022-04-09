@@ -656,3 +656,7 @@ a:hover {
     border-radius: 5px;
     padding: 15px;
 }
+
+.LuyenGhepAm01_Speak :hover {
+    background-color: yellow;
+}

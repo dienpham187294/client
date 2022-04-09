@@ -111,30 +111,32 @@ function S_01(DATA_GHEPAM) {
                                 key={i}> {e} </td>
                         )}
                     </tr>
-                    <tr>
+                    <tr style={{ color: "blue" }}>
                         {n.map((e, i) =>
                             <td
                                 className="BLuyenGhepAMTd"
                                 key={i}> {e} </td>
                         )}
                     </tr>
-                    <tr>
+                    <tr >
                         {n1.map((e, i) =>
                             <td
-
+                                className="LuyenGhepAm01_Speak"
                                 style={{ cursor: "pointer" }}
                                 key={i}>
                                 <i
+                                    style={{ padding: "5px", borderRadius: "5px" }}
                                     onClick={() => {
                                         ReadMessage(e, 2, 0.4, 1)
                                     }}
-                                >Man</i>
+                                >Man Speak!</i>
                                 <hr />
                                 <i
+                                    style={{ padding: "5px", borderRadius: "5px" }}
                                     onClick={() => {
                                         ReadMessage(e, 1, 0.4, 1)
                                     }}
-                                >Women</i>
+                                >Women Speak!</i>
 
                             </td>
                         )}

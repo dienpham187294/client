@@ -10,10 +10,17 @@ export default function A1Pricing() {
                 <h2 className="pb-2 border-bottom">VÌ SAO BẠN CẦN MỘT NƠI ĐỂ THỰC HÀNH TIẾNG ANH?</h2>
                 <h5 style={{ color: "blue" }}> <b><i>HỌC SẼ CHO BẠN KIẾN THỨC NHƯNG ĐỂ LÀM ĐƯỢC BẠN CẦN THỰC HÀNH ĐỦ NHIỀU!</i></b></h5>
                 <div className="A1Pricing_div1">
-                    <i>KADI là nền tảng chuyên cung cấp CÁC TRÒ CHƠI NHẬP VAI như một môi trường thực hành tiếng anh dành cho mọi người.
+                    <i>
+                        <b style={{ color: "blue" }}><i>EricPh </i ></b> cung cấp nền tảng các
+                        <b style={{ color: "blue" }}><i> TRÒ CHƠI </i ></b>được thiết kế như là một
+                        <b style={{ color: "blue" }}><i> môi trường thực hành </i></b>
+                        tiếng anh dành cho mọi người.
                         <br />
-                        Nhờ ứng dụng nền tảng internet và công nghệ AI nhận diện giọng nói vào các trò chơi, việc thực hành tiếng Anh giao tiếp trực tuyến đã dễ dàng, linh hoạt và thú vị hơn bao giờ hết.</i>
-
+                        Ứng dụng nền tảng internet và
+                        <b style={{ color: "blue" }}><i> công nghệ AI nhận diện giọng nói</i></b>
+                        , biến việc thực hành tiếng Anh nghe - nói trở nên
+                        <b style={{ color: "blue" }}><i>  dễ dàng, linh hoạt và thú vị</i></b>
+                        .</i>
                 </div>
 
 
@@ -62,7 +69,7 @@ export default function A1Pricing() {
             </div>
             <hr />
             <div style={{ width: "100%", textAlign: "center", color: "blue" }}>
-                <h1>KADI CAM KẾT</h1>
+                <h1><i>EricPh CAM KẾT</i></h1>
                 <hr />
             </div>
             <div className="row">

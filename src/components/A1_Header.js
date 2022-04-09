@@ -5,7 +5,7 @@ export default function Header() {
             <div className="row A0_topconent">
                 <div className="col-6">
                     <Link to="/trangchu">
-                        <b><i className="A0_01_topcontent">EngPracticing<span style={{ color: "blue" }}>Environment</span> </i></b>
+                        <b><i className="A0_01_topcontent">Eric<span style={{ color: "blue" }}>Ph</span> </i></b>
                     </Link>
 
                 </div>
