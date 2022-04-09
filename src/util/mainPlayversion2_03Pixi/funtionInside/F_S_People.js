@@ -14,7 +14,7 @@ export default function F_S_People(
                         <div
                             className="F_S_People_02"
                             onClick={() => setSTATUS(false)}
-                        > XXXXXXXX</div>
+                        > Exit</div>
                         <hr />
                         {
                             showDivMain(Data, Total)
@@ -25,7 +25,7 @@ export default function F_S_People(
                             onClick={() => {
                                 setSTATUS(false)
                             }}
-                        > XXXXXXXX</div>
+                        >Exit</div>
                     </div>
                     :
                     null

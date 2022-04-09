@@ -3,23 +3,53 @@ import Check_ImageOrNot from "../FN/Z_F_Check_ImageOrNot";
 import PickRandom from "../PickRandom";
 import PixiJSDiv from "./A4_pixiJs"
 import $ from "jquery"
+import ReadMessage from "../../../Read/ReadMessage";
+
 export default function showToPickPerson(
     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
     ArrOfPeopeAppear_ReactData, AddTo_Show_ArrOfPeopeAppear_ReactData,
     Total
 ) {
-    try {
 
+
+
+    try {
         return (
             <>
                 {StatusShowToPick ?
-                    <div style={{
-                        position: "fixed", top: "70px", width: "250px",
-                        left: "250px", bottom: "0px", backgroundColor: "white", overflowY: "auto", textAlign: "center", zIndex: 4,
-                        border: "5px solid blue", borderRadius: '5px'
-                    }}>
-                        <h5>Request list!</h5>
-                        {showRequestList(ArrOfPeopeAppear_ReactData)}
+                    <div
+                        className="M0_L_inside"
+                    >
+                        <div>
+                            <button
+                                className="btnMap btn btn-primary"
+                                style={{
+                                    display: "none",
+                                }}
+                                id="btnShow"
+                                onClick={() => {
+                                    $("#ID_PixijsDiv").show()
+                                    $("#btnHide").show()
+                                    $("#btnShow").hide()
+                                }}
+                            >
+                                Show map
+                            </button>
+                            <button
+                                className="btnMap btn btn-danger"
+                                id="btnHide"
+                                onClick={() => {
+
+                                    $("#ID_PixijsDiv").hide()
+                                    $("#btnHide").hide()
+                                    $("#btnShow").show()
+                                }}
+                            >
+                                Hide map
+                            </button>
+                        </div>
+                        {showRequestList(ArrOfPeopeAppear_ReactData, Total)}
+
                     </div>
                     :
                     null}
@@ -29,7 +59,7 @@ export default function showToPickPerson(
                         position: "fixed", top: "70px",
                         left: "500px", backgroundColor: "white",
                         overflow: "auto", textAlign: "center", zIndex: 4,
-                        border: "5px solid blue", borderRadius: '5px'
+                        borderRadius: '5px'
                     }}
                 >
                     <PixiJSDiv />
@@ -43,8 +73,7 @@ export default function showToPickPerson(
     }
 }
 
-function showRequestList(DataShowToPick) {
-    console.log(DataShowToPick[0])
+function showRequestList(DataShowToPick, Total) {
     try {
         return (
             <div>
@@ -53,8 +82,20 @@ function showRequestList(DataShowToPick) {
                         <div className="row">
                             <div className="col-6"> {ShowImage(e.total)}</div>
                             <div className="col-6 M0_L_inside_listdiv_div2">
-                                <div> <i>Do it</i></div>
-                                <div> <i>Guide!</i></div>
+                                <div
+
+                                    onClick={() => {
+                                        Total.fnObj.setMark_F_S_People(e.total.viewPick.moveLocation)
+                                        console.log(e.total.viewPick.moveLocation)
+                                    }}
+                                >
+                                    <i>Do it!</i>
+                                </div>
+                                <div
+                                    onClick={() => {
+                                        Total.fnObj.setData_Guild(e.total.viewPick.guild)
+                                    }}
+                                > <i>Guide!</i></div>
                             </div>
                         </div>
                         <div style={{ textAlign: "left" }}>
@@ -78,6 +119,7 @@ function showRequestList(DataShowToPick) {
 
 function ShowImage(data) {
     try {
+
         return <>
             <img src={data.viewPick.img} height="120px" />
         </>
@@ -96,3 +138,4 @@ function ShowImage(data) {
 
     }
 }
+

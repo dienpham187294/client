@@ -363,16 +363,38 @@ a:hover {
     z-index: 2;
 }
 
+.M0_L_inside {
+    position: fixed;
+    top: 70px;
+    left: 150px;
+    width: 300px;
+    bottom: 0px;
+    background-color: white;
+    text-align: center;
+    z-index: 4;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
 .M0_L_inside_listdiv {
     border: 1px solid black;
+    border-radius: 5px;
     margin-top: 5px;
+    margin-left: 25px;
+    width: 220px;
+
 }
 
 .M0_L_inside_listdiv_div2 div {
     cursor: pointer;
     border: 1px solid black;
-    margin-top: 5px;
+    border-radius: 5px;
+    margin: 5px;
     padding: 5px;
+
 }
 
 .M0_L_inside_listdiv_div2 :hover {
@@ -659,4 +681,36 @@ a:hover {
 
 .LuyenGhepAm01_Speak :hover {
     background-color: yellow;
+}
+
+.GuildRead {
+    position: fixed;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    z-index: 11;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.GuildRead div :hover {
+    background-color: yellow;
+}
+
+.GuildRead_I {
+    display: inline-block;
+    padding: 25px;
+    background-color: rgb(48, 65, 86);
+    cursor: pointer;
+    border-radius: 5px;
+    color: #e6e6e6;
+    font-size: 25px;
+    margin: 1%;
+}
+
+.btnMap {
+    position: fixed;
+    left: 400px;
+    bottom: 0px;
 }

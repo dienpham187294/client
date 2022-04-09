@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import $ from "jquery"
 import DataTool from "./S_Data_tool"
 import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../Read/ReadMessage"
@@ -27,6 +27,9 @@ import Handle_OBJFN from "./funtionInside/FN/DF_Handle_OBJFN"
 import Handle_OBJFN_01 from "./funtionInside/FN/DF_Handle_OBJFN_01"
 import G_S_ACTION from "./funtionInside/G_S_ACTION"
 import H_S_Data_ScoreList from "./funtionInside/H_S_Data_ScoreList"
+
+import GuildRead from "./funtionInside/GUILD/Guild_Read"
+
 let ArrPictch = [0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1]
 
 
@@ -51,6 +54,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     const [Data_F_S_People, setData_F_S_People] = useState([])
 
     const [Data_ScoreList, setData_ScoreList] = useState([])
+
+    const [Data_Guild, setData_Guild] = useState(null)
 
 
     const [eS_CountPercentWrong, seteS_CountPercentWrong] = useState("")
@@ -107,7 +112,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
             props.Total.fnObj.ADD_02 = ADD_02
             props.Total.fnObj.setSTATUS_E_S_MOVE = setSTATUS_E_S_MOVE
 
-
+            props.Total.fnObj.setData_Guild = setData_Guild
 
             props.Total.fnObj.seteS_CountPercentRight = seteS_CountPercentRight
             props.Total.fnObj.seteS_CountPercentWrong = seteS_CountPercentWrong
@@ -255,6 +260,9 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                     color: "white"
                                 }}
                                 onClick={() => {
+                                    $("#ID_PixijsDiv").hide()
+                                    $("#btnHide").hide()
+                                    $("#btnShow").show()
                                     setSTATUS_E_S_MOVE(!STATUS_E_S_MOVE)
                                 }}>
 
@@ -264,6 +272,11 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                             </button>
                             : null
                     }
+                    <button
+                        onClick={() => {
+                            SET_Avatar_Reactdata(null)
+                        }}
+                        className="btn btn-danger">Pass</button>
                 </div>
                 {Show_OnePeopeAppear_ReactData()}
                 {showHintPartWhenOpenTool(ShowHint, Info_Icon_Reactdata)}
@@ -274,6 +287,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 {STATUS_E_S_MOVE ? E_S_MOVE(props.Move, Mark_F_S_People, setSTATUS_F_S_People, setData_F_S_People) : null}
                 {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}
                 {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total) : null}
+                {Data_Guild !== null ? GuildRead(Data_Guild, setData_Guild) : null}
+
             </div>
             <ReadReactSpeech />
         </>
