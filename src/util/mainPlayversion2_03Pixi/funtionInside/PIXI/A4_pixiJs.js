@@ -19,7 +19,7 @@ function PixiJSDiv() {
             const app = new Application({
                 width: 800,
                 height: 600,
-                backgroundColor: "tranparent"   
+                backgroundColor: "tranparent"
             });
             let bg = PIXI.Sprite.from('https://i.postimg.cc/VkTnKBrp/MapGame.jpg')
             bg.width = 800;
@@ -38,15 +38,12 @@ function PixiJSDiv() {
                 } else {
                     Yuse = e.layerY - (e.layerY + sprite.y) % 3
                 }
+                console.log(Xuse + "," + Yuse)
                 $("#xyindex").text(Xuse + ":" + Yuse)
                 if (Date.now() - time > 100) {
                     iNext = "none";
-
-
                 }
-
                 arrLocation.push({ x: Xuse, y: Yuse });
-
                 try {
                     ticker.start();
                 } catch (error) {
@@ -135,25 +132,20 @@ function PixiJSDiv() {
                         sprite.x === GetFinal(arrLocation)["x"] &&
                         sprite.y === GetFinal(arrLocation)["y"]
                     ) {
-                        // if (iNext !== "none") {
+                        try {
+                            $("#inputTriggerPIXI").text(JSON.stringify([sprite.x, sprite.y]))
+                            $("#btnTriggerPIXI")[0].click()
+                        } catch (error) {
 
-                        //     let dataobjPixjSprite = JSON.parse($("#ID_objPixjSpriteUse").text())
-                        //     BtnAddData(dataobjPixjSprite[iNext[0]][iNext[1]])
-                        //     ArrSprite[iNext[0]][iNext[1]].visible = false
+                        }
+
+                        // if (iNext !== "none") {
+                        //     alert(1)
+                        //     // $("#inputTriggerPIXI").text()
+                        //     // let dataobjPixjSprite = JSON.parse($("#ID_objPixjSpriteUse").text())
+                        //     // BtnAddData(dataobjPixjSprite[iNext[0]][iNext[1]])
+                        //     // ArrSprite[iNext[0]][iNext[1]].visible = false
                         // }
-                        // setTimeout(() => {
-                        //     let dataobjPixjSprite = JSON.parse($("#ID_objPixjSpriteUse").text())
-                        //     Object.keys(dataobjPixjSprite).forEach(e => {
-                        //         ArrSprite[e].forEach(ee => {
-                        //             ee.visible = false
-                        //         })
-                        //         if (dataobjPixjSprite[e].length > 0) {
-                        //             dataobjPixjSprite[e].forEach((ee, ii) => {
-                        //                 ArrSprite[e][ii].visible = true
-                        //             })
-                        //         }
-                        //     })
-                        // }, 1000)
                         ticker.stop();
 
                     }
@@ -179,7 +171,7 @@ function PixiJSDiv() {
         <>
 
             <div style={{ border: "1px solid black", backgroundColor: "white" }} ref={ref} />
-            {/* <p id="xyindex"></p> */}
+
         </>
 
     )
@@ -189,6 +181,6 @@ export default PixiJSDiv
 
 
 function BtnAddData(n) {
-    $("#numberData").text(n);
-    $("#btnUpdateDataShowToPick")[0].click(n)
+    // $("#numberData").text(n);
+    // $("#btnUpdateDataShowToPick")[0].click(n)
 }

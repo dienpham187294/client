@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react"
 import Dictaphone from "../../helpers/RegcognitionV1-0-1AI0.5_01"
 import ArrOfPeopeAppear_ReactJSX from "./GamePlay"
+
 // import $ from "jquery"
 
 function GamePlay(props) {
@@ -35,6 +36,7 @@ function GamePlay(props) {
                         Data={Data_Commands} Total={props.Total} ThreshHold={props.ThreshHold}
                     />
                 </div>
+
                 <div className="col-md-9 sm-12">{
                     ArrOfPeopeAppear_ReactData !== null ?
                         <ArrOfPeopeAppear_ReactJSX
@@ -54,7 +56,7 @@ function GamePlay(props) {
                             SOCKET={props.SOCKET}
                         /> : ""}
                 </div>
-
+               
             </div>
         </>
     )

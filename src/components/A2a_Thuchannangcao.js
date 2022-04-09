@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
 import GamePlay from "../util/mainPlayversion2_03Pixi/S_GamePlay"
-
+import TriggerDataPIXI from "../util/mainPlayversion2_03Pixi/funtionInside/PIXI/A4_TriggerPixi_Index"
 const ShowInterim = true
 
 export default function Thuchanhnangcao(props) {
@@ -10,6 +10,7 @@ export default function Thuchanhnangcao(props) {
   const [Data_Game, SET_Data_Game] = useState([])
   const [DataToolR, SET_DataToolR] = useState([])
   const [Move, SET_Move] = useState(null)
+  const [MoveData, SET_MoveData] = useState(null)
   const [NameOflession, SET_NameOflession] = useState("")
   const Total = new MDG(
     SET_PageChange,
@@ -29,7 +30,7 @@ export default function Thuchanhnangcao(props) {
   }, [])
   useEffect(() => {
     try {
-      SET_Move(D0_DL[0].move)
+      SET_MoveData(D0_DL[0].move)
       SET_DataToolR(D0_DL[0].dataTool)
       SET_Data_Game(D0_DL[1].coerdataoflession)
       SET_PageChange(1);
@@ -53,6 +54,7 @@ export default function Thuchanhnangcao(props) {
           ThreshHold={props.ThreshHold}
         />
         : null}
+      {TriggerDataPIXI(MoveData, SET_Move)}
     </div>
   )
 }
