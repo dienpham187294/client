@@ -12,9 +12,9 @@ import ShowInfoHint from "./funtionInside/ShowInfoHint"
 import showSubmitSyxtax from "./funtionInside/showSubmitSyxtax"
 import showHintPartWhenOpenTool from "./funtionInside/showHintPartWhenOpenTool"
 import showOptionToRead from "./funtionInside/showOptionToRead"
-import showTopLeftPart1 from "./funtionInside/B_S_TopLeftPart1"
+import B_S_TopLeftPart1 from "./funtionInside/B_S_TopLeftPart1"
 import A_S_TopCenter1 from "./funtionInside/A_S_TopCenter1"
-import showToPickPerson from "./funtionInside/PIXI/M0_left_2_showToPickPerson"
+import M0_left_2_showToPickPerson from "./funtionInside/PIXI/M0_left_2_showToPickPerson"
 
 import showHintAlot from "./funtionInside/ShowInfoHint_01_Inaction"
 import E_S_MOVE from "./funtionInside/E_S_MOVE";
@@ -60,6 +60,9 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     const [eS_CountPercentWrong, seteS_CountPercentWrong] = useState("")
     const [eS_CountPercentRight, seteS_CountPercentRight] = useState("")
+
+
+
     useEffect(() => {
         props.SET_Data_Commands(Info_StrickAnwers_Reactdata)
     }, [Info_StrickAnwers_Reactdata])
@@ -116,6 +119,12 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
             props.Total.fnObj.seteS_CountPercentRight = seteS_CountPercentRight
             props.Total.fnObj.seteS_CountPercentWrong = seteS_CountPercentWrong
+
+            props.SetTotalREACT(props.Total)
+
+
+
+
         }, []
     );
 
@@ -146,8 +155,22 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     }, [Score])
 
+    useEffect(() => {
+        if (STATUS_E_S_MOVE) {
+            $("#E_S_MOVE").show()
+        } else {
+            $("#E_S_MOVE").hide()
+        }
 
+    }, [STATUS_E_S_MOVE])
+    useEffect(() => {
+        if (STATUS_F_S_People) {
+            $("#F_S_People").show()
+        } else {
+            $("#F_S_People").hide()
+        }
 
+    }, [STATUS_F_S_People])
 
     function ADD_02(index, Total, Data_F_S_People) {
 
@@ -210,7 +233,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                         props.NameOflession, Score, Sai, Boqua, D4_Time,
                                         eS_CountPercentRight, eS_CountPercentWrong
                                     )}
-                                    {showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, Info_Icon_Reactdata, SET_ShowHint, ShowHint)}
+                                    {B_S_TopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, Info_Icon_Reactdata, SET_ShowHint, ShowHint, SET_Avatar_Reactdata, SET_DataAction)}
                                 </div>
                                 <hr />
                                 <div className="row">
@@ -267,25 +290,28 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                 }}>
 
                                 {STATUS_E_S_MOVE ?
-                                    <span>Move out<i className="bi bi-backspace"></i></span>
-                                    : <span>Move to<i className="bi bi-arrow-up-right-square"></i></span>}
+                                    <span>Location<i className="bi bi-backspace"></i></span>
+                                    : <span>Location<i className="bi bi-arrow-up-right-square"></i></span>}
                             </button>
                             : null
                     }
-                    <button
-                        onClick={() => {
-                            SET_Avatar_Reactdata(null)
-                        }}
-                        className="btn btn-danger">Pass</button>
+
                 </div>
                 {Show_OnePeopeAppear_ReactData()}
                 {showHintPartWhenOpenTool(ShowHint, Info_Icon_Reactdata)}
-                {showToPickPerson(
+                {M0_left_2_showToPickPerson(
                     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
-                    props.ArrOfPeopeAppear_ReactData, ADD_01, props.Total
+                    props.ArrOfPeopeAppear_ReactData, ADD_01, setMark_F_S_People, setData_Guild
                 )}
-                {STATUS_E_S_MOVE ? E_S_MOVE(props.Move, Mark_F_S_People, setSTATUS_F_S_People, setData_F_S_People) : null}
-                {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}
+                <div id="E_S_MOVE">
+                    {E_S_MOVE(props.Move, Mark_F_S_People, setSTATUS_F_S_People, setData_F_S_People)}
+                </div>
+                {/* {STATUS_E_S_MOVE ? : null} */}
+
+                <div id="F_S_People">
+                    {F_S_People(Data_F_S_People, setSTATUS_F_S_People, props.TotalREACT)}
+                </div>
+
                 {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total) : null}
                 {Data_Guild !== null ? GuildRead(Data_Guild, setData_Guild) : null}
 

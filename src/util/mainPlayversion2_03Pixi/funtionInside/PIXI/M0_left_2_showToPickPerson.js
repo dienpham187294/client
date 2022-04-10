@@ -8,7 +8,7 @@ import ReadMessage from "../../../Read/ReadMessage";
 export default function showToPickPerson(
     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
     ArrOfPeopeAppear_ReactData, AddTo_Show_ArrOfPeopeAppear_ReactData,
-    Total
+    setMark_F_S_People, setData_Guild
 ) {
 
 
@@ -33,7 +33,7 @@ export default function showToPickPerson(
                                     $("#btnShow").hide()
                                 }}
                             >
-                                Show map
+                                Map
                             </button>
                             <button
                                 className="btnMap btn btn-danger"
@@ -45,10 +45,10 @@ export default function showToPickPerson(
                                     $("#btnShow").show()
                                 }}
                             >
-                                Hide map
+                                Map
                             </button>
                         </div>
-                        {showRequestList(ArrOfPeopeAppear_ReactData, Total)}
+                        {showRequestList(ArrOfPeopeAppear_ReactData, setMark_F_S_People, setData_Guild)}
 
                     </div>
                     :
@@ -73,7 +73,7 @@ export default function showToPickPerson(
     }
 }
 
-function showRequestList(DataShowToPick, Total) {
+function showRequestList(DataShowToPick, setMark_F_S_People, setData_Guild) {
     try {
         return (
             <div>
@@ -85,15 +85,18 @@ function showRequestList(DataShowToPick, Total) {
                                 <div
 
                                     onClick={() => {
-                                        Total.fnObj.setMark_F_S_People(e.total.viewPick.moveLocation)
-                                        console.log(e.total.viewPick.moveLocation)
+                                        try {
+                                            setMark_F_S_People(e.total.viewPick.moveLocation)
+                                        } catch (error) {
+                                            alert("Waiting...")
+                                        }
                                     }}
                                 >
                                     <i>Do it!</i>
                                 </div>
                                 <div
                                     onClick={() => {
-                                        Total.fnObj.setData_Guild(e.total.viewPick.guild)
+                                        setData_Guild(e.total.viewPick.guild)
                                     }}
                                 > <i>Guide!</i></div>
                             </div>

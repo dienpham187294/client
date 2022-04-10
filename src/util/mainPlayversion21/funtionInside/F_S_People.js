@@ -43,10 +43,15 @@ function showDivMain(
     return <>
         {Data.map((ee, ii) =>
             <div
-            className="F_S_People_01"
+                className="F_S_People_01"
                 onClick={() => {
-                    Total.fnObj.ADD_02(ii, Total, Data)
-                    Total.fnObj.setSTATUS_E_S_MOVE(false)
+                    try {
+                        Total.fnObj.ADD_02(ii, Total, Data)
+                        Total.fnObj.setSTATUS_E_S_MOVE(false)
+                    } catch (error) {
+                        alert('Waiting...')
+                    }
+
                 }}
                 key={ii}>
                 <img src={ee.total.viewPick.img} width="50px" />

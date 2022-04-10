@@ -10,8 +10,7 @@ function GamePlay(props) {
     const [ALLTable_ReactData] = useState([]);
     const [Info_message, SET_Info_message] = useState(null)
     const [Data_Commands, SET_Data_Commands] = useState(["hi how are you"])
-
-    useEffect(() => { console.log(Data_Commands) }, [Data_Commands])
+    const [TotalREACT, SET_TotalREACT] = useState(null)
 
 
 
@@ -32,7 +31,7 @@ function GamePlay(props) {
             <div className="row">
                 <div className="col-md-2 sm-12" style={{ maxHeight: "300px", overflow: "auto" }}>
                     <Dictaphone
-                        Data={Data_Commands} Total={props.Total} ThreshHold={props.ThreshHold}
+                        Data={Data_Commands} Total={TotalREACT} ThreshHold={props.ThreshHold}
                     />
                 </div>
                 <div className="col-md-9 sm-12">{
@@ -52,6 +51,8 @@ function GamePlay(props) {
                             DataToolR={props.DataToolR}
                             Data_Commands={Data_Commands}
                             SOCKET={props.SOCKET}
+                            SetTotalREACT={SET_TotalREACT}
+                            TotalREACT={TotalREACT}
                         /> : ""}
                 </div>
 
