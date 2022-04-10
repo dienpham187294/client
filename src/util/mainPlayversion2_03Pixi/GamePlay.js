@@ -290,8 +290,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                 }}>
 
                                 {STATUS_E_S_MOVE ?
-                                    <span>Location<i className="bi bi-backspace"></i></span>
-                                    : <span>Location<i className="bi bi-arrow-up-right-square"></i></span>}
+                                    <span>Location</span>
+                                    : <span>Location</span>}
                             </button>
                             : null
                     }
