@@ -3,7 +3,7 @@ import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
 import ReadReactSpeech from "../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../util/Read/ReadMessage"
-import Dictaphone from "../helpers/RegcognitionV1-0-1AI0.5 _03"
+import Dictaphone from "../helpers/RegcognitionV1-0-1AI0.5 _03_Luyenghe"
 import $ from "jquery"
 export default function LuyenGhepAm01() {
 
