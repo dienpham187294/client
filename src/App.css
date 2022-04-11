@@ -714,3 +714,19 @@ a:hover {
     left: 400px;
     bottom: 0px;
 }
+
+.divSoundOfEnglish {
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.soundOfEnglish {
+    color: white;
+}
+
+.soundOfEnglish {
+    color: red !important;
+    font-weight: 600;
+    font-size: 40px;
+}

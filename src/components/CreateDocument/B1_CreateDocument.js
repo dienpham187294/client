@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react"
 import $ from "jquery"
 import readXlsxFile from 'read-excel-file'
+import sound20 from "../../util/filedulieu/3000tuthongdung/sounds20"
 let Arruse = null
 function C1_Create() {
 
@@ -56,6 +57,13 @@ function C1_Create() {
             >
                 Tranfer_01
             </button>
+            <button
+                onClick={() => {
+                    Tranfer_ipa_red(Arruse)
+                }}
+            >
+                Tranfer To SOUND OF ENGLISH
+            </button>
             <hr />
             <div id="ResID" style={{ padding: "35px" }}></div>
         </div>
@@ -68,7 +76,7 @@ export default C1_Create
 
 
 function Tranfer_01(input) {
-    console.log(typeof (input))
+
     try {
         let getKeys = Object.keys(input[0])
         console.log(getKeys)
@@ -135,3 +143,37 @@ function Tranfer_01(input) {
         console.log(error)
     }
 }
+
+function Tranfer_ipa_red(input) {
+    try {
+        let ArrOuput = []
+        input.forEach(e => {
+            let i = e.ipa
+            sound20.forEach(ee => {
+                i = i.split(ee).join(`<111 class="122">` + ee + `</111>`)
+            })
+            i = i.split("111").join(`span`)
+            i = i.split("122").join(`soundOfEnglish`)
+
+            let j = `<i class="soundOfEnglish1">` + e.lyrics + `</i><br/>`
+            let str = `<div class="divSoundOfEnglish">` +
+                j +
+                i
+                + `</div>`
+
+            ArrOuput.push(str)
+
+        })
+        ArrOuput.forEach((e, i) => {
+            let divT = `<div id="divR"` + i + `">` + e + `</div>`
+            $("#ResID").append(divT)
+
+        })
+
+
+
+    } catch (error) {
+        console.log(error)
+    }
+}
+
