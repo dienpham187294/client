@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
 import T0_linkApi from "../util/toolAll/T0_linkApi";
-
+import setSrcVideo from "../util/filedulieu1/dataHelperFunction/setSrcVideo"
 export default function CMUSIC() {
 
     const [DList_Songs, setDList_Songs] = useState([])
@@ -50,6 +50,11 @@ function showDList_Songs(DList_Songs) {
                                     <Link to={"/nhacipalyrics-detail?id=" + e.id}>
                                         <i>{"Luyện tập"}</i>
                                     </Link>
+                                </td>
+                                <td onClick={() => {
+                                    setSrcVideo(e.srcVideo)
+                                }}>
+                                    <i>Video</i>
                                 </td>
                             </tr>
 
