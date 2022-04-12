@@ -78,21 +78,26 @@ function showRequestList(DataShowToPick, setMark_F_S_People, setData_Guild) {
         return (
             <div>
                 {DataShowToPick.map((e, i) =>
-                    <div className="M0_L_inside_listdiv" key={i}>
+                    <div className="M0_L_inside_listdiv" key={i} id={"M0_Guild" + i}>
                         <div className="row">
-                            <div className="col-6"> {ShowImage(e.total)}</div>
+                            <div className="col-6">
+
+
+                                {ShowImage(e.total)}
+                            </div>
                             <div className="col-6 M0_L_inside_listdiv_div2">
                                 <div
 
                                     onClick={() => {
                                         try {
                                             setMark_F_S_People(e.total.viewPick.moveLocation)
+                                            $("#M0_Guild" + i).hide()
                                         } catch (error) {
                                             alert("Waiting...")
                                         }
                                     }}
                                 >
-                                    <i>Do it!</i>
+                                    <i>({i + 1})Do it!</i>
                                 </div>
                                 <div
                                     onClick={() => {
