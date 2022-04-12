@@ -322,7 +322,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                     {F_S_People(Data_F_S_People, setSTATUS_F_S_People, props.TotalREACT)}
                 </div>
 
-                {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total) : null}
+                {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.TotalREACT) : null}
                 {Data_Guild !== null ? GuildRead(Data_Guild, setData_Guild) : null}
 
             </div>

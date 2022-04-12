@@ -6,6 +6,8 @@ export default function Handle_OBJFN(command, Total) {
             Total.fnObj.SET_Score(S => S + 1)
             Total.fnObj.SET_Avatar_Reactdata(null)
             Total.fnObj.setSTATUS_F_S_People(false)
+
+            console.log("DO IT")
         }
 
         if (command.action !== undefined) {

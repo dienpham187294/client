@@ -53,7 +53,7 @@ export default function A1Pricing() {
                     <div >
 
                         <h2>HOÀN THIỆN LIÊN TỤC</h2>
-                        <i class="abc bi bi-sort-up"></i>
+                        <i className="abc bi bi-sort-up"></i>
                         <p>
                             <b>Không ai có thể học một lần là làm được.</b>
                             <br />
@@ -76,7 +76,7 @@ export default function A1Pricing() {
                 <div className="col-6">
 
                     <h2>Cam kết kỹ năng đạt được</h2>
-                    {/* <i class="abc bi bi-sort-up"></i> */}
+                    {/* <i className="abc bi bi-sort-up"></i> */}
                     <p>
                         Sau khóa học, học viên có thể tự tin giao tiếp tốt trong thực tế.
                     </p>
@@ -85,7 +85,7 @@ export default function A1Pricing() {
                 <div className="col-6">
 
                     <h2>Cam kết đầu ra</h2>
-                    {/* <i class="abc bi bi-sort-up"></i> */}
+                    {/* <i className="abc bi bi-sort-up"></i> */}
                     <p>
                         Tặng 01 khóa học miễn phí tương đương trong trường hợp học viên đã theo đúng lộ trình nhưng chưa đạt được cam kết khóa học.
                         Cam kết tạo môi trường luyện nghe nói hàng ngày liên tục và sự hướng dẫn thường xuyên.
