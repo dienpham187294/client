@@ -10,9 +10,11 @@ export default function A2Words3000Practice(props) {
     const [InterRim, setInterRim] = useState("")
 
     function Xuly(interim) {
+
+        let input = interim.toLowerCase()
         try {
-            if (interim.includes(DataCmd)) {
-                let i = interim.split(DataCmd).join(`<i class="cmdInterrim">` + DataCmd + `</i>`)
+            if (input.includes(DataCmd)) {
+                let i = input.split(DataCmd).join(`<i class="cmdInterrim">` + DataCmd + `</i>`)
 
                 let str = `<div>` +
                     i
@@ -20,7 +22,7 @@ export default function A2Words3000Practice(props) {
 
                 $("#res").html(str)
             } else {
-                $("#res").text(interim)
+                $("#res").text(input)
             }
 
             // $("#res").html(arr)

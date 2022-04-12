@@ -155,9 +155,9 @@ function Tranfer_ipa_red(input) {
             i = i.split("111").join(`span`)
             i = i.split("122").join(`soundOfEnglish`)
 
-            let j = `<i class="soundOfEnglish1">` + e.lyrics + `</i><br/>`
+            // let j = `<i class="soundOfEnglish1">` + e.lyrics + `</i><br/>`
             let str = `<div class="divSoundOfEnglish">` +
-                j +
+                // j +
                 i
                 + `</div>`
 
