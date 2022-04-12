@@ -79,7 +79,17 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                     setData_ScoreList(oldArray => [data, ...oldArray]);
                 })
             } catch (error) {
-                console.log(error)
+                setTimeout(() => {
+                    try {
+                        props.SOCKET.on("emit_RES_Server_FirstTime", (data) => {
+                            setData_ScoreList(data.data);
+                        })
+
+                        props.SOCKET.on("emit_RES_Server", (data) => {
+                            setData_ScoreList(oldArray => [data, ...oldArray]);
+                        })
+                    } catch (error) { }
+                }, 3000);
             }
 
 

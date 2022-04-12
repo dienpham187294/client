@@ -28,7 +28,10 @@ export default function showToPickPerson(
                                 }}
                                 id="btnShow"
                                 onClick={() => {
-                                    $("#ID_PixijsDiv").show()
+                                    $("#ID_PixijsDiv").animate({
+                                        // opacity: 1,
+                                        height: "toggle"
+                                    }, 1000);
                                     $("#btnHide").show()
                                     $("#btnShow").hide()
                                 }}
@@ -39,8 +42,10 @@ export default function showToPickPerson(
                                 className="btnMap btn btn-danger"
                                 id="btnHide"
                                 onClick={() => {
-
-                                    $("#ID_PixijsDiv").hide()
+                                    $("#ID_PixijsDiv").animate({
+                                        // opacity: 0.35,
+                                        height: "toggle"
+                                    }, 1000);
                                     $("#btnHide").hide()
                                     $("#btnShow").show()
                                 }}
@@ -91,7 +96,11 @@ function showRequestList(DataShowToPick, setMark_F_S_People, setData_Guild) {
                                     onClick={() => {
                                         try {
                                             setMark_F_S_People(e.total.viewPick.moveLocation)
-                                            $("#M0_Guild" + i).hide()
+                                            $("#M0_Guild" + i).animate({
+                                                opacity: 0.35,
+                                                left: "-=250",
+                                                height: "toggle"
+                                            }, 2000);
                                         } catch (error) {
                                             alert("Waiting...")
                                         }
