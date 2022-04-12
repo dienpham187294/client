@@ -70,13 +70,18 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     useEffect(
         () => {
             inter()
-            props.SOCKET.on("emit_RES_Server_FirstTime", (data) => {
-                setData_ScoreList(data.data);
-            })
+            try {
+                props.SOCKET.on("emit_RES_Server_FirstTime", (data) => {
+                    setData_ScoreList(data.data);
+                })
 
-            props.SOCKET.on("emit_RES_Server", (data) => {
-                setData_ScoreList(oldArray => [data, ...oldArray]);
-            })
+                props.SOCKET.on("emit_RES_Server", (data) => {
+                    setData_ScoreList(oldArray => [data, ...oldArray]);
+                })
+            } catch (error) {
+                console.log(error)
+            }
+
 
             props.Total.stObj.indexOfPeople = 0
             props.Total.stObj.StateOfListen = "none"
@@ -130,27 +135,32 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
 
     useEffect(() => {
-        if (Score === 0) {
-            props.SOCKET.emit("emit_RES_Client_FirstTime", { id: props.SOCKET.id })
-        }
-        if (Score === 1) {
-            props.Total.stObj.timeCount = Date.now()
+        try {
+            if (Score === 0) {
+                props.SOCKET.emit("emit_RES_Client_FirstTime", { id: props.SOCKET.id })
+            }
+            if (Score === 1) {
+                props.Total.stObj.timeCount = Date.now()
 
-        }
-        if (Score > 1) {
-            setD4_Time(secondToMinutes((Date.now() - props.Total.stObj.timeCount) / 1000))
-        }
-        if (Score > 0) {
+            }
+            if (Score > 1) {
+                setD4_Time(secondToMinutes((Date.now() - props.Total.stObj.timeCount) / 1000))
+            }
+            if (Score > 0) {
 
-            let currentdate = new Date();
-            let datetime = "Last Sync: " + currentdate.getDate() + "/"
-                + (currentdate.getMonth() + 1) + "/"
-                + currentdate.getFullYear() + " @ "
-                + currentdate.getHours() + ":"
-                + currentdate.getMinutes() + ":"
-                + currentdate.getSeconds();
-            props.SOCKET.emit("emit_RES_Client", { name: props.NameOflession, score: Score, time: D4_Time, last: datetime })
+                let currentdate = new Date();
+                let datetime = "Last Sync: " + currentdate.getDate() + "/"
+                    + (currentdate.getMonth() + 1) + "/"
+                    + currentdate.getFullYear() + " @ "
+                    + currentdate.getHours() + ":"
+                    + currentdate.getMinutes() + ":"
+                    + currentdate.getSeconds();
+                props.SOCKET.emit("emit_RES_Client", { name: props.NameOflession, score: Score, time: D4_Time, last: datetime })
+            }
+        } catch (error) {
+            console.log(error)
         }
+
 
 
     }, [Score])
