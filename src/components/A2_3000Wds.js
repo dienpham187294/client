@@ -99,14 +99,14 @@ export default function A2Words3000() {
             <button
                 className="btn btn-primary m-1"
                 onClick={() => {
-                    SET_ArrPractice(shuffleArr(Words))
+                    SET_ArrPractice(Words)
                 }}
             >
                 Practice!
             </button>
             <hr />
             <div>
-                {showWords(Words)}
+                {showWords(Words, SET_ArrPractice)}
             </div>
             {ArrPractice !== null ?
                 <div>
@@ -118,7 +118,7 @@ export default function A2Words3000() {
     )
 }
 
-function showWords(Words) {
+function showWords(Words, SET_ArrPractice) {
     try {
         return (
             <table className="table table-striped">
@@ -129,6 +129,7 @@ function showWords(Words) {
                         <th>Words</th>
                         <th>Parts Of Speech</th>
                         <th>Meaning</th>
+                        <th>PRACTICE</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -150,7 +151,12 @@ function showWords(Words) {
                                 <td >
                                     <i><b>{e.mean}</b></i>
                                 </td>
-
+                                <td
+                                    style={{ cursor: "pointer" }}
+                                    onClick={() => SET_ArrPractice([e])}
+                                >
+                                    <u> <i><b>PRACTICE</b></i></u>
+                                </td>
                             </tr>
 
                         )
