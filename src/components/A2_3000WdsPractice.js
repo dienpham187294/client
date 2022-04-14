@@ -25,8 +25,6 @@ export default function A2Words3000Practice(props) {
                 $("#res").text(input)
             }
 
-            // $("#res").html(arr)
-
         } catch (error) {
             console.log(error)
         }
