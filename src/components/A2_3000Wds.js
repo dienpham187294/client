@@ -6,6 +6,7 @@ import engletters from "../util/filedulieu/3000tuthongdung/engletters"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr"
 import A2Words3000Practice from "./A2_3000WdsPractice"
 
+
 const ArrCount = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 export default function A2Words3000() {
@@ -20,32 +21,45 @@ export default function A2Words3000() {
 
 
 
+
     return (
         <>
             <div >
                 <hr />
                 <div>
                     <b>    <i>Choose the lowest number of characters!</i></b>
+                    <br />
+                    <i>Chọn số lượng ký tự thấp nhất!</i>
                     {showArrIndex(ArrCount, ThapNhat, SET_ThapNhat)}
                 </div>
                 <div>
                     <b>     <i>Choose the highest number of characters!</i></b>
+                    <br />
+                    <i>Chọn số lượng ký tự cao nhất!</i>
                     {showArrIndex(ArrCount, CaoNhat, SET_CaoNhat)}
                 </div>
                 <div>
                     <b>    <i>Choose IPA! </i></b>
+                    <br />
+                    <i>Chọn âm IPA xuất hiện!</i>
                     {showSounds(sounds44, ArrSounds, SET_ArrSounds)}
                 </div>
                 <div>
                     <b>  <i>Remove IPA!</i></b>
+                    <br />
+                    <i>Chọn âm IPA loại bỏ!</i>
                     {showSounds(sounds44, ArrSoundsDeny, SET_ArrSoundsDeny)}
                 </div>
                 <div>
                     <b>    <i>Choose Parts Of Speech! </i></b>
+                    <br />
+                    <i>Chọn từ loại!</i>
                     {showSounds(partofspeech, ArrPartOfspeech, SET_ArrPartOfspeech)}
                 </div>
                 <div>
                     <b>    <i>Choose Words! </i></b>
+                    <br />
+                    <i>Chọn kí tự xuất hiện!</i>
                     {showSounds(engletters, Arrengletters, SET_Arrengletters)}
                 </div>
             </div>
@@ -199,18 +213,35 @@ function showSounds(arrSound, getA, setA) {
             <div>
                 {arrSound.map((e, i) =>
                     <div
-                        onClick={() => { setA(getA.concat(e)) }}
-                        style={{ backgroundColor: getA.includes(e) ? "yellow" : "transparent" }}
+                        onClick={() => {
+                            try {
+                                if (!getA.includes(e)) {
+                                    setA(getA.concat(e))
+                                } else {
+                                    let ArrI = []
+                                    getA.forEach(ee => {
+                                        if (ee !== e) {
+                                            ArrI.push(ee)
+                                        }
+                                    })
+                                    setA(ArrI)
+                                }
+                            } catch (error) {
+
+                            }
+                        }}
+                        style={{ backgroundColor: getA.includes(e) ? "yellow" : "white" }}
                         className="A2Words3000ArrIndex"
                         key={i}>
                         {e}
                     </div>
-                )}
-                <button
+                )
+                }
+                {/* <button
                     className="btn btn-primary"
                     onClick={() => setA([])}
-                >Clear!</button>
-            </div>
+                >Clear!</button> */}
+            </div >
         )
 
     } catch (error) {
