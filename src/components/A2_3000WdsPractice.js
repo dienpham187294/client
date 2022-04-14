@@ -51,6 +51,14 @@ export default function A2Words3000Practice(props) {
             >
                 Read
             </button>
+            <button
+                className="btn btn-primary"
+                onClick={() => {
+                    $("#res").text("")
+                }}
+            >
+                X
+            </button>
             <div>
                 {showWords([practice])}
             </div>
