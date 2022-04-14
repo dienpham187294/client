@@ -113,7 +113,9 @@ export default function A2Words3000() {
             <button
                 className="btn btn-primary m-1"
                 onClick={() => {
-                    SET_ArrPractice(Words)
+                    if (Words.length !== 0) {
+                        SET_ArrPractice(Words)
+                    } else { alert("Không có từ nào được chọn!") }
                 }}
             >
                 Practice!
