@@ -155,7 +155,7 @@ function showWords(Words, SET_ArrPractice) {
                                     style={{ cursor: "pointer" }}
                                     onClick={() => SET_ArrPractice([e])}
                                 >
-                                    <u> <i><b>PRACTICE</b></i></u>
+                                    <u> <i><b>PRACTICE/.{i}</b></i></u>
                                 </td>
                             </tr>
 
