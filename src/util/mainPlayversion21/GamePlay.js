@@ -244,6 +244,11 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 <span id="percentID_SAI">{eS_CountPercentWrong}</span>
                 <span id="percentID_DUNG">{eS_CountPercentRight}</span>
             </div>
+            <div>
+                <i>Hành động trước, sửa chữa sau.</i>
+                <br />
+                <i>Làm đúng trước, sáng tạo sau.</i>
+            </div>
             <div className="H_S_Data_ScoreList">
                 {H_S_Data_ScoreList(Data_ScoreList)}
             </div>
