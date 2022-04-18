@@ -48,6 +48,7 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
                   <Link to={"/" + Linkto + "?id=" + e.fileName}>
                     <i>{"Luyện tập"}</i>
                   </Link>
+                  <i><b>({i + 1})</b></i>
                 </td>
                 <td>
                   <Link to={"/thuchanhcoban02?id=" + e.fileName}>

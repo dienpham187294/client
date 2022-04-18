@@ -7,11 +7,12 @@ export default function LuyenGhepAm() {
     const [DATA_GHEPAM, setDATA_GHEPAM] = useState([])
 
     useEffect(() => {
-     
+
         fetch(T0_linkApi + "menuIPA")
             .then((res) => res.json())
             .then((json) => {
                 setDATA_GHEPAM(json.data)
+
             })
     }, [])
 
@@ -46,6 +47,7 @@ function showDATA_GHEPAM(DATA_GHEPAM) {
                                     <Link to={"/luyen-ghep-am-01?id=" + e.id}>
                                         <i>{"Luyện tập"}</i>
                                     </Link>
+                                    <i><b>({i + 1})</b></i>
                                 </td>
                             </tr>
 

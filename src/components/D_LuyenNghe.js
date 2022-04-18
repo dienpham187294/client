@@ -46,6 +46,7 @@ function showDATA_GHEPAM(DATA_GHEPAM) {
                                     <Link to={"/luyen-nghe-01?id=" + e.id}>
                                         <i>{"Luyện tập"}</i>
                                     </Link>
+                                    <i><b>({i + 1})</b></i>
                                 </td>
                             </tr>
 
