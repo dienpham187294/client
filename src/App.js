@@ -10,7 +10,7 @@ import Trangchu from './components/A2_Trangchu';
 import A1sidebar from "./components/A1_Sidebar"
 import Video from './components/A2_Video';
 import A1Pricing from './components/A1_Pricing';
-import T0_linkApi from './util/toolAll/T0_linkApi';
+import T0_linkApi from './util/toolAll/T0_linkApi_HEROKU';
 import Thuchanh_menu from './components/A2a_Thuchanh_menu';
 import Thuchanh_01 from './components/A2a_Thuchanh_01';
 import Thuchanh_02 from './components/A2a_Thuchanh_02';
