@@ -18,15 +18,15 @@ export default function showHintAlot(input) {
                                             />
                                         </>
                                         : <>
-                                            <b><i
-                                            >{e}</i></b>
+                                            <i>{e}</i>
+                                            <br />
                                         </>}
                                 </>
                             }
                         </div>
                     )
                 }
-            </div>
+            </div >
         )
 
 
@@ -46,8 +46,8 @@ export default function showHintAlot(input) {
                                         />
                                     </>
                                     : <>
-                                        <b><i
-                                        >{input}</i></b>
+                                        <i>{input}</i>
+                                        <br />
                                     </>}
                             </>
                     }
