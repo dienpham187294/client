@@ -4,6 +4,159 @@ import $ from "jquery"
 import readXlsxFile from 'read-excel-file'
 import sound20 from "../../util/filedulieu/3000tuthongdung/sounds20"
 let Arruse = null
+const arrIndentity = [
+    {
+        "name": "Richard",
+        "gender": "male",
+        "img": "https://i.postimg.cc/d0pCY5Wv/man1.png"
+    },
+    {
+        "name": "Barbara",
+        "gender": "female",
+        "img": "https://i.postimg.cc/MGvBNCmd/women1.jpg"
+    },
+    {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/SRWCVcf4/man2.png"
+    },
+    {
+        "name": "Betty",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wMKDhwJF/women2.png"
+    },
+    {
+        "name": "Steven",
+        "gender": "male",
+        "img": "https://i.postimg.cc/hjmdPVwm/man3.jpg"
+    },
+    {
+        "name": "Kimberly",
+        "gender": "female",
+        "img": "https://i.postimg.cc/tCNFxtgt/women3.jpg"
+    },
+    {
+        "name": "Robert",
+        "gender": "male",
+        "img": "https://i.postimg.cc/J7JN1WVF/man4.png"
+    },
+    {
+        "name": "Lisa",
+        "gender": "female",
+        "img": "https://i.postimg.cc/02spjH9y/women4.jpg"
+    },
+    {
+        "name": "William",
+        "gender": "male",
+        "img": "https://i.postimg.cc/mgdMdLCP/man5.png"
+    },
+    {
+        "name": "Dorothy",
+        "gender": "female",
+        "img": "https://i.postimg.cc/Jz7ZcDDw/women5.jpg"
+    },
+    {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/d0pCY5Wv/man1.png"
+    },
+    {
+        "name": "Susan",
+        "gender": "female",
+        "img": "https://i.postimg.cc/MGvBNCmd/women1.jpg"
+    },
+    {
+        "name": "Anthony",
+        "gender": "male",
+        "img": "https://i.postimg.cc/SRWCVcf4/man2.png"
+    },
+    {
+        "name": "Donna",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wMKDhwJF/women2.png"
+    },
+    {
+        "name": "Charles",
+        "gender": "male",
+        "img": "https://i.postimg.cc/hjmdPVwm/man3.jpg"
+    },
+    {
+        "name": "Mary",
+        "gender": "female",
+        "img": "https://i.postimg.cc/tCNFxtgt/women3.jpg"
+    },
+    {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/J7JN1WVF/man4.png"
+    },
+    {
+        "name": "Michelle",
+        "gender": "female",
+        "img": "https://i.postimg.cc/02spjH9y/women4.jpg"
+    },
+    {
+        "name": "Kenneth",
+        "gender": "male",
+        "img": "https://i.postimg.cc/mgdMdLCP/man5.png"
+    },
+    {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/Jz7ZcDDw/women5.jpg"
+    },
+    {
+        "name": "Mark",
+        "gender": "male",
+        "img": "https://i.postimg.cc/d0pCY5Wv/man1.png"
+    },
+    {
+        "name": "Linda",
+        "gender": "female",
+        "img": "https://i.postimg.cc/MGvBNCmd/women1.jpg"
+    },
+    {
+        "name": "Thomas",
+        "gender": "male",
+        "img": "https://i.postimg.cc/SRWCVcf4/man2.png"
+    },
+    {
+        "name": "Patricia",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wMKDhwJF/women2.png"
+    },
+    {
+        "name": "Matthew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/hjmdPVwm/man3.jpg"
+    },
+    {
+        "name": "Margaret",
+        "gender": "female",
+        "img": "https://i.postimg.cc/tCNFxtgt/women3.jpg"
+    },
+    {
+        "name": "Daniel",
+        "gender": "male",
+        "img": "https://i.postimg.cc/J7JN1WVF/man4.png"
+    },
+    {
+        "name": "Karen",
+        "gender": "female",
+        "img": "https://i.postimg.cc/02spjH9y/women4.jpg"
+    },
+    {
+        "name": "Donald",
+        "gender": "male",
+        "img": "https://i.postimg.cc/mgdMdLCP/man5.png"
+    },
+    {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/Jz7ZcDDw/women5.jpg"
+    }
+]
+
 function C1_Create() {
 
     useEffect(() => {
@@ -25,6 +178,9 @@ function C1_Create() {
                             arr.push(obj)
                         }
 
+                    })
+                    arr.forEach(e => {
+                        delete e["null"]
                     })
                     $("#ResID").text(JSON.stringify(arr))
                     Arruse = arr
@@ -79,8 +235,12 @@ function Tranfer_01(input) {
 
     try {
         let getKeys = Object.keys(input[0])
-        console.log(getKeys)
-        input.forEach(e => {
+
+        input.forEach((e, ei) => {
+            delete e["null"]
+            e.name = arrIndentity[ei % (30)]["name"]
+            e.gender = arrIndentity[ei % (30)]["gender"]
+            e.img = arrIndentity[ei % (30)]["img"]
             e.submit = []
             e.question = []
             e.answer = []
