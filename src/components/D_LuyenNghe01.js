@@ -65,6 +65,9 @@ export default function LuyenGhepAm01() {
                     }}
                     className="btn btn-primary" type="button"><i className="bi bi-arrow-right-square-fill">Start</i></button>
                 <br />
+                Số điểm cần hoàn thành:  {DATA_NGHE.length * 2}
+                <br />
+
                 <b>Đúng: {Dung}</b><i>Sai: {Sai}</i>
             </div>
             {
