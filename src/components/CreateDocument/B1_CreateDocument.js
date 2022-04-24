@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import $ from "jquery"
 import readXlsxFile from 'read-excel-file'
 import sound20 from "../../util/filedulieu/3000tuthongdung/sounds20"
+import T0_linkApi from "../../util/toolAll/T0_linkApi"
 let Arruse = null
 const arrIndentity = [
     {
@@ -159,6 +160,8 @@ const arrIndentity = [
 
 function C1_Create() {
 
+    const [Name, SetName] = useState("EnterName!")
+
     useEffect(() => {
         try {
             const input = document.getElementById('input')
@@ -219,6 +222,22 @@ function C1_Create() {
                 }}
             >
                 Tranfer To SOUND OF ENGLISH
+            </button>
+            {Name}
+            <input onChange={(e) => { SetName(e.currentTarget.value) }} type={"text"} />
+            <button
+                onClick={() => {
+                    InsertListenData(Name)
+                }}
+            >
+                InsertListenData
+            </button>
+            <button
+                onClick={() => {
+                    InsertSpeakData(Name)
+                }}
+            >
+                InsertSpeakData
             </button>
             <hr />
             <div id="ResID" style={{ padding: "35px" }}></div>
@@ -337,3 +356,105 @@ function Tranfer_ipa_red(input) {
     }
 }
 
+function InsertListenData(Name) {
+
+    try {
+        let Input = JSON.parse($("#ResID").text())
+
+        let arrObjectInput = Object.keys(Input[0])
+
+        if (arrObjectInput.length !== 2) {
+            alert("Fail")
+            return null
+        }
+        if (!arrObjectInput.includes("Read")) {
+            alert("Fail")
+            return null
+        }
+        if (!arrObjectInput.includes("Answer")) {
+            alert("Fail")
+            return null
+        }
+
+        let requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name: Name, body: $("#ResID").text() })
+        };
+        fetch(T0_linkApi + "InsertListenData", requestOptions)
+            .then((res) => res.json())
+            .then((json) => {
+                alert(1)
+            })
+    } catch (error) {
+        alert("Fail")
+    }
+
+}
+function InsertSpeakData() {
+
+    try {
+        let Input = JSON.parse($("#ResID").text())
+
+        let arrObjectInput = Object.keys(Input[0])
+
+        if (arrObjectInput.length !== 2) {
+            alert("Fail")
+            return null
+        }
+        if (!arrObjectInput.includes("Words")) {
+            alert("Fail")
+            return null
+        }
+        if (!arrObjectInput.includes("IPA")) {
+            alert("Fail")
+            return null
+        }
+        let requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ body: $("#ResID").text() })
+        };
+        fetch(T0_linkApi + "InsertSpeakData", requestOptions)
+            .then((res) => res.json())
+            .then((json) => {
+                alert(2)
+            })
+    } catch (error) {
+        alert("Fail")
+    }
+}
+
+function InsertPracticeData() {
+
+    try {
+        let Input = JSON.parse($("#ResID").text())
+
+        let arrObjectInput = Object.keys(Input[0])
+
+        if (arrObjectInput.length < 3) {
+            alert("Fail")
+            return null
+        }
+        if (!arrObjectInput.includes("description")) {
+            alert("Fail")
+            return null
+        }
+        if (!arrObjectInput.includes("password")) {
+            alert("Fail")
+            return null
+        }
+        let requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ body: $("#ResID").text() })
+        };
+        fetch(T0_linkApi + "InsertSpeakData", requestOptions)
+            .then((res) => res.json())
+            .then((json) => {
+                alert(2)
+            })
+    } catch (error) {
+        alert("Fail")
+    }
+}
