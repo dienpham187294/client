@@ -15,7 +15,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-bicycle"></i>
-                            <span> Khóa huấn luyện <br /> Logic ghép âm</span>
+                            <span> Khóa tập luyện <br />Làm chủ nghe - nói trong 90 ngày</span>
                         </button>
                     </Link>
                 </div>
@@ -24,7 +24,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-symmetry-horizontal"></i>
-                            <span> Khóa huấn luyện <br />1500 câu -  30.000 từ vựng</span>
+                            <span> Khóa tập luyện <br />Nâng cao</span>
                         </button>
                     </Link>
                 </div>
@@ -88,7 +88,7 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div>
-                <div>
+                {/* <div>
                     <Link to={'/3000-basic-words'}>
                         <i></i>
                         <button
@@ -97,7 +97,7 @@ export default function A1_sidebar(props) {
                             <span>Luyện tập<br /> <i>Hơn 3000 từ vựng cơ bản nhất</i></span>
                         </button>
                     </Link>
-                </div>
+                </div> */}
                 <div>
                     <Link to={'/thudonhay'}>
                         <i></i>

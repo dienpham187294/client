@@ -40,7 +40,7 @@ import DLUYENGHE from "./components/D_LuyenNghe"
 import DLUYENGHE1 from "./components/D_LuyenNghe01"
 import BaiHocPhienAm from "./components/A2_BaiHocPhienAm"
 import VideoAll from "./components/A2_Video_All"
-import Words3000 from "./components/A2_3000Wds"
+// import Words3000 from "./components/A2_3000Wds"
 
 
 const socket = io(T0_linkApi);
@@ -68,7 +68,7 @@ function App() {
             <Route path='/video' element={<Video />} />
             <Route path='/pricing' element={<A1Pricing />} />
             <Route path='/ipa-study' element={<BaiHocPhienAm />} />
-            <Route path='/3000-basic-words' element={<Words3000 />} />
+            {/* <Route path='/3000-basic-words' element={<Words3000 />} /> */}
 
 
 
