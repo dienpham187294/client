@@ -33,8 +33,8 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
           <tr>
             <th>Bài thực hành</th>
             <th>Luyện tập</th>
-            <th>Học tập</th>
-            <th>Video</th>
+            {/* <th>Học tập</th>
+            <th>Video</th> */}
           </tr>
         </thead>
         <tbody>
@@ -50,7 +50,7 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
                   </Link>
                   <i><b>({i + 1})</b></i>
                 </td>
-                <td>
+                {/* <td>
                   <Link to={"/thuchanhcoban02?id=" + e.fileName}>
                     <i>{"Học tập"}</i>
                   </Link>
@@ -59,7 +59,7 @@ function showD0_ListMenu(D0_ListMenu, Linkto) {
                   <Link to={"/video?id=" + e.id}>
                     <i className="iconX15 bi bi-play-btn"></i>
                   </Link>
-                </td>
+                </td> */}
               </tr>
 
             )

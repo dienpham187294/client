@@ -234,10 +234,17 @@ function C1_Create() {
             </button>
             <button
                 onClick={() => {
-                    InsertSpeakData(Name)
+                    InsertSpeakData()
                 }}
             >
                 InsertSpeakData
+            </button>
+            <button
+                onClick={() => {
+                    InsertPracticeData(Name)
+                }}
+            >
+                InsertPracticeData
             </button>
             <hr />
             <div id="ResID" style={{ padding: "35px" }}></div>
@@ -384,7 +391,7 @@ function InsertListenData(Name) {
         fetch(T0_linkApi + "InsertListenData", requestOptions)
             .then((res) => res.json())
             .then((json) => {
-                alert(1)
+                alert("InsertListenData")
             })
     } catch (error) {
         alert("Fail")
@@ -418,43 +425,43 @@ function InsertSpeakData() {
         fetch(T0_linkApi + "InsertSpeakData", requestOptions)
             .then((res) => res.json())
             .then((json) => {
-                alert(2)
+                alert("InsertSpeakData")
             })
     } catch (error) {
         alert("Fail")
     }
 }
 
-function InsertPracticeData() {
+function InsertPracticeData(Name) {
 
     try {
         let Input = JSON.parse($("#ResID").text())
 
-        let arrObjectInput = Object.keys(Input[0])
+        let arrObjectInput = Object.keys(Input.data[0])
 
         if (arrObjectInput.length < 3) {
-            alert("Fail")
+            alert("Fail len")
             return null
         }
         if (!arrObjectInput.includes("description")) {
-            alert("Fail")
+            alert("Fail description")
             return null
         }
         if (!arrObjectInput.includes("password")) {
-            alert("Fail")
+            alert("Fail password" )
             return null
         }
         let requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ body: $("#ResID").text() })
+            body: JSON.stringify({ name: Name, body: $("#ResID").text() })
         };
-        fetch(T0_linkApi + "InsertSpeakData", requestOptions)
+        fetch(T0_linkApi + "InsertPracticeData", requestOptions)
             .then((res) => res.json())
             .then((json) => {
-                alert(2)
+                alert("InsertPracticeData")
             })
     } catch (error) {
-        alert("Fail")
+        alert("Fail all")
     }
 }
