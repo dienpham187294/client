@@ -12,7 +12,7 @@ import Video from './components/A2_Video';
 import A1Pricing from './components/A1_Pricing';
 import T0_linkApi from './util/toolAll/T0_linkApi_HEROKU';
 import Thuchanh_menu from './components/A2a_Thuchanh_menu';
-
+import Thuchanh_menuA from './components/A2a_Thuchanh_menu_a';
 import Thuchanh_01 from './components/A2a_Thuchanh_01';
 
 import Thuchanh_02 from './components/A2a_Thuchanh_02';
@@ -78,7 +78,7 @@ function App() {
             <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
             <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
 
-            <Route path='/Pronunciation' element={<Thuchanh_menu ApiReq={"menuPronunciation"} Linkto={"Pronunciation01"} />} />
+            <Route path='/Pronunciation' element={<Thuchanh_menuA ApiReq={"menuPronunciation"} Linkto={"Pronunciation01"} />} />
             <Route path='/Pronunciation01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.4} />} />
 
 
