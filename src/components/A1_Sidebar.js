@@ -20,6 +20,15 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
+                    <Link to={'/Pronunciation'}>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-bicycle"></i>
+                            <span> Khóa tập luyện <br />Làm chủ ghép âm</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
                     <Link to={'/thuchanhnangcao'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -68,7 +77,7 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
 
-                <div>
+                {/* <div>
                     <Link to={'/nguphap'}>
                         <i></i>
                         <button
@@ -77,7 +86,7 @@ export default function A1_sidebar(props) {
                             <span>  Bài học lý thuyết (Ngữ pháp)</span>
                         </button>
                     </Link>
-                </div>
+                </div> */}
                 <div>
                     <Link to={'/ipa-study'}>
                         <i></i>
@@ -118,7 +127,7 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div>
-                <div>
+                {/* <div>
                     <Link to={'/pricing'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -126,8 +135,8 @@ export default function A1_sidebar(props) {
                             <span>  Các khóa thực hành</span>
                         </button>
                     </Link>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <Link to={'/hoso'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -142,7 +151,7 @@ export default function A1_sidebar(props) {
                         <i className="bi bi-box-arrow-in-left"></i>
                         <span>  Đăng xuất</span>
                     </button>
-                </div>
+                </div> */}
             </div>
         </div >
     )

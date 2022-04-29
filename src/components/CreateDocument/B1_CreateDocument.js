@@ -246,6 +246,14 @@ function C1_Create() {
             >
                 InsertPracticeData
             </button>
+            <button
+                onClick={() => {
+                    InsertMainPronunciationCreate(Name)
+                }}
+            >
+                InsertMainPronunciationCreate
+            </button>
+
             <hr />
             <div id="ResID" style={{ padding: "35px" }}></div>
         </div>
@@ -448,7 +456,7 @@ function InsertPracticeData(Name) {
             return null
         }
         if (!arrObjectInput.includes("password")) {
-            alert("Fail password" )
+            alert("Fail password")
             return null
         }
         let requestOptions = {
@@ -463,5 +471,43 @@ function InsertPracticeData(Name) {
             })
     } catch (error) {
         alert("Fail all")
+    }
+}
+
+function InsertMainPronunciationCreate(Name) {
+    try {
+        let Input = JSON.parse($("#ResID").text())
+
+        let arrObjectInput = Object.keys(Input.data[0])
+
+        if (arrObjectInput.length < 3) {
+            alert("Fail len")
+            return null
+        }
+        if (!arrObjectInput.includes("word")) {
+            alert("Fail word")
+            return null
+        }
+        if (!arrObjectInput.includes("ipa")) {
+            alert("Fail ipa")
+            return null
+        }
+        // if (!arrObjectInput.includes("password")) {
+        //     alert("Fail password" )
+        //     return null
+        // }
+        let requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name: Name, body: $("#ResID").text() })
+        };
+        fetch(T0_linkApi + "InsertMainPronunciationCreate", requestOptions)
+            .then((res) => res.json())
+            .then((json) => {
+                alert("InsertMainPronunciationCreate")
+            })
+    } catch (error) {
+        alert("Fail all")
+        console.log(error)
     }
 }
