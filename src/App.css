@@ -552,10 +552,10 @@ a:hover {
 .A1Pricing_div1 {
     border: 1px solid black;
     border-radius: 5px;
-    text-align: center;
-    padding: 50px;
-    font-size: 2em;
-    letter-spacing: 1px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.2em;
+    letter-spacing: -1px;
     font-weight: 500;
 
 }

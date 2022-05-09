@@ -224,7 +224,7 @@ function C1_Create() {
                 Tranfer To SOUND OF ENGLISH
             </button>
             {Name}
-            <input onChange={(e) => { SetName(e.currentTarget.value) }} type={"text"} />
+            <input onChange={(e) => { SetName(e.currentTarget.value.trim()) }} type={"text"} />
             <button
                 onClick={() => {
                     InsertListenData(Name)

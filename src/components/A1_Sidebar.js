@@ -5,7 +5,7 @@ export default function A1_sidebar(props) {
             <div className="A1_01_sidebar_02" >
                 <div>
                     <Link to={'/trangchu'}>
-                        Bạn đang cần gì?
+                        Tại sao làm được?
                     </Link>
                 </div>
             </div>
@@ -15,7 +15,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-bicycle"></i>
-                            <span> Khóa tập luyện <br />Làm chủ nghe - nói trong 90 ngày</span>
+                            <span> Khóa rèn luyện <br />Làm chủ nghe - nói trong 90 ngày</span>
                         </button>
                     </Link>
                 </div>
@@ -24,7 +24,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-bicycle"></i>
-                            <span> Khóa tập luyện <br />Làm chủ ghép âm</span>
+                            <span> Khóa rèn luyện <br />Làm chủ ghép âm</span>
                         </button>
                     </Link>
                 </div>
@@ -33,7 +33,7 @@ export default function A1_sidebar(props) {
                         <button
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-symmetry-horizontal"></i>
-                            <span> Khóa tập luyện <br />Nâng cao</span>
+                            <span> Khóa rèn luyện <br />Nâng cao</span>
                         </button>
                     </Link>
                 </div>
