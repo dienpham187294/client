@@ -12,7 +12,7 @@ export default function A1Pricing() {
                 <h2 className="pb-2 border-bottom">Giải pháp Học kỹ năng nghe -nói tiếng anh trong <i style={{ color: "blue" }}>đúng 90 ngày</i>!</h2>
                 <h5 style={{ color: "blue" }}> <b><i>Nhanh gọn - Dứt khoát!</i></b></h5>
                 <div className="A1Pricing_div1">
-                    <i>"Bạn muốn có kỹ năng tiếng anh, nhưng bạn chắc chắn không muốn quá trình đó kéo dài mãi."</i>
+                    <i>"Bạn muốn học kỹ năng, nhưng bạn chắc chắn không muốn quá trình đó kéo dài mãi."</i>
                 </div>
             </div>
             {/* <hr /> */}
@@ -81,7 +81,7 @@ export default function A1Pricing() {
                 Đó chính là lý do Giải pháp học kỹ năng tiếng anh nhanh chóng, dứt khoát ra đời.
             </p>
             <div className="A1Pricing_div1">
-                <i>"Bạn muốn có kỹ năng tiếng anh, nhưng bạn chắc chắn không muốn quá trình đó kéo dài mãi."</i>
+                <i>"Bạn muốn học kỹ năng, nhưng bạn chắc chắn không muốn quá trình đó kéo dài mãi."</i>
             </div>
             <p>
                 Vậy, đâu sẽ các điểm mấu chốt một cách nhanh chóng để có thể tiến bộ vượt bậc mà không phải cảm thấy thất vọng thường xuyên?
