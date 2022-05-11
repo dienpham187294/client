@@ -1,6 +1,6 @@
 import mostUsedEnglish from "../util/filedulieu/3000tuthongdung/mostUsedEnglish.json"
 import mostUsedExample from "../util/filedulieu/3000tuthongdung/mostUsedExample.json"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import setSrcVideo from "../util/filedulieu1/dataHelperFunction/setSrcVideo"
 export default function A1Pricing() {
 
@@ -21,15 +21,15 @@ export default function A1Pricing() {
             <h5>Tôi rất muốn học tiếng anh … nhưng lại có quá ít thời gian.</h5>
             <div>
                 <button
-                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/4pkvr85Alfc") }}
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/tVewy1jeQfM") }}
                     className="btn btn-outline-primary">Xem video</button>
-                <Link to={'/dang-ky'}>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
-                        type="button" className="btn btn-outline-danger">
+                        className="btn btn-outline-danger">
                         Đăng ký nhận tài liệu học MIỄN PHÍ
                     </button>
-                </Link>
-
+                </a>
             </div>
 
             <p>Đó là chuyện thường thấy.</p>
@@ -80,6 +80,18 @@ export default function A1Pricing() {
             <h5>
                 Chúng ta có quá nhiều thứ cần học – trong khi có quá ít thời gian.
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/4A-BXojrQMA") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Sự thật là, tiếng anh chỉ là một kỹ năng trong vô vàn các kỹ năng khác mà chúng ta muốn học.
             </p>
@@ -108,6 +120,18 @@ export default function A1Pricing() {
             <h5>
                 Học kỹ năng nhanh chóng dứt khoát – Đũa phép thần kỳ?
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/2UPXqPUZdJA") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Thực sự thì chả có cây đũa phép nào ở đây cả.
             </p>
@@ -160,6 +184,18 @@ export default function A1Pricing() {
             <h5>
                 Nói tiếng anh như gió?
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/70_iSp8uboo") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Cần nhấn mạnh lại rằng,
                 chúng ta đang giải quyết vấn đề làm sao để đạt được kỹ năng nhanh chóng,
@@ -184,6 +220,18 @@ export default function A1Pricing() {
             <h5>
                 Học kỹ năng so với việc học bình thường!
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/EHZKNARavb8") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Có một điều bạn nên biết: Học kỹ năng nhanh không có điểm gì chung với “học cách học” ở trường.
                 Học thuật <b>gần như không có gì trùng</b> với học kỹ năng, chứ chưa nói tới việc nhanh chóng thành thạo kỹ năng đó.
@@ -228,6 +276,18 @@ export default function A1Pricing() {
             <h5>
                 Giá trị đích thực của việc học
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/QiqSp8QJJdg") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Nói như vậy không có nghĩa là việc học kỹ năng mà bạn muốn thành thạo không quan trọng.
                 Học là điều quan trọng, nhưng không phải theo cách bạn nghĩ.
@@ -253,6 +313,18 @@ export default function A1Pricing() {
             <h5>
                 Học kỹ năng với rèn luyện
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/MnPMZfFkz9s") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Có sự khác biệt lớn giữa học kỹ năng và rèn luyện.
                 Rèn luyện, trong hoàn cảnh này,
@@ -297,6 +369,18 @@ export default function A1Pricing() {
             <h5>
                 Tiếp thu kỹ năng với giáo dục và đào tạo
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("hhttps://www.youtube.com/embed/yoT5upm753c") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Bất chấp những nỗ lực cao thượng của các giáo viên và giáo sư trên khắp thế giới,
                 những phương pháp giáo dục và đào tạo hiện đại lại chẳng có tác động gì tới việc tiếp thu kỹ năng.
@@ -356,6 +440,18 @@ export default function A1Pricing() {
             <h5>
                 Sinh lý thần kinh về kỹ năng: Tính mềm dẻo của não bộ và bộ nhớ cơ bắp
             </h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/RwNugA04-zg") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <p>
                 Một điều cuối cùng trước khi chúng ta bước vào tìm hiểu chi tiết về tiếp thu kỹ năng nhanh:
                 Bạn phải nhận thức được là bạn có khả năng học kỹ năng mới.
@@ -442,6 +538,18 @@ export default function A1Pricing() {
             <h2 style={{ color: "blue" }}>
                 Cùng bắt đầu hành trình nắm giữ kỹ năng tiếng anh nghe – nói trong đúng 90 ngày!
             </h2>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/4pkvr85Alfc") }}
+                    className="btn btn-outline-primary">Xem video</button>
+
+                <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                    <button
+                        className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </a>
+            </div>
             <div className="A1Pricing_div1">
                 <i>
                     “Tôi nhận ra rằng trở thành bậc thầy về karate không phải là học 4.000 thế
@@ -475,46 +583,48 @@ export default function A1Pricing() {
                 1.	Xác định nguyên âm đơn chính và cách phát âm.
             </p>
             <table className="table">
-                <tr>
-                    <td>U</td>
-                    <td>E</td>
-                    <td>O</td>
-                    <td>A</td>
-                    <td>I</td>
-                    <td>Ơ</td>
-                </tr>
-                <tr>
-                    <td>
-                        /ʊ /
-                        <br />
-                        /u:/
-                    </td>
-                    <td>
-                        /e /
-                    </td>
-                    <td>
-                        /ɒ /
-                        <br />
-                        /ɔ:/
-                    </td>
-                    <td>
-                        /æ/
-                        <br />
-                        /ʌ /
-                        <br />
-                        /ɑ:/
-                    </td>
-                    <td>
-                        /ɪ/
-                        <br />
-                        /i:/
-                    </td>
-                    <td>
-                        /ə /
-                        <br />
-                        /ɜ:/
-                    </td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td>U</td>
+                        <td>E</td>
+                        <td>O</td>
+                        <td>A</td>
+                        <td>I</td>
+                        <td>Ơ</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            /ʊ /
+                            <br />
+                            /u:/
+                        </td>
+                        <td>
+                            /e /
+                        </td>
+                        <td>
+                            /ɒ /
+                            <br />
+                            /ɔ:/
+                        </td>
+                        <td>
+                            /æ/
+                            <br />
+                            /ʌ /
+                            <br />
+                            /ɑ:/
+                        </td>
+                        <td>
+                            /ɪ/
+                            <br />
+                            /i:/
+                        </td>
+                        <td>
+                            /ə /
+                            <br />
+                            /ɜ:/
+                        </td>
+                    </tr>
+                </tbody>
             </table>
             <p>
                 <b>Bài rèn luyện 1: Xác định nguyên âm đơn chính của 1000 từ vựng được sử dụng thường xuyên nhất trong tiếng anh.</b>
@@ -535,114 +645,116 @@ export default function A1Pricing() {
                 3. Học 10 cấu trúc câu cơ bản nhất trong ngữ pháp tiếng Anh.
             </h5>
             <table className="table">
-                <tr>
-                    <td>
-                        Cấu trúc
-                    </td>
-                    <td>
-                        Ví dụ
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + V
-                    </td>
-                    <td>
-                        – I ran. (Tôi chạy.)
-                        <br />
-                        – The boy sits. (Cậu bé ngồi.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + V + O
-                    </td>
-                    <td>
-                        – I love apples. (Tôi thích táo.)
-                        <br />
-                        – Nam pets the cat. (Nam vuốt ve con mèo.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + V + Adv
-                    </td>
-                    <td>
-                        – An read fast. (An đọc nhanh.)
-                        <br />
-                        – The woman eats slowly. (Người phụ nữ ăn chậm chạp.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + V + O + Adv
-                    </td>
-                    <td>
-                        – Lam kicks the ball hard. (Lâm đá mạnh vào quả bóng.)
-                        <br />
-                        – She sang her song out loud. (Cô ấy hát lớn bài hát của chính mình.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + V + Adj
-                    </td>
-                    <td>
-                        – She looks pretty. (Cô ấy trông thật xinh.)
-                        <br />
-                        – The song sounds boring. (Bài hát nghe chán thật.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + be + N
-                    </td>
-                    <td>
-                        – Huy is a doctor. (Huy là bác sĩ.)
-                        <br />
-                        – They are brothers. (Họ là anh em.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + be + Adj
-                    </td>
-                    <td>
-                        – I am lonely. (Tôi cô đơn.)
-                        <br />
-                        – She was hungry. (Cô ấy đói bụng.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        S + be + Adv
-                    </td>
-                    <td>
-                        – Water is everywhere. (Nước ở khắp mọi nơi.)
-                        <br />
-                        – The pen is nowhere. (Cái bút mất tích rồi.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        V (+ O)
-                    </td>
-                    <td>
-                        – Eat. (Ăn đi.)
-                        <br />
-                        – Close the door. (Đóng cửa lại.)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        V (+ O) + Adv
-                    </td>
-                    <td>
-                        – Speak slowly. (Nói chậm thôi.)
-                        <br />
-                        – Hold my hand tight. (Nắm chặt lấy tay tôi.)
-                    </td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td>
+                            Cấu trúc
+                        </td>
+                        <td>
+                            Ví dụ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + V
+                        </td>
+                        <td>
+                            – I ran. (Tôi chạy.)
+                            <br />
+                            – The boy sits. (Cậu bé ngồi.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + V + O
+                        </td>
+                        <td>
+                            – I love apples. (Tôi thích táo.)
+                            <br />
+                            – Nam pets the cat. (Nam vuốt ve con mèo.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + V + Adv
+                        </td>
+                        <td>
+                            – An read fast. (An đọc nhanh.)
+                            <br />
+                            – The woman eats slowly. (Người phụ nữ ăn chậm chạp.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + V + O + Adv
+                        </td>
+                        <td>
+                            – Lam kicks the ball hard. (Lâm đá mạnh vào quả bóng.)
+                            <br />
+                            – She sang her song out loud. (Cô ấy hát lớn bài hát của chính mình.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + V + Adj
+                        </td>
+                        <td>
+                            – She looks pretty. (Cô ấy trông thật xinh.)
+                            <br />
+                            – The song sounds boring. (Bài hát nghe chán thật.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + be + N
+                        </td>
+                        <td>
+                            – Huy is a doctor. (Huy là bác sĩ.)
+                            <br />
+                            – They are brothers. (Họ là anh em.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + be + Adj
+                        </td>
+                        <td>
+                            – I am lonely. (Tôi cô đơn.)
+                            <br />
+                            – She was hungry. (Cô ấy đói bụng.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            S + be + Adv
+                        </td>
+                        <td>
+                            – Water is everywhere. (Nước ở khắp mọi nơi.)
+                            <br />
+                            – The pen is nowhere. (Cái bút mất tích rồi.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            V (+ O)
+                        </td>
+                        <td>
+                            – Eat. (Ăn đi.)
+                            <br />
+                            – Close the door. (Đóng cửa lại.)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            V (+ O) + Adv
+                        </td>
+                        <td>
+                            – Speak slowly. (Nói chậm thôi.)
+                            <br />
+                            – Hold my hand tight. (Nắm chặt lấy tay tôi.)
+                        </td>
+                    </tr>
+                </tbody>
             </table>
             <p>
                 <b>Bài rèn luyện 4: Luyện nói 1000 câu cơ bản.</b>
