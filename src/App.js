@@ -42,6 +42,7 @@ import DLUYENGHE from "./components/D_LuyenNghe"
 import DLUYENGHE1 from "./components/D_LuyenNghe01"
 import BaiHocPhienAm from "./components/A2_BaiHocPhienAm"
 import VideoAll from "./components/A2_Video_All"
+import Dangky from  "./components/A2_Dangky"
 // import Words3000 from "./components/A2_3000Wds"
 
 
@@ -69,6 +70,7 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/video' element={<Video />} />
             <Route path='/pricing' element={<A1Pricing />} />
+            <Route path='/dang-ky' element={<Dangky />} />
             <Route path='/ipa-study' element={<BaiHocPhienAm />} />
             {/* <Route path='/3000-basic-words' element={<Words3000 />} /> */}
 

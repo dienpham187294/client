@@ -731,3 +731,9 @@ a:hover {
     font-weight: 600;
     font-size: 40px;
 }
+
+#videoID {
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+}

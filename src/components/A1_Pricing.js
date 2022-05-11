@@ -1,5 +1,7 @@
 import mostUsedEnglish from "../util/filedulieu/3000tuthongdung/mostUsedEnglish.json"
 import mostUsedExample from "../util/filedulieu/3000tuthongdung/mostUsedExample.json"
+import { Link } from 'react-router-dom';
+import setSrcVideo from "../util/filedulieu1/dataHelperFunction/setSrcVideo"
 export default function A1Pricing() {
 
 
@@ -15,8 +17,21 @@ export default function A1Pricing() {
                     <i>"Bạn muốn học kỹ năng, nhưng bạn chắc chắn không muốn quá trình đó kéo dài mãi."</i>
                 </div>
             </div>
-            {/* <hr /> */}
+
             <h5>Tôi rất muốn học tiếng anh … nhưng lại có quá ít thời gian.</h5>
+            <div>
+                <button
+                    onClick={() => { setSrcVideo("https://www.youtube.com/embed/4pkvr85Alfc") }}
+                    className="btn btn-outline-primary">Xem video</button>
+                <Link to={'/dang-ky'}>
+                    <button
+                        type="button" className="btn btn-outline-danger">
+                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                    </button>
+                </Link>
+
+            </div>
+
             <p>Đó là chuyện thường thấy.</p>
             <p>Bạn muốn học tiếng anh? Vậy điều gì ngăn cản bạn bắt đầu?</p>
             <p>Thường là vì hai lý do: Thời gian và kỹ năng.</p>

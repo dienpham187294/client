@@ -28,6 +28,7 @@ export default function Video() {
                     >
                         X
                     </button>
+                    <hr />
                     <div id="videoID" className="respondiframe">
                         <iframe title="videotittle" className="responsive-iframe" src={srcYoutube} allowFullScreen></iframe>
                     </div>

@@ -155,7 +155,7 @@
                                         <li>Phản xạ tốt.</li>
                                         <li>Nắm được trên 5000 từ vựng-2000 câu.</li>
                                     </ul>
-                                    {/* <a href="https://forms.gle/ifL2hpdT4HU4AU1eA">
+                                    {/* <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8">
                                         <button type="button" className="w-100 btn btn-lg btn-primary">Đăng ký</button>
                                     </a> */}
 
@@ -191,7 +191,7 @@
                 <i>***Mỗi lần nói chuẩn và nghe phản hồi tính là một lần thực hành.</i>
 
                 <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSebjbO-4u7yHQt-7DGb16Tca0GEfq6s8bXZPxiC0UZQ5dS0MA/viewform?embedded=true"
+                    src="https://forms.gle/pVL7Dtgp2V9DXF6N8"
                     width="100%"
                     height="1000"
                     frameborder="0"
