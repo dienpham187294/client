@@ -27,7 +27,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -88,7 +88,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -128,7 +128,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -192,7 +192,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -228,7 +228,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -284,7 +284,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -321,7 +321,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -377,7 +377,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -448,7 +448,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
@@ -546,7 +546,7 @@ export default function A1Pricing() {
                 <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                     <button
                         className="btn btn-outline-danger">
-                        Đăng ký nhận tài liệu học MIỄN PHÍ
+                        Đăng ký khóa học kỹ năng MIỄN PHÍ
                     </button>
                 </a>
             </div>
