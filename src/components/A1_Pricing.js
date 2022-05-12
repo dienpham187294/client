@@ -8,7 +8,12 @@ export default function A1Pricing() {
 
     return (
         <div>
-
+            <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
+                <button
+                    className="btn btn-outline-danger">
+                    Đăng ký khóa học kỹ năng MIỄN PHÍ
+                </button>
+            </a>
             <div className="container px-4 py-5" id="featured-3">
 
                 <h2 className="pb-2 border-bottom">Giải pháp Học kỹ năng nghe -nói tiếng anh trong <i style={{ color: "blue" }}>đúng 90 ngày</i>!</h2>
