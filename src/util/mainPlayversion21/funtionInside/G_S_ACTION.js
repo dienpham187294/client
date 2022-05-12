@@ -11,9 +11,9 @@ export default
                 <h5>{DataAction.name}</h5>
             </div>
             <hr />
-            <div className="row" style={{ height: "300px", overflow: "auto" }}>
-                <div className="row" style={{ textAlign: "left" }}>
-                    <div className="col-6 border-right">
+            <div className="row" style={{}}>
+                <div className="row" style={{ textAlign: "left", height: "300px" }}>
+                    <div className="col-6 border-right" style={{ height: "250px", overflow: "auto" }}>
                         {DataAction.list.map((e, i) =>
                             <p
                                 key={i}
@@ -26,7 +26,7 @@ export default
                             >{e.stt ? showHintAlot(e.data, e.title) : null}</p>
                         )}
                     </div>
-                    <div className="col-6">
+                    <div className="col-6" style={{ height: "250px", overflow: "auto" }}>
                         {DataAction.list.map((e, i) =>
                             <p
                                 key={i}
@@ -42,9 +42,13 @@ export default
                 </div>
             </div>
             <hr />
-            <div>
-                {checkAction(DataAction, Total) ? <i>{showOptionToRead(Score, Data_Commands)}</i> : null}
-                {checkAction(DataAction, Total) ? <h5 style={{ color: "red" }}>Done</h5> : null}
+            <div className="row">
+                <div className="col-3">
+                    {checkAction(DataAction, Total) ? <i>{showOptionToRead(Score, Data_Commands)}</i> : null}
+                </div>
+                <div className="col-3">
+                    {checkAction(DataAction, Total) ? <h5 style={{ color: "red" }}>Done</h5> : null}
+                </div>
             </div>
 
         </div>

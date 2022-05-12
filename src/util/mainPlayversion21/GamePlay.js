@@ -290,6 +290,9 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}
                 {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total) : null}
             </div>
+            <div id="textAreaDiv">
+                <textarea style={{ width: "150px", height: "200px" }} />
+            </div>
             <ReadReactSpeech />
         </>
     )

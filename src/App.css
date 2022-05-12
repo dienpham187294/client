@@ -737,3 +737,8 @@ a:hover {
     top: 5%;
     bottom: 5%;
 }
+#textAreaDiv {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
