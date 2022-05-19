@@ -1,6 +1,6 @@
 // import mostUsedEnglish from "../util/filedulieu/3000tuthongdung/mostUsedEnglish.json"
 // import mostUsedExample from "../util/filedulieu/3000tuthongdung/mostUsedExample.json"
-// import $ from "jquery"
+import $ from "jquery"
 import { Link } from 'react-router-dom';
 import setSrcVideo from "../util/filedulieu1/dataHelperFunction/setSrcVideo"
 export default function A1Pricing() {
@@ -12,7 +12,13 @@ export default function A1Pricing() {
             <div className="container px-4 py-1" >
                 <h2 className="pb-2 border-bottom"> <i style={{ color: "blue" }}>Bài viết nên đọc:</i></h2>
                 {/* <h5 style={{ color: "blue" }}> <b><i>Nhanh gọn - Dứt khoát!</i></b></h5> */}
-                <div className="A1Pricing_div1">
+          
+                <div className="A1Pricing_div1" onClick={() => {
+                    // alert(1)
+                    $('#top1').animate({
+                        scrollTop: $("#topD").offset().top
+                    }, 500)
+                }}>
                     <ul>
 
                         <li>
