@@ -8,7 +8,7 @@ export default function Header() {
         <div >
             <div className="row A0_topconent">
                 <div className="col-6">
-                    <Link to="/trangchu">
+                    <Link to="/home">
                         <b><i className="A0_01_topcontent">English<span style={{ color: "blue" }}>Tool</span>.co </i></b>
                     </Link>
 

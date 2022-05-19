@@ -4,103 +4,13 @@ export default function A1_sidebar(props) {
         <div className="A1_01_sidebar">
             <div className="A1_01_sidebar_02" >
                 <div>
-                    <Link to={'/home'}>
-                        Giai đoạn 1
+                    <Link to={'/trangchu'}>
+                        Tại sao làm được?
                     </Link>
                 </div>
             </div>
             <div className="A1_01_sidebar_01">
                 <div>
-                    <Link to={'/part-2-a'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 2 (a)</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/part-2-b'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 2 (b)</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/part-3-a'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 3 (a)</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/thanh-toan'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Thanh toán</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/part-3-b'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 3 (b)</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/part-4'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 4</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/part-5'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 5</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/appendix-1'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Phụ lục 1</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/appendix-2'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Phụ lục 2</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
-                    <Link to={'/appendix-3'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Phụ lục 3</span>
-                        </button>
-                    </Link>
-                </div>
-                {/* <div>
                     <Link to={'/thuchanhcoban'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -117,7 +27,7 @@ export default function A1_sidebar(props) {
                             <span> Rèn luyện <br />Làm chủ ghép âm</span>
                         </button>
                     </Link>
-                </div> */}
+                </div>
                 {/* <div>
                     <Link to={'/thuchanhnangcao'}>
                         <button
@@ -127,7 +37,7 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div> */}
-                {/* <div>
+                <div>
                     <Link to={'/thuchanhkienthuc'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -136,8 +46,8 @@ export default function A1_sidebar(props) {
                                 Mua bán sáp nhập</span>
                         </button>
                     </Link>
-                </div> */}
-                {/* <div>
+                </div>
+                <div>
                     <Link to={'/luyen-ghep-am'}>
                         <i></i>
                         <button
@@ -146,8 +56,8 @@ export default function A1_sidebar(props) {
                             <span>  Luyện nói</span>
                         </button>
                     </Link>
-                </div> */}
-                {/* <div>
+                </div>
+                <div>
                     <Link to={'/luyen-nghe'}>
                         <i></i>
                         <button
@@ -156,8 +66,8 @@ export default function A1_sidebar(props) {
                             <span>  Luyện nghe</span>
                         </button>
                     </Link>
-                </div> */}
-                {/* <div>
+                </div>
+                <div>
                     <Link to={'/nhacipalyrics'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -165,7 +75,7 @@ export default function A1_sidebar(props) {
                             <span>  Nhạc IPA-Lyrics</span>
                         </button>
                     </Link>
-                </div> */}
+                </div>
 
                 {/* <div>
                     <Link to={'/nguphap'}>
@@ -177,7 +87,7 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div> */}
-                {/* <div>
+                <div>
                     <Link to={'/ipa-study'}>
                         <i></i>
                         <button
@@ -186,7 +96,7 @@ export default function A1_sidebar(props) {
                             <span>  Bài học lý thuyết (Phiên âm và nhịp điệu)</span>
                         </button>
                     </Link>
-                </div> */}
+                </div>
                 {/* <div>
                     <Link to={'/3000-basic-words'}>
                         <i></i>
@@ -207,7 +117,7 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div>
-                {/* <div>
+                <div>
                     <Link to={'/thudonhaycn'}>
                         <i></i>
                         <button
@@ -216,7 +126,7 @@ export default function A1_sidebar(props) {
                             <span>  Thử độ nhạy<br />Tiếng trung</span>
                         </button>
                     </Link>
-                </div> */}
+                </div>
                 {/* <div>
                     <Link to={'/pricing'}>
                         <button
