@@ -136,16 +136,18 @@ function App() {
             <Route path='/thuchanh/app/tieng-anh-lop-7-tap-1' element={<B1lop71 />} />
             <Route path='/thuchanh/app/tieng-anh-lop-7-tap-2' element={<B1lop72 />} />
             <Route path='/thuchanh/app/tieng-anh-lop-8' element={<B1Lop8 />} />
+
+            
             <Route path='/CreateDocument' element={<CreateDocuments />} />
             <Route path='/luyen-ghep-am' element={<LuyenGhepAm />} />
             <Route path='/luyen-ghep-am-01' element={<LuyenGhepAm01 />} />
 
             <Route path='/luyen-nghe' element={<DLUYENGHE />} />
             <Route path='/luyen-nghe-01' element={<DLUYENGHE1 />} />
-            <Route path='/thudonhay' element={<ThuDoNhay />} />
-            <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
+            <Route path='/test-AIipa' element={<ThuDoNhay />} />
+            {/* <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
             <Route path='/nhacipalyrics' element={<CMUSIC />} />
-            <Route path='/nhacipalyrics-detail' element={<CMUSIC01 />} />
+            <Route path='/nhacipalyrics-detail' element={<CMUSIC01 />} /> */}
 
 
 

@@ -38,11 +38,11 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/thanh-toan'}>
+                    <Link to={'/break-1'}>
                         <button
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Thanh toán</span>
+                            <span> Break - 1</span>
                         </button>
                     </Link>
                 </div>
@@ -56,11 +56,29 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
+                    <Link to={'/break-2'}>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            {/* <i className="bi bi-bicycle"></i> */}
+                            <span> Break - 2</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
                     <Link to={'/part-4'}>
                         <button
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
                             <span> Giai đoạn 4</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/break-3'}>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            {/* <i className="bi bi-bicycle"></i> */}
+                            <span> Break - 3</span>
                         </button>
                     </Link>
                 </div>
@@ -198,7 +216,7 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div> */}
                 <div>
-                    <Link to={'/thudonhay'}>
+                    <Link to={'/test-AIipa'}>
                         <i></i>
                         <button
                             type="button" className="btn btn-secondary">
