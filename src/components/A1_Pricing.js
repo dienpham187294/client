@@ -32,7 +32,7 @@ export default function A1Pricing() {
                 {/* <h5 style={{ color: "blue" }}> <b><i>Nhanh gọn - Dứt khoát!</i></b></h5> */}
                 <div className="A1Pricing_div1">
                     <i>
-                        Mục tiêu là học viên có Kỹ năng giao tiếp trong thực tế ở mức độ trao đổi công việc được trong thời gian cụ thể. Nếu bạn muốn học lấy bằng cấp, phần nhiều phương pháp này sẽ không phù hợp với bạn.
+                        Mục tiêu là học viên dùng được tiếng anh trong thực tế trong thời gian ngắn. Nếu bạn muốn luyện thi, phần nhiều phương pháp này sẽ không phù hợp với bạn.
                     </i>
                 </div>
             </div>
