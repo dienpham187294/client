@@ -1,6 +1,12 @@
+
+import $ from "jquery"
+
 export default
-    function showAction(DataAction, SET_DataAction, Data_Commands, showOptionToRead, Score, showHintAlot, Total) {
+    function showAction(DataAction, SET_DataAction, Data_Commands, showOptionToRead, Score, showHintAlot, Total, DataActionSearch, SET_DataActionSearch) {
     let ArrT2 = JSON.parse(JSON.stringify(DataAction));
+    ArrT2.list.forEach((e, i) => {
+        e.id = i
+    })
     return (
         <div style={{
             position: "fixed", top: "220px", bottom: "0px", width: "800px", padding: "5px",
@@ -11,22 +17,28 @@ export default
                 <h5>{DataAction.name}</h5>
             </div>
             <hr />
-            <div className="row" style={{}}>
-                <div className="row" style={{ textAlign: "left", height: "300px" }}>
-                    <div className="col-6 border-right" style={{ height: "250px", overflow: "auto" }}>
-                        {DataAction.list.map((e, i) =>
-                            <p
-                                key={i}
-                                style={{ cursor: "pointer" }}
-                                onClick={() => {
-                                    ArrT2.list[i].stt = false;
-                                    SET_DataAction(ArrT2);
+            <div className="row">
+                <input
+                    onChange={(e) => {
+                        if (e.currentTarget.value === "") {
+                            SET_DataActionSearch("")
+                            console.log(e.currentTarget.value, "111")
 
-                                }}
-                            >{e.stt ? showHintAlot(e.data, e.title) : null}</p>
-                        )}
+
+                        }
+                        else {
+                            SET_DataActionSearch(e.currentTarget.value)
+                            console.log(e.currentTarget.value, "111")
+                        }
+                    }}
+                    placeholder="Search!"
+                    type={"text"} />
+                <hr />
+                <div className="row" style={{ textAlign: "left", height: "270px" }}>
+                    <div className="col-6 border-right" style={{ height: "200px", overflow: "auto" }}>
+                        {RightDiv(DataAction, SET_DataAction, showHintAlot, ArrT2, DataActionSearch)}
                     </div>
-                    <div className="col-6" style={{ height: "250px", overflow: "auto" }}>
+                    <div className="col-6" style={{ height: "200px", overflow: "auto" }}>
                         {DataAction.list.map((e, i) =>
                             <p
                                 key={i}
@@ -34,7 +46,6 @@ export default
                                 onClick={() => {
                                     ArrT2.list[i].stt = true;
                                     SET_DataAction(ArrT2)
-
                                 }}
                             >{!e.stt ? showHintAlot(e.data, e.title) : null}</p>
                         )}
@@ -84,3 +95,57 @@ function checkAction(DataAction, Total) {
 
 }
 
+function RightDiv(DataAction, SET_DataAction, showHintAlot, ArrT2, DataSearch) {
+    return (
+        <div>
+
+            {sortTable(DataSearch, DataAction.list).map((e, i) =>
+                <p
+                    key={i}
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                        try {
+                            console.log(e.id)
+                        } catch (error) {
+
+                        }
+                        ArrT2.list.forEach(ee => {
+                            if (ee.id === e.id) {
+                                ee.stt = false
+                                SET_DataAction(ArrT2);
+
+                            }
+                        })
+                    }}
+
+                >{e.stt ? showHintAlot(e.data, e.title) : null}</p>
+            )}
+        </div>
+    )
+}
+function sortTable(e, data) {
+    try {
+        if (e === "") {
+            return data
+        }
+        let arrInput = e.toLocaleLowerCase().split(" ")
+
+        let arrOuput = []
+
+        data.forEach(e1 => {
+            let i = true
+            arrInput.forEach(e2 => {
+                if (!JSON.stringify(e1.data).toLocaleLowerCase().includes(e2)) (
+                    i = false
+                )
+            });
+
+            if (i) (
+                arrOuput.push(e1)
+            )
+        });
+        return (arrOuput)
+    } catch (error) {
+        return data
+    }
+}

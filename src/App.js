@@ -14,6 +14,10 @@ import T0_linkApi from './util/toolAll/T0_linkApi_HEROKU';
 import Thuchanh_menu from './components/A2a_Thuchanh_menu';
 import Thuchanh_menuA from './components/A2a_Thuchanh_menu_a';
 import Thuchanh_menuPart2b from './components/A2a_Thuchanh_menu_part2_b';
+import Thuchanh_menuPart3a from './components/A2a_Thuchanh_menu_part3_a';
+import Thuchanh_menuPart3b from './components/A2a_Thuchanh_menu_part3_b';
+import Thuchanh_menuPart4 from './components/A2a_Thuchanh_menu_part4';
+import Thuchanh_menuPart5 from './components/A2a_Thuchanh_menu_part5';
 import Thuchanh_01 from './components/A2a_Thuchanh_01';
 
 import Thuchanh_02 from './components/A2a_Thuchanh_02';
@@ -107,12 +111,17 @@ function App() {
 
 
             <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"thuchanhcoban01"} />} />
+
             <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
+
             <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
 
             <Route path='/part-2-a' element={<Thuchanh_menuA ApiReq={"menuPronunciation"} Linkto={"Pronunciation01"} />} />
             <Route path='/part-2-b' element={<Thuchanh_menuPart2b ApiReq={"menu1000Sen"} Linkto={"Pronunciation02"} />} />
-
+            <Route path='/part-3-a' element={<Thuchanh_menuPart3a ApiReq={"get3A"} Linkto={"Pronunciation02"} />} />
+            <Route path='/part-3-b' element={<Thuchanh_menuPart3b ApiReq={"get3B"} Linkto={"Pronunciation02"} />} />
+            <Route path='/part-4' element={<Thuchanh_menuPart4 ApiReq={"get4"} Linkto={"Pronunciation02"} />} />
+            <Route path='/part-5' element={<Thuchanh_menuPart5 ApiReq={"get5"} Linkto={"Pronunciation02"} />} />
             <Route path='/Pronunciation01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.2} />} />
             <Route path='/Pronunciation02' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />
 
@@ -137,7 +146,7 @@ function App() {
             <Route path='/thuchanh/app/tieng-anh-lop-7-tap-2' element={<B1lop72 />} />
             <Route path='/thuchanh/app/tieng-anh-lop-8' element={<B1Lop8 />} />
 
-            
+
             <Route path='/CreateDocument' element={<CreateDocuments />} />
             <Route path='/luyen-ghep-am' element={<LuyenGhepAm />} />
             <Route path='/luyen-ghep-am-01' element={<LuyenGhepAm01 />} />

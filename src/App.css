@@ -258,6 +258,12 @@ a:hover {
     float: right;
 }
 
+.A0_02_topcontent_01 {
+    color: black;
+    letter-spacing: 1px;
+    float: right;
+}
+
 .A1_sidebar {
     display: inline-block;
 }
@@ -298,6 +304,10 @@ a:hover {
 
 .A1_01_sidebar_01 div button {
     width: 100%;
+}
+
+#CreateDiv button {
+    width: fit-content;
 }
 
 .A1_01_sidebar_02 {
@@ -560,6 +570,11 @@ a:hover {
 
 }
 
+.A1Pricing_div1 table {
+    text-align: justify;
+    font-size: medium;
+}
+
 .abc {
     font-size: 5em;
     color: blue;
@@ -736,9 +751,4 @@ a:hover {
     position: fixed;
     top: 5%;
     bottom: 5%;
-}
-#textAreaDiv {
-    position: fixed;
-    bottom: 100px;
-    right: 10px;
 }

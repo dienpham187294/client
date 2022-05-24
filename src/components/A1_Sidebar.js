@@ -5,11 +5,50 @@ export default function A1_sidebar(props) {
             <div className="A1_01_sidebar_02" >
                 <div>
                     <Link to={'/home'}>
-                        Giai đoạn 1
+                        Khởi động
                     </Link>
                 </div>
             </div>
+
             <div className="A1_01_sidebar_01">
+                <div>
+                    <Link to={'/thuchanhcoban'}>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-bicycle"></i>
+                            <span> Rèn luyện <br />Làm chủ nghe - nói</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/luyen-nghe'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-paragraph"></i>
+                            <span>  Luyện nghe</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/offer-1'}>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            {/* <i className="bi bi-bicycle"></i> */}
+                            <span>Offer</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/ipa-study'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>Lý thuyết về Ngữ âm</span>
+                        </button>
+                    </Link>
+                </div>
                 <div>
                     <Link to={'/part-2-a'}>
                         <button
@@ -38,14 +77,15 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/break-1'}>
+                    <Link to={'/offer-1'}>
                         <button
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Break - 1</span>
+                            <span> Offer </span>
                         </button>
                     </Link>
                 </div>
+
                 <div>
                     <Link to={'/part-3-b'}>
                         <button
@@ -56,11 +96,11 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/break-2'}>
+                    <Link to={'/offer-2'}>
                         <button
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Break - 2</span>
+                            <span> Offer - 2</span>
                         </button>
                     </Link>
                 </div>
@@ -74,11 +114,11 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/break-3'}>
+                    <Link to={'/offer-3'}>
                         <button
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Break - 3</span>
+                            <span> Offer </span>
                         </button>
                     </Link>
                 </div>

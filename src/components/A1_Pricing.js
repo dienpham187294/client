@@ -59,7 +59,7 @@ export default function A1Pricing() {
                         3. Loại bỏ những rào cản về mặt sinh lý, tinh thần và tình cảm xuất hiện trong quá trình luyện tập;
                     </p>
                     <p>
-                        4. Luyện tập phần kỹ năng quan trọng nhất trong vòng 90 tiếng là ít nhất.
+                        4. Luyện tập phần kỹ năng quan trọng nhất liên tục và đều đặn.
                     </p>
                     <p>
                         Học kỹ năng nhanh không phải là môn khoa học thần tốc.
@@ -75,11 +75,11 @@ export default function A1Pricing() {
                 <i>Chúng ta không tính tiến độ theo thời gian hoặc số buổi học mà sẽ tính tiến độ theo số lần rèn luyện nghe và nói!</i>
                 <div className="A1Pricing_div1">
                     Được chia làm 5 giai đoạn:
-                    <table className="table">
+                    <table className="table table-sm">
                         <tbody>
                             <tr>
                                 <td>
-                                    Giai đoạn 1
+                                    1
                                 </td>
                                 <td>
                                     Tổng quan
@@ -88,63 +88,90 @@ export default function A1Pricing() {
                                     Thống nhất góc nhìn về mục tiêu, phương pháp và thời gian.
                                 </td>
                                 <td>
-                                    1 giờ
+
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    Giai đoạn 2
+                                    2
                                 </td>
                                 <td>
-                                    Học kỹ năng cơ bản
+                                    Học và rèn luyện kỹ năng cơ bản
                                 </td>
                                 <td>
                                     Nắm khái niệm một cách vừa đủ.
+                                    <br />
+                                    Rèn luyện ghép âm.
                                 </td>
                                 <td>
-                                    20 bài thực hành
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Giai đoạn 3
+                                    20 bài
                                 </td>
                                 <td>
-                                    Rèn kỹ năng nghe nói
-                                </td>
-                                <td>
-                                    Nắm vững ngữ âm.
-                                </td>
-                                <td>
-                                    20 bài thực hành
+                                    Học về Ngữ âm, cách ghép âm.
+                                    <br />
+                                    1000 từ vựng thông dụng nhất.
+                                    <br />
+                                    1000 mẫu câu cơ bản.
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    Giai đoạn 4
+                                    3
                                 </td>
                                 <td>
-                                    Rèn kỹ năng nghe hiểu
+                                    Rèn luyện nghe và nói dựa trên ngữ âm.
+                                </td>
+                                <td>
+                                    Trọng tâm vào nghe và tách âm.
+                                </td>
+                                <td>
+                                    30 bài
+                                </td>
+                                <td>
+                                    Thực hành nói trên 650 mẫu câu.
+                                    <br />
+                                    Tiếp cận trên 3.000 tự vựng.
+                                    <br />
+                                    Số lần nghe - nói: Trên 6.000 lần.
+                                    <br />
+                                    Trọng tâm vào nghe và nói được dựa trên Ngữ âm
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                    Bổ sung từ vựng, rèn luyện ngữ nghĩa.
                                 </td>
                                 <td>
                                     Ghi nhớ từ vựng, mẫu câu.
                                 </td>
                                 <td>
-                                    20 bài thực hành
+                                    30 bài
+                                </td>
+                                <td>
+                                    Thực hành nói trên 650 mẫu câu.
+                                    <br />
+                                    Tiếp cận trên 3.000 tự vựng.
+                                    <br />
+                                    Số lần nghe - nói: Trên 6.000 lần.
+                                    <br />
+                                    Trọng tâm bổ sung thêm nhiều từ vựng.
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    Giai đoạn 5
+                                    5
                                 </td>
                                 <td>
-                                    Rèn kỹ năng mô tả, diễn đạt, nghe đoạn dài.
+                                    Rèn kỹ năng mô tả, diễn đạt.
                                 </td>
                                 <td>
-                                    Ứng dụng linh hoạt.
+                                    Ứng dụng linh hoạt để diễn đạt ý tưởng.
                                 </td>
                                 <td>
-                                    20 bài thực hành
+                                    30 bài
                                 </td>
                             </tr>
                         </tbody>

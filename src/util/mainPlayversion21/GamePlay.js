@@ -43,6 +43,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     const [StatusShowToPick, SET_StatusShowToPick] = useState(true)
     const [DataShowToPick, SET_DataShowToPick] = useState([0])
     const [DataAction, SET_DataAction] = useState(null)
+    const [DataActionSearch, SET_DataActionSearch] = useState("")
     const [D4_Time, setD4_Time] = useState(0)
     const [STATUS_E_S_MOVE, setSTATUS_E_S_MOVE] = useState(false)
     const [Mark_F_S_People, setMark_F_S_People] = useState([])
@@ -58,6 +59,13 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     useEffect(() => {
         props.SET_Data_Commands(Info_StrickAnwers_Reactdata)
     }, [Info_StrickAnwers_Reactdata])
+    useEffect(() => {
+        if (DataAction !== null) {
+            DataAction.list.forEach((e, i) => {
+                e.id = i
+            })
+        }
+    }, [DataAction])
 
     useEffect(
         () => {
@@ -248,6 +256,10 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 <i>Hành động trước, sửa chữa sau.</i>
                 <br />
                 <i>Làm đúng trước, sáng tạo sau.</i>
+                <br />
+                <i>Kỹ năng đơn giản là một thói quen.</i>
+                <br />
+                <i>Trăm hay không bằng tay quen.</i>
             </div>
             <div className="H_S_Data_ScoreList">
                 {H_S_Data_ScoreList(Data_ScoreList)}
@@ -288,11 +300,11 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 )}
                 {STATUS_E_S_MOVE ? E_S_MOVE(props.Move, Mark_F_S_People, setSTATUS_F_S_People, setData_F_S_People) : null}
                 {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}
-                {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total) : null}
+                {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total, DataActionSearch, SET_DataActionSearch) : null}
             </div>
-            <div id="textAreaDiv">
-                <textarea style={{ width: "150px", height: "200px" }} />
-            </div>
+                {/* <div id="textAreaDiv">
+                    <textarea style={{ width: "150px", height: "200px" }} />
+                </div> */}
             <ReadReactSpeech />
         </>
     )
