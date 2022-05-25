@@ -31,15 +31,6 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/offer-1'}>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span>Offer</span>
-                        </button>
-                    </Link>
-                </div>
-                <div>
                     <Link to={'/ipa-study'}>
                         <i></i>
                         <button
@@ -67,12 +58,12 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div>
-                <div>
+                {/* <div>
                     <Link to={'/part-3-a'}>
                         <button
                             type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 3 (a)</span>
+                            <i className="bi bi-bicycle"></i>
+                            <span> Giai đoạn 3</span>
                         </button>
                     </Link>
                 </div>
@@ -80,30 +71,30 @@ export default function A1_sidebar(props) {
                     <Link to={'/offer-1'}>
                         <button
                             type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
+                            <i className="bi bi-bicycle"></i>
                             <span> Offer </span>
                         </button>
                     </Link>
-                </div>
+                </div> */}
 
                 <div>
                     <Link to={'/part-3-b'}>
                         <button
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
-                            <span> Giai đoạn 3 (b)</span>
+                            <span> Giai đoạn 3</span>
                         </button>
                     </Link>
                 </div>
-                <div>
+                {/* <div>
                     <Link to={'/offer-2'}>
                         <button
                             type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
+                            <i className="bi bi-bicycle"></i>
                             <span> Offer - 2</span>
                         </button>
                     </Link>
-                </div>
+                </div> */}
                 <div>
                     <Link to={'/part-4'}>
                         <button
@@ -113,15 +104,15 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div>
-                <div>
+                {/* <div>
                     <Link to={'/offer-3'}>
                         <button
                             type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
+                            <i className="bi bi-bicycle"></i>
                             <span> Offer </span>
                         </button>
                     </Link>
-                </div>
+                </div> */}
                 <div>
                     <Link to={'/part-5'}>
                         <button

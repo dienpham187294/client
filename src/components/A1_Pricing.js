@@ -101,7 +101,7 @@ export default function A1Pricing() {
                                 <td>
                                     Nắm khái niệm một cách vừa đủ.
                                     <br />
-                                    Rèn luyện ghép âm.
+                                    Nắm chắc ghép âm.
                                 </td>
                                 <td>
                                     20 bài
@@ -122,7 +122,7 @@ export default function A1Pricing() {
                                     Rèn luyện nghe và nói dựa trên ngữ âm.
                                 </td>
                                 <td>
-                                    Trọng tâm vào nghe và tách âm.
+                                    Nghe - nói mà không cần hiểu nghĩa.
                                 </td>
                                 <td>
                                     30 bài
@@ -145,7 +145,7 @@ export default function A1Pricing() {
                                     Bổ sung từ vựng, rèn luyện ngữ nghĩa.
                                 </td>
                                 <td>
-                                    Ghi nhớ từ vựng, mẫu câu.
+                                    Ghi nhớ từ vựng.
                                 </td>
                                 <td>
                                     30 bài
