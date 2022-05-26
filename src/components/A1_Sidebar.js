@@ -11,7 +11,7 @@ export default function A1_sidebar(props) {
             </div>
 
             <div className="A1_01_sidebar_01">
-                <div>
+                {/* <div>
                     <Link to={'/thuchanhcoban'}>
                         <button
                             type="button" className="btn btn-secondary">
@@ -19,17 +19,8 @@ export default function A1_sidebar(props) {
                             <span> Rèn luyện <br />Làm chủ nghe - nói</span>
                         </button>
                     </Link>
-                </div>
-                <div>
-                    <Link to={'/luyen-nghe'}>
-                        <i></i>
-                        <button
-                            type="button" className="btn btn-secondary">
-                            <i className="bi bi-paragraph"></i>
-                            <span>  Luyện nghe</span>
-                        </button>
-                    </Link>
-                </div>
+                </div> */}
+
                 <div>
                     <Link to={'/ipa-study'}>
                         <i></i>
@@ -37,6 +28,36 @@ export default function A1_sidebar(props) {
                             type="button" className="btn btn-secondary">
                             <i className="bi bi-book"></i>
                             <span>Lý thuyết về Ngữ âm</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/sound-pairing'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>Cách ghép âm (Quan trọng)</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/posts-12'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>1000 từ thông dụng!</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/posts-13'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>1000 câu thông dụng!</span>
                         </button>
                     </Link>
                 </div>
@@ -83,6 +104,16 @@ export default function A1_sidebar(props) {
                             type="button" className="btn btn-secondary">
                             {/* <i className="bi bi-bicycle"></i> */}
                             <span> Giai đoạn 3</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to={'/luyen-nghe'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-paragraph"></i>
+                            <span>  Luyện nghe</span>
                         </button>
                     </Link>
                 </div>

@@ -19,7 +19,7 @@ export default function LuyenGhepAm() {
     return (
         <div>
             {
-                showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort,D0_ListMenuSort)
+                showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort, D0_ListMenuSort)
             }
 
         </div>
@@ -27,7 +27,7 @@ export default function LuyenGhepAm() {
 }
 
 
-function showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort,D0_ListMenuSort) {
+function showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort, D0_ListMenuSort) {
     try {
         return (
             <table className="table">
@@ -83,7 +83,7 @@ function sortTable(e, SET_UpdateDataTable, data) {
         data.forEach(e1 => {
             let i = true
             arrInput.forEach(e2 => {
-                if (!JSON.stringify(e1).toLocaleLowerCase().includes(e2)) (
+                if (!JSON.stringify([e1.Words, e1.id]).toLocaleLowerCase().includes(e2)) (
                     i = false
                 )
             });

@@ -6,6 +6,7 @@ import Header from './components/A1_Header';
 // import Main from './components/A2_Main';
 import About from './components/A2_About';
 import Contact from './components/A2_Contact';
+import GhepAm from './components/A2_SoSanhPhienAm';
 // import Trangchu from './components/A2_Trangchu';
 import A1sidebar from "./components/A1_Sidebar"
 import Video from './components/A2_Video';
@@ -93,6 +94,8 @@ function App() {
             <Route path='/pricing' element={<A1Pricing />} />
             <Route path='/dang-ky' element={<Dangky />} />
             <Route path='/ipa-study' element={<BaiHocPhienAm />} />
+            <Route path='/sound-pairing' element={<GhepAm />} />
+            
             <Route path='/posts-1' element={<Posts1 />} />
             <Route path='/posts-2' element={<Posts2 />} />
             <Route path='/posts-3' element={<Posts3 />} />

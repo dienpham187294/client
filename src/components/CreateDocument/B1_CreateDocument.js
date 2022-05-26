@@ -4,6 +4,10 @@ import $ from "jquery"
 import readXlsxFile from 'read-excel-file'
 import sound20 from "../../util/filedulieu/3000tuthongdung/sounds20"
 import T0_linkApi from "../../util/toolAll/T0_linkApi"
+import AmDon from "../../util/filedulieu/3000tuthongdung/AmDon.json"
+import AmDoi from "../../util/filedulieu/3000tuthongdung/AmDoi.json"
+import TuVungDon from "../../util/filedulieu/3000tuthongdung//TuVungDon.json"
+import TuVungDoi from "../../util/filedulieu/3000tuthongdung/TuVungDoi.json"
 import pickNRandomElementsOfArray from "../../util/filedulieu1/dataHelperFunction/pickNRandomElementsOfArray_GetFrom1"
 let Arruse = null
 const arrIndentity = [
@@ -309,9 +313,39 @@ function C1_Create() {
             >
                 InsertGD4
             </button>
+            <button
+                onClick={() => {
+                    let output = [];
+                    AmDon.forEach(e => {
+                        e.forEach((ee, ii) => {
+
+                            let objOutPutPs = {
+                                "id": ee,
+                                "data": [],
+                                "list": []
+                            }
+                            let i = true
+                            TuVungDon.forEach(eee => {
+                                if (eee.Ipa.includes(ee)) {
+                                    i = false
+                                }
+                            })
+                            if (i) {
+                                delete e[ii]
+                            }
+                        })
+
+                        $("#ResID").text(JSON.stringify(AmDon))
+                    })
+
+
+                }}
+            >
+                Lấy IPA
+            </button>
             <hr />
             <div id="ResID" style={{ padding: "35px" }}></div>
-        </div>
+        </div >
 
     )
 
@@ -428,7 +462,7 @@ function TranferMulti(inX) {
                     }
                     if (ee.includes("A")) {
                         let id = ee.slice(1, 3)
-                      
+
                         e.question.push({ id: id, data: e[ee] })
                         delete e[ee]
                     }
