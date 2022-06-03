@@ -7,7 +7,36 @@ export default function Contact() {
     return (
         <div>
             <hr />
-            <h1>Nguyên âm tương đồng trong tiếng việt</h1>
+            <h3>Mấu chốt của cả nghe và nói là ngữ âm!</h3>
+            <hr />
+            <div className="A1Pricing_div1">
+                <i>Các bước ghép âm.</i>
+                <table className="table-sm">
+                    <tbody>
+                        <tr>
+                            <td>1. Đếm được có bao nhiêu tiếng.</td>
+                        </tr>
+                        <tr>
+                            <td>2. Xác định nguyên âm đơn chính.</td>
+                        </tr>
+                        <tr>
+                            <td>3. Ghép từ trái sang phải theo logic.</td>
+                        </tr>
+                        <tr>
+                            <td>4. Đọc nhanh lên.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                + Âm nào có mặt thì phải có khẩu hình âm đó.
+                                <br />
+                                + Âm nguyên đơn chính đọc dài hơn mấy âm phía sau.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr />
+            <h5>Nguyên âm đơn chính phát âm và ghép âm tương tự khi so sánh với tiếng việt</h5>
             <table className="table">
                 <tbody>
                     <tr>
@@ -20,22 +49,22 @@ export default function Contact() {
                     </tr>
                     <tr>
                         <td>
-                            /ʊ /
+                            /ʊ/
                             <br />
                             /u:/
                         </td>
                         <td>
-                            /e /
+                            /e/
                         </td>
                         <td>
-                            /ɒ /
+                            /ɒ/
                             <br />
                             /ɔ:/
                         </td>
                         <td>
                             /æ/
                             <br />
-                            /ʌ /
+                            /ʌ/
                             <br />
                             /ɑ:/
                         </td>
@@ -45,9 +74,53 @@ export default function Contact() {
                             /i:/
                         </td>
                         <td>
-                            /ə /
+                            /ə/
                             <br />
                             /ɜ:/
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>  bu</b>
+                            <br />
+                            /bʊ/
+                            <br />
+                            /bu:/
+                        </td>
+                        <td>
+                            <b>  be</b>
+                            <br />
+                            /be/
+                        </td>
+                        <td>
+                            <b>  bo</b>
+                            <br />
+                            /bɒ/
+                            <br />
+                            /bɔ:/
+                        </td>
+                        <td>
+                            <b>  ba</b>
+                            <br />
+                            /bæ/
+                            <br />
+                            /bʌ/
+                            <br />
+                            /bɑ:/
+                        </td>
+                        <td>
+                            <b>  bi</b>
+                            <br />
+                            /bɪ/
+                            <br />
+                            /bi:/
+                        </td>
+                        <td>
+                            <b>  bơ</b>
+                            <br />
+                            /bə/
+                            <br />
+                            /bɜ:/
                         </td>
                     </tr>
                 </tbody>
@@ -55,7 +128,7 @@ export default function Contact() {
             <hr />
 
             <div id="nguyenamdon">
-                <h1 >Ghép âm đơn</h1>
+                <h4 >Ghép âm đơn</h4>
             </div>
 
             <table className="table table-sm">
@@ -90,7 +163,7 @@ export default function Contact() {
             <hr />
 
             <div id="nguyenamdoi">
-                <h1>Ghép âm đôi</h1>
+                <h4>Ghép âm đôi</h4>
             </div>
             <table className="table table-sm" >
                 <tbody>

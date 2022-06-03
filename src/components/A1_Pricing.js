@@ -32,7 +32,7 @@ export default function A1Pricing() {
                 {/* <h5 style={{ color: "blue" }}> <b><i>Nhanh gọn - Dứt khoát!</i></b></h5> */}
                 <div className="A1Pricing_div1">
                     <i>
-                        Mục tiêu là nói và nghe càng nhiều càng tốt thông qua các trò chơi. Nếu hoàn thành 100 trò chơi, người thực hành sẽ nói và nghe trên 20.000 lần.
+                        Mục tiêu là đạt kỹ năng nghe - nói tiếng anh bằng cách nghe - nói càng nhiều càng tốt thông qua các trò chơi ứng dụng trí tuệ nhân tạo (AI) nhận diện giọng nói. Nếu hoàn thành 100 trò chơi, người thực hành sẽ nghe - nói trên 20.000 lần.
                     </i>
                 </div>
             </div>
@@ -52,7 +52,7 @@ export default function A1Pricing() {
                         3. Loại bỏ những rào cản về mặt sinh lý, tinh thần và tình cảm xuất hiện trong quá trình luyện tập;
                     </p>
                     <p>
-                        4. Luyện tập phần kỹ năng quan trọng nhất liên tục và đều đặn.
+                        4. Luyện tập liên tục và đều đặn hết 100 bài.
                     </p>
                     {/* <p>
                         Học kỹ năng nhanh không phải là môn khoa học thần tốc.
@@ -77,14 +77,14 @@ export default function A1Pricing() {
                                 <td>
                                     Tổng quan: Thống nhất góc nhìn về mục tiêu, phương pháp và thời gian.
                                 </td>
-                               
+
                             </tr>
                             <tr>
                                 <td>
                                     2
                                 </td>
                                 <td>
-                                    Học kiến thức về kỹ năng ghép - tách âm. (20 bài)
+                                    Học kiến thức về kỹ năng ghép - tách âm. (20 bài - Học và thực hành xen kẽ với các bài giai đoạn 3)
                                 </td>
                             </tr>
                             <tr>
@@ -92,18 +92,18 @@ export default function A1Pricing() {
                                     3
                                 </td>
                                 <td>
-                                    Rèn luyện nghe và nói dựa trên tách - ghép âm. (30 bài)
+                                    Rèn luyện nghe và nói dựa trên tách - ghép âm. (30 bài - Chú trọng nghe và đoán, không học thuộc.)
                                 </td>
-                                
+
                             </tr>
                             <tr>
                                 <td>
                                     4
                                 </td>
                                 <td>
-                                    Học thuộc từ mới, câu từ. (30 bài)
+                                    Bổ sung từ vựng, câu. (30 bài - Chú trọng thuộc nhiều từ vựng.)
                                 </td>
-                               
+
                             </tr>
                             <tr>
                                 <td>
@@ -112,11 +112,11 @@ export default function A1Pricing() {
                                 <td>
                                     Nghe và diễn đạt các đoạn dài, phức tạp như mô tả, giải thích, hướng dẫn. (30 bài)
                                 </td>
-                                
+
                             </tr>
                         </tbody>
                     </table>
-
+                    <i>Công cụ học tập phải có là máy tính cá nhân (laptop hoặc PC)!</i>
                     {/* <i>
                         Mục tiêu chung cuộc là giúp học viên có khả năng nghe và nói tiếng anh trong thực tế. Nếu bạn muốn học lấy bằng cấp, phần nhiều phương pháp này sẽ không phù hợp với bạn.
                     </i> */}

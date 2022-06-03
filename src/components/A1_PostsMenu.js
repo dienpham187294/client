@@ -73,7 +73,7 @@ export default function A1Pricing() {
                                 10.   Cùng bắt đầu hành trình rèn luyện kỹ năng tiếng anh nghe – nói trong 90 bài thực hành!
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to={'/posts-12'}>
                                 11.    1000 từ vựng thường được sử dụng nhất.
                             </Link>
@@ -82,7 +82,7 @@ export default function A1Pricing() {
                             <Link to={'/posts-13'}>
                                 12.   1000 câu với từ vựng thường được sử dụng nhất.
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
