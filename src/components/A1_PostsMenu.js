@@ -10,7 +10,7 @@ export default function A1Pricing() {
     return (
         <div>
             <div className="container px-4 py-1" >
-                <h2 className="pb-2 border-bottom"> <i style={{ color: "blue" }}>Bài viết nên đọc:</i></h2>
+                <h2 className="pb-2 border-bottom"> <i style={{ color: "blue" }}>Tham khảo:</i></h2>
                 {/* <h5 style={{ color: "blue" }}> <b><i>Nhanh gọn - Dứt khoát!</i></b></h5> */}
           
                 <div className="A1Pricing_div1" onClick={() => {
