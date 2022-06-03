@@ -16,7 +16,7 @@ export default function Header() {
                 <div className="col-6">
                     <b>
                         <i className="A0_02_topcontent">
-                           Bộ công cụ trò chơi ứng dụng AI rèn luyện nghe nói!
+                           Bộ công cụ thực hành tiếng anh ứng dụng AI-Nhận diện giọng nói!
                         </i>
                     </b>
 
