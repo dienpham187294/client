@@ -344,6 +344,11 @@ function C1_Create() {
                 Lấy IPA
             </button>
             <hr />
+            <button onClick={() => {
+                CreateGameLink()
+            }}>
+                CreateGameLink
+            </button>
             <div id="ResID" style={{ padding: "35px" }}></div>
         </div >
 
@@ -897,4 +902,11 @@ function InsertMainPronunciationCreate(Name) {
         alert("Fail all")
         console.log(error)
     }
+}
+
+function CreateGameLink() {
+
+    let Arr = []
+    $("#ResID").text(JSON.stringify(Arr))
+    console.log(Arr)
 }

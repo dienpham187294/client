@@ -33,7 +33,7 @@ function Show_tienganhphothong_Write(Data_LearnWrite) {
                         style={{ margin: "10px" }}
                     >
 
-                        {showThread(e.Words, i, e.Meaning)}
+                        {showThread(e.Words, i, e.Meaning, e.IPA)}
                         <br />
 
                         <b id={"row" + i}></b>
@@ -52,7 +52,7 @@ function Show_tienganhphothong_Write(Data_LearnWrite) {
     }
 }
 
-function showThread(text, n, meaning) {
+function showThread(text, n, meaning, ipa) {
     let arrIn1 = text.split(" ").sort(() => Math.random() - 0.5);
     return (
         <>
@@ -67,7 +67,7 @@ function showThread(text, n, meaning) {
                         let t = $("#row" + n).text() + e + " ";
 
                         if (t.includes(text)) {
-                            t += " |--------------------------------------------CORRECT----------------------------------------------------------------------  "
+                            t += " |-----------IPA:   " + ipa
                         }
 
                         $("#row" + n).text(t);
