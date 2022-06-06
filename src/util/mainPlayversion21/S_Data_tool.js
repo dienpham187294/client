@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import Show_SmallView from "./funtionInside/A3_ShowSmallView"
+// import Show_SmallView from "./funtionInside/A3_ShowSmallView"
 import ShowBigView from "./funtionInside/A3_ShowBigView"
 function DataTool(props) {
     const [Data_phongto, SET_Data_phongto] = useState(props.Data[0])

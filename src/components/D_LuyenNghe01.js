@@ -6,11 +6,11 @@ import ReadMessage from "../util/Read/ReadMessage"
 // import Dictaphone from "../helpers/RegcognitionV1-0-1AI0.5 _03"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
 import Check_ImageOrNot from "../util/mainPlayversion21/funtionInside/FN/Z_F_Check_ImageOrNot";
-import $ from "jquery"
+// import $ from "jquery"
 export default function LuyenGhepAm01() {
 
     const [DATA_NGHE, setDATA_NGHE] = useState([])
-    const [DataCmd, setDataCmd] = useState([])
+    // const [DataCmd, setDataCmd] = useState([])
     const [ListRes, setListRes] = useState([])
     const [ID, setID] = useState(-1)
     const [Dung, setDung] = useState(0)

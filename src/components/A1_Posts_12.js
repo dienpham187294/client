@@ -18,6 +18,7 @@ export default function A1Pricing() {
                     {
                         mostUsedEnglish.map((e, i) =>
                             <tr key={i}>
+                                <td>{i + 1}</td>
                                 <td>{e.Word}</td>
                                 <td>{e.Ipa}</td>
                                 <td>{e.Mean}</td>
@@ -28,7 +29,7 @@ export default function A1Pricing() {
             </table>
 
 
-           {/* <Postmenu/> */}
+            {/* <Postmenu/> */}
         </div >
 
     )

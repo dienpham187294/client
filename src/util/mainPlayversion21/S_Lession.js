@@ -1,11 +1,11 @@
-import $ from "jquery"
+// import $ from "jquery"
 // import { pick } from "query-string";
-import { useState } from "react"
+// import { useState } from "react"
 import BshowStructure from "./funtionInside/BshowStructure"
-let pickToRead = "";
-let listenScore = 0
+// let pickToRead = "";
+// let listenScore = 0
 export default function Lesson(props) {
-    const [Docthu, SET_Docthu] = useState("")
+    // const [Docthu, SET_Docthu] = useState("")
 
     try {
 

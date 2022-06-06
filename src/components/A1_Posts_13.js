@@ -17,6 +17,7 @@ export default function A1Pricing() {
                     {
                         mostUsedExample.map((e, i) =>
                             <tr key={i}>
+                                <td>{i + 1}</td>
                                 <td>{e.Example}</td>
                                 <td>{e.IpaEx}</td>
                                 <td>{e.MeanEx}</td>

@@ -12,7 +12,7 @@ function GamePlay(props) {
     const [Info_message, SET_Info_message] = useState(null)
     const [Data_Commands, SET_Data_Commands] = useState(["hi how are you"])
 
-    useEffect(() => { console.log(Data_Commands) }, [Data_Commands])
+    // useEffect(() => { console.log(Data_Commands) }, [Data_Commands])
 
 
 

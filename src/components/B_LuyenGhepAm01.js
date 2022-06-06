@@ -14,17 +14,6 @@ export default function LuyenGhepAm01() {
     useEffect(() => {
         let qString = queryString.parse(window.location.search)
         setID(qString.id)
-        // let requestOptions = {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify({ id: qString.id })
-        // };
-        // fetch(T0_linkApi + "loadDataIPA", requestOptions)
-        //     .then((res) => res.json())
-        //     .then((json) => {
-        //         setDATA_GHEPAM(json.data)
-        //         setDataCmd(json.data[0].Words)
-        //     })
     }, [])
     useEffect(() => {
         if (ID !== -1) {
@@ -45,8 +34,6 @@ export default function LuyenGhepAm01() {
 
                 })
         }
-        // let qString = queryString.parse(window.location.search)
-        // setID(qString.id)
     }, [ID])
 
     function Xuly(cmd, n, i) {

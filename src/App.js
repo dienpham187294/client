@@ -41,9 +41,10 @@ import CreateDocuments from './components/CreateDocument/B1_CreateDocument';
 import LuyenGhepAm from './components/B_LuyenGhepAm';
 import LuyenGhepAm01 from './components/B_LuyenGhepAm01';
 import ThuDoNhay from './components/B_ThuDoNhay';
-import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
-import CMUSIC from "./components/C_Music"
-import CMUSIC01 from "./components/C_Music01"
+import LearnSts from "./components/A1_LEARNSTS"
+// import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
+// import CMUSIC from "./components/C_Music"
+// import CMUSIC01 from "./components/C_Music01"
 import DLUYENGHE from "./components/D_LuyenNghe"
 import DLUYENGHE1 from "./components/D_LuyenNghe01"
 import BaiHocPhienAm from "./components/A2_BaiHocPhienAm"
@@ -62,6 +63,7 @@ import Posts10 from "./components/A1_Posts_10"
 import Posts11 from "./components/A1_Posts_11"
 import Posts12 from "./components/A1_Posts_12"
 import Posts13 from "./components/A1_Posts_13"
+import Posts14 from "./components/A1_Posts_14"
 // import Words3000 from "./components/A2_3000Wds"
 
 
@@ -95,7 +97,7 @@ function App() {
             <Route path='/dang-ky' element={<Dangky />} />
             <Route path='/ipa-study' element={<BaiHocPhienAm />} />
             <Route path='/sound-pairing' element={<GhepAm />} />
-            
+            <Route path='/learn-sts' element={<LearnSts />} />
             <Route path='/posts-1' element={<Posts1 />} />
             <Route path='/posts-2' element={<Posts2 />} />
             <Route path='/posts-3' element={<Posts3 />} />
@@ -109,24 +111,25 @@ function App() {
             <Route path='/posts-11' element={<Posts11 />} />
             <Route path='/posts-12' element={<Posts12 />} />
             <Route path='/posts-13' element={<Posts13 />} />
+            <Route path='/posts-14' element={<Posts14 />} />
             {/* <Route path='/3000-basic-words' element={<Words3000 />} /> */}
 
 
 
-            <Route path='/thuchanhcoban' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"thuchanhcoban01"} />} />
+            <Route path='/part-2-c' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"prac"} />} />
 
-            <Route path='/thuchanhcoban01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
+            <Route path='/prac' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
 
             <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
 
             <Route path='/part-2-a' element={<Thuchanh_menuA ApiReq={"menuPronunciation"} Linkto={"Pronunciation01"} />} />
-            <Route path='/part-2-b' element={<Thuchanh_menuPart2b ApiReq={"menu1000Sen"} Linkto={"Pronunciation02"} />} />
-            <Route path='/part-3-a' element={<Thuchanh_menuPart3a ApiReq={"get3A"} Linkto={"Pronunciation02"} />} />
-            <Route path='/part-3-b' element={<Thuchanh_menuPart3b ApiReq={"get3B"} Linkto={"Pronunciation02"} />} />
-            <Route path='/part-4' element={<Thuchanh_menuPart4 ApiReq={"get4"} Linkto={"Pronunciation02"} />} />
-            <Route path='/part-5' element={<Thuchanh_menuPart5 ApiReq={"get5"} Linkto={"Pronunciation02"} />} />
+            <Route path='/part-2-b' element={<Thuchanh_menuPart2b ApiReq={"menu1000Sen"} Linkto={"prac-2"} />} />
+            <Route path='/part-3-a' element={<Thuchanh_menuPart3a ApiReq={"get3A"} Linkto={"prac-2"} />} />
+            <Route path='/part-3-b' element={<Thuchanh_menuPart3b ApiReq={"get3B"} Linkto={"prac-2"} />} />
+            <Route path='/part-4' element={<Thuchanh_menuPart4 ApiReq={"get4"} Linkto={"prac-2"} />} />
+            <Route path='/part-5' element={<Thuchanh_menuPart5 ApiReq={"get5"} Linkto={"prac-2"} />} />
             <Route path='/Pronunciation01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.2} />} />
-            <Route path='/Pronunciation02' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />
+            <Route path='/prac-2' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />
 
             <Route path='/thuchanhnangcao' element={<Thuchanhnangcao SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
             <Route path='/thuchanhkienthuc' element={<Thuchanh_menu ApiReq={"menuThuchanhkienthuc"} Linkto={"thuchanhkienthuc01"} />} />
@@ -154,16 +157,12 @@ function App() {
             <Route path='/luyen-ghep-am' element={<LuyenGhepAm />} />
             <Route path='/luyen-ghep-am-01' element={<LuyenGhepAm01 />} />
 
-            <Route path='/luyen-nghe' element={<DLUYENGHE />} />
-            <Route path='/luyen-nghe-01' element={<DLUYENGHE1 />} />
+            <Route path='/listen' element={<DLUYENGHE />} />
+            <Route path='/listen-01' element={<DLUYENGHE1 />} />
             <Route path='/test-AIipa' element={<ThuDoNhay />} />
             {/* <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
             <Route path='/nhacipalyrics' element={<CMUSIC />} />
             <Route path='/nhacipalyrics-detail' element={<CMUSIC01 />} /> */}
-
-
-
-
           </Routes>
         </div>
       </div>

@@ -5,21 +5,21 @@ import T0_linkApi from "../util/toolAll/T0_linkApi";
 export default function LuyenGhepAm() {
 
     const [DATA_GHEPAM, setDATA_GHEPAM] = useState([])
-
+    const [D0_ListMenuSort, setD0_ListMenuSort] = useState([])
     useEffect(() => {
 
         fetch(T0_linkApi + "menuIPA")
             .then((res) => res.json())
             .then((json) => {
                 setDATA_GHEPAM(json.data)
-
+                setD0_ListMenuSort(json.data)
             })
     }, [])
 
     return (
         <div>
             {
-                showDATA_GHEPAM(DATA_GHEPAM)
+               showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort, D0_ListMenuSort)
             }
 
         </div>
@@ -27,18 +27,29 @@ export default function LuyenGhepAm() {
 }
 
 
-function showDATA_GHEPAM(DATA_GHEPAM) {
+function showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort, D0_ListMenuSort) {
     try {
         return (
             <table className="table">
+                <input
+                    onChange={(e) => {
+                        if (e.currentTarget.value === "") {
+                            setD0_ListMenuSort(DATA_GHEPAM)
+                        }
+                        else {
+                            sortTable(e.currentTarget.value, setD0_ListMenuSort, DATA_GHEPAM)
+                        }
+                    }}
+                    placeholder="Search!"
+                    type={"text"} className="form-control" />
                 <thead>
                     <tr>
-                        <th>Luyện ghép âm</th>
+                        <th>Luyện nghe</th>
                     </tr>
                 </thead>
                 <tbody>
                     {
-                        DATA_GHEPAM.map((e, i) =>
+                        D0_ListMenuSort.map((e, i) =>
                             <tr key={i}>
                                 <td>
                                     <i><b>{e.Words}</b></i>
@@ -47,7 +58,7 @@ function showDATA_GHEPAM(DATA_GHEPAM) {
                                     <Link to={"/luyen-ghep-am-01?id=" + e.id}>
                                         <i>{"Luyện tập"}</i>
                                     </Link>
-                                    <i><b>({i + 1})</b></i>
+                                    <i><b>({e.id})</b></i>
                                 </td>
                             </tr>
 
@@ -60,5 +71,30 @@ function showDATA_GHEPAM(DATA_GHEPAM) {
         )
     } catch (error) {
         return null
+    }
+}
+
+
+function sortTable(e, SET_UpdateDataTable, data) {
+    try {
+        let arrInput = e.toLocaleLowerCase().split(" ")
+
+        let arrOuput = []
+
+        data.forEach(e1 => {
+            let i = true
+            arrInput.forEach(e2 => {
+                if (!JSON.stringify([e1.Words, e1.id]).toLocaleLowerCase().includes(e2)) (
+                    i = false
+                )
+            });
+
+            if (i) (
+                arrOuput.push(e1)
+            )
+        });
+        SET_UpdateDataTable(arrOuput)
+    } catch (error) {
+
     }
 }
