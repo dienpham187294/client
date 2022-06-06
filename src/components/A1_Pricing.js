@@ -123,6 +123,57 @@ export default function A1Pricing() {
 
                 </div>
             </div>
+            <div className="container px-4 py-1" >
+                <h2 className="pb-2 border-bottom"> <i style={{ color: "blue" }}>IV. Chi phí:</i></h2>
+                {/* <h5 style={{ color: "blue" }}> <b><i>Nhanh gọn - Dứt khoát!</i></b></h5> */}
+                {/* <i>Tiến độ được chia theo số lượng lần nghe - nói thực hiện!</i> */}
+                <div className="A1Pricing_div1">
+
+                    <table className="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    4tr/tháng.
+                                </td>
+                                <td>
+                                    20 triệu / 6 tháng.
+                                </td>
+                                <td>
+                                    35 triệu / 12 tháng.
+                                </td>
+                                <td>
+                                    40 triệu / trọn gói 100 trò chơi.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Học thử 4 buổi.
+                                    <br />
+                                    Giáo viên hướng dẫn online 2 buổi / tuần.
+                                    <br />
+                                    Trò chơi thực hành mỗi ngày - thực hành mọi lúc - mọi nơi.
+                                    <br />
+                                    Hỗ trợ liên tục để vượt qua "rào cản thất vọng".
+                                    <br />
+                                    Tham gia các buổi offline với cộng đồng.
+                                    <br/>
+                                  
+                                </td>
+                                <td>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <i>  Cam kết hoàn phí nếu không nhận được hiệu quả sau 50 bài thực hành.</i>
+                    {/* <i>
+                        Mục tiêu chung cuộc là giúp học viên có khả năng nghe và nói tiếng anh trong thực tế. Nếu bạn muốn học lấy bằng cấp, phần nhiều phương pháp này sẽ không phù hợp với bạn.
+                    </i> */}
+
+                </div>
+            </div>
             {/* <a href="https://forms.gle/pVL7Dtgp2V9DXF6N8" target="_blank">
                 <button
                     className="btn btn-outline-danger">
