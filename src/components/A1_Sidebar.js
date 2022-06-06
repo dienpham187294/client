@@ -117,6 +117,16 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div> */}
                 <div>
+                    <Link to={'/learn-sts'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>Luyện ghép câu.</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
                     <Link to={'/luyen-ghep-am'}>
                         <i></i>
                         <button
