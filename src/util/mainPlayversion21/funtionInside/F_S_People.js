@@ -1,6 +1,6 @@
-import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot";
-import PickRandom from "./PickRandom";
-import $, { data } from "jquery"
+// import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot";
+// import PickRandom from "./PickRandom";
+// import $, { data } from "jquery"
 export default function F_S_People(
     Data, STATUS, ADD_02, setSTATUS, Total
 ) {
@@ -54,7 +54,7 @@ function showDivMain(
 
                 }}
                 key={ii}>
-                <img src={ee.total.viewPick.img} width="50px" />
+                <img alt="3" src={ee.total.viewPick.img} width="50px" />
                 <i>{ee.total.viewPick.des !== undefined ? ee.total.viewPick.des : ii + 1}</i>
             </div>
         )}

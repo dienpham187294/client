@@ -32,8 +32,7 @@ export default function Thuchanh_menu(props) {
 function showD0_ListMenu(D0_ListMenu, Linkto, setD0_ListMenuSort, Data) {
   try {
     return (
-
-      <table className="table table-striped">
+      <div>
         <input
           onChange={(e) => {
             if (e.currentTarget.value === "") {
@@ -45,28 +44,31 @@ function showD0_ListMenu(D0_ListMenu, Linkto, setD0_ListMenuSort, Data) {
           }}
           placeholder="Search!"
           type={"text"} className="form-control" />
-        <thead>
-          <tr>
-            <th>Bài thực hành</th>
-            <th>Luyện tập</th>
-            {/* <th>Học tập</th>
+
+        <table className="table table-striped">
+
+          <thead>
+            <tr>
+              <th>Bài thực hành</th>
+              <th>Luyện tập</th>
+              {/* <th>Học tập</th>
             <th>Video</th> */}
-          </tr>
-        </thead>
-        <tbody>
-          {
-            D0_ListMenu.map((e, i) =>
-              <tr key={i} style={{ backgroundColor: e.name.includes("Full") ? "yellow" : "transparent" }}>
-                <td className="iconX1">
-                  <i><b>{e.name}</b></i>
-                </td>
-                <td>
-                  <Link to={"/" + Linkto + "?id=" + e.fileName}>
-                    <i>{"Luyện tập"}</i>
-                  </Link>
-                  <i><b>({e.id})</b></i>
-                </td>
-                {/* <td>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              D0_ListMenu.map((e, i) =>
+                <tr key={i} style={{ backgroundColor: e.name.includes("Full") ? "yellow" : "transparent" }}>
+                  <td className="iconX1">
+                    <i><b>{e.name}</b></i>
+                  </td>
+                  <td>
+                    <Link to={"/" + Linkto + "?id=" + e.fileName}>
+                      <i>{"Luyện tập"}</i>
+                    </Link>
+                    <i><b>({e.id})</b></i>
+                  </td>
+                  {/* <td>
                   <Link to={"/thuchanhcoban02?id=" + e.fileName}>
                     <i>{"Học tập"}</i>
                   </Link>
@@ -76,14 +78,14 @@ function showD0_ListMenu(D0_ListMenu, Linkto, setD0_ListMenuSort, Data) {
                     <i className="iconX15 bi bi-play-btn"></i>
                   </Link>
                 </td> */}
-              </tr>
+                </tr>
 
-            )
-          }
-        </tbody>
+              )
+            }
+          </tbody>
 
-      </table>
-
+        </table>
+      </div>
     )
   } catch (error) {
     return null

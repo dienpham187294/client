@@ -1,4 +1,4 @@
-import $ from "jquery"
+// import $ from "jquery"
 import ReadMessage from "../../../Read/ReadMessage";
 import PickRandom from "../PickRandom";
 const stringSimilarity = require("string-similarity");

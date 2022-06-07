@@ -151,51 +151,51 @@ function showInInline1(test, setStructure, Fnpick, SET_SrcYoutube) {
 }
 
 
-function showBtnVideoNgheTacham(dataqInput, SET_SrcYoutube) {
-    try {
-        return (
-            <>
-                {dataqInput.map((e, i) =>
-                    <div key={i}>
-                        <a href="#videoID">
-                            <button
-                                style={{ border: "1px solid green", borderRadius: "5px", padding: "5px", marginTop: "5px", cursor: "pointer" }}
-                                className="btnHover ml-1"
-                                onClick={() => {
-                                    SET_SrcYoutube(e)
-                                }}
-                            >Video {i + 1}</button>
-                        </a>
-                    </div>
-                )}
-            </>
-        )
-    } catch (error) {
-        return null
-    }
-}
+// function showBtnVideoNgheTacham(dataqInput, SET_SrcYoutube) {
+//     try {
+//         return (
+//             <>
+//                 {dataqInput.map((e, i) =>
+//                     <div key={i}>
+//                         <a href="#videoID">
+//                             <button
+//                                 style={{ border: "1px solid green", borderRadius: "5px", padding: "5px", marginTop: "5px", cursor: "pointer" }}
+//                                 className="btnHover ml-1"
+//                                 onClick={() => {
+//                                     SET_SrcYoutube(e)
+//                                 }}
+//                             >Video {i + 1}</button>
+//                         </a>
+//                     </div>
+//                 )}
+//             </>
+//         )
+//     } catch (error) {
+//         return null
+//     }
+// }
 
-function showBtnVideoHuongdan(dataqInput, SET_SrcYoutube) {
-    try {
+// function showBtnVideoHuongdan(dataqInput, SET_SrcYoutube) {
+//     try {
 
-        if (dataqInput !== "") {
-            return (
-                <>
-                    <br />
-                    <a href="#videoID">
-                        <button
-                            style={{ border: "1px solid green", borderRadius: "5px", padding: "5px", marginTop: "5px", cursor: "pointer" }}
-                            className="btnHover ml-1"
-                            onClick={() => {
-                                SET_SrcYoutube(dataqInput)
-                            }}
-                        >Video</button>
-                    </a>
-                </>
-            )
-        }
-        return null
-    } catch (error) {
-        return null
-    }
-}
+//         if (dataqInput !== "") {
+//             return (
+//                 <>
+//                     <br />
+//                     <a href="#videoID">
+//                         <button
+//                             style={{ border: "1px solid green", borderRadius: "5px", padding: "5px", marginTop: "5px", cursor: "pointer" }}
+//                             className="btnHover ml-1"
+//                             onClick={() => {
+//                                 SET_SrcYoutube(dataqInput)
+//                             }}
+//                         >Video</button>
+//                     </a>
+//                 </>
+//             )
+//         }
+//         return null
+//     } catch (error) {
+//         return null
+//     }
+// }

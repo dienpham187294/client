@@ -1,7 +1,7 @@
 
 import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot";
 import PickRandom from "./PickRandom";
-import $ from "jquery"
+// import $ from "jquery"
 export default function showToPickPerson(
     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
     ArrOfPeopeAppear_ReactData, ADD_01,
@@ -121,7 +121,7 @@ function updateDataShowToPick(DataShowToPick, SET_DataShowToPick, index) {
             ArrNew.push(e)
         }
     })
-    let Arr0 = []
+    // let Arr0 = []
     let Arr1 = [1]
     let Arr2 = [2, 2]
     let Arr3 = [3, 3, 3]
@@ -144,18 +144,18 @@ function updateDataShowToPick(DataShowToPick, SET_DataShowToPick, index) {
 function Show(data) {
     try {
         return <>
-            <img src={data.viewPick.img} height="120px" />
+            <img alt="0" src={data.viewPick.img} height="120px" />
         </>
     } catch (error) {
         try {
             if (data.icon !== undefined && data.icon !== "" && data.icon !== null && Check_ImageOrNot(data.icon)) {
-                return <img src={data.icon} height="120px" />
+                return <img alt="1" src={data.icon} height="120px" />
             } else {
-                return <img src={"https://i.postimg.cc/VNJf7gXX/person.png"} height="120px" />
+                return <img alt="2" src={"https://i.postimg.cc/VNJf7gXX/person.png"} height="120px" />
             }
 
         } catch (error) {
-            return <img src={"https://i.postimg.cc/VNJf7gXX/person.png"} height="120px" />
+            return <img alt="3" src={"https://i.postimg.cc/VNJf7gXX/person.png"} height="120px" />
         }
 
 

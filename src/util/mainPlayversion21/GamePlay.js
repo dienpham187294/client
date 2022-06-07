@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import $ from "jquery"
 import DataTool from "./S_Data_tool"
 import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../Read/ReadMessage"
@@ -249,8 +249,11 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 <span>
                     {D4_Time}
                 </span>
-                <span id="percentID_SAI">{eS_CountPercentWrong}</span>
-                <span id="percentID_DUNG">{eS_CountPercentRight}</span>
+                <span id="percentID_SAI">{eS_CountPercentWrong}---</span>
+                <span id="percentID_DUNG">{eS_CountPercentRight}---</span>
+                <button onClick={() => {
+                    $("#GameBox").show()
+                }}>GameBox</button>
             </div>
             <div>
                 <i>Hành động trước, sửa chữa sau.</i>
@@ -260,9 +263,6 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 <i>Kỹ năng đơn giản là một thói quen.</i>
                 <br />
                 <i>Trăm hay không bằng tay quen.</i>
-            </div>
-            <div className="H_S_Data_ScoreList">
-                {H_S_Data_ScoreList(Data_ScoreList)}
             </div>
         </div>
     }
@@ -302,9 +302,12 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}
                 {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total, DataActionSearch, SET_DataActionSearch) : null}
             </div>
-                {/* <div id="textAreaDiv">
-                    <textarea style={{ width: "150px", height: "200px" }} />
-                </div> */}
+            <div id="GameBox" className="H_S_Data_ScoreList">
+                <button onClick={() => {
+                    $("#GameBox").hide()
+                }}>Hide</button>
+                {H_S_Data_ScoreList(Score)}
+            </div>
             <ReadReactSpeech />
         </>
     )

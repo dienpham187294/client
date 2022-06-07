@@ -4,7 +4,7 @@ import queryString from 'query-string';
 import ReadReactSpeech from "../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../util/Read/ReadMessage"
 import Dictaphone from "../helpers/RegcognitionV1-0-1AI0.5 _03_Luyenghe"
-import $ from "jquery"
+// import $ from "jquery"
 export default function LuyenGhepAm01() {
 
     const [DATA_GHEPAM, setDATA_GHEPAM] = useState([])
@@ -67,7 +67,7 @@ export default function LuyenGhepAm01() {
                 S_01(DATA_GHEPAM)
             }
             <p id="interrimID"></p>
-            <h1 id="res"></h1>
+            <h1 id="res">.</h1>
             <ReadReactSpeech />
             <Dictaphone
                 Data={DataCmd} Xuly={Xuly}

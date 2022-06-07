@@ -20,14 +20,14 @@ function S_data(data, Mark, setSTATUS, setData) {
                 {data.map((e, i) =>
                     <div
                         onClick={() => {
-                            
+
                             if (Mark[e.id] !== undefined) {
                                 setData(Mark[e.id].core)
                                 setSTATUS(true)
                             }
                         }}
                         key={i}>
-                        <img src={e.img} height="80px" />
+                        <img alt="4" src={e.img} height="80px" />
                         <i>{e.nameDepart}</i>
                     </div>
                 )}

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Check_ImageOrNot from "./FN/Z_F_Check_ImageOrNot"
-let saveData;
+// let saveData;
 export default
     function ShowBigView(dataRoot, data, Total, SET_Data_phongto, UpdateDataTable, SET_UpdateDataTable) {
 
@@ -85,6 +85,7 @@ function showListTable(eee, indexeee) {
                 {
                     Check_ImageOrNot(eee[0]) ?
                         <img
+                            alt="6"
                             src={eee[0]} width="40px" height={"30px"} /> :
                         <span
                             style={{ width: "80px" }}
@@ -124,7 +125,7 @@ function showInside01(data, Total, UpdateDataTable, SET_UpdateDataTable) {
                                             Total.fnObj.SET_Info_Icon_Reactdata(eeee)
                                             Total.fnObj.Handle_01(Total)
                                         }}
-                                        src={eeee} width="150px" height={"150px"} style={{ margin: "5px 25px", cursor: "pointer" }} /> :
+                                        alt="7" src={eeee} width="150px" height={"150px"} style={{ margin: "5px 25px", cursor: "pointer" }} /> :
                                     <div
                                         onClick={() => {
                                             Total.stObj.inputSumit += "===" + eeee;
@@ -198,6 +199,7 @@ function showtableWithoutInput(eee, Total) {
                                 <td key={ii2}>{
                                     Check_ImageOrNot(e1[ee2])
                                         ? <img
+                                            alt="9"
                                             style={{ cursor: "pointer", margin: "5px 0px" }}
                                             src={e1[ee2]} width="150px" height={"150px"} />
                                         : <span

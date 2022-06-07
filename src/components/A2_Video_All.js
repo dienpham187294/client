@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react"
-import T0_linkApi from "../util/toolAll/T0_linkApi";
-import queryString from 'query-string';
+import { useState } from "react"
+// import T0_linkApi from "../util/toolAll/T0_linkApi";
+// import queryString from 'query-string';
 import $ from "jquery"
 
 export default function Video() {

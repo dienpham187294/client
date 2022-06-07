@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react"
 import Dictaphone from "../../helpers/RegcognitionV1-0-1AI0.5_01"
-import ArrOfPeopeAppear_ReactJSX from "./GamePlay"
+import ArrOfPeopeAppearReactJSX from "./GamePlay"
 
 // import $ from "jquery"
 
@@ -39,7 +39,7 @@ function GamePlay(props) {
 
                 <div className="col-md-9 sm-12">{
                     ArrOfPeopeAppear_ReactData !== null ?
-                        <ArrOfPeopeAppear_ReactJSX
+                        <ArrOfPeopeAppearReactJSX
                             ArrOfPeopeAppear_ReactData={ArrOfPeopeAppear_ReactData}
                             Info_message={Info_message}
                             SET_Info_message={SET_Info_message}

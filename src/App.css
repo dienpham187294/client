@@ -530,11 +530,26 @@ a:hover {
 }
 
 .H_S_Data_ScoreList {
+    position: fixed;
     text-align: left;
     padding: 5px;
-    max-height: 300px;
+    height: 350px;
     overflow-y: auto;
     font-size: small;
+    bottom: 5%;
+    width: 850px;
+    z-index: 15;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.H_S_Data_ScoreList td {
+    cursor: pointer;
+}
+
+.H_S_Data_ScoreList button {
+    float: right;
 }
 
 #percentID_SAI {

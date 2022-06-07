@@ -2,6 +2,7 @@ export default function Contact() {
     return (
         <div>
             <iframe
+                title="dangky"
                 src="https://forms.gle/pVL7Dtgp2V9DXF6N8"
                 width="100%"
                 height="2500"

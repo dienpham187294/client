@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { createSpeechlySpeechRecognition } from '@speechly/speech-recognition-polyfill';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import $ from "jquery";
-import { async } from 'regenerator-runtime';
+// import { async } from 'regenerator-runtime';
 // import { data } from 'cheerio/lib/api/attributes';
 const appId = '6b82e0d7-8610-45b8-96cd-22f51d4c50f1';
 const SpeechlySpeechRecognition = createSpeechlySpeechRecognition(appId);

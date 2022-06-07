@@ -1,5 +1,5 @@
 
-import $ from "jquery"
+// import $ from "jquery"
 
 export default
     function showAction(DataAction, SET_DataAction, Data_Commands, showOptionToRead, Score, showHintAlot, Total, DataActionSearch, SET_DataActionSearch) {

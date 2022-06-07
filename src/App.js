@@ -12,17 +12,17 @@ import A1sidebar from "./components/A1_Sidebar"
 import Video from './components/A2_Video';
 import A1Pricing from './components/A1_Pricing';
 import T0_linkApi from './util/toolAll/T0_linkApi_HEROKU';
-import Thuchanh_menu from './components/A2a_Thuchanh_menu';
-import Thuchanh_menuA from './components/A2a_Thuchanh_menu_a';
-import Thuchanh_menuPart2b from './components/A2a_Thuchanh_menu_part2_b';
-import Thuchanh_menuPart3a from './components/A2a_Thuchanh_menu_part3_a';
-import Thuchanh_menuPart3b from './components/A2a_Thuchanh_menu_part3_b';
-import Thuchanh_menuPart4 from './components/A2a_Thuchanh_menu_part4';
-import Thuchanh_menuPart5 from './components/A2a_Thuchanh_menu_part5';
-import Thuchanh_01 from './components/A2a_Thuchanh_01';
+import Thuchanhmenu from './components/A2a_Thuchanh_menu';
+import ThuchanhmenuA from './components/A2a_Thuchanh_menu_a';
+import ThuchanhmenuPart2b from './components/A2a_Thuchanh_menu_part2_b';
+import ThuchanhmenuPart3a from './components/A2a_Thuchanh_menu_part3_a';
+import ThuchanhmenuPart3b from './components/A2a_Thuchanh_menu_part3_b';
+import ThuchanhmenuPart4 from './components/A2a_Thuchanh_menu_part4';
+import ThuchanhmenuPart5 from './components/A2a_Thuchanh_menu_part5';
+import Thuchanh01 from './components/A2a_Thuchanh_01';
 
-import Thuchanh_02 from './components/A2a_Thuchanh_02';
-import Thuchanhnangcao from './components/A2a_Thuchannangcao';
+import Thuchanh02 from './components/A2a_Thuchanh_02';
+// import Thuchanhnangcao from './components/A2a_Thuchannangcao';
 
 import B1Lop1 from './components/thuchanhTAPhothong/B1_Lop1';
 import B1Lop2 from './components/thuchanhTAPhothong/B1_Lop2';
@@ -116,25 +116,25 @@ function App() {
 
 
 
-            <Route path='/part-2-c' element={<Thuchanh_menu ApiReq={"menuThuchanhcoban"} Linkto={"prac"} />} />
+            <Route path='/part-2-c' element={<Thuchanhmenu ApiReq={"menuThuchanhcoban"} Linkto={"prac"} />} />
 
-            <Route path='/prac' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
+            <Route path='/prac' element={<Thuchanh01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
 
-            <Route path='/thuchanhcoban02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
+            <Route path='/thuchanhcoban02' element={<Thuchanh02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} />} />
 
-            <Route path='/part-2-a' element={<Thuchanh_menuA ApiReq={"menuPronunciation"} Linkto={"Pronunciation01"} />} />
-            <Route path='/part-2-b' element={<Thuchanh_menuPart2b ApiReq={"menu1000Sen"} Linkto={"prac-2"} />} />
-            <Route path='/part-3-a' element={<Thuchanh_menuPart3a ApiReq={"get3A"} Linkto={"prac-2"} />} />
-            <Route path='/part-3-b' element={<Thuchanh_menuPart3b ApiReq={"get3B"} Linkto={"prac-2"} />} />
-            <Route path='/part-4' element={<Thuchanh_menuPart4 ApiReq={"get4"} Linkto={"prac-2"} />} />
-            <Route path='/part-5' element={<Thuchanh_menuPart5 ApiReq={"get5"} Linkto={"prac-2"} />} />
-            <Route path='/Pronunciation01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.2} />} />
-            <Route path='/prac-2' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />
+            <Route path='/part-2-a' element={<ThuchanhmenuA ApiReq={"menuPronunciation"} Linkto={"Pronunciation01"} />} />
+            <Route path='/part-2-b' element={<ThuchanhmenuPart2b ApiReq={"menu1000Sen"} Linkto={"prac-2"} />} />
+            <Route path='/part-3-a' element={<ThuchanhmenuPart3a ApiReq={"get3A"} Linkto={"prac-2"} />} />
+            <Route path='/part-3-b' element={<ThuchanhmenuPart3b ApiReq={"get3B"} Linkto={"prac-2"} />} />
+            <Route path='/part-4' element={<ThuchanhmenuPart4 ApiReq={"get4"} Linkto={"prac-2"} />} />
+            <Route path='/part-5' element={<ThuchanhmenuPart5 ApiReq={"get5"} Linkto={"prac-2"} />} />
+            <Route path='/Pronunciation01' element={<Thuchanh01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.2} />} />
+            <Route path='/prac-2' element={<Thuchanh01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />
 
-            <Route path='/thuchanhnangcao' element={<Thuchanhnangcao SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} />
-            <Route path='/thuchanhkienthuc' element={<Thuchanh_menu ApiReq={"menuThuchanhkienthuc"} Linkto={"thuchanhkienthuc01"} />} />
-            <Route path='/thuchanhkienthuc01' element={<Thuchanh_01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} ThreshHold={0.7} />} />
-            <Route path='/thuchanhkienthuc02' element={<Thuchanh_02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} />} />
+            {/* <Route path='/thuchanhnangcao' element={<Thuchanhnangcao SOCKET={SOCKET} ApiReq={"loadDataThuchanhcoban"} ThreshHold={0.6} />} /> */}
+            <Route path='/thuchanhkienthuc' element={<Thuchanhmenu ApiReq={"menuThuchanhkienthuc"} Linkto={"thuchanhkienthuc01"} />} />
+            <Route path='/thuchanhkienthuc01' element={<Thuchanh01 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} ThreshHold={0.7} />} />
+            <Route path='/thuchanhkienthuc02' element={<Thuchanh02 SOCKET={SOCKET} ApiReq={"loadDataThuchanhkienthuc"} />} />
 
 
 
