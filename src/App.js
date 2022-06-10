@@ -41,7 +41,7 @@ import CreateDocuments from './components/CreateDocument/B1_CreateDocument';
 import LuyenGhepAm from './components/B_LuyenGhepAm';
 import LuyenGhepAm01 from './components/B_LuyenGhepAm01';
 import ThuDoNhay from './components/B_ThuDoNhay';
-import LearnSts from "./components/A1_LEARNSTS"
+import LearnSts from "./components/C1_LEARNSTS"
 // import ThuDoNhayTQ from './components/B_ThuDoNhayTQ';
 // import CMUSIC from "./components/C_Music"
 // import CMUSIC01 from "./components/C_Music01"

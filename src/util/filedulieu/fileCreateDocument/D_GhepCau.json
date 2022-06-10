@@ -1,0 +1,6133 @@
+[
+    [
+        [
+            "I am a student at the Massachusetts Institute of Technology",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌmæsəˈʧuːsɪts ˈɪnstɪtjuːt ɒv tɛkˈnɒləʤi",
+            "Tôi là sinh viên của Học viện Công nghệ Massachusetts"
+        ],
+        [
+            "I am a student at Harvard University",
+            "aɪ æm ə ˈstjuːdənt æt ˈhɑːvəd ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học Harvard"
+        ],
+        [
+            "I am a student at Stanford University",
+            "aɪ æm ə ˈstjuːdənt æt ˈstænfəd ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên tại đại học Stanford"
+        ],
+        [
+            "I am a student at Cornell University",
+            "aɪ æm ə ˈstjuːdənt æt Cornell ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên tại đại học Cornell"
+        ],
+        [
+            "I am a student at the University of California, Berkeley",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, ˈbɜːkli",
+            "Tôi là sinh viên Đại học California, Berkeley"
+        ],
+        [
+            "I am a student at Columbia University in the City of New York",
+            "aɪ æm ə ˈstjuːdənt æt kəˈlʌmbɪə ˌjuːnɪˈvɜːsɪti ɪn ðə ˈsɪti ɒv njuː jɔːk",
+            "Tôi là sinh viên Đại học Columbia ở Thành phố New York"
+        ],
+        [
+            "I am a student at the University of Michigan",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈmɪʃəgən",
+            "Tôi là sinh viên trường đại học Michigan"
+        ],
+        [
+            "I am a student at the University of Washington",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈwɒʃɪŋtən",
+            "Tôi là sinh viên trường đại học Washington"
+        ],
+        [
+            "I am a student at the University of Pennsylvania",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌpɛnsɪlˈveɪnɪə",
+            "Tôi là sinh viên trường đại học Pennsylvania"
+        ],
+        [
+            "I am a student at the University of Minnesota-Twin Cities",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌmɪnɪˈsəʊtə-twɪn ˈsɪtiz",
+            "Tôi là sinh viên của Đại học Minnesota-Twin Cities"
+        ],
+        [
+            "I am a student at Yale University",
+            "aɪ æm ə ˈstjuːdənt æt jeɪl ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học Yale"
+        ],
+        [
+            "I am a student at the University of California, Los Angeles",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, Los ˈeɪnʤəlz",
+            "Tôi là sinh viên Đại học California, Los Angeles"
+        ],
+        [
+            "I am a student at Johns Hopkins University",
+            "aɪ æm ə ˈstjuːdənt æt ʤɒnz ˈhɒpkɪnz ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên tại Đại học Johns Hopkins"
+        ],
+        [
+            "I am a student at The University of Texas at Austin",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈtɛksəs æt ˈɔːstɪn",
+            "Tôi là sinh viên Đại học Texas ở Austin"
+        ],
+        [
+            "I am a student at New York University",
+            "aɪ æm ə ˈstjuːdənt æt njuː jɔːk ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học New York"
+        ],
+        [
+            "I am a student at the University of Wisconsin-Madison",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv wɪsˈkɒnsən-ˈmædɪs(ə)n",
+            "Tôi là sinh viên tại Đại học Wisconsin-Madison"
+        ],
+        [
+            "I am a student at Purdue University",
+            "aɪ æm ə ˈstjuːdənt æt Purdue ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học Purdue"
+        ],
+        [
+            "I am a student at Penn State University",
+            "aɪ æm ə ˈstjuːdənt æt pɛn steɪt ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên tại Đại học bang Penn"
+        ],
+        [
+            "I am a student at Princeton University",
+            "aɪ æm ə ˈstjuːdənt æt ˈprɪnstən ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học Princeton"
+        ],
+        [
+            "I am a student at Carnegie Mellon University",
+            "aɪ æm ə ˈstjuːdənt æt ˈkɑːnəgi Mellon ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên của Đại học Carnegie Mellon"
+        ],
+        [
+            "I am a student at the University of Southern California",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈsʌðən ˌkæləˈfɔːniə",
+            "Tôi là sinh viên của Đại học Nam California"
+        ],
+        [
+            "I am a student at the University of Chicago",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ʃɪˈkɑːgəʊ",
+            "Tôi là sinh viên trường đại học Chicago"
+        ],
+        [
+            "I am a student at Arizona State University",
+            "aɪ æm ə ˈstjuːdənt æt ˌærɪˈzəʊnə steɪt ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên tại Đại học Bang Arizona"
+        ],
+        [
+            "I am a student at the University of Florida",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˈflɒrɪdə",
+            "Tôi là sinh viên trường đại học Florida"
+        ],
+        [
+            "I am a student at Michigan State University",
+            "aɪ æm ə ˈstjuːdənt æt ˈmɪʃəgən steɪt ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học bang Michigan"
+        ],
+        [
+            "I am a student at the University of California, San Diego",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, sæn ˈdjɛgəʊ",
+            "Tôi là sinh viên Đại học California, San Diego"
+        ],
+        [
+            "I am a student at the University of Illinois at Urbana-Champaign",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv ˌɪlɪˈnɔɪ æt Urbana-ˈʧæmpeɪn",
+            "Tôi là sinh viên tại Đại học Illinois tại Urbana-Champaign"
+        ],
+        [
+            "I am a student at the University of North Carolina at Chapel Hill",
+            "aɪ æm ə ˈstjuːdənt æt ðə ˌjuːnɪˈvɜːsɪti ɒv nɔːθ kærəˈlaɪnə æt ˈʃæpəl hɪl",
+            "Tôi là sinh viên của Đại học Bắc Carolina tại Chapel Hill"
+        ],
+        [
+            "I am a student at Duke University",
+            "aɪ æm ə ˈstjuːdənt æt djuːk ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên tại đại học Duke"
+        ],
+        [
+            "I am a student at Northwestern University",
+            "aɪ æm ə ˈstjuːdənt æt ˌnɔːθˈwɛstən ˌjuːnɪˈvɜːsɪti",
+            "Tôi là sinh viên trường đại học Northwestern"
+        ]
+    ],
+    [
+        [
+            "My major is Agribusiness Operations",
+            "maɪ ˈmeɪʤər ɪz Agribusiness ˌɒpəˈreɪʃənz",
+            "Chuyên ngành của tôi là Hoạt động kinh doanh nông nghiệp"
+        ],
+        [
+            "My major is Agricultural Business & Management",
+            "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl ˈbɪznɪs & ˈmænɪʤmənt",
+            "Chuyên ngành của tôi là Quản lý & Kinh doanh Nông nghiệp"
+        ],
+        [
+            "My major is Agricultural Economics",
+            "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl ˌiːkəˈnɒmɪks",
+            "Chuyên ngành của tôi là Kinh tế Nông nghiệp"
+        ],
+        [
+            "My major is Agricultural Mechanization",
+            "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl ˌmɛkənaɪˈzeɪʃən",
+            "Chuyên ngành của tôi là Cơ giới hóa nông nghiệp"
+        ],
+        [
+            "My major is Agricultural Production",
+            "maɪ ˈmeɪʤər ɪz ˌægrɪˈkʌlʧərəl prəˈdʌkʃən",
+            "Chuyên ngành của tôi là Sản xuất Nông nghiệp"
+        ],
+        [
+            "My major is Agronomy & Crop Science",
+            "maɪ ˈmeɪʤər ɪz əˈgrɒnəmi & krɒp ˈsaɪəns",
+            "Chuyên ngành của tôi là Nông học & Khoa học cây trồng"
+        ],
+        [
+            "My major is Animal Sciences",
+            "maɪ ˈmeɪʤər ɪz ˈænɪməl ˈsaɪənsɪz",
+            "Chuyên ngành của tôi là Khoa học Động vật"
+        ],
+        [
+            "My major is Food Sciences & Technology",
+            "maɪ ˈmeɪʤər ɪz fuːd ˈsaɪənsɪz & tɛkˈnɒləʤi",
+            "Chuyên ngành của tôi là Khoa học & Công nghệ Thực phẩm"
+        ],
+        [
+            "My major is Horticulture Operations & Management",
+            "maɪ ˈmeɪʤər ɪz ˈhɔːtɪkʌlʧər ˌɒpəˈreɪʃənz & ˈmænɪʤmənt",
+            "Chuyên ngành của tôi là Quản lý & Điều hành Trồng trọt"
+        ],
+        [
+            "My major is Horticulture Science",
+            "maɪ ˈmeɪʤər ɪz ˈhɔːtɪkʌlʧə ˈsaɪəns",
+            "Chuyên ngành của tôi là Khoa học Làm vườn"
+        ],
+        [
+            "My major is Natural Resources Conservation",
+            "maɪ ˈmeɪʤər ɪz ˈnæʧrəl rɪˈsɔːsɪz ˌkɒnsə(ː)ˈveɪʃən",
+            "Chuyên ngành của tôi là Bảo tồn tài nguyên thiên nhiên"
+        ],
+        [
+            "My major is Environmental Science",
+            "maɪ ˈmeɪʤər ɪz ɪnˌvaɪərənˈmɛntl ˈsaɪəns",
+            "Chuyên ngành của tôi là Khoa học Môi trường"
+        ],
+        [
+            "My major is Forestry",
+            "maɪ ˈmeɪʤər ɪz ˈfɒrɪstri",
+            "Chuyên ngành của tôi là Lâm nghiệp"
+        ],
+        [
+            "My major is Natural Resources Management",
+            "maɪ ˈmeɪʤər ɪz ˈnæʧrəl rɪˈsɔːsɪz ˈmænɪʤmənt",
+            "Chuyên ngành của tôi là Quản lý tài nguyên thiên nhiên"
+        ],
+        [
+            "My major is Wildlife & Wildlands Management",
+            "maɪ ˈmeɪʤər ɪz ˈwaɪldlaɪf & Wildlands ˈmænɪʤmənt",
+            "Chuyên ngành của tôi là Quản lý động vật hoang dã & các vùng đất hoang dã"
+        ],
+        [
+            "My major is Architectural Environmental Design",
+            "maɪ ˈmeɪʤər ɪz ˌɑːkɪˈtɛkʧərəl ɪnˌvaɪərənˈmɛntl dɪˈzaɪn",
+            "Chuyên ngành của tôi là Thiết kế Môi trường Kiến trúc"
+        ],
+        [
+            "My major is Urban and Regional Planning",
+            "maɪ ˈmeɪʤər ɪz ˈɜːbən ænd ˈriːʤənl ˈplænɪŋ",
+            "Chuyên ngành của tôi là Quy hoạch đô thị và khu vực"
+        ],
+        [
+            "My major is Interior Architecture",
+            "maɪ ˈmeɪʤər ɪz ɪnˈtɪərɪər ˈɑːkɪtɛkʧə",
+            "Chuyên ngành của tôi là Kiến trúc nội thất"
+        ],
+        [
+            "My major is Landscape Architecture",
+            "maɪ ˈmeɪʤər ɪz ˈlænskeɪp ˈɑːkɪtɛkʧə",
+            "Chuyên ngành của tôi là Kiến trúc cảnh quan"
+        ],
+        [
+            "My major is Asian Area Studies",
+            "maɪ ˈmeɪʤər ɪz ˈeɪʃ(ə)n ˈeərɪə ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu Khu vực Châu Á"
+        ],
+        [
+            "My major is European Area Studies",
+            "maɪ ˈmeɪʤər ɪz ˌjʊərəˈpi(ː)ən ˈeərɪə ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu Khu vực Châu Âu"
+        ],
+        [
+            "My major is Latin American Area Studies",
+            "maɪ ˈmeɪʤər ɪz ˈlætɪn əˈmɛrɪkən ˈeərɪə ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu Khu vực Mỹ Latinh"
+        ],
+        [
+            "My major is North American Area Studies",
+            "maɪ ˈmeɪʤər ɪz nɔːθ əˈmɛrɪkən ˈeərɪə ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu Khu vực Bắc Mỹ"
+        ],
+        [
+            "My major is Ethnic & Minority Studies",
+            "maɪ ˈmeɪʤər ɪz ˈɛθnɪk & maɪˈnɒrɪti ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu Dân tộc & thiểu số"
+        ],
+        [
+            "My major is African American Studies",
+            "maɪ ˈmeɪʤər ɪz ˈæfrɪkən əˈmɛrɪkən ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu người Mỹ gốc Phi"
+        ],
+        [
+            "My major is Native American Studies",
+            "maɪ ˈmeɪʤər ɪz ˈneɪtɪv əˈmɛrɪkən ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu về người Mỹ bản địa"
+        ],
+        [
+            "My major is Chicano Studies",
+            "maɪ ˈmeɪʤər ɪz Chicano ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu Chicano"
+        ],
+        [
+            "My major is Women’s Studies",
+            "maɪ ˈmeɪʤər ɪz ˈwɪmɪnz ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghiên cứu về Phụ nữ"
+        ],
+        [
+            "My major is Liberal Arts & General Studies",
+            "maɪ ˈmeɪʤər ɪz ˈlɪbərəl ɑːts & ˈʤɛnərəl ˈstʌdiz",
+            "Chuyên ngành của tôi là Nghệ thuật Tự do & Nghiên cứu Tổng quát"
+        ],
+        [
+            "My major is Library Science",
+            "maɪ ˈmeɪʤər ɪz ˈlaɪbrəri ˈsaɪəns",
+            "Chuyên ngành của tôi là Khoa học Thư viện"
+        ]
+    ],
+    [
+        [
+            "My favorite drink is Catalan.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkætələn .",
+            "Thức uống yêu thích của tôi là Catalan."
+        ],
+        [
+            "My favorite drink is ale.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz eɪl.",
+            "Thức uống yêu thích của tôi là bia."
+        ],
+        [
+            "My favorite drink is Americano.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz Americano.",
+            "Thức uống yêu thích của tôi là Americano."
+        ],
+        [
+            "My favorite drink is an aperitif.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ən əˈpɛrɪtɪf.",
+            "Thức uống yêu thích của tôi là rượu khai vị."
+        ],
+        [
+            "My favorite drink is beer.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz bɪə.",
+            "Thức uống yêu thích của tôi là bia."
+        ],
+        [
+            "My favorite drink is black tea.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz blæk tiː.",
+            "Thức uống yêu thích của tôi là trà đen."
+        ],
+        [
+            "My favorite drink is brandy.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈbrændi.",
+            "Thức uống yêu thích của tôi là rượu mạnh."
+        ],
+        [
+            "My favorite drink is bubble tea.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈbʌbl tiː.",
+            "Thức uống yêu thích của tôi là trà bong bóng."
+        ],
+        [
+            "My favorite drink is cappuccino.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˌkæpʊˈʧiːnəʊ.",
+            "Thức uống yêu thích của tôi là cappuccino."
+        ],
+        [
+            "My favorite drink is cider.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈsaɪdə.",
+            "Thức uống yêu thích của tôi là rượu táo."
+        ],
+        [
+            "My favorite drink is cocktail.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkɒkteɪl.",
+            "Thức uống yêu thích của tôi là cocktail."
+        ],
+        [
+            "My favorite drink is coffee.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkɒfi.",
+            "Thức uống yêu thích của tôi là cà phê."
+        ],
+        [
+            "My favorite drink is cola.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈkəʊlə.",
+            "Thức uống yêu thích của tôi là cola."
+        ],
+        [
+            "My favorite drink is champagne.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ʃæmˈpeɪn.",
+            "Thức uống yêu thích của tôi là sâm panh."
+        ],
+        [
+            "My favorite drink is decaf coffee.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈdiːkæf ˈkɒfi.",
+            "Thức uống yêu thích của tôi là cà phê decaf."
+        ],
+        [
+            "My favorite drink is egg coffee.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ɛg ˈkɒfi.",
+            "Thức uống yêu thích của tôi là cà phê trứng."
+        ],
+        [
+            "My favorite drink is espresso.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ɛˈsprɛsəʊ.",
+            "Thức uống yêu thích của tôi là cà phê espresso."
+        ],
+        [
+            "My favorite drink is fruit tea.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz fruːt tiː.",
+            "Thức uống yêu thích của tôi là trà trái cây."
+        ],
+        [
+            "My favorite drink is green tea.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz griːn tiː.",
+            "Thức uống yêu thích của tôi là trà xanh."
+        ],
+        [
+            "My favorite drink is gin.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ʤɪn.",
+            "Thức uống yêu thích của tôi là gin."
+        ],
+        [
+            "My favorite drink is herbal tea.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈhɜːbəl tiː.",
+            "Thức uống yêu thích của tôi là trà thảo mộc."
+        ],
+        [
+            "My favorite drink is hot chocolate.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz hɒt ˈʧɒkəlɪt.",
+            "Thức uống yêu thích của tôi là sô cô la nóng."
+        ],
+        [
+            "My favorite drink is iced tea.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz aɪst tiː.",
+            "Thức uống yêu thích của tôi là trà đá."
+        ],
+        [
+            "My favorite drink is juice.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ʤuːs.",
+            "Thức uống yêu thích của tôi là nước trái cây."
+        ],
+        [
+            "My favorite drink is lager.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˈlɑːgə.",
+            "Thức uống yêu thích của tôi là rượu bia."
+        ],
+        [
+            "My favorite drink is a latte.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ə ˈlæteɪ.",
+            "Thức uống yêu thích của tôi là một ly latte."
+        ],
+        [
+            "My favorite drink is lemonade.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ˌlɛməˈneɪd.",
+            "Thức uống yêu thích của tôi là nước chanh."
+        ],
+        [
+            "My favorite drink is lime cordial.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz laɪm ˈkɔːdiəl.",
+            "Thức uống yêu thích của tôi là nước cốt chanh."
+        ],
+        [
+            "My favorite drink is a liqueur.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz ə lɪˈkjʊə.",
+            "Thức uống yêu thích của tôi là rượu mùi."
+        ],
+        [
+            "My favorite drink is macchiato.",
+            "maɪ ˈfeɪvərɪt drɪŋk ɪz macchiato.",
+            "Thức uống yêu thích của tôi là macchiato."
+        ]
+    ],
+    [
+        [
+            "I like Action movies.",
+            "aɪ laɪk ˈækʃ(ə)n ˈmuːviz.",
+            "Tôi thich phim hanh động."
+        ],
+        [
+            "I like an Adventure movies.",
+            "aɪ laɪk ən ədˈvɛnʧə ˈmuːviz.",
+            "Tôi thích một bộ phim phiêu lưu."
+        ],
+        [
+            "I like Cartoon.",
+            "aɪ laɪk kɑːˈtuːn.",
+            "Tôi thích Phim hoạt hình."
+        ],
+        [
+            "I like Comedy.",
+            "aɪ laɪk ˈkɒmɪdi.",
+            "Tôi thích phim hài."
+        ],
+        [
+            "I like Crime & Gangster Films.",
+            "aɪ laɪk kraɪm & ˈgæŋstə fɪlmz.",
+            "Tôi thích Phim Tội phạm & Xã hội đen."
+        ],
+        [
+            "I like documentaries.",
+            "aɪ laɪk ˌdɒkjʊˈmɛntəriz.",
+            "Tôi thích phim tài liệu."
+        ],
+        [
+            "I like Drama movies.",
+            "aɪ laɪk ˈdrɑːmə ˈmuːviz.",
+            "Tôi thích phim chính kịch."
+        ],
+        [
+            "I like Family movies.",
+            "aɪ laɪk ˈfæmɪli ˈmuːviz.",
+            "Tôi thích phim Gia đình."
+        ],
+        [
+            "I like Historical films.",
+            "aɪ laɪk hɪsˈtɒrɪkəl fɪlmz.",
+            "Tôi thích phim Lịch sử."
+        ],
+        [
+            "I like a Horror movies.",
+            "aɪ laɪk ə ˈhɒrə ˈmuːviz.",
+            "Tôi thích một bộ phim kinh dị."
+        ],
+        [
+            "I like Musical movies.",
+            "aɪ laɪk ˈmjuːzɪkəl ˈmuːviz.",
+            "Tôi thích phim ca nhạc."
+        ],
+        [
+            "I like Romance movies.",
+            "aɪ laɪk rəʊˈmæns ˈmuːviz.",
+            "Tôi thích phim Lãng mạn."
+        ],
+        [
+            "I like science fiction movies.",
+            "aɪ laɪk ˈsaɪəns ˈfɪkʃən ˈmuːviz.",
+            "Tôi thích phim khoa học viễn tưởng."
+        ],
+        [
+            "I like the Sitcom movie.",
+            "aɪ laɪk ðə ˈsɪtˌkɒm ˈmuːvi.",
+            "Tôi thích phim Sitcom."
+        ],
+        [
+            "I like the Tragedy movie.",
+            "aɪ laɪk ðə ˈtræʤɪdi ˈmuːvi.",
+            "Tôi thích bộ phim Bi kịch."
+        ],
+        [
+            "I like War Films.",
+            "aɪ laɪk wɔː fɪlmz.",
+            "Tôi thích Phim Chiến tranh."
+        ],
+        [
+            "I like Westerns Films.",
+            "aɪ laɪk ˈwɛstənz fɪlmz.",
+            "Tôi thích phim về miền Tây."
+        ],
+        [
+            "I like detective films.",
+            "aɪ laɪk dɪˈtɛktɪv fɪlmz.",
+            "Tôi thích phim trinh thám."
+        ],
+        [
+            "I like thriller films.",
+            "aɪ laɪk ˈθrɪlə fɪlmz.",
+            "Tôi thích những bộ phim kinh dị."
+        ],
+        [
+            "I like magic films.",
+            "aɪ laɪk ˈmæʤɪk fɪlmz.",
+            "Tôi thích những bộ phim ma thuật."
+        ]
+    ],
+    [
+        [
+            "I am going to go camping",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈkæmpɪŋ",
+            "Tôi sẽ đi cắm trại"
+        ],
+        [
+            "I am going to go fishing",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈfɪʃɪŋ",
+            "Tôi sẽ đi câu cá"
+        ],
+        [
+            "I am going to have a picnic",
+            "aɪ æm ˈgəʊɪŋ tuː hæv ə ˈpɪknɪk",
+            "Tôi sắp có một buổi dã ngoại"
+        ],
+        [
+            "I am going to visit my grandparents",
+            "aɪ æm ˈgəʊɪŋ tuː ˈvɪzɪt maɪ ˈgrænˌpeərənts",
+            "Tôi sẽ đi thăm ông bà của tôi"
+        ],
+        [
+            "I am going to fly a kite",
+            "aɪ æm ˈgəʊɪŋ tuː flaɪ ə kaɪt",
+            "Tôi sẽ thả diều"
+        ],
+        [
+            "I am going to go to the park",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə pɑːk",
+            "Tôi sẽ đi đến công viên"
+        ],
+        [
+            "I am going to go climbing",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈklaɪmɪŋ",
+            "Tôi sẽ đi leo núi"
+        ],
+        [
+            "I am going to go swimming",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈswɪmɪŋ",
+            "Tôi sẽ đi bơi"
+        ],
+        [
+            "I am going to go to the beach",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə biːʧ",
+            "Tôi sẽ đi đến bãi biển"
+        ],
+        [
+            "I am going to go to the zoo",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə zuː",
+            "Tôi sẽ đi đến sở thú"
+        ],
+        [
+            "I am going to do the garden",
+            "aɪ æm ˈgəʊɪŋ tuː duː ðə ˈgɑːdn",
+            "Tôi sẽ làm vườn"
+        ],
+        [
+            "I am going to go cycling",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈsaɪklɪŋ",
+            "Tôi sẽ đi xe đạp"
+        ],
+        [
+            "I am going to run in the park",
+            "aɪ æm ˈgəʊɪŋ tuː rʌn ɪn ðə pɑːk",
+            "Tôi sẽ chạy trong công viên"
+        ],
+        [
+            "I am going to go to the water park",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ tuː ðə ˈwɔːtə pɑːk",
+            "Tôi sẽ đi đến công viên nước"
+        ],
+        [
+            "I am going to go surfing",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈsɜːfɪŋ",
+            "Tôi sẽ đi lướt sóng"
+        ],
+        [
+            "I am going to go jogging around the lakeside",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈʤɒgɪŋ əˈraʊnd ðə ˈleɪkˌsaɪd",
+            "Tôi sẽ chạy bộ quanh bờ hồ"
+        ],
+        [
+            "I am going to play football",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈfʊtbɔːl",
+            "tôi đang chuẩn bị đi đá bóng"
+        ],
+        [
+            "I am going to play soccer",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈsɒkə",
+            "Tôi sẽ chơi bóng đá"
+        ],
+        [
+            "I am going to play badminton",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈbædmɪntən",
+            "Tôi sẽ chơi cầu lông"
+        ],
+        [
+            "I am going to play golf",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ gɒlf",
+            "Tôi sẽ chơi gôn"
+        ],
+        [
+            "I am going to play volleyball",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈvɒlɪˌbɔːl",
+            "Tôi sẽ chơi bóng chuyền"
+        ],
+        [
+            "I am going to play tennis",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈtɛnɪs",
+            "tôi sẽ chơi ten-nít"
+        ],
+        [
+            "I am going to play basketball",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈbɑːskɪtˌbɔːl",
+            "Tôi sẽ chơi bóng rổ"
+        ],
+        [
+            "I am going to go sailing",
+            "aɪ æm ˈgəʊɪŋ tuː gəʊ ˈseɪlɪŋ",
+            "Tôi sẽ đi chèo thuyền"
+        ],
+        [
+            "I am going to play baseball",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈbeɪsbɔːl",
+            "Tôi sẽ chơi bóng chày"
+        ],
+        [
+            "I am going to do archery",
+            "aɪ æm ˈgəʊɪŋ tuː duː ˈɑːʧəri",
+            "Tôi sẽ bắn cung"
+        ],
+        [
+            "I am going to play table tennis",
+            "aɪ æm ˈgəʊɪŋ tuː pleɪ ˈteɪbl ˈtɛnɪs",
+            "Tôi sẽ chơi bóng bàn"
+        ],
+        [
+            "I am going to do scuba diving",
+            "aɪ æm ˈgəʊɪŋ tuː duː ˈskuːbə ˈdaɪvɪŋ",
+            "Tôi sẽ lặn biển"
+        ],
+        [
+            "I am going to do water skiing",
+            "aɪ æm ˈgəʊɪŋ tuː duː ˈwɔːtə ˈskiːɪŋ",
+            "Tôi sẽ trượt nước"
+        ],
+        [
+            "I am going to do rollerblading",
+            "aɪ æm ˈgəʊɪŋ tuː duː ˈrəʊləˌbleɪdɪŋ",
+            "Tôi sẽ trượt patin"
+        ]
+    ],
+    [
+        [
+            "The weather is sunny.",
+            "ðə ˈwɛðər ɪz ˈsʌni.",
+            "Trời nắng đẹp."
+        ],
+        [
+            "The weather is rainy.",
+            "ðə ˈwɛðər ɪz ˈreɪni.",
+            "Trời đang mưa."
+        ],
+        [
+            "The weather is starting to rain.",
+            "ðə ˈwɛðər ɪz ˈstɑːtɪŋ tuː reɪn.",
+            "Thời tiết đang bắt đầu mưa."
+        ],
+        [
+            "The weather is stopped raining.",
+            "ðə ˈwɛðər ɪz stɒpt ˈreɪnɪŋ.",
+            "Trời tạnh mưa."
+        ],
+        [
+            "The weather is fine.",
+            "ðə ˈwɛðər ɪz faɪn.",
+            "Thời tiết vẫn ổn."
+        ],
+        [
+            "The weather is sun's shining.",
+            "ðə ˈwɛðər ɪz sʌnz ˈʃaɪnɪŋ.",
+            "Thời tiết đang nắng."
+        ],
+        [
+            "The weather is not a cloud in the sky.",
+            "ðə ˈwɛðər ɪz nɒt ə klaʊd ɪn ðə skaɪ.",
+            "Thời tiết không phải là một đám mây trên bầu trời."
+        ],
+        [
+            "The weather is overcast.",
+            "ðə ˈwɛðər ɪz ˈəʊvəkɑːst.",
+            "Thời tiết u ám."
+        ],
+        [
+            "The weather is clearing up.",
+            "ðə ˈwɛðər ɪz ˈklɪərɪŋ ʌp.",
+            "Thời tiết đang tốt lên."
+        ],
+        [
+            "The weather is the wind's dropped.",
+            "ðə ˈwɛðər ɪz ðə wɪndz drɒpt.",
+            "Thời tiết là gió rơi."
+        ],
+        [
+            "The weather is lightning.",
+            "ðə ˈwɛðər ɪz ˈlaɪtnɪŋ.",
+            "Thời tiết như chớp."
+        ],
+        [
+            "The weather is cloudy.",
+            "ðə ˈwɛðər ɪz ˈklaʊdi.",
+            "Trời nhiều mây."
+        ],
+        [
+            "The weather is pouring with rain.",
+            "ðə ˈwɛðər ɪz ˈpɔːrɪŋ wɪð reɪn.",
+            "Trời đang mưa tầm tã."
+        ],
+        [
+            "The weather is baking hot.",
+            "ðə ˈwɛðər ɪz ˈbeɪkɪŋ hɒt.",
+            "Thời tiết đang nướng nóng."
+        ],
+        [
+            "The weather is below freezing.",
+            "ðə ˈwɛðər ɪz bɪˈləʊ ˈfriːzɪŋ.",
+            "Thời tiết dưới mức đóng băng."
+        ],
+        [
+            "The weather is miserable.",
+            "ðə ˈwɛðər ɪz ˈmɪzərəbl.",
+            "Thời tiết thật khốn khổ."
+        ],
+        [
+            "The weather is raining cats and dogs.",
+            "ðə ˈwɛðər ɪz ˈreɪnɪŋ kæts ænd dɒgz.",
+            "Trời mưa chó mèo."
+        ],
+        [
+            "The weather is not a very nice day.",
+            "ðə ˈwɛðər ɪz nɒt ə ˈvɛri naɪs deɪ.",
+            "Thời tiết không phải là một ngày tốt đẹp."
+        ],
+        [
+            "The weather is a strong wind.",
+            "ðə ˈwɛðər ɪz ə strɒŋ wɪnd.",
+            "Thời tiết là một cơn gió mạnh."
+        ],
+        [
+            "The weather is windy outside.",
+            "ðə ˈwɛðər ɪz ˈwɪndi ˌaʊtˈsaɪd.",
+            "Ngoài trời đang lộng gió."
+        ],
+        [
+            "The weather is snowing.",
+            "ðə ˈwɛðər ɪz ˈsnəʊɪŋ.",
+            "Thời tiết đang có tuyết."
+        ],
+        [
+            "The weather is warm.",
+            "ðə ˈwɛðər ɪz wɔːm.",
+            "Thời tiết ấm áp."
+        ],
+        [
+            "The weather is cold today.",
+            "ðə ˈwɛðər ɪz kəʊld təˈdeɪ.",
+            "Trời hôm nay se lạnh."
+        ],
+        [
+            "The weather is hot.",
+            "ðə ˈwɛðər ɪz hɒt.",
+            "Thời tiết nóng."
+        ],
+        [
+            "The weather is foggy.",
+            "ðə ˈwɛðər ɪz ˈfɒgi.",
+            "Trời có sương mù."
+        ],
+        [
+            "The weather is humid and wet.",
+            "ðə ˈwɛðər ɪz ˈhjuːmɪd ænd wɛt.",
+            "Thời tiết ẩm ướt."
+        ],
+        [
+            "The weather is the gale.",
+            "ðə ˈwɛðər ɪz ðə geɪl.",
+            "Thời tiết là gió."
+        ],
+        [
+            "The weather is a breeze.",
+            "ðə ˈwɛðər ɪz ə briːz.",
+            "Thời tiết là một làn gió."
+        ],
+        [
+            "The weather is mild.",
+            "ðə ˈwɛðər ɪz maɪld.",
+            "Thời tiết rất nhẹ."
+        ],
+        [
+            "The weather is chilly.",
+            "ðə ˈwɛðər ɪz ˈʧɪli.",
+            "Thời tiết se lạnh."
+        ]
+    ],
+    [
+        [
+            "Words",
+            "IPA",
+            "Meaning",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            "I watch a movie called The Glorias: A Life On The Road",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈglɔːrɪəz: ə laɪf ɒn ðə rəʊd",
+            "Tôi xem một bộ phim tên là The Glorias: A Life On The Road",
+            null,
+            null,
+            null,
+            null,
+            "The Glorias: A Life On The Road",
+            "ðə ˈglɔːrɪəz: ə laɪf ɒn ðə rəʊd"
+        ],
+        [
+            "I watch a movie called Always Be My Maybe",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈɔːlweɪz biː maɪ ˈmeɪbiː",
+            "Tôi xem một bộ phim có tên Luôn là có thể của tôi",
+            null,
+            null,
+            null,
+            null,
+            "Always Be My Maybe",
+            "ˈɔːlweɪz biː maɪ ˈmeɪbiː"
+        ],
+        [
+            "I watch a movie called The Boy Who Harnessed The Wind",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə bɔɪ huː ˈhɑːnɪst ðə wɪnd",
+            "Tôi xem một bộ phim tên là The Boy Who Harnessed The Wind",
+            null,
+            null,
+            null,
+            null,
+            "The Boy Who Harnessed The Wind",
+            "ðə bɔɪ huː ˈhɑːnɪst ðə wɪnd"
+        ],
+        [
+            "I watch a movie called Charlie’s Angels",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈʧɑːliz ˈeɪnʤəlz",
+            "Tôi xem một bộ phim tên là Những thiên thần của Charlie",
+            null,
+            null,
+            null,
+            null,
+            "Charlie’s Angels",
+            "ˈʧɑːliz ˈeɪnʤəlz"
+        ],
+        [
+            "I watch a movie called Flarksy",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld Flarksy",
+            "Tôi xem một bộ phim tên là Flarksy",
+            null,
+            null,
+            null,
+            null,
+            "Flarksy",
+            "Flarksy"
+        ],
+        [
+            "I watch a movie called Late Night",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld leɪt naɪt",
+            "Tôi xem một bộ phim có tên là Đêm khuya",
+            null,
+            null,
+            null,
+            null,
+            "Late Night",
+            "leɪt naɪt"
+        ],
+        [
+            "I watch a movie called Fonzo",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld Fonzo",
+            "Tôi xem một bộ phim tên là Fonzo",
+            null,
+            null,
+            null,
+            null,
+            "Fonzo",
+            "Fonzo"
+        ],
+        [
+            "I watch a movie called Sound Of Metal",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld saʊnd ɒv ˈmɛtl",
+            "Tôi xem một bộ phim tên là Sound Of Metal",
+            null,
+            null,
+            null,
+            null,
+            "Sound Of Metal",
+            "saʊnd ɒv ˈmɛtl"
+        ],
+        [
+            "I watch a movie called Little Joe",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈlɪtl ˈʤəʊ",
+            "Tôi xem một bộ phim tên là Little Joe",
+            null,
+            null,
+            null,
+            null,
+            "Little Joe",
+            "ˈlɪtl ˈʤəʊ"
+        ],
+        [
+            "I watch a movie called Resistance",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld rɪˈzɪstəns",
+            "Tôi xem một bộ phim có tên là Kháng chiến",
+            null,
+            null,
+            null,
+            null,
+            "Resistance",
+            "rɪˈzɪstəns"
+        ],
+        [
+            "I watch a movie called The Rhythm Section",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈrɪðəm ˈsɛkʃən",
+            "Tôi xem một bộ phim tên là The Rhythm Section",
+            null,
+            null,
+            null,
+            null,
+            "The Rhythm Section",
+            "ðə ˈrɪðəm ˈsɛkʃən"
+        ],
+        [
+            "I watch a movie called Missing Link",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈmɪsɪŋ lɪŋk",
+            "Tôi xem một bộ phim tên là Liên kết thiếu",
+            null,
+            null,
+            null,
+            null,
+            "Missing Link",
+            "ˈmɪsɪŋ lɪŋk"
+        ],
+        [
+            "I watch a movie called Native Son",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈneɪtɪv sʌn",
+            "Tôi xem một bộ phim tên là Native Son",
+            null,
+            null,
+            null,
+            null,
+            "Native Son",
+            "ˈneɪtɪv sʌn"
+        ],
+        [
+            "I watch a movie called The Addams Family",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ði Addams ˈfæmɪli",
+            "Tôi xem một bộ phim có tên Gia đình Addams",
+            null,
+            null,
+            null,
+            null,
+            "The Addams Family",
+            "ði Addams ˈfæmɪli"
+        ],
+        [
+            "I watch a movie called MIB",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ɛm-aɪ-biː",
+            "Tôi xem một bộ phim tên là MIB",
+            null,
+            null,
+            null,
+            null,
+            "MIB",
+            "ɛm-aɪ-biː"
+        ],
+        [
+            "I watch a movie called The Parts You Lose",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə pɑːts juː luːz",
+            "Tôi xem một bộ phim tên là The Parts You Lose",
+            null,
+            null,
+            null,
+            null,
+            "The Parts You Lose",
+            "ðə pɑːts juː luːz"
+        ],
+        [
+            "I watch a movie called Going Places",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈgəʊɪŋ ˈpleɪsɪz",
+            "Tôi xem một bộ phim có tên là Đi Địa điểm",
+            null,
+            null,
+            null,
+            null,
+            "Going Places",
+            "ˈgəʊɪŋ ˈpleɪsɪz"
+        ],
+        [
+            "I watch a movie called Untitled Danny Boyle",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˌʌnˈtaɪtld ˈdæni bɔɪl",
+            "Tôi xem một bộ phim có tên Danny Boyle không có tiêu đề",
+            null,
+            null,
+            null,
+            null,
+            "Untitled Danny Boyle",
+            "ˌʌnˈtaɪtld ˈdæni bɔɪl"
+        ],
+        [
+            "I watch a movie called The Kid Who Would Be King",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə kɪd huː wʊd biː kɪŋ",
+            "Tôi xem một bộ phim tên là The Kid Who Will Be King",
+            null,
+            null,
+            null,
+            null,
+            "The Kid Who Would Be King",
+            "ðə kɪd huː wʊd biː kɪŋ"
+        ],
+        [
+            "I watch a movie called Roads",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld rəʊdz",
+            "Tôi xem một bộ phim tên là Roads",
+            null,
+            null,
+            null,
+            null,
+            "Roads",
+            "rəʊdz"
+        ],
+        [
+            "I watch a movie called The Many Saints Of Newark",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈmɛni seɪnts ɒv Newark",
+            "Tôi xem một bộ phim tên là The Many Saints Of Newark",
+            null,
+            null,
+            null,
+            null,
+            "The Many Saints Of Newark",
+            "ðə ˈmɛni seɪnts ɒv Newark"
+        ],
+        [
+            "I watch a movie called My Zoe",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld maɪ ˈzəʊi",
+            "Tôi xem một bộ phim tên là My Zoe",
+            null,
+            null,
+            null,
+            null,
+            "My Zoe",
+            "maɪ ˈzəʊi"
+        ],
+        [
+            "I watch a movie called The Cradle",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ðə ˈkreɪdl",
+            "Tôi xem một bộ phim tên là Cái nôi",
+            null,
+            null,
+            null,
+            null,
+            "The Cradle",
+            "ðə ˈkreɪdl"
+        ],
+        [
+            "I watch a movie called Limited Partners",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈlɪmɪtɪd ˈpɑːtnəz",
+            "Tôi xem một bộ phim có tên là Đối tác hữu hạn",
+            null,
+            null,
+            null,
+            null,
+            "Limited Partners",
+            "ˈlɪmɪtɪd ˈpɑːtnəz"
+        ],
+        [
+            "I watch a movie called Chaos Walking",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈkeɪɒs ˈwɔːkɪŋ",
+            "Tôi xem một bộ phim tên là Chaos Walking",
+            null,
+            null,
+            null,
+            null,
+            "Chaos Walking",
+            "ˈkeɪɒs ˈwɔːkɪŋ"
+        ],
+        [
+            "I watch a movie called Gemini Man",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈʤɛmɪnaɪ mæn",
+            "Tôi xem một bộ phim tên là Gemini Man",
+            null,
+            null,
+            null,
+            null,
+            "Gemini Man",
+            "ˈʤɛmɪnaɪ mæn"
+        ],
+        [
+            "I watch a movie called Downhill",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˌdaʊnˈhɪl",
+            "Tôi xem một bộ phim có tên là Downhill",
+            null,
+            null,
+            null,
+            null,
+            "Downhill",
+            "ˌdaʊnˈhɪl"
+        ],
+        [
+            "I watch a movie called Domino",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈdɒmɪnəʊ",
+            "Tôi xem một bộ phim tên là Domino",
+            null,
+            null,
+            null,
+            null,
+            "Domino",
+            "ˈdɒmɪnəʊ"
+        ],
+        [
+            "I watch a movie called Benedetta",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld Benedetta",
+            "Tôi xem một bộ phim tên là Benedetta",
+            null,
+            null,
+            null,
+            null,
+            "Benedetta",
+            "Benedetta"
+        ],
+        [
+            "I watch a movie called Everything Everywhere All At Once",
+            "aɪ wɒʧ ə ˈmuːvi kɔːld ˈɛvrɪθɪŋ ˈɛvrɪweər ɔːl æt wʌns",
+            "Tôi xem một bộ phim có tên Mọi thứ mọi nơi mọi lúc",
+            null,
+            null,
+            null,
+            null,
+            "Everything Everywhere All At Once",
+            "ˈɛvrɪθɪŋ ˈɛvrɪweər ɔːl æt wʌns"
+        ]
+    ],
+    [
+        [
+            "It’s one of the best I’ve ever seen.",
+            "ɪts wʌn ɒv ðə bɛst aɪv ˈɛvə siːn.",
+            "Đó là một trong những điều tốt nhất mà tôi từng thấy."
+        ],
+        [
+            "I liked it very much.",
+            "aɪ laɪkt ɪt ˈvɛri mʌʧ.",
+            "Tôi thích nó rất nhiều."
+        ],
+        [
+            "I found it enjoyable.",
+            "aɪ faʊnd ɪt ɪnˈʤɔɪəbl.",
+            "Tôi thấy nó thú vị."
+        ],
+        [
+            "It was very good.",
+            "ɪt wɒz ˈvɛri gʊd.",
+            "Nó là rất tốt."
+        ],
+        [
+            "It was fantastic.",
+            "ɪt wɒz fænˈtæstɪk.",
+            "Nó rất tuyệt vời."
+        ],
+        [
+            "It wasn't bad.",
+            "ɪt wɒznt bæd.",
+            "Nó không tệ."
+        ],
+        [
+            "It was boring",
+            "ɪt wɒz ˈbɔːrɪŋ",
+            "Nó đã nhàm chán"
+        ],
+        [
+            "It was terrible.",
+            "ɪt wɒz ˈtɛrəbl.",
+            "Điều đó thật tồi tệ."
+        ],
+        [
+            "It’s one of the best I’ve ever seen.",
+            "ɪts wʌn ɒv ðə bɛst aɪv ˈɛvə siːn.",
+            "Đó là một trong những điều tốt nhất mà tôi từng thấy."
+        ],
+        [
+            "I liked it very much.",
+            "aɪ laɪkt ɪt ˈvɛri mʌʧ.",
+            "Tôi thích nó rất nhiều."
+        ],
+        [
+            "I found it enjoyable.",
+            "aɪ faʊnd ɪt ɪnˈʤɔɪəbl.",
+            "Tôi thấy nó thú vị."
+        ],
+        [
+            "It was very good.",
+            "ɪt wɒz ˈvɛri gʊd.",
+            "Nó là rất tốt."
+        ],
+        [
+            "It was fantastic.",
+            "ɪt wɒz fænˈtæstɪk.",
+            "Nó rất tuyệt vời."
+        ],
+        [
+            "It wasn't bad.",
+            "ɪt wɒznt bæd.",
+            "Nó không tệ."
+        ],
+        [
+            "It was boring",
+            "ɪt wɒz ˈbɔːrɪŋ",
+            "Nó đã nhàm chán"
+        ],
+        [
+            "It was terrible.",
+            "ɪt wɒz ˈtɛrəbl.",
+            "Điều đó thật tồi tệ."
+        ]
+    ],
+    [
+        [
+            "Next Monday.",
+            "nɛkst ˈmʌndeɪ.",
+            "Vào thứ Hai tới."
+        ],
+        [
+            "Next Tuesday.",
+            "nɛkst ˈtjuːzdeɪ.",
+            "Vào thứ Ba tới."
+        ],
+        [
+            "Next Wednesday.",
+            "nɛkst ˈwɛnzdeɪ.",
+            "Vào thứ Tư tới."
+        ],
+        [
+            "Next Thursday.",
+            "nɛkst ˈθɜːzdeɪ.",
+            "Vào thứ Năm tới."
+        ],
+        [
+            "Next Friday.",
+            "nɛkst ˈfraɪdeɪ.",
+            "Vào thứ sáu tới."
+        ],
+        [
+            "Next Saturday.",
+            "nɛkst ˈsætədeɪ.",
+            "Vào thứ bảy tới."
+        ],
+        [
+            "Next Sunday.",
+            "nɛkst ˈsʌndeɪ.",
+            "Vào chủ nhật tới."
+        ],
+        [
+            "Tomorrow morning.",
+            "təˈmɒrəʊ ˈmɔːnɪŋ.",
+            "Vào sáng mai."
+        ],
+        [
+            "Tomorrow night.",
+            "təˈmɒrəʊ naɪt.",
+            "Vào đêm mai."
+        ],
+        [
+            "In the next 6 days.",
+            "ɪn ðə nɛkst 6 deɪz.",
+            "Vào 6 ngày tiếp theo."
+        ],
+        [
+            "On April 4.",
+            "ɒn ˈeɪprəl 4.",
+            "Vào ngày 4 tháng Tư."
+        ],
+        [
+            "On March 24.",
+            "ɒn mɑːʧ 24.",
+            "Vào ngày 24 tháng Ba."
+        ],
+        [
+            "On the day after tomorrow.",
+            "ɒn ðə deɪ ˈɑːftə təˈmɒrəʊ.",
+            "Vào ngày mốt."
+        ],
+        [
+            "On April 17, 18.",
+            "ɒn ˈeɪprəl 17, 18.",
+            "Vào ngày 17 tháng 4 năm 18."
+        ],
+        [
+            "On tonight.",
+            "ɒn təˈnaɪt.",
+            "Vào tối nay."
+        ],
+        [
+            "On this afternoon.",
+            "ɒn ðɪs ˈɑːftəˈnuːn.",
+            "Vào chiều nay."
+        ],
+        [
+            "On January 10.",
+            "ɒn ˈʤænjʊəri 10.",
+            "Vào ngày 10 tháng Giêng."
+        ],
+        [
+            "On June 5.",
+            "ɒn ʤuːn 5.",
+            "Vào ngày 5 tháng Sáu."
+        ],
+        [
+            "On this evening.",
+            "ɒn ðɪs ˈiːvnɪŋ.",
+            "Vào buổi tối hôm nay."
+        ],
+        [
+            "On September 9.",
+            "ɒn sɛpˈtɛmbə 9.",
+            "Vào ngày 9 tháng 9."
+        ],
+        [
+            "On April 30.",
+            "ɒn ˈeɪprəl 30.",
+            "Vào ngày 30 tháng Tư."
+        ],
+        [
+            "On May 2.",
+            "ɒn meɪ 2.",
+            "Vào ngày 2 tháng Năm."
+        ],
+        [
+            "On January 28.",
+            "ɒn ˈʤænjʊəri 28.",
+            "Vào ngày 28 tháng Giêng."
+        ],
+        [
+            "On May 1, 2, 3. Three days.",
+            "ɒn meɪ 1, 2, 3. θriː deɪz.",
+            "Vào ngày 1, 2, 3 tháng 5. Ba ngày."
+        ],
+        [
+            "On July 27.",
+            "ɒn ʤu(ː)ˈlaɪ 27.",
+            "Vào ngày 27 tháng 7."
+        ],
+        [
+            "On June 28.",
+            "ɒn ʤuːn 28.",
+            "Vào ngày 28 tháng 6."
+        ],
+        [
+            "On December 23, 24.",
+            "ɒn dɪˈsɛmbə 23, 24.",
+            "Vào ngày 23, 24 tháng Mười Hai."
+        ],
+        [
+            "On April 29.",
+            "ɒn ˈeɪprəl 29.",
+            "Vào ngày 29 tháng Tư."
+        ],
+        [
+            "On March 10.",
+            "ɒn mɑːʧ 10.",
+            "Vào ngày 10 tháng Ba."
+        ],
+        [
+            "On January 14.",
+            "ɒn ˈʤænjʊəri 14.",
+            "Vào ngày 14 tháng Giêng."
+        ]
+    ],
+    [
+        [
+            "I would like a single room with a sea view.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə siː vjuː.",
+            "Tôi muốn có một đơn phòng nhìn ra biển."
+        ],
+        [
+            "I would like a single room with a garden view.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈgɑːdn vjuː.",
+            "Tôi muốn có một đơn phòng nhìn ra vườn."
+        ],
+        [
+            "I would like a single room with a mountain view.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈmaʊntɪn vjuː.",
+            "Tôi muốn có một phòng đơn nhìn ra núi."
+        ],
+        [
+            "I would like a single room with a bathtub.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈbɑːθtʌb.",
+            "Tôi muốn một đơn phòng có bồn tắm."
+        ],
+        [
+            "I would like a double bedroom.",
+            "aɪ wʊd laɪk ə ˈdʌbl ˈbɛdru(ː)m.",
+            "Tôi muốn có một phòng ngủ đôi."
+        ],
+        [
+            "I would like a deluxe room with a sea view on the high floor.",
+            "aɪ wʊd laɪk ə dɪˈlʌks ruːm wɪð ə siː vjuː ɒn ðə haɪ flɔː.",
+            "Tôi muốn có một phòng deluxe nhìn ra biển trên tầng cao."
+        ],
+        [
+            "I would like a twin bedroom.",
+            "aɪ wʊd laɪk ə twɪn ˈbɛdru(ː)m.",
+            "Tôi muốn có một phòng ngủ 2 đơn."
+        ],
+        [
+            "I would like a Queen sized bedroom.",
+            "aɪ wʊd laɪk ə kwiːn saɪzd ˈbɛdru(ː)m.",
+            "Tôi muốn có một phòng ngủ cỡ Queen."
+        ],
+        [
+            "I would like a double bedroom and a balcony.",
+            "aɪ wʊd laɪk ə ˈdʌbl ˈbɛdru(ː)m ænd ə ˈbælkəni.",
+            "Tôi muốn có một phòng ngủ kép và một ban công."
+        ],
+        [
+            "I would like a single room on the high floor.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm ɒn ðə haɪ flɔː.",
+            "Tôi muốn có một đơn phòng trên tầng cao."
+        ],
+        [
+            "I would like a double room with a city view.",
+            "aɪ wʊd laɪk ə ˈdʌbl ruːm wɪð ə ˈsɪti vjuː.",
+            "Tôi muốn có một phòng đôi với tầm nhìn ra quang cảnh thành phố."
+        ],
+        [
+            "I would like a single room with a lake view.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə leɪk vjuː.",
+            "Tôi muốn một đơn phòng nhìn ra hồ."
+        ],
+        [
+            "I would like a double room with a sea view.",
+            "aɪ wʊd laɪk ə ˈdʌbl ruːm wɪð ə siː vjuː.",
+            "Tôi muốn có một phòng đôi nhìn ra biển."
+        ],
+        [
+            "I would like a connecting room.",
+            "aɪ wʊd laɪk ə kəˈnɛktɪŋ ruːm.",
+            "Tôi muốn có một phòng thông nhau."
+        ],
+        [
+            "I would like a quiet room for 2 people.",
+            "aɪ wʊd laɪk ə ˈkwaɪət ruːm fɔː 2 ˈpiːpl.",
+            "Tôi muốn có một phòng yên tĩnh cho 2 người."
+        ],
+        [
+            "I would like a ventilated room with 2 beds.",
+            "aɪ wʊd laɪk ə ˈvɛntɪleɪtɪd ruːm wɪð 2 bɛdz.",
+            "Tôi muốn có một phòng thông gió với 2 người sống."
+        ],
+        [
+            "I would like a deluxe room in the French style.",
+            "aɪ wʊd laɪk ə dɪˈlʌks ruːm ɪn ðə frɛnʧ staɪl.",
+            "Tôi muốn có một phòng sang trọng theo phong cách Pháp."
+        ],
+        [
+            "I would like a single room with a heater.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl ruːm wɪð ə ˈhiːtə.",
+            "Tôi muốn có một đơn phòng có lò nướng."
+        ],
+        [
+            "I would like a room with a lake view for 2 people.",
+            "aɪ wʊd laɪk ə ruːm wɪð ə leɪk vjuː fɔː 2 ˈpiːpl.",
+            "Tôi muốn một phòng có tầm nhìn ra hồ cho 2 người."
+        ],
+        [
+            "I would like a room with a sea view for 3 people.",
+            "aɪ wʊd laɪk ə ruːm wɪð ə siː vjuː fɔː 3 ˈpiːpl.",
+            "Tôi muốn một phòng nhìn ra biển cho 3 người."
+        ],
+        [
+            "I would like a room with a mountain view for 2 people.",
+            "aɪ wʊd laɪk ə ruːm wɪð ə ˈmaʊntɪn vjuː fɔː 2 ˈpiːpl.",
+            "Tôi muốn một phòng nhìn ra núi cho 2 người."
+        ],
+        [
+            "I would like a room with a city view for 2 people and 2 children.",
+            "aɪ wʊd laɪk ə ruːm wɪð ə ˈsɪti vjuː fɔː 2 ˈpiːpl ænd 2 ˈʧɪldrən.",
+            "Tôi muốn một phòng có tầm nhìn ra thành phố cho 2 người và 2 trẻ em."
+        ],
+        [
+            "I would like adjoining rooms.",
+            "aɪ wʊd laɪk əˈʤɔɪnɪŋ ruːmz.",
+            "Tôi muốn các phòng liền kề."
+        ],
+        [
+            "I would like a triple room.",
+            "aɪ wʊd laɪk ə ˈtrɪpl ruːm.",
+            "Tôi muốn có một phòng ba người."
+        ],
+        [
+            "I would like a deluxe triple room.",
+            "aɪ wʊd laɪk ə dɪˈlʌks ˈtrɪpl ruːm.",
+            "Tôi muốn có một phòng ba người sang trọng."
+        ],
+        [
+            "I would like a room with a king-size bed.",
+            "aɪ wʊd laɪk ə ruːm wɪð ə ˈkɪŋsaɪz bɛd.",
+            "Tôi muốn một căn phòng có King size."
+        ],
+        [
+            "I would like two double rooms.",
+            "aɪ wʊd laɪk tuː ˈdʌbl ruːmz.",
+            "Tôi muốn có hai phòng đôi."
+        ],
+        [
+            "I would like a single with breakfast.",
+            "aɪ wʊd laɪk ə ˈsɪŋgl wɪð ˈbrɛkfəst.",
+            "Tôi muốn một đơn đĩa với bữa sáng."
+        ],
+        [
+            "I would like a honeymoon suite with a sea view.",
+            "aɪ wʊd laɪk ə ˈhʌnɪmuːn swiːt wɪð ə siː vjuː.",
+            "Tôi muốn có một bộ trăng mật với tầm nhìn ra biển."
+        ],
+        [
+            "I would like a double bed with a kitchenette.",
+            "aɪ wʊd laɪk ə ˈdʌbl bɛd wɪð ə ˌkɪʧɪˈnɛt.",
+            "Tôi muốn có một đôi với bếp nhỏ."
+        ]
+    ],
+    [
+        [
+            "I am looking for a T-shirt.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈtiːʃɜːt.",
+            "Tôi đang tìm một chiếc áo phông."
+        ],
+        [
+            "I am looking for an evening dress.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ən ˈiːvnɪŋ drɛs.",
+            "Tôi đang tìm kiếm một chiếc váy dạ hội."
+        ],
+        [
+            "I am looking for a  denims jacket.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈdɛnɪmz ˈʤækɪt.",
+            "Tôi đang tìm một chiếc áo khoác từ chối."
+        ],
+        [
+            "I am looking for a miniskirt.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈmɪnɪskɜːt.",
+            "Tôi đang tìm một chiếc váy ngắn."
+        ],
+        [
+            "I am looking for a three-piece suit.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈθriːpiːs sjuːt.",
+            "Tôi đang tìm một bộ đồ bà ba."
+        ],
+        [
+            "I am looking for a training suit.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈtreɪnɪŋ sjuːt.",
+            "Tôi đang tìm một bộ đồ tập."
+        ],
+        [
+            "I am looking for a wool dress.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə wʊl drɛs.",
+            "Tôi đang tìm kiếm một chiếc váy len."
+        ],
+        [
+            "I am looking for a maxi dress.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈmæksi drɛs.",
+            "Tôi đang tìm một chiếc váy maxi."
+        ],
+        [
+            "I am looking for a pleated skirt and a blouse.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpliːtɪd skɜːt ænd ə blaʊz.",
+            "Tôi đang tìm một chiếc váy xếp ly và một chiếc áo cánh."
+        ],
+        [
+            "I am looking for a blazer.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈbleɪzə.",
+            "Tôi đang tìm một chiếc áo khoác nỉ."
+        ],
+        [
+            "I am looking for a leather jacket.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈlɛðə ˈʤækɪt.",
+            "Tôi đang tìm một chiếc áo khoác da."
+        ],
+        [
+            "I am looking for a pair of trousers.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə peər ɒv ˈtraʊzəz.",
+            "Tôi đang tìm một chiếc quần dài."
+        ],
+        [
+            "I am looking for a polo shirt with two shorts.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpəʊləʊ ʃɜːt wɪð tuː ʃɔːts.",
+            "Tôi đang tìm một chiếc áo sơ mi polo với hai chiếc quần đùi."
+        ],
+        [
+            "I am looking for a pinafore dress.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpɪnəfɔː drɛs.",
+            "Tôi đang tìm kiếm một chiếc váy ngắn."
+        ],
+        [
+            "I am looking for a dressing gown.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈdrɛsɪŋ gaʊn.",
+            "Tôi đang tìm kiếm một chiếc áo choàng."
+        ],
+        [
+            "I am looking for a pair of jeans.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə peər ɒv ʤiːnz.",
+            "Tôi đang tìm một chiếc quần jean."
+        ],
+        [
+            "I am looking for a overcoat.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈəʊvəkəʊt.",
+            "Tôi đang tìm một chiếc áo khoác."
+        ],
+        [
+            "I am looking for two shirts.",
+            "aɪ æm ˈlʊkɪŋ fɔː tuː ʃɜːts.",
+            "Tôi đang tìm kiếm hai chiếc áo sơ mi."
+        ],
+        [
+            "I am looking for a slacks.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə slæks.",
+            "Tôi đang tìm kiếm một chiếc quần lót."
+        ],
+        [
+            "I am looking for a pinafore dress.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈpɪnəfɔː drɛs.",
+            "Tôi đang tìm kiếm một chiếc váy ngắn."
+        ],
+        [
+            "I am looking for a cardigan.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈkɑːdɪgən.",
+            "Tôi đang tìm kiếm một chiếc áo nịt."
+        ],
+        [
+            "I am looking for a sweater and a T-shirt.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈswɛtər ænd ə ˈtiːʃɜːt.",
+            "Tôi đang tìm một chiếc áo len và một chiếc áo phông."
+        ],
+        [
+            "I am looking for a swimming trunks.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈswɪmɪŋ trʌŋks.",
+            "Tôi đang tìm một chiếc quần bơi."
+        ],
+        [
+            "I am looking for a undershirt.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈʌndəʃɜːt.",
+            "Tôi đang tìm một chiếc áo lót."
+        ],
+        [
+            "I am looking for a sheepskin coat.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈʃiːpskɪn kəʊt.",
+            "Tôi đang tìm một chiếc áo khoác da cừu."
+        ],
+        [
+            "I am looking for a blouse.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə blaʊz.",
+            "Tôi đang tìm kiếm một chiếc áo cánh."
+        ],
+        [
+            "I am looking for a overcoat.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈəʊvəkəʊt.",
+            "Tôi đang tìm một chiếc áo khoác."
+        ],
+        [
+            "I am looking for a tight leggings.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə taɪt ˈlɛgɪŋz.",
+            "Tôi đang tìm kiếm một chiếc quần tất bó sát."
+        ],
+        [
+            "I am looking for a sundress.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə ˈsʌndrɛs.",
+            "Tôi đang tìm một cô gái mặc quần áo."
+        ],
+        [
+            "I am looking for a culottes.",
+            "aɪ æm ˈlʊkɪŋ fɔːr ə kʊˈlɒts.",
+            "Tôi đang tìm kiếm một chiếc quần culottes."
+        ]
+    ],
+    [
+        [
+            "I like black",
+            "aɪ laɪk blæk",
+            "Tôi thích màu đen"
+        ],
+        [
+            "I like the smoke grey color",
+            "aɪ laɪk ðə sməʊk greɪ ˈkʌlə",
+            "Tôi thích màu xám khói"
+        ],
+        [
+            "I like brown",
+            "aɪ laɪk braʊn",
+            "Tôi thích màu nâu"
+        ],
+        [
+            "I like tawny",
+            "aɪ laɪk ˈtɔːni",
+            "Tôi thích màu nâu đỏ"
+        ],
+        [
+            "I like umber",
+            "aɪ laɪk ˈʌmbə",
+            "Tôi thích umber"
+        ],
+        [
+            "I like gaudy",
+            "aɪ laɪk ˈgɔːdi",
+            "Tôi thích lòe loẹt"
+        ],
+        [
+            "I like green",
+            "aɪ laɪk griːn",
+            "tôi thích màu xanh"
+        ],
+        [
+            "I like bright green",
+            "aɪ laɪk braɪt griːn",
+            "Tôi thích màu xanh lá cây tươi sáng"
+        ],
+        [
+            "I like lime",
+            "aɪ laɪk laɪm",
+            "Tôi thích vôi"
+        ],
+        [
+            "I like blue",
+            "aɪ laɪk bluː",
+            "tôi thích màu xanh"
+        ],
+        [
+            "I like peacock blue",
+            "aɪ laɪk ˈpiːkɒk bluː",
+            "Tôi thích màu xanh da trời"
+        ],
+        [
+            "I like salmon",
+            "aɪ laɪk ˈsæmən",
+            "Tôi thích cá hồi"
+        ],
+        [
+            "I like pink and red",
+            "aɪ laɪk pɪŋk ænd rɛd",
+            "Tôi thích màu hồng và màu đỏ"
+        ],
+        [
+            "I like orchid",
+            "aɪ laɪk ˈɔːkɪd",
+            "Tôi thích phong lan"
+        ],
+        [
+            "I like ruby",
+            "aɪ laɪk ˈruːbi",
+            "Tôi thích ruby"
+        ],
+        [
+            "I like deep red",
+            "aɪ laɪk diːp rɛd",
+            "Tôi thích màu đỏ đậm"
+        ],
+        [
+            "I like violet",
+            "aɪ laɪk ˈvaɪəlɪt",
+            "Tôi thích màu tím"
+        ],
+        [
+            "I like white",
+            "aɪ laɪk waɪt",
+            "Tôi thích màu trắng"
+        ],
+        [
+            "I like orange",
+            "aɪ laɪk ˈɒrɪnʤ",
+            "Tôi thích màu cam"
+        ],
+        [
+            "I like yellow",
+            "aɪ laɪk ˈjɛləʊ",
+            "Tôi thích màu vàng"
+        ],
+        [
+            "I like pale yellow",
+            "aɪ laɪk peɪl ˈjɛləʊ",
+            "Tôi thích màu vàng nhạt"
+        ],
+        [
+            "I like bronze",
+            "aɪ laɪk brɒnz",
+            "Tôi thích đồ đồng"
+        ],
+        [
+            "I like ochre",
+            "aɪ laɪk ˈəʊkə",
+            "Tôi thích đất son"
+        ],
+        [
+            "I like dark green",
+            "aɪ laɪk dɑːk griːn",
+            "Tôi thích màu xanh lá cây đậm"
+        ],
+        [
+            "I like beige",
+            "aɪ laɪk beɪʒ",
+            "Tôi thích màu be"
+        ],
+        [
+            "I like grey",
+            "aɪ laɪk greɪ",
+            "Tôi thích màu xám"
+        ],
+        [
+            "I like mint",
+            "aɪ laɪk mɪnt",
+            "Tôi thích bạc hà"
+        ],
+        [
+            "I like red and orange",
+            "aɪ laɪk rɛd ænd ˈɒrɪnʤ",
+            "Tôi thích màu đỏ và cam"
+        ],
+        [
+            "I like plum",
+            "aɪ laɪk plʌm",
+            "Tôi thích mận"
+        ],
+        [
+            "I like purple",
+            "aɪ laɪk ˈpɜːpl",
+            "tôi thích màu tím"
+        ]
+    ],
+    [
+        [
+            "I really enjoy going out to eat",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ aʊt tuː iːt",
+            "Tôi thực sự thích đi ăn"
+        ],
+        [
+            "I really enjoy playing chess",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ ʧɛs",
+            "Tôi thực sự thích chơi cờ"
+        ],
+        [
+            "I really enjoy walking",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈwɔːkɪŋ",
+            "Tôi thực sự thích đi bộ"
+        ],
+        [
+            "I really enjoy jogging",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈʤɒgɪŋ",
+            "Tôi thực sự thích chạy bộ"
+        ],
+        [
+            "I really enjoy watching TV shows",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈwɒʧɪŋ ˌtiːˈviː ʃəʊz",
+            "Tôi thực sự thích xem các chương trình truyền hình"
+        ],
+        [
+            "I really enjoy swimming",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈswɪmɪŋ",
+            "Tôi thực sự thích bơi lội"
+        ],
+        [
+            "I really enjoy traveling",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈtrævlɪŋ",
+            "Tôi thực sự thích đi du lịch"
+        ],
+        [
+            "I really enjoy fishing",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈfɪʃɪŋ",
+            "Tôi thực sự thích câu cá"
+        ],
+        [
+            "I really enjoy doing some housework",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈdu(ː)ɪŋ sʌm ˈhaʊswɜːk",
+            "Tôi thực sự thích làm một số việc nhà"
+        ],
+        [
+            "I really enjoy doing some yard work",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈdu(ː)ɪŋ sʌm jɑːd wɜːk",
+            "Tôi thực sự thích làm một số công việc sân"
+        ],
+        [
+            "I really enjoy taking a road trip",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈteɪkɪŋ ə rəʊd trɪp",
+            "Tôi thực sự thích tham gia một chuyến đi đường bộ"
+        ],
+        [
+            "I really enjoy getting together with friends",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgɛtɪŋ təˈgɛðə wɪð frɛndz",
+            "Tôi thực sự thích tụ tập với bạn bè"
+        ],
+        [
+            "I really enjoy having a house party",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈhævɪŋ ə haʊs ˈpɑːti",
+            "Tôi thực sự thích có một bữa tiệc tại nhà"
+        ],
+        [
+            "I really enjoy shopping",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈʃɒpɪŋ",
+            "Tôi thực sự thích mua sắm"
+        ],
+        [
+            "I really enjoy going to church",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ tuː ʧɜːʧ",
+            "Tôi thực sự thích đi nhà thờ"
+        ],
+        [
+            "I really enjoy spending time with my family",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈspɛndɪŋ taɪm wɪð maɪ ˈfæmɪli",
+            "Tôi thực sự thích dành thời gian cho gia đình của mình"
+        ],
+        [
+            "I really enjoy cooking",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈkʊkɪŋ",
+            "Tôi thực sự thích nấu ăn"
+        ],
+        [
+            "I really enjoy clubbing",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈklʌbɪŋ",
+            "Tôi thực sự thích câu lạc bộ"
+        ],
+        [
+            "I really enjoy learning foreign languages",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈlɜːnɪŋ ˈfɒrɪn ˈlæŋgwɪʤɪz",
+            "Tôi thực sự thích học ngoại ngữ"
+        ],
+        [
+            "I really enjoy going to the cinema",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ tuː ðə ˈsɪnəmə",
+            "Tôi thực sự thích đi xem phim"
+        ],
+        [
+            "I really enjoy learning English",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈlɜːnɪŋ ˈɪŋglɪʃ",
+            "Tôi thực sự thích học tiếng anh"
+        ],
+        [
+            "I really enjoy listening to music",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈmjuːzɪk",
+            "Tôi thực sự thích nghe nhạc"
+        ],
+        [
+            "I really enjoy chilling out at home",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈʧɪlɪŋ aʊt æt həʊm",
+            "Tôi thực sự thích thư giãn ở nhà"
+        ],
+        [
+            "I really enjoy playing chess",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ ʧɛs",
+            "Tôi thực sự thích chơi cờ"
+        ],
+        [
+            "I really enjoy going to the temple",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈgəʊɪŋ tuː ðə ˈtɛmpl",
+            "Tôi thực sự thích đi chùa"
+        ],
+        [
+            "I really enjoy doing the yoga",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈdu(ː)ɪŋ ðə ˈjəʊgə",
+            "Tôi thực sự thích tập yoga"
+        ],
+        [
+            "I really enjoy playing games with my friends",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ geɪmz wɪð maɪ frɛndz",
+            "Tôi thực sự thích chơi trò chơi với bạn bè của mình"
+        ],
+        [
+            "I really enjoy playing sports",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ spɔːts",
+            "Tôi thực sự thích chơi thể thao"
+        ],
+        [
+            "I really enjoy playing tennis",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈpleɪɪŋ ˈtɛnɪs",
+            "Tôi thực sự thích chơi quần vợt"
+        ],
+        [
+            "I really enjoy reading books",
+            "aɪ ˈrɪəli ɪnˈʤɔɪ ˈriːdɪŋ bʊks",
+            "Tôi thực sự thích đọc sách"
+        ]
+    ],
+    [
+        [
+            "I spend time on it every day",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri deɪ",
+            "Tôi dành thời gian cho nó mỗi ngày"
+        ],
+        [
+            "I spend time on it every afternoon",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈɑːftəˈnuːn",
+            "Tôi dành thời gian cho nó vào mỗi buổi chiều"
+        ],
+        [
+            "I spend time on it every morning",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈmɔːnɪŋ",
+            "Tôi dành thời gian cho nó mỗi sáng"
+        ],
+        [
+            "I spend time on it every evening",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈiːvnɪŋ",
+            "Tôi dành thời gian cho nó vào mỗi buổi tối"
+        ],
+        [
+            "I spend time on it every week",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri wiːk",
+            "Tôi dành thời gian cho nó mỗi tuần"
+        ],
+        [
+            "I spend time on it once a week",
+            "aɪ spɛnd taɪm ɒn ɪt wʌns ə wiːk",
+            "Tôi dành thời gian cho nó mỗi tuần một lần"
+        ],
+        [
+            "I spend time on it twice a week",
+            "aɪ spɛnd taɪm ɒn ɪt twaɪs ə wiːk",
+            "Tôi dành thời gian cho nó hai lần một tuần"
+        ],
+        [
+            "I spend time on it on Mondays",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈmʌndeɪz",
+            "Tôi dành thời gian cho nó vào thứ Hai"
+        ],
+        [
+            "I spend time on it on Tuesdays",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈtjuːzdeɪz",
+            "Tôi dành thời gian cho nó vào các ngày Thứ Ba"
+        ],
+        [
+            "I spend time on it on Wednesdays",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈwɛnzdeɪz",
+            "Tôi dành thời gian cho nó vào các ngày thứ Tư"
+        ],
+        [
+            "I spend time on it on Thursdays",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈθɜːzdeɪz",
+            "Tôi dành thời gian cho nó vào thứ Năm"
+        ],
+        [
+            "I spend time on it on Fridays",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈfraɪdeɪz",
+            "Tôi dành thời gian cho nó vào thứ Sáu"
+        ],
+        [
+            "I spend time on it every Saturday",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈsætədeɪ",
+            "Tôi dành thời gian cho nó vào thứ bảy hàng tuần"
+        ],
+        [
+            "I spend time on it on Sundays",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈsʌndeɪz",
+            "Tôi dành thời gian cho nó vào chủ nhật"
+        ],
+        [
+            "I spend time on it every weekend",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri ˈwiːkˈɛnd",
+            "Tôi dành thời gian cho nó vào mỗi cuối tuần"
+        ],
+        [
+            "I spend time on it at the weekend",
+            "aɪ spɛnd taɪm ɒn ɪt æt ðə ˈwiːkˈɛnd",
+            "Tôi dành thời gian cho nó vào cuối tuần"
+        ],
+        [
+            "I spend time on it twice a month",
+            "aɪ spɛnd taɪm ɒn ɪt twaɪs ə mʌnθ",
+            "Tôi dành thời gian cho nó hai lần một tháng"
+        ],
+        [
+            "I spend time on it every month",
+            "aɪ spɛnd taɪm ɒn ɪt ˈɛvri mʌnθ",
+            "Tôi dành thời gian cho nó mỗi tháng"
+        ],
+        [
+            "I spend time on it 5 times a week",
+            "aɪ spɛnd taɪm ɒn ɪt 5 taɪmz ə wiːk",
+            "Tôi dành thời gian cho nó 5 lần một tuần"
+        ],
+        [
+            "I spend time on it 6 times a month",
+            "aɪ spɛnd taɪm ɒn ɪt 6 taɪmz ə mʌnθ",
+            "Tôi dành thời gian cho nó 6 lần một tháng"
+        ],
+        [
+            "I spend time on it twice a day",
+            "aɪ spɛnd taɪm ɒn ɪt twaɪs ə deɪ",
+            "Tôi dành thời gian cho nó hai lần một ngày"
+        ],
+        [
+            "I spend time on it usually",
+            "aɪ spɛnd taɪm ɒn ɪt ˈjuːʒʊəli",
+            "Tôi thường dành thời gian cho nó"
+        ],
+        [
+            "I spend time on it sometimes",
+            "aɪ spɛnd taɪm ɒn ɪt ˈsʌmtaɪmz",
+            "Đôi khi tôi dành thời gian cho nó"
+        ],
+        [
+            "I spend time on it all the time",
+            "aɪ spɛnd taɪm ɒn ɪt ɔːl ðə taɪm",
+            "Tôi dành thời gian cho nó mọi lúc"
+        ],
+        [
+            "I spend time on it twice a day",
+            "aɪ spɛnd taɪm ɒn ɪt twaɪs ə deɪ",
+            "Tôi dành thời gian cho nó hai lần một ngày"
+        ],
+        [
+            "I spend time on it 3 times a day",
+            "aɪ spɛnd taɪm ɒn ɪt 3 taɪmz ə deɪ",
+            "Tôi dành thời gian cho nó 3 lần một ngày"
+        ],
+        [
+            "I spend time on it on Saturday afternoons",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈsætədeɪ ˈɑːftəˈnuːnz",
+            "Tôi dành thời gian cho nó vào các buổi chiều thứ bảy"
+        ],
+        [
+            "I spend time on it on Sundays morning",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈsʌndeɪz ˈmɔːnɪŋ",
+            "Tôi dành thời gian cho nó vào sáng Chủ nhật"
+        ],
+        [
+            "I spend time on it on Mondays morning",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈmʌndeɪz ˈmɔːnɪŋ",
+            "Tôi dành thời gian cho nó vào sáng thứ Hai"
+        ],
+        [
+            "I spend time on it on Tuesdays afternoons",
+            "aɪ spɛnd taɪm ɒn ɪt ɒn ˈtjuːzdeɪz ˈɑːftəˈnuːnz",
+            "Tôi dành thời gian cho nó vào các buổi chiều thứ Ba"
+        ]
+    ],
+    [
+        [
+            "That would be Denmark",
+            "ðæt wʊd biː ˈdɛnmɑːk",
+            "Đó sẽ là Đan Mạch"
+        ],
+        [
+            "That would be England",
+            "ðæt wʊd biː ˈɪŋglənd",
+            "Đó sẽ là nước Anh"
+        ],
+        [
+            "That would be Estonia",
+            "ðæt wʊd biː ɛsˈtəʊnɪə",
+            "Đó sẽ là Estonia"
+        ],
+        [
+            "That would be Finland",
+            "ðæt wʊd biː ˈfɪnlənd",
+            "Đó sẽ là Phần Lan"
+        ],
+        [
+            "That would be Iceland",
+            "ðæt wʊd biː ˈaɪslənd",
+            "Đó sẽ là Iceland"
+        ],
+        [
+            "That would be Ireland",
+            "ðæt wʊd biː ˈaɪələnd",
+            "Đó sẽ là Ireland"
+        ],
+        [
+            "That would be Latvia",
+            "ðæt wʊd biː ˈlætvɪə",
+            "Đó sẽ là Latvia"
+        ],
+        [
+            "That would be Lithuania",
+            "ðæt wʊd biː ˌlɪθjʊˈeɪnɪə",
+            "Đó sẽ là Lithuania"
+        ],
+        [
+            "That would be Northern Ireland",
+            "ðæt wʊd biː ˈnɔːðən ˈaɪələnd",
+            "Đó sẽ là Bắc Ireland"
+        ],
+        [
+            "That would be Norway",
+            "ðæt wʊd biː ˈnɔːweɪ",
+            "Đó sẽ là Na Uy"
+        ],
+        [
+            "That would be Scotland",
+            "ðæt wʊd biː ˈskɒtlənd",
+            "Đó sẽ là Scotland"
+        ],
+        [
+            "That would be Sweden",
+            "ðæt wʊd biː ˈswɪdən",
+            "Đó sẽ là Thụy Điển"
+        ],
+        [
+            "That would be the United Kingdom",
+            "ðæt wʊd biː ðə jʊˈnaɪtɪd ˈkɪŋdəm",
+            "Đó sẽ là Vương quốc Anh"
+        ],
+        [
+            "That would be Wales",
+            "ðæt wʊd biː weɪlz",
+            "Đó sẽ là xứ Wales"
+        ],
+        [
+            "That would be Belarus",
+            "ðæt wʊd biː ˈbɛlərʊs",
+            "Đó sẽ là Belarus"
+        ],
+        [
+            "That would be Bulgaria",
+            "ðæt wʊd biː bʌlˈgeərɪə",
+            "Đó sẽ là Bulgaria"
+        ],
+        [
+            "That would be the Czech Republic",
+            "ðæt wʊd biː ðə ʧɛk rɪˈpʌblɪk",
+            "Đó sẽ là Cộng hòa Séc"
+        ],
+        [
+            "That would be Hungary",
+            "ðæt wʊd biː ˈhʌŋgəri",
+            "Đó sẽ là Hungary"
+        ],
+        [
+            "That would be Poland",
+            "ðæt wʊd biː ˈpəʊlənd",
+            "Đó sẽ là Ba Lan"
+        ],
+        [
+            "That would be Romania",
+            "ðæt wʊd biː rəʊˈmeɪnɪə",
+            "Đó sẽ là Romania"
+        ],
+        [
+            "That would be Russia",
+            "ðæt wʊd biː ˈrʌʃə",
+            "Đó sẽ là Nga"
+        ],
+        [
+            "That would be Slovakia",
+            "ðæt wʊd biː sləʊˈvækɪə",
+            "Đó sẽ là Slovakia"
+        ],
+        [
+            "That would be Ukraine",
+            "ðæt wʊd biː juːˈkreɪn",
+            "Đó sẽ là Ukraine"
+        ],
+        [
+            "That would be Canada",
+            "ðæt wʊd biː ˈkænədə",
+            "Đó sẽ là Canada"
+        ],
+        [
+            "That would be Mexico",
+            "ðæt wʊd biː ˈmɛksɪkəʊ",
+            "Đó sẽ là Mexico"
+        ],
+        [
+            "That would be the United States",
+            "ðæt wʊd biː ðə jʊˈnaɪtɪd steɪts",
+            "Đó sẽ là Hoa Kỳ"
+        ],
+        [
+            "That would be Chile",
+            "ðæt wʊd biː ˈʧɪliː",
+            "Đó sẽ là Chile"
+        ],
+        [
+            "That would be Colombia",
+            "ðæt wʊd biː kəˈlʌmbɪə",
+            "Đó sẽ là Colombia"
+        ],
+        [
+            "That would be Ecuador",
+            "ðæt wʊd biː ˈɛkwədɔː",
+            "Đó sẽ là Ecuador"
+        ],
+        [
+            "That would be Paraguay",
+            "ðæt wʊd biː ˈpærəgwaɪ",
+            "Đó sẽ là Paraguay"
+        ]
+    ],
+    [
+        [
+            "I often take a lot of photos",
+            "aɪ ˈɒf(ə)n teɪk ə lɒt ɒv ˈfəʊtəʊz",
+            "Tôi thường chụp rất nhiều ảnh"
+        ],
+        [
+            "I often eat seafood",
+            "aɪ ˈɒf(ə)n iːt ˈsiːfuːd",
+            "Tôi thường ăn hải sản"
+        ],
+        [
+            "I often go backpacking",
+            "aɪ ˈɒf(ə)n gəʊ ˈbækˌpækɪŋ",
+            "Tôi thường đi ba lô"
+        ],
+        [
+            "I often go camping in the forest",
+            "aɪ ˈɒf(ə)n gəʊ ˈkæmpɪŋ ɪn ðə ˈfɒrɪst",
+            "Tôi thường đi cắm trại trong rừng"
+        ],
+        [
+            "I often go hitchhiking",
+            "aɪ ˈɒf(ə)n gəʊ ˈhɪʧˌhaɪkɪŋ",
+            "Tôi thường đi nhờ xe"
+        ],
+        [
+            "I often go climbing",
+            "aɪ ˈɒf(ə)n gəʊ ˈklaɪmɪŋ",
+            "Tôi thường đi leo núi"
+        ],
+        [
+            "I often go sightseeing",
+            "aɪ ˈɒf(ə)n gəʊ ˈsaɪtˌsiːɪŋ",
+            "Tôi thường đi tham quan"
+        ],
+        [
+            "I often do sailing",
+            "aɪ ˈɒf(ə)n duː ˈseɪlɪŋ",
+            "Tôi thường chèo thuyền"
+        ],
+        [
+            "I often go surfing",
+            "aɪ ˈɒf(ə)n gəʊ ˈsɜːfɪŋ",
+            "Tôi thường đi lướt sóng"
+        ],
+        [
+            "I often go scuba diving",
+            "aɪ ˈɒf(ə)n gəʊ ˈskuːbə ˈdaɪvɪŋ",
+            "Tôi thường đi lặn biển"
+        ],
+        [
+            "I often try the local foods",
+            "aɪ ˈɒf(ə)n traɪ ðə ˈləʊkəl fuːdz",
+            "Tôi thường thử các món ăn địa phương"
+        ],
+        [
+            "I often go waterskiing",
+            "aɪ ˈɒf(ə)n gəʊ ˈwɔːtəˌskiːɪŋ",
+            "Tôi thường đi trượt nước"
+        ],
+        [
+            "I often go cycling to see the city",
+            "aɪ ˈɒf(ə)n gəʊ ˈsaɪklɪŋ tuː siː ðə ˈsɪti",
+            "Tôi thường đi xe đạp để ngắm nhìn thành phố"
+        ],
+        [
+            "I often visit historical sites",
+            "aɪ ˈɒf(ə)n ˈvɪzɪt hɪsˈtɒrɪkəl saɪts",
+            "Tôi thường đến thăm các di tích lịch sử"
+        ],
+        [
+            "I often visit famous places there",
+            "aɪ ˈɒf(ə)n ˈvɪzɪt ˈfeɪməs ˈpleɪsɪz ðeə",
+            "Tôi thường đến thăm những địa điểm nổi tiếng ở đó"
+        ],
+        [
+            "I often watch ethnic music program",
+            "aɪ ˈɒf(ə)n wɒʧ ˈɛθnɪk ˈmjuːzɪk ˈprəʊgræm",
+            "Tôi thường xem chương trình ca nhạc dân tộc"
+        ],
+        [
+            "I often join and learn about local cultural activities",
+            "aɪ ˈɒf(ə)n ʤɔɪn ænd lɜːn əˈbaʊt ˈləʊkəl ˈkʌlʧərəl ækˈtɪvɪtiz",
+            "Tôi thường tham gia và tìm hiểu các hoạt động văn hóa của địa phương"
+        ],
+        [
+            "I often see the sunrise on the sea",
+            "aɪ ˈɒf(ə)n siː ðə ˈsʌnraɪz ɒn ðə siː",
+            "Tôi thường nhìn thấy mặt trời mọc trên biển"
+        ],
+        [
+            "I often see the sunset on the sea",
+            "aɪ ˈɒf(ə)n siː ðə ˈsʌnsɛt ɒn ðə siː",
+            "Tôi thường nhìn thấy hoàng hôn trên biển"
+        ],
+        [
+            "I often talk a lot with the locals",
+            "aɪ ˈɒf(ə)n tɔːk ə lɒt wɪð ðə ˈləʊkəlz",
+            "Tôi thường nói chuyện rất nhiều với người dân địa phương"
+        ],
+        [
+            "I often learn the language of the natives",
+            "aɪ ˈɒf(ə)n lɜːn ðə ˈlæŋgwɪʤ ɒv ðə ˈneɪtɪvz",
+            "Tôi thường học ngôn ngữ của người bản xứ"
+        ],
+        [
+            "I often walking",
+            "aɪ ˈɒf(ə)n ˈwɔːkɪŋ",
+            "Tôi thường đi bộ"
+        ],
+        [
+            "I often go to the floating market",
+            "aɪ ˈɒf(ə)n gəʊ tuː ðə ˈfləʊtɪŋ ˈmɑːkɪt",
+            "Tôi thường đi chợ nổi"
+        ],
+        [
+            "I often visit the museum",
+            "aɪ ˈɒf(ə)n ˈvɪzɪt ðə mju(ː)ˈzɪəm",
+            "Tôi thường đến thăm viện bảo tàng"
+        ],
+        [
+            "I often watch a Water Puppet show",
+            "aɪ ˈɒf(ə)n wɒʧ ə ˈwɔːtə ˈpʌpɪt ʃəʊ",
+            "Tôi thường xem một buổi biểu diễn Múa rối nước"
+        ],
+        [
+            "I often try to stay at a local's house",
+            "aɪ ˈɒf(ə)n traɪ tuː steɪ æt ə ˈləʊkəlz haʊs",
+            "Tôi thường cố gắng ở nhà một người dân địa phương"
+        ],
+        [
+            "I often go to the beach",
+            "aɪ ˈɒf(ə)n gəʊ tuː ðə biːʧ",
+            "Tôi thường đi biển"
+        ],
+        [
+            "I often eat street food",
+            "aɪ ˈɒf(ə)n iːt striːt fuːd",
+            "Tôi thường ăn thức ăn đường phố"
+        ],
+        [
+            "I often cloud hunting",
+            "aɪ ˈɒf(ə)n klaʊd ˈhʌntɪŋ",
+            "Tôi thường săn mây"
+        ],
+        [
+            "I often see the city street by cyclo",
+            "aɪ ˈɒf(ə)n siː ðə ˈsɪti striːt baɪ cyclo",
+            "Tôi thường ngắm phố phường bằng xích lô"
+        ]
+    ],
+    [
+        [
+            "I am going to the museum.",
+            "aɪ æm ˈgəʊɪŋ tuː ðə mju(ː)ˈzɪəm.",
+            "Tôi đang đi đến viện bảo tàng."
+        ],
+        [
+            "I am going to the post office.",
+            "aɪ æm ˈgəʊɪŋ tuː ðə pəʊst ˈɒfɪs.",
+            "Tôi đang đi đến bưu điện."
+        ],
+        [
+            "I am going to the bookshop.",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈbʊkʃɒp.",
+            "Tôi đang đi đến hiệu sách."
+        ],
+        [
+            "I am going to the church.",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ʧɜːʧ.",
+            "Tôi đang đi đến nhà thờ."
+        ],
+        [
+            "I am going to the cinema",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈsɪnəmə",
+            "Tôi đang đi đến rạp chiếu phim"
+        ],
+        [
+            "I am going to the court",
+            "aɪ æm ˈgəʊɪŋ tuː ðə kɔːt",
+            "Tôi sẽ đến tòa án"
+        ],
+        [
+            "I am going to the cemetery",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈsɛmɪtri",
+            "Tôi đang đi đến nghĩa trang"
+        ],
+        [
+            "I am going to the concert hall",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈkɒnsə(ː)t hɔːl",
+            "Tôi đang đi đến phòng hòa nhạc"
+        ],
+        [
+            "I am going to the bakery",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈbeɪkəri",
+            "Tôi đang đi đến tiệm bánh"
+        ],
+        [
+            "I am going to the health  center",
+            "aɪ æm ˈgəʊɪŋ tuː ðə hɛlθ ˈsɛntə",
+            "Tôi đang đi đến trung tâm y tế"
+        ],
+        [
+            "I am going to the library",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈlaɪbrəri",
+            "Tôi đang đi đến thư viện"
+        ],
+        [
+            "I am going to the florist",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈflɒrɪst",
+            "Tôi đang đi đến cửa hàng bán hoa"
+        ],
+        [
+            "I am going to the market",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈmɑːkɪt",
+            "Tôi đang đi chợ"
+        ],
+        [
+            "I am going to the gift shop",
+            "aɪ æm ˈgəʊɪŋ tuː ðə gɪft ʃɒp",
+            "Tôi đang đi đến cửa hàng quà tặng"
+        ],
+        [
+            "I am going to the pharmacy",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈfɑːməsi",
+            "Tôi đang đi đến hiệu thuốc"
+        ],
+        [
+            "I am going to the market",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈmɑːkɪt",
+            "Tôi đang đi chợ"
+        ],
+        [
+            "I am going to the park",
+            "aɪ æm ˈgəʊɪŋ tuː ðə pɑːk",
+            "Tôi đang đi đến công viên"
+        ],
+        [
+            "I am going to the pagoda",
+            "aɪ æm ˈgəʊɪŋ tuː ðə pəˈgəʊdə",
+            "Tôi đang đi đến chùa"
+        ],
+        [
+            "I am going to the shoe shop",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ʃuː ʃɒp",
+            "Tôi đang đi đến cửa hàng giày"
+        ],
+        [
+            "I am going to the theater",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈθɪətə",
+            "Tôi đang đi đến nhà hát"
+        ],
+        [
+            "I am going to the temple",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈtɛmpl",
+            "Tôi đang đi đến chùa"
+        ],
+        [
+            "I am going to the supermarket",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈsjuːpəˌmɑːkɪt",
+            "Tôi đang đi đến siêu thị"
+        ],
+        [
+            "I am going to the stadium",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈsteɪdiəm",
+            "Tôi đang đi đến sân vận động"
+        ],
+        [
+            "I am going to the swimming pool",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈswɪmɪŋ puːl",
+            "Tôi đang đi đến bể bơi"
+        ],
+        [
+            "I am going to the zoo",
+            "aɪ æm ˈgəʊɪŋ tuː ðə zuː",
+            "Tôi đang đi đến sở thú"
+        ],
+        [
+            "I am going to the toy shop",
+            "aɪ æm ˈgəʊɪŋ tuː ðə tɔɪ ʃɒp",
+            "Tôi đang đi đến cửa hàng đồ chơi"
+        ],
+        [
+            "I am going to the train station",
+            "aɪ æm ˈgəʊɪŋ tuː ðə treɪn ˈsteɪʃən",
+            "Tôi đang đi đến ga xe lửa"
+        ],
+        [
+            "I am going to the stationery store",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈsteɪʃnəri stɔː",
+            "Tôi đang đi đến cửa hàng văn phòng phẩm"
+        ],
+        [
+            "I am going to the restaurant",
+            "aɪ æm ˈgəʊɪŋ tuː ðə ˈrɛstrɒnt",
+            "tôi đang đến nhà hàng đó"
+        ],
+        [
+            "I am going to the pubs",
+            "aɪ æm ˈgəʊɪŋ tuː ðə pʌbz",
+            "Tôi đang đi đến quán rượu"
+        ]
+    ],
+    [
+        [
+            "I'm going with my friends.",
+            "aɪm ˈgəʊɪŋ wɪð maɪ frɛndz.",
+            "Tôi đang đi với bạn bè của tôi."
+        ],
+        [
+            "I'm going with my sister.",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈsɪstə.",
+            "Tôi đi với em gái tôi."
+        ],
+        [
+            "I'm going with my brother",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈbrʌðə",
+            "Tôi đang đi với anh trai tôi"
+        ],
+        [
+            "I'm going with my mother",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈmʌðə",
+            "Tôi đang đi với mẹ tôi"
+        ],
+        [
+            "I'm going with my aunt",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ɑːnt",
+            "Tôi đang đi với dì của tôi"
+        ],
+        [
+            "I'm going with my uncle",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈʌŋkl",
+            "Tôi đang đi với chú của tôi"
+        ],
+        [
+            "I'm going with my teacher",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈtiːʧə",
+            "Tôi đang đi với giáo viên của tôi"
+        ],
+        [
+            "I'm going with my student",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈstjuːdənt",
+            "Tôi đang đi với học sinh của tôi"
+        ],
+        [
+            "I'm going with my cousin",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈkʌzn",
+            "Tôi đang đi với anh họ của tôi"
+        ],
+        [
+            "I'm going with my son",
+            "aɪm ˈgəʊɪŋ wɪð maɪ sʌn",
+            "Tôi đi với con trai tôi"
+        ],
+        [
+            "I'm going with my daughter",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈdɔːtə",
+            "Tôi đi với con gái tôi"
+        ],
+        [
+            "I'm going with my grandfather",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrændˌfɑːðə",
+            "Tôi đang đi với ông tôi"
+        ],
+        [
+            "I'm going with my grandmother",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrænˌmʌðə",
+            "Tôi đang đi với bà tôi"
+        ],
+        [
+            "I'm going with my parents",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈpeərənts",
+            "Tôi đang đi với bố mẹ tôi"
+        ],
+        [
+            "I'm going with my family",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈfæmɪli",
+            "Tôi đang đi với gia đình của tôi"
+        ],
+        [
+            "I'm going with my children",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈʧɪldrən",
+            "Tôi đang đi với các con của tôi"
+        ],
+        [
+            "I'm going with my wife",
+            "aɪm ˈgəʊɪŋ wɪð maɪ waɪf",
+            "Tôi đang đi với vợ tôi"
+        ],
+        [
+            "I'm going with my husband",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈhʌzbənd",
+            "Tôi đang đi với chồng tôi"
+        ],
+        [
+            "I'm going with my niece",
+            "aɪm ˈgəʊɪŋ wɪð maɪ niːs",
+            "Tôi đang đi với cháu gái của tôi"
+        ],
+        [
+            "I'm going with my nephew",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈnɛvju(ː)",
+            "Tôi đang đi với cháu trai của tôi"
+        ],
+        [
+            "I'm going with my grandson",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrænsʌn",
+            "Tôi đang đi với cháu trai của tôi"
+        ],
+        [
+            "I'm going with my siblings",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈsɪblɪŋz",
+            "Tôi đang đi với anh chị em của tôi"
+        ],
+        [
+            "I'm going with my sister-in-law",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈsɪstərɪnlɔː",
+            "Tôi đang đi với chị dâu của tôi"
+        ],
+        [
+            "I'm going with my daughter-i-law",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈdɔːtər-aɪ-lɔː",
+            "Tôi đi với con dâu của tôi"
+        ],
+        [
+            "I'm going with my mother-in-law",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈmʌðərɪnlɔː",
+            "Tôi đang đi với mẹ chồng tôi"
+        ],
+        [
+            "I'm going with my father-in-law",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈfɑːðərɪnlɔː",
+            "Tôi đang đi với bố vợ tôi"
+        ],
+        [
+            "I'm going with my granddaughter",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈgrænˌdɔːtə",
+            "Tôi đang đi với cháu gái của tôi"
+        ],
+        [
+            "I'm going with my boyfriend",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈbɔɪˌfrɛnd",
+            "Tôi đang đi với bạn trai của tôi"
+        ],
+        [
+            "I'm going with my girlfriend",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈgɜːlˌfrɛnd",
+            "Tôi đang đi với bạn gái của tôi"
+        ],
+        [
+            "I'm going with my relatives",
+            "aɪm ˈgəʊɪŋ wɪð maɪ ˈrɛlətɪvz",
+            "Tôi đang đi với người thân của tôi"
+        ]
+    ],
+    [
+        [
+            "I'd recommend Buffet restaurant",
+            "aɪd ˌrɛkəˈmɛnd ˈbʌfɪt ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Buffet"
+        ],
+        [
+            "I'd recommend Cafeteria",
+            "aɪd ˌrɛkəˈmɛnd ˌkæfɪˈtɪərɪə",
+            "Tôi muốn giới thiệu quán cà phê"
+        ],
+        [
+            "I'd recommend Fast food restaurant",
+            "aɪd ˌrɛkəˈmɛnd fɑːst fuːd ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng thức ăn nhanh"
+        ],
+        [
+            "I'd recommend a Fine dining restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə faɪn ˈdaɪnɪŋ ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng ăn uống cao cấp"
+        ],
+        [
+            "I'd recommend an Ethnic restaurant",
+            "aɪd ˌrɛkəˈmɛnd ən ˈɛθnɪk ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng Dân tộc"
+        ],
+        [
+            "I'd recommend a Hot pot restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə hɒt pɒt ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng lẩu"
+        ],
+        [
+            "I'd recommend a Japanese restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə ˌʤæpəˈniːz ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng Nhật Bản"
+        ],
+        [
+            "I'd recommend a Korean restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə kəˈriːən ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng Hàn Quốc"
+        ],
+        [
+            "I'd recommend Thai restaurant",
+            "aɪd ˌrɛkəˈmɛnd taɪ ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Thái"
+        ],
+        [
+            "I'd recommend Seafood restaurant",
+            "aɪd ˌrɛkəˈmɛnd ˈsiːfuːd ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng hải sản"
+        ],
+        [
+            "I'd recommend the new Chinese place",
+            "aɪd ˌrɛkəˈmɛnd ðə njuː ˌʧaɪˈniːz pleɪs",
+            "Tôi muốn giới thiệu địa điểm Trung Quốc mới"
+        ],
+        [
+            "I'd recommend the Vietnam restaurant",
+            "aɪd ˌrɛkəˈmɛnd ðə ˌvjɛtˈnɑːm ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Việt Nam"
+        ],
+        [
+            "I'd recommend the India restaurant",
+            "aɪd ˌrɛkəˈmɛnd ði ˈɪndɪə ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Ấn Độ"
+        ],
+        [
+            "I'd recommend Buffet restaurant",
+            "aɪd ˌrɛkəˈmɛnd ˈbʌfɪt ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Buffet"
+        ],
+        [
+            "I'd recommend Cafeteria",
+            "aɪd ˌrɛkəˈmɛnd ˌkæfɪˈtɪərɪə",
+            "Tôi muốn giới thiệu quán cà phê"
+        ],
+        [
+            "I'd recommend Fast food restaurant",
+            "aɪd ˌrɛkəˈmɛnd fɑːst fuːd ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng thức ăn nhanh"
+        ],
+        [
+            "I'd recommend a Fine dining restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə faɪn ˈdaɪnɪŋ ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng ăn uống cao cấp"
+        ],
+        [
+            "I'd recommend an Ethnic restaurant",
+            "aɪd ˌrɛkəˈmɛnd ən ˈɛθnɪk ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng Dân tộc"
+        ],
+        [
+            "I'd recommend a Hot pot restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə hɒt pɒt ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng lẩu"
+        ],
+        [
+            "I'd recommend a Japanese restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə ˌʤæpəˈniːz ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng Nhật Bản"
+        ],
+        [
+            "I'd recommend a Korean restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə kəˈriːən ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng Hàn Quốc"
+        ],
+        [
+            "I'd recommend Thai restaurant",
+            "aɪd ˌrɛkəˈmɛnd taɪ ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Thái"
+        ],
+        [
+            "I'd recommend Seafood restaurant",
+            "aɪd ˌrɛkəˈmɛnd ˈsiːfuːd ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng hải sản"
+        ],
+        [
+            "I'd recommend the new Chinese place",
+            "aɪd ˌrɛkəˈmɛnd ðə njuː ˌʧaɪˈniːz pleɪs",
+            "Tôi muốn giới thiệu địa điểm Trung Quốc mới"
+        ],
+        [
+            "I'd recommend the Vietnam restaurant",
+            "aɪd ˌrɛkəˈmɛnd ðə ˌvjɛtˈnɑːm ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Việt Nam"
+        ],
+        [
+            "I'd recommend the India restaurant",
+            "aɪd ˌrɛkəˈmɛnd ði ˈɪndɪə ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Ấn Độ"
+        ],
+        [
+            "I'd recommend Buffet restaurant",
+            "aɪd ˌrɛkəˈmɛnd ˈbʌfɪt ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng Buffet"
+        ],
+        [
+            "I'd recommend Cafeteria",
+            "aɪd ˌrɛkəˈmɛnd ˌkæfɪˈtɪərɪə",
+            "Tôi muốn giới thiệu quán cà phê"
+        ],
+        [
+            "I'd recommend Fast food restaurant",
+            "aɪd ˌrɛkəˈmɛnd fɑːst fuːd ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu nhà hàng thức ăn nhanh"
+        ],
+        [
+            "I'd recommend a Fine dining restaurant",
+            "aɪd ˌrɛkəˈmɛnd ə faɪn ˈdaɪnɪŋ ˈrɛstrɒnt",
+            "Tôi muốn giới thiệu một nhà hàng ăn uống cao cấp"
+        ]
+    ],
+    [
+        [
+            "It's reasonable",
+            "ɪts ˈriːznəbl",
+            "Nó hợp lý"
+        ],
+        [
+            "It's not too expensive",
+            "ɪts nɒt tuː ɪksˈpɛnsɪv",
+            "Nó không quá đắt"
+        ],
+        [
+            "It's economical",
+            "ɪts ˌiːkəˈnɒmɪkəl",
+            "Nó tiết kiệm"
+        ],
+        [
+            "It's fair",
+            "ɪts feə",
+            "Nó công bằng"
+        ],
+        [
+            "It's dirt cheap",
+            "ɪts dɜːt ʧiːp",
+            "Nó rẻ mạt"
+        ],
+        [
+            "It's a snip",
+            "ɪts ə snɪp",
+            "Đó là một mảnh ghép"
+        ],
+        [
+            "It's steal",
+            "ɪts stiːl",
+            "Nó ăn cắp"
+        ],
+        [
+            "It's cheap to run",
+            "ɪts ʧiːp tuː rʌn",
+            "Nó rẻ để chạy"
+        ],
+        [
+            "It's dear",
+            "ɪts dɪə",
+            "Nó thân yêu"
+        ],
+        [
+            "It's extortionate",
+            "ɪts ɪksˈtɔːʃnɪt",
+            "Nó không tương xứng"
+        ],
+        [
+            "It's too high",
+            "ɪts tuː haɪ",
+            "Nó quá cao"
+        ],
+        [
+            "It's pricey",
+            "ɪts ˈpraɪsi",
+            "Nó đắt tiền"
+        ],
+        [
+            "It's dear",
+            "ɪts dɪə",
+            "Nó thân yêu"
+        ],
+        [
+            "It's prohibitive",
+            "ɪts prəˈhɪbɪtɪv",
+            "Nó bị cấm"
+        ],
+        [
+            "It's expensive",
+            "ɪts ɪksˈpɛnsɪv",
+            "Nó đắt"
+        ],
+        [
+            "It's for sale",
+            "ɪts fɔː seɪl",
+            "Nó được bán"
+        ],
+        [
+            "It's a real bargain",
+            "ɪts ə rɪəl ˈbɑːgɪn",
+            "Đó là một món hời thực sự"
+        ],
+        [
+            "It's affordable",
+            "ɪts əˈfɔːdəbl",
+            "Giá cả phải chăng"
+        ],
+        [
+            "It's reasonable",
+            "ɪts ˈriːznəbl",
+            "Nó hợp lý"
+        ],
+        [
+            "It's not too expensive",
+            "ɪts nɒt tuː ɪksˈpɛnsɪv",
+            "Nó không quá đắt"
+        ],
+        [
+            "It's economical",
+            "ɪts ˌiːkəˈnɒmɪkəl",
+            "Nó tiết kiệm"
+        ],
+        [
+            "It's fair",
+            "ɪts feə",
+            "Nó công bằng"
+        ],
+        [
+            "It's dirt cheap",
+            "ɪts dɜːt ʧiːp",
+            "Nó rẻ mạt"
+        ],
+        [
+            "It's a snip",
+            "ɪts ə snɪp",
+            "Đó là một mảnh ghép"
+        ],
+        [
+            "It's steal",
+            "ɪts stiːl",
+            "Nó ăn cắp"
+        ],
+        [
+            "It's cheap to run",
+            "ɪts ʧiːp tuː rʌn",
+            "Nó rẻ để chạy"
+        ],
+        [
+            "It's dear",
+            "ɪts dɪə",
+            "Nó thân yêu"
+        ],
+        [
+            "It's extortionate",
+            "ɪts ɪksˈtɔːʃnɪt",
+            "Nó không tương xứng"
+        ],
+        [
+            "It's too high",
+            "ɪts tuː haɪ",
+            "Nó quá cao"
+        ],
+        [
+            "It's pricey",
+            "ɪts ˈpraɪsi",
+            "Nó đắt tiền"
+        ]
+    ],
+    [
+        [
+            "This is Grilled fish",
+            "ðɪs ɪz grɪld fɪʃ",
+            "Đây là cá nướng"
+        ],
+        [
+            "This is Fried Crayfish with cauliflower",
+            "ðɪs ɪz fraɪd ˈkreɪfɪʃ wɪð ˈkɒlɪflaʊə",
+            "Đây là Tôm càng xào súp lơ"
+        ],
+        [
+            "This is Fried Crayfish with mushroom",
+            "ðɪs ɪz fraɪd ˈkreɪfɪʃ wɪð ˈmʌʃrʊm",
+            "Đây là Tôm càng xào nấm"
+        ],
+        [
+            "This is Grilled Lobster with citronella & garlic",
+            "ðɪs ɪz grɪld ˈlɒbstə wɪð citronella & ˈgɑːlɪk",
+            "Đây là Tôm hùm nướng sả tỏi"
+        ],
+        [
+            "This is a Hot pot of Lobster",
+            "ðɪs ɪz ə hɒt pɒt ɒv ˈlɒbstə",
+            "Đây là món Lẩu Tôm Hùm"
+        ],
+        [
+            "This is Seafood and vegetables on rice",
+            "ðɪs ɪz ˈsiːfuːd ænd ˈvɛʤtəb(ə)lz ɒn raɪs",
+            "Đây là hải sản và rau trên cơm"
+        ],
+        [
+            "This is a Seafood soup",
+            "ðɪs ɪz ə ˈsiːfuːd suːp",
+            "Đây là món súp hải sản"
+        ],
+        [
+            "This is Peanuts dived in salt",
+            "ðɪs ɪz ˈpiːnʌts daɪvd ɪn sɒlt",
+            "Đây là Đậu phộng ngâm muối"
+        ],
+        [
+            "This is a Kimchi dish",
+            "ðɪs ɪz ə Kimchi dɪʃ",
+            "Đây là món Kimchi"
+        ],
+        [
+            "This is Fresh Shellfish soup",
+            "ðɪs ɪz frɛʃ ˈʃɛlfɪʃ suːp",
+            "Đây là súp Sò tươi"
+        ],
+        [
+            "This is Eel soup",
+            "ðɪs ɪz iːl suːp",
+            "Đây là súp lươn"
+        ],
+        [
+            "This is Crab soup",
+            "ðɪs ɪz kræb suːp",
+            "Đây là súp cua"
+        ],
+        [
+            "This is Chicken & com soup",
+            "ðɪs ɪz ˈʧɪkɪn & kɒm suːp",
+            "Đây là súp gà & com"
+        ],
+        [
+            "This is Beef soup",
+            "ðɪs ɪz biːf suːp",
+            "Đây là súp thịt bò"
+        ],
+        [
+            "This is Beef dipped in hot sauce",
+            "ðɪs ɪz biːf dɪpt ɪn hɒt sɔːs",
+            "Đây là Bò nhúng sốt"
+        ],
+        [
+            "This is a Beef dish served with fried potato",
+            "ðɪs ɪz ə biːf dɪʃ sɜːvd wɪð fraɪd pəˈteɪtəʊ",
+            "Đây là món Bò ăn kèm với khoai tây chiên"
+        ],
+        [
+            "This is a Beef dish",
+            "ðɪs ɪz ə biːf dɪʃ",
+            "Đây là món Bò"
+        ],
+        [
+            "This is Beef steak",
+            "ðɪs ɪz biːf steɪk",
+            "Đây là bít tết bò"
+        ],
+        [
+            "This is Beef",
+            "ðɪs ɪz biːf",
+            "Đây là thịt bò"
+        ],
+        [
+            "This is Fried Beef with garlic celery",
+            "ðɪs ɪz fraɪd biːf wɪð ˈgɑːlɪk ˈsɛləri",
+            "Đây là Bò xào tỏi cần tây"
+        ],
+        [
+            "This is Grilled Beef with chili & citronella",
+            "ðɪs ɪz grɪld biːf wɪð ˈʧɪli & citronella",
+            "Đây là Bò nướng sả ớt"
+        ],
+        [
+            "This is Rolled minced Beef dipped in hot sauce",
+            "ðɪs ɪz rəʊld mɪnst biːf dɪpt ɪn hɒt sɔːs",
+            "Đây là Bò bằm cuộn sốt"
+        ],
+        [
+            "This is Thailand style fried Beef",
+            "ðɪs ɪz ˈtaɪlænd staɪl fraɪd biːf",
+            "Đây là món bò rán kiểu Thái Lan"
+        ],
+        [
+            "This is a Meat dumpling",
+            "ðɪs ɪz ə miːt ˈdʌmplɪŋ",
+            "Đây là bánh bao nhân thịt"
+        ],
+        [
+            "This is Minced meat wonton",
+            "ðɪs ɪz mɪnst miːt wonton",
+            "Đây là hoành thánh thịt băm"
+        ],
+        [
+            "This is Noodles with onion oil sauce",
+            "ðɪs ɪz ˈnuːdlz wɪð ˈʌnjən ɔɪl sɔːs",
+            "Đây là Mì sốt dầu hành"
+        ],
+        [
+            "This is Soy bean soup with young pork ribs",
+            "ðɪs ɪz sɔɪ biːn suːp wɪð jʌŋ pɔːk rɪbz",
+            "Đây là canh đậu tương sườn non"
+        ],
+        [
+            "This is Spicy and sour soup",
+            "ðɪs ɪz ˈspaɪsi ænd ˈsaʊə suːp",
+            "Đây là món canh chua cay"
+        ],
+        [
+            "This is Tofu with soy sauce",
+            "ðɪs ɪz ˈtəʊfuː wɪð sɔɪ sɔːs",
+            "Đây là Đậu phụ sốt xì dầu"
+        ],
+        [
+            "This is Tomato soup cooked with eggs",
+            "ðɪs ɪz təˈmɑːtəʊ suːp kʊkt wɪð ɛgz",
+            "Đây là món canh cà chua nấu trứng"
+        ]
+    ],
+    [
+        [
+            "This is a fork",
+            "ðɪs ɪz ə fɔːk",
+            "Đây là một cái nĩa"
+        ],
+        [
+            "This is a spoon",
+            "ðɪs ɪz ə spuːn",
+            "Đây là một cái thìa"
+        ],
+        [
+            "This is a bowl",
+            "ðɪs ɪz ə bəʊl",
+            "Đây là một cái bát"
+        ],
+        [
+            "This is a teaspoon",
+            "ðɪs ɪz ə ˈtiːˌspuːn",
+            "Đây là một thìa cà phê"
+        ],
+        [
+            "This is a tray",
+            "ðɪs ɪz ə treɪ",
+            "Đây là một cái khay"
+        ],
+        [
+            "This is a grater",
+            "ðɪs ɪz ə ˈgreɪtə",
+            "Đây là một cái vắt"
+        ],
+        [
+            "This is kitchen foil",
+            "ðɪs ɪz ˈkɪʧɪn fɔɪl",
+            "Đây là giấy bạc nhà bếp"
+        ],
+        [
+            "This is a mixing bowl",
+            "ðɪs ɪz ə ˈmɪksɪŋ bəʊl",
+            "Đây là một cái bát trộn"
+        ],
+        [
+            "This is a pot",
+            "ðɪs ɪz ə pɒt",
+            "Đây là một cái chậu"
+        ],
+        [
+            "This is a whisk",
+            "ðɪs ɪz ə wɪsk",
+            "Đây là một cái máy đánh trứng"
+        ],
+        [
+            "This is a tongs",
+            "ðɪs ɪz ə tɒŋz",
+            "Đây là một cái kẹp"
+        ],
+        [
+            "This is a tin opener",
+            "ðɪs ɪz ə tɪn ˈəʊpnə",
+            "Đây là một dụng cụ mở thiếc"
+        ],
+        [
+            "This is a grill",
+            "ðɪs ɪz ə grɪl",
+            "Đây là một món nướng"
+        ],
+        [
+            "This is a frying pan",
+            "ðɪs ɪz ə ˈfraɪɪŋ pæn",
+            "Đây là một cái chảo"
+        ],
+        [
+            "This is a kitchen roll",
+            "ðɪs ɪz ə ˈkɪʧɪn rəʊl",
+            "Đây là một cuộn bếp"
+        ],
+        [
+            "This is a knife",
+            "ðɪs ɪz ə naɪf",
+            "Đây là một con dao"
+        ],
+        [
+            "This is a pot holder",
+            "ðɪs ɪz ə pɒt ˈhəʊldə",
+            "Đây là một giá đỡ nồi"
+        ],
+        [
+            "This is a cup",
+            "ðɪs ɪz ə kʌp",
+            "Đây là một cái cốc"
+        ],
+        [
+            "This is a crockery",
+            "ðɪs ɪz ə ˈkrɒkəri",
+            "Đây là một đồ sành sứ"
+        ],
+        [
+            "This is an oven cloth",
+            "ðɪs ɪz ən ˈʌvn klɒθ",
+            "Đây là vải dùng trong lò nướng"
+        ],
+        [
+            "This is a peeler",
+            "ðɪs ɪz ə ˈpiːlə",
+            "Đây là một máy bóc vỏ"
+        ],
+        [
+            "This is a saucepan",
+            "ðɪs ɪz ə ˈsɔːspən",
+            "Đây là một cái chảo"
+        ],
+        [
+            "This is a kitchen scales",
+            "ðɪs ɪz ə ˈkɪʧɪn skeɪlz",
+            "Đây là một chiếc cân nhà bếp"
+        ],
+        [
+            "This is a plate",
+            "ðɪs ɪz ə pleɪt",
+            "Đây là một cái đĩa"
+        ],
+        [
+            "This is a wooden spoon",
+            "ðɪs ɪz ə ˈwʊdn spuːn",
+            "Đây là một cái thìa gỗ"
+        ],
+        [
+            "This is an apron",
+            "ðɪs ɪz ən ˈeɪprən",
+            "Đây là tạp dề"
+        ],
+        [
+            "This is a burner",
+            "ðɪs ɪz ə ˈbɜːnə",
+            "Đây là một ổ ghi"
+        ],
+        [
+            "This is a colander",
+            "ðɪs ɪz ə ˈkʌləndə",
+            "Đây là một cái chao"
+        ],
+        [
+            "This is a sieve",
+            "ðɪs ɪz ə sɪv",
+            "Đây là một cái sàng"
+        ],
+        [
+            "This is a carving knife",
+            "ðɪs ɪz ə ˈkɑːvɪŋ naɪf",
+            "Đây là một con dao khắc"
+        ]
+    ],
+    [
+        [
+            "I need to buy cabbage",
+            "aɪ niːd tuː baɪ ˈkæbɪʤ",
+            "Tôi cần mua bắp cải"
+        ],
+        [
+            "I need to buy broccoli",
+            "aɪ niːd tuː baɪ ˈbrɒkəli",
+            "Tôi cần mua bông cải xanh"
+        ],
+        [
+            "I need to buy green onion",
+            "aɪ niːd tuː baɪ griːn ˈʌnjən",
+            "Tôi cần mua hành lá"
+        ],
+        [
+            "I need to buy knotgrass",
+            "aɪ niːd tuː baɪ ˈnɒtgrɑːs",
+            "Tôi cần mua cây cói"
+        ],
+        [
+            "I need to buy asparagus",
+            "aɪ niːd tuː baɪ əsˈpærəgəs",
+            "Tôi cần mua măng tây"
+        ],
+        [
+            "I need to buy seaweed",
+            "aɪ niːd tuː baɪ ˈsiːwiːd",
+            "Tôi cần mua rong biển"
+        ],
+        [
+            "I need to buy white turnip",
+            "aɪ niːd tuː baɪ waɪt ˈtɜːnɪp",
+            "Tôi cần mua củ cải trắng"
+        ],
+        [
+            "I need to buy a loofah",
+            "aɪ niːd tuː baɪ ə ˈluːfɑː",
+            "Tôi cần mua một cái xơ mướp"
+        ],
+        [
+            "I need to buy spinach",
+            "aɪ niːd tuː baɪ ˈspɪnɪʤ",
+            "Tôi cần mua rau chân vịt"
+        ],
+        [
+            "I need to buy bean sprouts",
+            "aɪ niːd tuː baɪ biːn spraʊts",
+            "Tôi cần mua giá đỗ"
+        ],
+        [
+            "I need to buy coriander",
+            "aɪ niːd tuː baɪ ˌkɒrɪˈændə",
+            "Tôi cần mua rau mùi"
+        ],
+        [
+            "I need to buy fennel",
+            "aɪ niːd tuː baɪ ˈfɛnl",
+            "Tôi cần mua thì là"
+        ],
+        [
+            "I need to buy kohlrabi",
+            "aɪ niːd tuː baɪ ˈkəʊlˈrɑːbi",
+            "Tôi cần mua su hào"
+        ],
+        [
+            "I need to buy onion",
+            "aɪ niːd tuː baɪ ˈʌnjən",
+            "Tôi cần mua hành tây"
+        ],
+        [
+            "I need to buy radish",
+            "aɪ niːd tuː baɪ ˈrædɪʃ",
+            "Tôi cần mua củ cải"
+        ],
+        [
+            "I need to buy carrot",
+            "aɪ niːd tuː baɪ ˈkærət",
+            "Tôi cần mua cà rốt"
+        ],
+        [
+            "I need to buy eggplant",
+            "aɪ niːd tuː baɪ ˈɛgˌplɑːnt",
+            "Tôi cần mua cà tím"
+        ],
+        [
+            "I need to buy white fungus",
+            "aɪ niːd tuː baɪ waɪt ˈfʌŋgəs",
+            "Tôi cần mua nấm trắng"
+        ],
+        [
+            "I need to buy cucumber",
+            "aɪ niːd tuː baɪ ˈkjuːkʌmbə",
+            "Tôi cần mua dưa chuột"
+        ],
+        [
+            "I need to buy marrow",
+            "aɪ niːd tuː baɪ ˈmærəʊ",
+            "Tôi cần mua tủy"
+        ],
+        [
+            "I need to buy corn",
+            "aɪ niːd tuː baɪ kɔːn",
+            "Tôi cần mua ngô"
+        ],
+        [
+            "I need to buy a bell pepper",
+            "aɪ niːd tuː baɪ ə bɛl ˈpɛpə",
+            "Tôi cần mua một quả ớt chuông"
+        ],
+        [
+            "I need to buy tomato",
+            "aɪ niːd tuː baɪ təˈmɑːtəʊ",
+            "Tôi cần mua cà chua"
+        ],
+        [
+            "I need to buy ginger",
+            "aɪ niːd tuː baɪ ˈʤɪnʤə",
+            "Tôi cần mua gừng"
+        ],
+        [
+            "I need to buy straw mushrooms",
+            "aɪ niːd tuː baɪ strɔː ˈmʌʃrʊmz",
+            "Tôi cần mua nấm rơm"
+        ],
+        [
+            "I need to buy mushroom",
+            "aɪ niːd tuː baɪ ˈmʌʃrʊm",
+            "Tôi cần mua nấm"
+        ],
+        [
+            "I need to buy black fungus",
+            "aɪ niːd tuː baɪ blæk ˈfʌŋgəs",
+            "Tôi cần mua nấm đen"
+        ],
+        [
+            "I need to buy a lemon",
+            "aɪ niːd tuː baɪ ə ˈlɛmən",
+            "Tôi cần mua một quả chanh"
+        ],
+        [
+            "I need to buy hot pepper",
+            "aɪ niːd tuː baɪ hɒt ˈpɛpə",
+            "Tôi cần mua ớt hiểm"
+        ],
+        [
+            "I need to buy sweet potato",
+            "aɪ niːd tuː baɪ swiːt pəˈteɪtəʊ",
+            "Tôi cần mua khoai lang"
+        ]
+    ],
+    [
+        [
+            "I would like $40",
+            "aɪ wʊd laɪk $40",
+            "Tôi muốn $ 40"
+        ],
+        [
+            "I would like 5 kilograms",
+            "aɪ wʊd laɪk 5 ˈkɪləʊgræmz",
+            "Tôi muốn 5 kg"
+        ],
+        [
+            "I would like 3 bunch",
+            "aɪ wʊd laɪk 3 bʌnʧ",
+            "Tôi muốn 3 bó"
+        ],
+        [
+            "I would like one bag",
+            "aɪ wʊd laɪk wʌn bæg",
+            "Tôi muốn một cái túi"
+        ],
+        [
+            "I would like a pack",
+            "aɪ wʊd laɪk ə pæk",
+            "Tôi muốn một gói"
+        ],
+        [
+            "I would like $15",
+            "aɪ wʊd laɪk $15",
+            "Tôi muốn $ 15"
+        ],
+        [
+            "I would like half a kilogram",
+            "aɪ wʊd laɪk hɑːf ə ˈkɪləʊgræm",
+            "Tôi muốn nửa kg"
+        ],
+        [
+            "I would like two and a half kilograms",
+            "aɪ wʊd laɪk tuː ænd ə hɑːf ˈkɪləʊgræmz",
+            "Tôi muốn hai ký rưỡi"
+        ],
+        [
+            "I would like one and a half kilograms",
+            "aɪ wʊd laɪk wʌn ænd ə hɑːf ˈkɪləʊgræmz",
+            "Tôi muốn một kg rưỡi"
+        ],
+        [
+            "I would like a half kilograms",
+            "aɪ wʊd laɪk ə hɑːf ˈkɪləʊgræmz",
+            "Tôi muốn nửa kg"
+        ],
+        [
+            "I would like 15 pounds",
+            "aɪ wʊd laɪk 15 paʊndz",
+            "Tôi muốn 15 bảng Anh"
+        ],
+        [
+            "I would like a bundle",
+            "aɪ wʊd laɪk ə ˈbʌndl",
+            "Tôi muốn một gói"
+        ],
+        [
+            "I would like $60",
+            "aɪ wʊd laɪk $60",
+            "Tôi muốn $ 60"
+        ],
+        [
+            "I would like $12",
+            "aɪ wʊd laɪk $12",
+            "Tôi muốn $ 12"
+        ],
+        [
+            "I would like 4 bunches",
+            "aɪ wʊd laɪk 4 ˈbʌnʧɪz",
+            "Tôi muốn 4 bó"
+        ],
+        [
+            "I would like $41",
+            "aɪ wʊd laɪk $41",
+            "Tôi muốn $ 41"
+        ],
+        [
+            "I would like 6 kilograms",
+            "aɪ wʊd laɪk 6 ˈkɪləʊgræmz",
+            "Tôi muốn 6 kg"
+        ],
+        [
+            "I would like 3 bunch",
+            "aɪ wʊd laɪk 3 bʌnʧ",
+            "Tôi muốn 3 bó"
+        ],
+        [
+            "I would like one bag",
+            "aɪ wʊd laɪk wʌn bæg",
+            "Tôi muốn một cái túi"
+        ],
+        [
+            "I would like a pack",
+            "aɪ wʊd laɪk ə pæk",
+            "Tôi muốn một gói"
+        ],
+        [
+            "I would like $16",
+            "aɪ wʊd laɪk $16",
+            "Tôi muốn $ 16"
+        ],
+        [
+            "I would like half a kilogram",
+            "aɪ wʊd laɪk hɑːf ə ˈkɪləʊgræm",
+            "Tôi muốn nửa kg"
+        ],
+        [
+            "I would like two and a half kilograms",
+            "aɪ wʊd laɪk tuː ænd ə hɑːf ˈkɪləʊgræmz",
+            "Tôi muốn hai ký rưỡi"
+        ],
+        [
+            "I would like one and a half kilograms",
+            "aɪ wʊd laɪk wʌn ænd ə hɑːf ˈkɪləʊgræmz",
+            "Tôi muốn một kg rưỡi"
+        ],
+        [
+            "I would like a half kilograms",
+            "aɪ wʊd laɪk ə hɑːf ˈkɪləʊgræmz",
+            "Tôi muốn nửa kg"
+        ],
+        [
+            "I would like 16 pounds",
+            "aɪ wʊd laɪk 16 paʊndz",
+            "Tôi muốn 16 bảng Anh"
+        ],
+        [
+            "I would like a bundle",
+            "aɪ wʊd laɪk ə ˈbʌndl",
+            "Tôi muốn một gói"
+        ],
+        [
+            "I would like $36",
+            "aɪ wʊd laɪk $36",
+            "Tôi muốn $ 36"
+        ],
+        [
+            "I would like $84",
+            "aɪ wʊd laɪk $84",
+            "Tôi muốn $ 84"
+        ],
+        [
+            "I would like 5 bunches",
+            "aɪ wʊd laɪk 5 ˈbʌnʧɪz",
+            "Tôi muốn 5 bó"
+        ]
+    ],
+    [
+        [
+            "I want to go to the museum.",
+            "aɪ wɒnt tuː gəʊ tuː ðə mju(ː)ˈzɪəm.",
+            "Tôi muốn đến viện bảo tàng."
+        ],
+        [
+            "I want to go to the railway station.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈreɪlweɪ ˈsteɪʃən.",
+            "Tôi muốn đến nhà ga."
+        ],
+        [
+            "I want to go to the park.",
+            "aɪ wɒnt tuː gəʊ tuː ðə pɑːk.",
+            "Tôi muốn đi đến công viên."
+        ],
+        [
+            "I want to go to the bank.",
+            "aɪ wɒnt tuː gəʊ tuː ðə bæŋk.",
+            "Tôi muốn đến ngân hàng."
+        ],
+        [
+            "I want to go to the post office.",
+            "aɪ wɒnt tuː gəʊ tuː ðə pəʊst ˈɒfɪs.",
+            "Tôi muốn đến bưu điện."
+        ],
+        [
+            "I want to go to the market.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈmɑːkɪt.",
+            "Tôi muốn đi chợ."
+        ],
+        [
+            "I want to go to Lon Don hospital.",
+            "aɪ wɒnt tuː gəʊ tuː Lon dɒn ˈhɒspɪtl.",
+            "Tôi muốn đến bệnh viện Lon Don."
+        ],
+        [
+            "I want to go to the supermarket.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈsjuːpəˌmɑːkɪt.",
+            "Tôi muốn đi siêu thị."
+        ],
+        [
+            "I want to go to the movie theater.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈmuːvi ˈθɪətə.",
+            "Tôi muốn đến rạp chiếu phim."
+        ],
+        [
+            "I want to go to the cathedral.",
+            "aɪ wɒnt tuː gəʊ tuː ðə kəˈθiːdrəl.",
+            "Tôi muốn đến nhà thờ lớn."
+        ],
+        [
+            "I want to go to the skate park.",
+            "aɪ wɒnt tuː gəʊ tuː ðə skeɪt pɑːk.",
+            "Tôi muốn đến công viên trượt băng."
+        ],
+        [
+            "I want to go to the concert hall.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈkɒnsə(ː)t hɔːl.",
+            "Tôi muốn đến phòng hòa nhạc."
+        ],
+        [
+            "I want to go to the cemetery.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈsɛmɪtri.",
+            "Tôi muốn đến nghĩa trang."
+        ],
+        [
+            "I want to go to the swimming pool.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈswɪmɪŋ puːl.",
+            "Tôi muốn đi đến bể bơi."
+        ],
+        [
+            "I want to go to a delicatessen.",
+            "aɪ wɒnt tuː gəʊ tuː ə ˌdɛlɪkəˈtɛsn.",
+            "Tôi muốn đến một tiệm ăn ngon."
+        ],
+        [
+            "I want to go to a car showroom.",
+            "aɪ wɒnt tuː gəʊ tuː ə kɑː ˈʃəʊrʊm.",
+            "Tôi muốn đến một phòng trưng bày xe hơi."
+        ],
+        [
+            "I want to go to the bus stop.",
+            "aɪ wɒnt tuː gəʊ tuː ðə bʌs stɒp.",
+            "Tôi muốn đến bến xe buýt."
+        ],
+        [
+            "I want to go to the mosque.",
+            "aɪ wɒnt tuː gəʊ tuː ðə mɒsk.",
+            "Tôi muốn đến nhà thờ Hồi giáo."
+        ],
+        [
+            "I want to go to the zoo.",
+            "aɪ wɒnt tuː gəʊ tuː ðə zuː.",
+            "Tôi muốn đi đến sở thú."
+        ],
+        [
+            "I want to go to the police station.",
+            "aɪ wɒnt tuː gəʊ tuː ðə pəˈliːs ˈsteɪʃən.",
+            "Tôi muốn đến đồn cảnh sát."
+        ],
+        [
+            "I want to go to the petrol station.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈpɛtrəl ˈsteɪʃən.",
+            "Tôi muốn đi đến trạm xăng."
+        ],
+        [
+            "I want to go to a dress shop.",
+            "aɪ wɒnt tuː gəʊ tuː ə drɛs ʃɒp.",
+            "Tôi muốn đi đến một cửa hàng váy."
+        ],
+        [
+            "I want to go to the grocery store.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈgrəʊsəri stɔː.",
+            "Tôi muốn đi đến cửa hàng tạp hóa."
+        ],
+        [
+            "I want to go to the bookstore.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈbʊkstɔː.",
+            "Tôi muốn đi đến hiệu sách."
+        ],
+        [
+            "I want to go to the shopping center.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈʃɒpɪŋ ˈsɛntə.",
+            "Tôi muốn đến trung tâm mua sắm."
+        ],
+        [
+            "I want to go to a restaurant.",
+            "aɪ wɒnt tuː gəʊ tuː ə ˈrɛstrɒnt.",
+            "Tôi muốn đi đến một nhà hàng."
+        ],
+        [
+            "I want to go to the temple.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈtɛmpl.",
+            "Tôi muốn đến chùa."
+        ],
+        [
+            "I want to go to the square.",
+            "aɪ wɒnt tuː gəʊ tuː ðə skweə.",
+            "Tôi muốn đến quảng trường."
+        ],
+        [
+            "I want to go to the train station.",
+            "aɪ wɒnt tuː gəʊ tuː ðə treɪn ˈsteɪʃən.",
+            "Tôi muốn đến ga xe lửa."
+        ],
+        [
+            "I want to go to the garage.",
+            "aɪ wɒnt tuː gəʊ tuː ðə ˈgærɑːʒ.",
+            "Tôi muốn đến nhà để xe."
+        ]
+    ],
+    [
+        [
+            "Go straight ahead about 50 meters.",
+            "gəʊ streɪt əˈhɛd əˈbaʊt 50 ˈmiːtəz.",
+            "Đi thẳng về phía trước khoảng 50 mét."
+        ],
+        [
+            "Go down this street, then turn right at the second crossing.",
+            "gəʊ daʊn ðɪs striːt, ðɛn tɜːn raɪt æt ðə ˈsɛkənd ˈkrɒsɪŋ.",
+            "Đi xuống con phố này, sau đó rẽ phải ở ngã tư thứ hai."
+        ],
+        [
+            "It’s about one hundred meters from here.",
+            "ɪts əˈbaʊt wʌn ˈhʌndrəd ˈmiːtəz frɒm hɪə.",
+            "Nó cách đây khoảng một trăm mét."
+        ],
+        [
+            "Go down this road and turn left at the first crossing.",
+            "gəʊ daʊn ðɪs rəʊd ænd tɜːn lɛft æt ðə fɜːst ˈkrɒsɪŋ.",
+            "Đi xuống con đường này và rẽ trái ở chỗ băng qua đường đầu tiên."
+        ],
+        [
+            "Walk on for about two hundred meters and it’ll be on your left.",
+            "wɔːk ɒn fɔːr əˈbaʊt tuː ˈhʌndrəd ˈmiːtəz ænd ˈɪtl biː ɒn jɔː lɛft.",
+            "Đi bộ khoảng hai trăm mét và nó sẽ ở bên trái của bạn."
+        ],
+        [
+            "Go straight ahead to the second crossing, then turn right. You can see it on your right-hand side.",
+            "gəʊ streɪt əˈhɛd tuː ðə ˈsɛkənd ˈkrɒsɪŋ, ðɛn tɜːn raɪt. juː kæn siː ɪt ɒn jɔː raɪt-hænd saɪd.",
+            "Đi thẳng tới chỗ băng qua đường thứ hai, sau đó rẽ phải. Bạn có thể nhìn thấy nó ở phía bên tay phải của bạn."
+        ],
+        [
+            "Turn right and go straight ahead 200 meters then ask someone else when you get there.",
+            "tɜːn raɪt ænd gəʊ streɪt əˈhɛd 200 ˈmiːtəz ðɛn ɑːsk ˈsʌmwʌn ɛls wɛn juː gɛt ðeə.",
+            "Rẽ phải và đi thẳng về phía trước 200 m, sau đó hỏi người khác khi bạn đến nơi."
+        ],
+        [
+            "Go straight and turn right. You can see it there.",
+            "gəʊ streɪt ænd tɜːn raɪt. juː kæn siː ɪt ðeə.",
+            "Đi thẳng và rẽ phải. Bạn có thể thấy nó ở đó."
+        ],
+        [
+            "Go ahead then turn left, your destination will be on the right.",
+            "gəʊ əˈhɛd ðɛn tɜːn lɛft, jɔː ˌdɛstɪˈneɪʃən wɪl biː ɒn ðə raɪt.",
+            "Đi tiếp rồi rẽ trái, điểm đến của bạn sẽ ở bên phải."
+        ],
+        [
+            "Take the first right turn after you see it.",
+            "teɪk ðə fɜːst raɪt tɜːn ˈɑːftə juː siː ɪt.",
+            "Rẽ phải đầu tiên sau khi bạn nhìn thấy nó."
+        ],
+        [
+            "Walking along the river until you reach it.",
+            "ˈwɔːkɪŋ əˈlɒŋ ðə ˈrɪvər ənˈtɪl juː riːʧ ɪt.",
+            "Đi bộ dọc theo sông cho đến khi bạn đến được nó."
+        ],
+        [
+            "Turn left at the roundabout into ABC Road. Go down ABC Road. Your destination is on the right.",
+            "tɜːn lɛft æt ðə ˈraʊndəbaʊt ˈɪntuː ˈeɪbiːˈsiː rəʊd. gəʊ daʊn ˈeɪbiːˈsiː rəʊd. jɔː ˌdɛstɪˈneɪʃən ɪz ɒn ðə raɪt.",
+            "Rẽ trái tại bùng binh vào Đường ABC. Đi xuống đường ABC. Điểm đến của bạn ở bên phải."
+        ],
+        [
+            "Take this road. It is opposite the lake.",
+            "teɪk ðɪs rəʊd. ɪt ɪz ˈɒpəzɪt ðə leɪk.",
+            "Đi con đường này. Nó nằm đối diện với hồ."
+        ],
+        [
+            "Keep going for another 100 meters, turn right, it is beside the library.",
+            "kiːp ˈgəʊɪŋ fɔːr əˈnʌðə 100 ˈmiːtəz, tɜːn raɪt, ɪt ɪz bɪˈsaɪd ðə ˈlaɪbrəri.",
+            "Đi tiếp 100 mét nữa, rẽ phải, nó ở bên cạnh thư viện."
+        ],
+        [
+            "Straight ahead of you.",
+            "streɪt əˈhɛd ɒv juː.",
+            "Ngay trước mắt."
+        ],
+        [
+            "About a mile from here. Go straight ahead then ask someone else.",
+            "əˈbaʊt ə maɪl frɒm hɪə. gəʊ streɪt əˈhɛd ðɛn ɑːsk ˈsʌmwʌn ɛls.",
+            "Khoảng một dặm từ đây. Đi thẳng về phía trước sau đó hỏi người khác."
+        ],
+        [
+            "First, walk straight to the end of the road. Then make a left turn, and walk along the South street. When you see a crossroad, you will see the bank across the street.",
+            "fɜːst, wɔːk streɪt tuː ði ɛnd ɒv ðə rəʊd. ðɛn meɪk ə lɛft tɜːn, ænd wɔːk əˈlɒŋ ðə saʊθ striːt. wɛn juː siː ə ˈkrɒsˌrəʊd, juː wɪl siː ðə bæŋk əˈkrɒs ðə striːt.",
+            "Đầu tiên, hãy đi thẳng đến cuối con đường. Sau đó, rẽ trái và đi bộ dọc theo đường Nam. Khi bạn nhìn thấy một ngã tư, bạn sẽ thấy ngân hàng bên kia đường."
+        ],
+        [
+            "I'm sorry. I have no idea",
+            "aɪm ˈsɒri. aɪ hæv nəʊ aɪˈdɪə",
+            "Tôi xin lỗi. tôi không có ý kiến"
+        ],
+        [
+            "Take the second exit at the roundabout.",
+            "teɪk ðə ˈsɛkənd ˈɛksɪt æt ðə ˈraʊndəbaʊt.",
+            "Đi theo lối ra thứ hai tại bùng binh."
+        ],
+        [
+            "Turn right at the T-junction.",
+            "tɜːn raɪt æt ðə tiː-ˈʤʌŋkʃən.",
+            "Rẽ phải tại ngã ba."
+        ],
+        [
+            "Follow the signs for the town center.",
+            "ˈfɒləʊ ðə saɪnz fɔː ðə taʊn ˈsɛntə.",
+            "Đi theo các bảng chỉ dẫn đến trung tâm thị trấn."
+        ],
+        [
+            "At the first cross-road, turn to the left.",
+            "æt ðə fɜːst ˈkrɒsrəʊd, tɜːn tuː ðə lɛft.",
+            "Tại đường giao nhau thứ nhất, hãy rẽ trái."
+        ],
+        [
+            "Continue straight on past some traffic lights, and turn left at the end of the road.",
+            "kənˈtɪnju(ː) streɪt ɒn pɑːst sʌm ˈtræfɪk laɪts, ænd tɜːn lɛft æt ði ɛnd ɒv ðə rəʊd.",
+            "Tiếp tục đi thẳng qua một số đèn giao thông và rẽ trái ở cuối đường."
+        ],
+        [
+            "Go straight ahead. It's next to the toy shop.",
+            "gəʊ streɪt əˈhɛd. ɪts nɛkst tuː ðə tɔɪ ʃɒp.",
+            "Đi thẳng. Nó bên cạnh cửa hàng đồ chơi."
+        ],
+        [
+            "Take the first left, it's near the bookstore.",
+            "teɪk ðə fɜːst lɛft, ɪts nɪə ðə ˈbʊkstɔː.",
+            "Rẽ trái đầu tiên, nó gần hiệu sách."
+        ],
+        [
+            "Follow the signs for the town center.",
+            "ˈfɒləʊ ðə saɪnz fɔː ðə taʊn ˈsɛntə.",
+            "Đi theo các bảng chỉ dẫn đến trung tâm thị trấn."
+        ],
+        [
+            "At the first cross-road, turn to the left.",
+            "æt ðə fɜːst ˈkrɒsrəʊd, tɜːn tuː ðə lɛft.",
+            "Tại đường giao nhau thứ nhất, hãy rẽ trái."
+        ],
+        [
+            "Continue straight on past some traffic lights, and turn left at the end of the road.",
+            "kənˈtɪnju(ː) streɪt ɒn pɑːst sʌm ˈtræfɪk laɪts, ænd tɜːn lɛft æt ði ɛnd ɒv ðə rəʊd.",
+            "Tiếp tục đi thẳng qua một số đèn giao thông và rẽ trái ở cuối đường."
+        ],
+        [
+            "Go straight ahead. It's next to the toy shop.",
+            "gəʊ streɪt əˈhɛd. ɪts nɛkst tuː ðə tɔɪ ʃɒp.",
+            "Đi thẳng. Nó bên cạnh cửa hàng đồ chơi."
+        ],
+        [
+            "Take the first left, it's near the bookstore.",
+            "teɪk ðə fɜːst lɛft, ɪts nɪə ðə ˈbʊkstɔː.",
+            "Rẽ trái đầu tiên, nó gần hiệu sách."
+        ]
+    ],
+    [
+        [
+            "I’d like a new style",
+            "aɪd laɪk ə njuː staɪl",
+            "Tôi muốn một phong cách mới"
+        ],
+        [
+            "I’d like my bangs just to cover my eyebrows",
+            "aɪd laɪk maɪ bæŋz ʤʌst tuː ˈkʌvə maɪ ˈaɪbraʊz",
+            "Tôi muốn tóc mái chỉ để che đi lông mày của mình"
+        ],
+        [
+            "I’d like to get a fringe.",
+            "aɪd laɪk tuː gɛt ə frɪnʤ.",
+            "Tôi muốn có một đường viền."
+        ],
+        [
+            "I’d like loose waves.",
+            "aɪd laɪk luːs weɪvz.",
+            "Tôi thích những làn sóng lỏng lẻo."
+        ],
+        [
+            "I’d like some highlights in my hair.",
+            "aɪd laɪk sʌm ˈhaɪˌlaɪts ɪn maɪ heə.",
+            "Tôi muốn một số điểm nổi bật trên tóc của mình."
+        ],
+        [
+            "I’d like a haircut",
+            "aɪd laɪk ə ˈheəkʌt",
+            "Tôi muốn cắt tóc"
+        ],
+        [
+            "I’d like to trim it up a little",
+            "aɪd laɪk tuː trɪm ɪt ʌp ə ˈlɪtl",
+            "Tôi muốn cắt bớt nó một chút"
+        ],
+        [
+            "I’d like my hair to be shoulder length.",
+            "aɪd laɪk maɪ heə tuː biː ˈʃəʊldə lɛŋθ.",
+            "Tôi muốn tóc mình dài đến ngang vai."
+        ],
+        [
+            "I’d like to cut it very short",
+            "aɪd laɪk tuː kʌt ɪt ˈvɛri ʃɔːt",
+            "Tôi muốn cắt nó thật ngắn"
+        ],
+        [
+            "I’d like part of my hair in the middle",
+            "aɪd laɪk pɑːt ɒv maɪ heər ɪn ðə ˈmɪdl",
+            "Tôi thích một phần tóc ở giữa"
+        ],
+        [
+            "I’d like to try a new hairstyle.",
+            "aɪd laɪk tuː traɪ ə njuː ˈheəˌstaɪl.",
+            "Tôi muốn thử một kiểu tóc mới."
+        ],
+        [
+            "I’d like short hair",
+            "aɪd laɪk ʃɔːt heə",
+            "Tôi thích tóc ngắn"
+        ],
+        [
+            "I’d like to get a fringe.",
+            "aɪd laɪk tuː gɛt ə frɪnʤ.",
+            "Tôi muốn có một đường viền."
+        ],
+        [
+            "I’d like to get a gentle perm.",
+            "aɪd laɪk tuː gɛt ə ˈʤɛntl pɜːm.",
+            "Tôi muốn có được một sự uốn nắn nhẹ nhàng."
+        ],
+        [
+            "I’d like a strong perm.",
+            "aɪd laɪk ə strɒŋ pɜːm.",
+            "Tôi muốn một sự cố gắng mạnh mẽ."
+        ],
+        [
+            "I’d like to color my hair.",
+            "aɪd laɪk tuː ˈkʌlə maɪ heə.",
+            "Tôi muốn nhuộm tóc."
+        ],
+        [
+            "I’d like to dye my hair",
+            "aɪd laɪk tuː daɪ maɪ heə",
+            "Tôi muốn nhuộm tóc"
+        ],
+        [
+            "I’d like to dye just the roots.",
+            "aɪd laɪk tuː daɪ ʤʌst ðə ruːts.",
+            "Tôi chỉ muốn nhuộm phần chân tóc."
+        ],
+        [
+            "I’d like to color my hair a dark brown.",
+            "aɪd laɪk tuː ˈkʌlə maɪ heər ə dɑːk braʊn.",
+            "Tôi muốn nhuộm tóc màu nâu sẫm."
+        ],
+        [
+            "I’d like hair spray",
+            "aɪd laɪk heə spreɪ",
+            "Tôi thích keo xịt tóc"
+        ],
+        [
+            "I’d like to bleach my hair once.",
+            "aɪd laɪk tuː bliːʧ maɪ heə wʌns.",
+            "Tôi muốn tẩy tóc một lần."
+        ],
+        [
+            "I’d like to grade one.",
+            "aɪd laɪk tuː greɪd wʌn.",
+            "Tôi muốn lớp một."
+        ],
+        [
+            "I’d like to grade two",
+            "aɪd laɪk tuː greɪd tuː",
+            "Tôi muốn học lớp hai"
+        ],
+        [
+            "I’d like to grade three",
+            "aɪd laɪk tuː greɪd θriː",
+            "Tôi muốn học lớp ba"
+        ],
+        [
+            "I’d like to be completely shaven",
+            "aɪd laɪk tuː biː kəmˈpliːtli ˈʃeɪvn",
+            "Tôi muốn được cạo râu hoàn toàn"
+        ],
+        [
+            "I’d like it colored",
+            "aɪd laɪk ɪt ˈkʌləd",
+            "Tôi muốn nó có màu"
+        ],
+        [
+            "I’d like some highlights in my hair.",
+            "aɪd laɪk sʌm ˈhaɪˌlaɪts ɪn maɪ heə.",
+            "Tôi muốn một số điểm nổi bật trên tóc của mình."
+        ],
+        [
+            "I’d like a fringe",
+            "aɪd laɪk ə frɪnʤ",
+            "Tôi thích một cái rìa"
+        ],
+        [
+            "I’d like to square at the back",
+            "aɪd laɪk tuː skweər æt ðə bæk",
+            "Tôi muốn hình vuông ở phía sau"
+        ],
+        [
+            "I’d like tapered at the back",
+            "aɪd laɪk ˈteɪpəd æt ðə bæk",
+            "Tôi muốn thon gọn ở phía sau"
+        ]
+    ],
+    [
+        [
+            "It is about 60 dollars",
+            "ɪt ɪz əˈbaʊt 60 ˈdɒləz",
+            "Đó là khoảng 60 đô la"
+        ],
+        [
+            "It is about 70 dollars",
+            "ɪt ɪz əˈbaʊt 70 ˈdɒləz",
+            "Nó là khoảng 70 đô la"
+        ],
+        [
+            "It is about 40 dollars",
+            "ɪt ɪz əˈbaʊt 40 ˈdɒləz",
+            "Nó là khoảng 40 đô la"
+        ],
+        [
+            "It is about 90 dollars",
+            "ɪt ɪz əˈbaʊt 90 ˈdɒləz",
+            "Đó là khoảng 90 đô la"
+        ],
+        [
+            "It is about 10 dollars",
+            "ɪt ɪz əˈbaʊt 10 ˈdɒləz",
+            "Nó là khoảng 10 đô la"
+        ],
+        [
+            "It is about 20 dollars",
+            "ɪt ɪz əˈbaʊt 20 ˈdɒləz",
+            "Nó là khoảng 20 đô la"
+        ],
+        [
+            "It is about 40 dollars",
+            "ɪt ɪz əˈbaʊt 40 ˈdɒləz",
+            "Nó là khoảng 40 đô la"
+        ],
+        [
+            "It is about 40 dollars",
+            "ɪt ɪz əˈbaʊt 40 ˈdɒləz",
+            "Nó là khoảng 40 đô la"
+        ],
+        [
+            "It is about 25 dollars",
+            "ɪt ɪz əˈbaʊt 25 ˈdɒləz",
+            "Nó là khoảng 25 đô la"
+        ],
+        [
+            "It is about 75 dollars",
+            "ɪt ɪz əˈbaʊt 75 ˈdɒləz",
+            "Nó là khoảng 75 đô la"
+        ],
+        [
+            "It is about 45 dollars",
+            "ɪt ɪz əˈbaʊt 45 ˈdɒləz",
+            "Nó là khoảng 45 đô la"
+        ],
+        [
+            "It is about 15 dollars",
+            "ɪt ɪz əˈbaʊt 15 ˈdɒləz",
+            "Nó là khoảng 15 đô la"
+        ],
+        [
+            "It is about 65 dollars",
+            "ɪt ɪz əˈbaʊt 65 ˈdɒləz",
+            "Nó là khoảng 65 đô la"
+        ],
+        [
+            "It is about 45 dollars",
+            "ɪt ɪz əˈbaʊt 45 ˈdɒləz",
+            "Nó là khoảng 45 đô la"
+        ],
+        [
+            "It is about 120 dollars",
+            "ɪt ɪz əˈbaʊt 120 ˈdɒləz",
+            "Đó là khoảng 120 đô la"
+        ],
+        [
+            "It is about 110 dollars",
+            "ɪt ɪz əˈbaʊt 110 ˈdɒləz",
+            "Nó là khoảng 110 đô la"
+        ],
+        [
+            "It is about 65 dollars",
+            "ɪt ɪz əˈbaʊt 65 ˈdɒləz",
+            "Nó là khoảng 65 đô la"
+        ],
+        [
+            "It is about 77 dollars",
+            "ɪt ɪz əˈbaʊt 77 ˈdɒləz",
+            "Nó là khoảng 77 đô la"
+        ],
+        [
+            "It is about 74 dollars",
+            "ɪt ɪz əˈbaʊt 74 ˈdɒləz",
+            "Nó là khoảng 74 đô la"
+        ],
+        [
+            "It is about 79 dollars",
+            "ɪt ɪz əˈbaʊt 79 ˈdɒləz",
+            "Nó là khoảng 79 đô la"
+        ],
+        [
+            "It is about 140 dollars",
+            "ɪt ɪz əˈbaʊt 140 ˈdɒləz",
+            "Đó là khoảng 140 đô la"
+        ],
+        [
+            "It is about 41 dollars",
+            "ɪt ɪz əˈbaʊt 41 ˈdɒləz",
+            "Nó là khoảng 41 đô la"
+        ],
+        [
+            "It is about 42 dollars",
+            "ɪt ɪz əˈbaʊt 42 ˈdɒləz",
+            "Nó là khoảng 42 đô la"
+        ],
+        [
+            "It is about 43 dollars",
+            "ɪt ɪz əˈbaʊt 43 ˈdɒləz",
+            "Nó là khoảng 43 đô la"
+        ],
+        [
+            "It is about 44 dollars",
+            "ɪt ɪz əˈbaʊt 44 ˈdɒləz",
+            "Nó là khoảng 44 đô la"
+        ],
+        [
+            "It is about 54 dollars",
+            "ɪt ɪz əˈbaʊt 54 ˈdɒləz",
+            "Nó là khoảng 54 đô la"
+        ],
+        [
+            "It is about 42 dollars",
+            "ɪt ɪz əˈbaʊt 42 ˈdɒləz",
+            "Nó là khoảng 42 đô la"
+        ],
+        [
+            "It is about 47 dollars",
+            "ɪt ɪz əˈbaʊt 47 ˈdɒləz",
+            "Nó là khoảng 47 đô la"
+        ],
+        [
+            "It is about 44 dollars",
+            "ɪt ɪz əˈbaʊt 44 ˈdɒləz",
+            "Nó là khoảng 44 đô la"
+        ],
+        [
+            "It is about 49 dollars",
+            "ɪt ɪz əˈbaʊt 49 ˈdɒləz",
+            "Nó là khoảng 49 đô la"
+        ]
+    ],
+    [
+        [
+            "I enjoy listening to Rock",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː rɒk",
+            "Tôi thích nghe nhạc Rock"
+        ],
+        [
+            "I enjoy listening to R&B (rhythm and blues)",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ɑː&biː (ˈrɪðəm ænd bluːz)",
+            "Tôi thích nghe R & B (nhịp điệu và nhạc blues)"
+        ],
+        [
+            "I enjoy listening to Jazz",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ʤæz",
+            "Tôi thích nghe nhạc Jazz"
+        ],
+        [
+            "I enjoy listening to Blues",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː bluːz",
+            "Tôi thích nghe Blues"
+        ],
+        [
+            "I enjoy listening to Pop",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː pɒp",
+            "Tôi thích nghe nhạc Pop"
+        ],
+        [
+            "I enjoy listening to Rock",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː rɒk",
+            "Tôi thích nghe nhạc Rock"
+        ],
+        [
+            "I enjoy listening to Heavy metal",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈhɛvi ˈmɛtl",
+            "Tôi thích nghe nhạc Heavy Metal"
+        ],
+        [
+            "I enjoy listening to Hip-hop",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː hɪp-hɒp",
+            "Tôi thích nghe nhạc Hip-hop"
+        ],
+        [
+            "I enjoy listening to Classical music",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈklæsɪkəl ˈmjuːzɪk",
+            "Tôi thích nghe nhạc cổ điển"
+        ],
+        [
+            "I enjoy listening to Electronic dance music (EDM)",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ɪlɛkˈtrɒnɪk dɑːns ˈmjuːzɪk (iː-diː-ɛm)",
+            "Tôi thích nghe nhạc khiêu vũ điện tử (EDM)"
+        ],
+        [
+            "I enjoy listening to all kinds of music, expect Rock",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ɔːl kaɪndz ɒv ˈmjuːzɪk, ɪksˈpɛkt rɒk",
+            "Tôi thích nghe tất cả các loại nhạc, mong đợi Rock"
+        ],
+        [
+            "I enjoy listening to Folk",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː fəʊk",
+            "Tôi thích nghe Dân gian"
+        ],
+        [
+            "I enjoy listening to easy listening",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈiːzi ˈlɪsnɪŋ",
+            "Tôi thích nghe nhạc dễ nghe"
+        ],
+        [
+            "I enjoy listening to Rap",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ræp",
+            "Tôi thích nghe Rap"
+        ],
+        [
+            "I enjoy listening to Opera",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈɒpərə",
+            "Tôi thích nghe Opera"
+        ],
+        [
+            "I enjoy listening to Techno",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈtɛknəʊ",
+            "Tôi thích nghe Techno"
+        ],
+        [
+            "I enjoy listening to Latin",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈlætɪn",
+            "Tôi thích nghe tiếng Latinh"
+        ],
+        [
+            "I enjoy listening to Country",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈkʌntri",
+            "Tôi thích nghe Country"
+        ],
+        [
+            "I enjoy listening to Reggae",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈrɛgeɪ",
+            "Tôi thích nghe Reggae"
+        ],
+        [
+            "I enjoy listening to Dance music",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː dɑːns ˈmjuːzɪk",
+            "Tôi thích nghe nhạc Dance"
+        ],
+        [
+            "I enjoy listening to Acoustic",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː əˈkuːstɪk",
+            "Tôi thích nghe Acoustic"
+        ],
+        [
+            "I enjoy listening to Symphony",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈsɪmfəni",
+            "Tôi thích nghe nhạc giao hưởng"
+        ],
+        [
+            "I enjoy listening to the Theme song",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ðə θiːm sɒŋ",
+            "Tôi thích nghe bài hát Chủ đề"
+        ],
+        [
+            "I enjoy listening to Lullaby",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː ˈlʌləbaɪ",
+            "Tôi thích nghe bài hát ru"
+        ],
+        [
+            "I enjoy listening to Hymn",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː hɪm",
+            "Tôi thích nghe Thánh ca"
+        ],
+        [
+            "I enjoy listening to Bolero",
+            "aɪ ɪnˈʤɔɪ ˈlɪsnɪŋ tuː bəˈleərəʊ",
+            "Tôi thích nghe nhạc Bolero"
+        ]
+    ],
+    [
+        [
+            "I play Piano",
+            "aɪ pleɪ pɪˈænəʊ",
+            "Tôi chơi piano"
+        ],
+        [
+            "I play Guitar",
+            "aɪ pleɪ gɪˈtɑː",
+            "Tôi chơi guitar"
+        ],
+        [
+            "I play Saxophone",
+            "aɪ pleɪ ˈsæksəfəʊn",
+            "Tôi chơi Saxophone"
+        ],
+        [
+            "I play Violin",
+            "aɪ pleɪ ˌvaɪəˈlɪn",
+            "Tôi chơi Violin"
+        ],
+        [
+            "I play Flute",
+            "aɪ pleɪ fluːt",
+            "Tôi chơi sáo"
+        ],
+        [
+            "I play Drums",
+            "aɪ pleɪ drʌmz",
+            "Tôi chơi những cái trống"
+        ],
+        [
+            "I play Cello",
+            "aɪ pleɪ ˈʧɛləʊ",
+            "Tôi chơi Cello"
+        ],
+        [
+            "I play Clarinet",
+            "aɪ pleɪ ˌklærɪˈnɛt",
+            "Tôi chơi Clarinet"
+        ],
+        [
+            "I play Harp",
+            "aɪ pleɪ hɑːp",
+            "Tôi chơi đàn hạc"
+        ],
+        [
+            "I play Harmonica",
+            "aɪ pleɪ hɑːˈmɒnɪkə",
+            "Tôi chơi Harmonica"
+        ],
+        [
+            "I play Organ",
+            "aɪ pleɪ ˈɔːgən",
+            "Tôi chơi đàn Organ"
+        ],
+        [
+            "I play Ukulele",
+            "aɪ pleɪ ˌjuːkəˈleɪli",
+            "Tôi chơi đàn ukulele"
+        ],
+        [
+            "I play Xylophone",
+            "aɪ pleɪ ˈzaɪləfəʊn",
+            "Tôi chơi Xylophone"
+        ],
+        [
+            "I play Tuba",
+            "aɪ pleɪ ˈtjuːbə",
+            "Tôi chơi Tuba"
+        ],
+        [
+            "I play Tambourine",
+            "aɪ pleɪ ˌtæmbəˈriːn",
+            "Tôi chơi Tambourine"
+        ],
+        [
+            "I play Banjo",
+            "aɪ pleɪ ˈbænʤəʊ",
+            "Tôi chơi Banjo"
+        ],
+        [
+            "I play Trumpet",
+            "aɪ pleɪ ˈtrʌmpɪt",
+            "Tôi chơi Trumpet"
+        ],
+        [
+            "I play Electronic guitar",
+            "aɪ pleɪ ɪlɛkˈtrɒnɪk gɪˈtɑː",
+            "Tôi chơi guitar điện tử"
+        ],
+        [
+            "I play Bagpipes",
+            "aɪ pleɪ ˈbægpaɪps",
+            "Tôi chơi Bagpipes"
+        ],
+        [
+            "I play Classical guitar",
+            "aɪ pleɪ ˈklæsɪkəl gɪˈtɑː",
+            "Tôi chơi guitar cổ điển"
+        ],
+        [
+            "I play Violin",
+            "aɪ pleɪ ˌvaɪəˈlɪn",
+            "Tôi chơi Violin"
+        ],
+        [
+            "I play Accordion",
+            "aɪ pleɪ əˈkɔːdiən",
+            "Tôi chơi Accordion"
+        ],
+        [
+            "I play Tuba",
+            "aɪ pleɪ ˈtjuːbə",
+            "Tôi chơi Tuba"
+        ],
+        [
+            "I play Tambourine",
+            "aɪ pleɪ ˌtæmbəˈriːn",
+            "Tôi chơi Tambourine"
+        ],
+        [
+            "I play Banjo",
+            "aɪ pleɪ ˈbænʤəʊ",
+            "Tôi chơi Banjo"
+        ],
+        [
+            "I play Trumpet",
+            "aɪ pleɪ ˈtrʌmpɪt",
+            "Tôi chơi Trumpet"
+        ],
+        [
+            "I play Electronic guitar",
+            "aɪ pleɪ ɪlɛkˈtrɒnɪk gɪˈtɑː",
+            "Tôi chơi guitar điện tử"
+        ],
+        [
+            "I play Bagpipes",
+            "aɪ pleɪ ˈbægpaɪps",
+            "Tôi chơi Bagpipes"
+        ],
+        [
+            "I play Classical guitar",
+            "aɪ pleɪ ˈklæsɪkəl gɪˈtɑː",
+            "Tôi chơi guitar cổ điển"
+        ],
+        [
+            "I play Violin",
+            "aɪ pleɪ ˌvaɪəˈlɪn",
+            "Tôi chơi Violin"
+        ]
+    ],
+    [
+        [
+            "I used to exchange some money",
+            "aɪ juːzd tuː ɪksˈʧeɪnʤ sʌm ˈmʌni",
+            "Tôi đã từng đổi một số tiền"
+        ],
+        [
+            "I used to open an account",
+            "aɪ juːzd tuː ˈəʊpən ən əˈkaʊnt",
+            "Tôi đã từng mở một tài khoản"
+        ],
+        [
+            "I used to close my bank account",
+            "aɪ juːzd tuː kləʊs maɪ bæŋk əˈkaʊnt",
+            "Tôi đã từng đóng tài khoản ngân hàng của mình"
+        ],
+        [
+            "I used to send some money",
+            "aɪ juːzd tuː sɛnd sʌm ˈmʌni",
+            "Tôi đã từng gửi một số tiền"
+        ],
+        [
+            "I used to exchange the password of my account",
+            "aɪ juːzd tuː ɪksˈʧeɪnʤ ðə ˈpɑːswɜːd ɒv maɪ əˈkaʊnt",
+            "Tôi đã sử dụng để trao đổi mật khẩu của tài khoản của mình"
+        ],
+        [
+            "I used to withdraw money from my account",
+            "aɪ juːzd tuː wɪðˈdrɔː ˈmʌni frɒm maɪ əˈkaʊnt",
+            "Tôi đã từng rút tiền từ tài khoản của mình"
+        ],
+        [
+            "I used to transfer some money from my savings account",
+            "aɪ juːzd tuː ˈtrænsfə(ː) sʌm ˈmʌni frɒm maɪ ˈseɪvɪŋz əˈkaʊnt",
+            "Tôi đã từng chuyển một số tiền từ tài khoản tiết kiệm của mình"
+        ],
+        [
+            "I used to make a deposit",
+            "aɪ juːzd tuː meɪk ə dɪˈpɒzɪt",
+            "Tôi đã từng đặt cọc"
+        ],
+        [
+            "I used to check and take over",
+            "aɪ juːzd tuː ʧɛk ænd teɪk ˈəʊvə",
+            "Tôi đã từng kiểm tra và tiếp quản"
+        ],
+        [
+            "I used to receive my passbook",
+            "aɪ juːzd tuː rɪˈsiːv maɪ ˈpɑːsbʊk",
+            "Tôi đã từng nhận được sổ tiết kiệm của mình"
+        ],
+        [
+            "I used to check my password",
+            "aɪ juːzd tuː ʧɛk maɪ ˈpɑːswɜːd",
+            "Tôi đã từng kiểm tra mật khẩu của mình"
+        ],
+        [
+            "I used to receive a statement",
+            "aɪ juːzd tuː rɪˈsiːv ə ˈsteɪtmənt",
+            "Tôi đã từng nhận được một tuyên bố"
+        ],
+        [
+            "I used to make a withdrawal",
+            "aɪ juːzd tuː meɪk ə wɪðˈdrɔːəl",
+            "Tôi đã từng rút tiền"
+        ],
+        [
+            "I used to take out a loan",
+            "aɪ juːzd tuː teɪk aʊt ə ləʊn",
+            "Tôi đã từng đi vay"
+        ],
+        [
+            "I used to deposit a cheque",
+            "aɪ juːzd tuː dɪˈpɒzɪt ə ʧɛk",
+            "Tôi đã từng gửi séc"
+        ],
+        [
+            "I used to cash a cheque",
+            "aɪ juːzd tuː kæʃ ə ʧɛk",
+            "Tôi đã từng dùng séc rút tiền"
+        ],
+        [
+            "I used to write a cheque",
+            "aɪ juːzd tuː raɪt ə ʧɛk",
+            "Tôi đã từng viết séc"
+        ],
+        [
+            "I used to apply for a credit card",
+            "aɪ juːzd tuː əˈplaɪ fɔːr ə ˈkrɛdɪt kɑːd",
+            "Tôi đã từng đăng ký một thẻ tín dụng"
+        ],
+        [
+            "I used to pay bills",
+            "aɪ juːzd tuː peɪ bɪlz",
+            "Tôi đã từng thanh toán các hóa đơn"
+        ],
+        [
+            "I used to open a current account",
+            "aɪ juːzd tuː ˈəʊpən ə ˈkʌrənt əˈkaʊnt",
+            "Tôi đã từng mở một tài khoản hiện tại"
+        ],
+        [
+            "I used to know my balance",
+            "aɪ juːzd tuː nəʊ maɪ ˈbæləns",
+            "Tôi đã từng biết số dư của mình"
+        ],
+        [
+            "I used to know the monthly interest rate",
+            "aɪ juːzd tuː nəʊ ðə ˈmʌnθli ˈɪntrɪst reɪt",
+            "Tôi đã từng biết lãi suất hàng tháng"
+        ],
+        [
+            "I used to activate the Internet banking service",
+            "aɪ juːzd tuː ˈæktɪveɪt ði ˈɪntəˌnɛt ˈbæŋkɪŋ ˈsɜːvɪs",
+            "Tôi đã sử dụng để kích hoạt dịch vụ ngân hàng trực tuyến"
+        ],
+        [
+            "I used to pay tax",
+            "aɪ juːzd tuː peɪ tæks",
+            "Tôi đã từng phải trả thuế"
+        ],
+        [
+            "I used to buy insurance",
+            "aɪ juːzd tuː baɪ ɪnˈʃʊərəns",
+            "Tôi đã từng mua bảo hiểm"
+        ],
+        [
+            "I used to save money in my account",
+            "aɪ juːzd tuː seɪv ˈmʌni ɪn maɪ əˈkaʊnt",
+            "Tôi đã từng tiết kiệm tiền trong tài khoản của mình"
+        ],
+        [
+            "I used to pay insurance premiums",
+            "aɪ juːzd tuː peɪ ɪnˈʃʊərəns ˈpriːmiəmz",
+            "Tôi đã từng trả tiền bảo hiểm"
+        ],
+        [
+            "I used to exchange foreign currency",
+            "aɪ juːzd tuː ɪksˈʧeɪnʤ ˈfɒrɪn ˈkʌrənsi",
+            "Tôi đã từng đổi ngoại tệ"
+        ],
+        [
+            "I used to pay insurance premiums",
+            "aɪ juːzd tuː peɪ ɪnˈʃʊərəns ˈpriːmiəmz",
+            "Tôi đã từng trả tiền bảo hiểm"
+        ],
+        [
+            "I used to exchange foreign currency",
+            "aɪ juːzd tuː ɪksˈʧeɪnʤ ˈfɒrɪn ˈkʌrənsi",
+            "Tôi đã từng đổi ngoại tệ"
+        ]
+    ],
+    [
+        [
+            "I want to be a nurse",
+            "aɪ wɒnt tuː biː ə nɜːs",
+            "tôi muốn trở thành một y tá"
+        ],
+        [
+            "I want to be a doctor",
+            "aɪ wɒnt tuː biː ə ˈdɒktə",
+            "tôi muốn trở thành bác sĩ"
+        ],
+        [
+            "I want to be a driver",
+            "aɪ wɒnt tuː biː ə ˈdraɪvə",
+            "Tôi muốn trở thành một người lái xe"
+        ],
+        [
+            "I want to be a farmer",
+            "aɪ wɒnt tuː biː ə ˈfɑːmə",
+            "Tôi muốn trở thành một nông dân"
+        ],
+        [
+            "I want to be a dentist",
+            "aɪ wɒnt tuː biː ə ˈdɛntɪst",
+            "Tôi muốn trở thành một nha sĩ"
+        ],
+        [
+            "I want to be a dance",
+            "aɪ wɒnt tuː biː ə dɑːns",
+            "Tôi muốn trở thành một vũ công"
+        ],
+        [
+            "I want to be an electrician",
+            "aɪ wɒnt tuː biː ən ɪlɛkˈtrɪʃən",
+            "Tôi muốn trở thành một thợ điện"
+        ],
+        [
+            "I want to be an engineer",
+            "aɪ wɒnt tuː biː ən ˌɛnʤɪˈnɪə",
+            "tôi muốn trở thành kỹ sư"
+        ],
+        [
+            "I want to be a lawyer",
+            "aɪ wɒnt tuː biː ə ˈlɔːjə",
+            "Tôi muốn trở thành một luật sư"
+        ],
+        [
+            "I want to be a manager",
+            "aɪ wɒnt tuː biː ə ˈmænɪʤə",
+            "Tôi muốn trở thành một nhà quản lý"
+        ],
+        [
+            "I want to be a model",
+            "aɪ wɒnt tuː biː ə ˈmɒdl",
+            "Tôi muốn trở thành một người mẫu"
+        ],
+        [
+            "I want to be a musician",
+            "aɪ wɒnt tuː biː ə mju(ː)ˈzɪʃən",
+            "tôi muốn trở thành một nhạc sĩ"
+        ],
+        [
+            "I want to be a pharmacist",
+            "aɪ wɒnt tuː biː ə ˈfɑːməsɪst",
+            "Tôi muốn trở thành một dược sĩ"
+        ],
+        [
+            "I want to be a worker",
+            "aɪ wɒnt tuː biː ə ˈwɜːkə",
+            "Tôi muốn trở thành một công nhân"
+        ],
+        [
+            "I want to be a singer",
+            "aɪ wɒnt tuː biː ə ˈsɪŋə",
+            "tôi muốn trở thành ca sĩ"
+        ],
+        [
+            "I want to be a writer",
+            "aɪ wɒnt tuː biː ə ˈraɪtə",
+            "tôi muốn trở thành một nhà văn"
+        ],
+        [
+            "I want to be a secretary",
+            "aɪ wɒnt tuː biː ə ˈsɛkrətri",
+            "Tôi muốn trở thành thư ký"
+        ],
+        [
+            "I want to be a tour guide",
+            "aɪ wɒnt tuː biː ə tʊə gaɪd",
+            "Tôi muốn trở thành một hướng dẫn viên du lịch"
+        ],
+        [
+            "I want to be a soldier",
+            "aɪ wɒnt tuː biː ə ˈsəʊlʤə",
+            "Tôi muốn trở thành một người lính"
+        ],
+        [
+            "I want to be a journalist",
+            "aɪ wɒnt tuː biː ə ˈʤɜːnəlɪst",
+            "Tôi muốn trở thành một nhà báo"
+        ],
+        [
+            "I want to be an editor",
+            "aɪ wɒnt tuː biː ən ˈɛdɪtə",
+            "Tôi muốn trở thành một biên tập viên"
+        ],
+        [
+            "I want to be a financial adviser",
+            "aɪ wɒnt tuː biː ə faɪˈnænʃəl ədˈvaɪzə",
+            "Tôi muốn trở thành cố vấn tài chính"
+        ],
+        [
+            "I want to be a fireman",
+            "aɪ wɒnt tuː biː ə ˈfaɪəmən",
+            "Tôi muốn trở thành một người lính cứu hỏa"
+        ],
+        [
+            "I want to be a chef",
+            "aɪ wɒnt tuː biː ə ʃɛf",
+            "Tôi muốn trở thành một đầu bếp"
+        ],
+        [
+            "I want to be a bank clerk",
+            "aɪ wɒnt tuː biː ə bæŋk klɑːk",
+            "Tôi muốn trở thành nhân viên ngân hàng"
+        ],
+        [
+            "I want to be an accountant",
+            "aɪ wɒnt tuː biː ən əˈkaʊntənt",
+            "Tôi muốn trở thành một kế toán"
+        ],
+        [
+            "I want to be an architect",
+            "aɪ wɒnt tuː biː ən ˈɑːkɪtɛkt",
+            "Tôi muốn trở thành một kiến trúc sư"
+        ],
+        [
+            "I want to be an artist",
+            "aɪ wɒnt tuː biː ən ˈɑːtɪst",
+            "Tôi muốn trở thành một nghệ sĩ"
+        ],
+        [
+            "I want to be an astronaut",
+            "aɪ wɒnt tuː biː ən ˈæstrənɔːt",
+            "Tôi muốn trở thành một phi hành gia"
+        ],
+        [
+            "I want to be a baker",
+            "aɪ wɒnt tuː biː ə ˈbeɪkə",
+            "Tôi muốn trở thành một thợ làm bánh"
+        ]
+    ],
+    [
+        [
+            "Yes, It is a plane from New Zealand to Laos",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː laʊs",
+            "Có, đó là một máy bay từ New Zealand đến Lào"
+        ],
+        [
+            "Yes, It is a plane from America to China",
+            "jɛs, ɪt ɪz ə pleɪn frɒm əˈmɛrɪkə tuː ˈʧaɪnə",
+            "Có, đó là một chiếc máy bay từ Mỹ đến Trung Quốc"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Singapore",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˌsɪŋgəˈpɔː",
+            "Có, đó là một máy bay từ New Zealand đến Singapore"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to France",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈfrɑːns",
+            "Có, đó là một máy bay từ New Zealand đến Pháp"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Thai Lan",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː taɪ læn",
+            "Có, Đó là một máy bay từ New Zealand đến Thái Lan"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to America",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː əˈmɛrɪkə",
+            "Có, đó là máy bay từ New Zealand đến Mỹ"
+        ],
+        [
+            "Yes, It is a plane fromNew Zealand to Japan",
+            "jɛs, ɪt ɪz ə pleɪn fromNew ˈziːlənd tuː ʤəˈpæn",
+            "Có, đó là một máy bay từ New Zealand đến Nhật Bản"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Russia",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈrʌʃə",
+            "Có, đó là một máy bay từ New Zealand đến Nga"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Australia",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ɒˈstreɪliːə",
+            "Có, đó là một máy bay từ New Zealand đến Úc"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Sweden",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈswɪdən",
+            "Có, đó là một máy bay từ New Zealand đến Thụy Điển"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Turkey",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈtɜːki",
+            "Có, đó là một máy bay từ New Zealand đến Thổ Nhĩ Kỳ"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Germany",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈʤɜːməni",
+            "Có, đó là một máy bay từ New Zealand đến Đức"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Mexico",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈmɛksɪkəʊ",
+            "Có, đó là một máy bay từ New Zealand đến Mexico"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Brazil",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː brəˈzɪl",
+            "Có, đó là một máy bay từ New Zealand đến Brazil"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Korea",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː kəˈrɪə",
+            "Có, đó là một máy bay từ New Zealand đến Hàn Quốc"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Italy",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈɪtəli",
+            "Có, đó là một máy bay từ New Zealand đến Ý"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Poland",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈpəʊlənd",
+            "Có, đó là một máy bay từ New Zealand đến Ba Lan"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Vietnam",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˌvjɛtˈnɑːm",
+            "Có, Đó là một máy bay từ New Zealand đến Việt Nam"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Switzerland",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː ˈswɪtsələnd",
+            "Có, đó là một máy bay từ New Zealand đến Thụy Sĩ"
+        ],
+        [
+            "Yes, It is a plane from New Zealand Denmark",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd ˈdɛnmɑːk",
+            "Có, đó là một máy bay từ New Zealand Đan Mạch"
+        ],
+        [
+            "Yes, It is a plane from New Zealand to Spain",
+            "jɛs, ɪt ɪz ə pleɪn frɒm njuː ˈziːlənd tuː speɪn",
+            "Có, đó là một máy bay từ New Zealand đến Tây Ban Nha"
+        ],
+        [
+            "Yes, It is a plane from France to Thai Lan",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː taɪ læn",
+            "Có, Đó là một máy bay từ Pháp đến Thái Lan"
+        ],
+        [
+            "Yes, It is a plane from France to Australia",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ɒˈstreɪliːə",
+            "Có, đó là một máy bay từ Pháp đến Úc"
+        ],
+        [
+            "Yes, It is a plane from France to Vietnam",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˌvjɛtˈnɑːm",
+            "Có, đó là máy bay từ Pháp đến Việt Nam"
+        ],
+        [
+            "Yes, It is a plane from France to Germany",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈʤɜːməni",
+            "Có, đó là máy bay từ Pháp đến Đức"
+        ],
+        [
+            "Yes, It is a plane from France to Poland",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈpəʊlənd",
+            "Có, đó là một máy bay từ Pháp đến Ba Lan"
+        ],
+        [
+            "Yes, It is a plane from France to America",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː əˈmɛrɪkə",
+            "Có, đó là máy bay từ Pháp đến Mỹ"
+        ],
+        [
+            "Yes, It is a plane from France to England",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈɪŋglənd",
+            "Có, đó là một chiếc máy bay từ Pháp đến Anh"
+        ],
+        [
+            "Yes, It is a plane from France to Singapore",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˌsɪŋgəˈpɔː",
+            "Có, đó là một máy bay từ Pháp đến Singapore"
+        ],
+        [
+            "Yes, It is a plane from France to Sweden",
+            "jɛs, ɪt ɪz ə pleɪn frɒm ˈfrɑːns tuː ˈswɪdən",
+            "Có, đó là một máy bay từ Pháp đến Thụy Điển"
+        ]
+    ],
+    [
+        [
+            "It's 10th December 2022",
+            "ɪts 10th dɪˈsɛmbə 2022",
+            "Đó là ngày 10 tháng 12 năm 2022"
+        ],
+        [
+            "It's 12th December 2022",
+            "ɪts 12th dɪˈsɛmbə 2022",
+            "Đó là ngày 12 tháng 12 năm 2022"
+        ],
+        [
+            "It's 5th June 2022",
+            "ɪts 5th ʤuːn 2022",
+            "Đó là ngày 5 tháng 6 năm 2022"
+        ],
+        [
+            "It's 30th July 2022",
+            "ɪts 30th ʤu(ː)ˈlaɪ 2022",
+            "Đó là ngày 30 tháng 7 năm 2022"
+        ],
+        [
+            "It's 10th November 2022",
+            "ɪts 10th nəʊˈvɛmbə 2022",
+            "Đó là ngày 10 tháng 11 năm 2022"
+        ],
+        [
+            "It's 6th December 2022",
+            "ɪts 6th dɪˈsɛmbə 2022",
+            "Đó là ngày 6 tháng 12 năm 2022"
+        ],
+        [
+            "It's 1st December 2022",
+            "ɪts 1st dɪˈsɛmbə 2022",
+            "Đó là ngày 1 tháng 12 năm 2022"
+        ],
+        [
+            "It's 10th September 2022",
+            "ɪts 10th sɛpˈtɛmbə 2022",
+            "Đó là ngày 10 tháng 9 năm 2022"
+        ],
+        [
+            "It's 2nd, November 2022",
+            "ɪts 2nd, nəʊˈvɛmbə 2022",
+            "Đó là ngày 2 tháng 11 năm 2022"
+        ],
+        [
+            "It's 15th January 2022",
+            "ɪts 15th ˈʤænjʊəri 2022",
+            "Đó là ngày 15 tháng 1 năm 2022"
+        ],
+        [
+            "It's 20th May 2021",
+            "ɪts 20th meɪ 2021",
+            "Đó là ngày 20 tháng 5 năm 2021"
+        ],
+        [
+            "It's 7th July 2021",
+            "ɪts 7th ʤu(ː)ˈlaɪ 2021",
+            "Đó là ngày 7 tháng 7 năm 2021"
+        ],
+        [
+            "It's 14th October 2021",
+            "ɪts 14th ɒkˈtəʊbə 2021",
+            "Đó là ngày 14 tháng 10 năm 2021"
+        ],
+        [
+            "It's 19th March 2029",
+            "ɪts 19th mɑːʧ 2029",
+            "Đó là ngày 19 tháng 3 năm 2029"
+        ],
+        [
+            "It's 6th December 2021",
+            "ɪts 6th dɪˈsɛmbə 2021",
+            "Đó là ngày 6 tháng 12 năm 2021"
+        ],
+        [
+            "It's 31st May 2019",
+            "ɪts 31st meɪ 2019",
+            "Đó là ngày 31 tháng 5 năm 2019"
+        ],
+        [
+            "It's 22nd August 2022",
+            "ɪts 22nd ˈɔːgəst 2022",
+            "Đó là ngày 22 tháng 8 năm 2022"
+        ],
+        [
+            "It's 5th December 2019",
+            "ɪts 5th dɪˈsɛmbə 2019",
+            "Đó là ngày 5 tháng 12 năm 2019"
+        ],
+        [
+            "It's 19th October 2018",
+            "ɪts 19th ɒkˈtəʊbə 2018",
+            "Đó là ngày 19 tháng 10 năm 2018"
+        ],
+        [
+            "It's 21st March 2021",
+            "ɪts 21st mɑːʧ 2021",
+            "Đó là ngày 21 tháng 3 năm 2021"
+        ],
+        [
+            "It's 30th April 2022",
+            "ɪts 30th ˈeɪprəl 2022",
+            "Đó là ngày 30 tháng 4 năm 2022"
+        ],
+        [
+            "It's 17th April 2022",
+            "ɪts 17th ˈeɪprəl 2022",
+            "Đó là ngày 17 tháng 4 năm 2022"
+        ],
+        [
+            "It's 14th February 2023",
+            "ɪts 14th ˈfɛbrʊəri 2023",
+            "Đó là ngày 14 tháng 2 năm 2023"
+        ],
+        [
+            "It's 18th Ma, 2021",
+            "ɪts 18th mɑː, 2021",
+            "Đó là ngày 18 tháng Ma, năm 2021"
+        ],
+        [
+            "It's 29th April 2022",
+            "ɪts 29th ˈeɪprəl 2022",
+            "Đó là ngày 29 tháng 4 năm 2022"
+        ],
+        [
+            "It's 12th January 2021",
+            "ɪts 12th ˈʤænjʊəri 2021",
+            "Đó là ngày 12 tháng 1 năm 2021"
+        ],
+        [
+            "It's 17th April 2018",
+            "ɪts 17th ˈeɪprəl 2018",
+            "Đó là ngày 17 tháng 4 năm 2018"
+        ],
+        [
+            "It's 12th November 2020",
+            "ɪts 12th nəʊˈvɛmbə 2020",
+            "Đó là ngày 12 tháng 11 năm 2020"
+        ],
+        [
+            "It's 14th October 2023",
+            "ɪts 14th ɒkˈtəʊbə 2023",
+            "Đó là ngày 14 tháng 10 năm 2023"
+        ],
+        [
+            "It's 29th May 2019",
+            "ɪts 29th meɪ 2019",
+            "Đó là ngày 29 tháng 5 năm 2019"
+        ]
+    ],
+    [
+        [
+            "I have had malaria 2 years ago.",
+            "aɪ hæv hæd məˈleərɪə 2 jɪəz əˈgəʊ.",
+            "Tôi bị sốt rét cách đây 2 năm."
+        ],
+        [
+            "I have had a headache 3 years ago.",
+            "aɪ hæv hæd ə ˈhɛdeɪk 3 jɪəz əˈgəʊ.",
+            "Tôi đã bị đau đầu cách đây 3 năm."
+        ],
+        [
+            "I have had a mild fever 4 years ago.",
+            "aɪ hæv hæd ə maɪld ˈfiːvə 4 jɪəz əˈgəʊ.",
+            "Tôi bị sốt nhẹ cách đây 4 năm."
+        ],
+        [
+            "I had sick 2 years ago.",
+            "aɪ hæd sɪk 2 jɪəz əˈgəʊ.",
+            "Tôi bị bệnh cách đây 2 năm."
+        ],
+        [
+            "I have had a joint ache 3 years ago.",
+            "aɪ hæv hæd ə ʤɔɪnt eɪk 3 jɪəz əˈgəʊ.",
+            "Tôi bị đau khớp cách đây 3 năm."
+        ],
+        [
+            "I have had diarrhea 4 years ago.",
+            "aɪ hæv hæd ˌdaɪəˈrɪə 4 jɪəz əˈgəʊ.",
+            "Tôi bị tiêu chảy cách đây 4 năm."
+        ],
+        [
+            "I have had constipation 2 years ago.",
+            "aɪ hæv hæd ˌkɒnstɪˈpeɪʃən 2 jɪəz əˈgəʊ.",
+            "Tôi bị táo bón cách đây 2 năm."
+        ],
+        [
+            "I have had swollen feet 3 years ago.",
+            "aɪ hæv hæd ˈswəʊlən fiːt 3 jɪəz əˈgəʊ.",
+            "Tôi đã bị sưng bàn chân cách đây 3 năm."
+        ],
+        [
+            "I have had swollen the ankle 4 years ago.",
+            "aɪ hæv hæd ˈswəʊlən ði ˈæŋkl 4 jɪəz əˈgəʊ.",
+            "Tôi đã bị sưng mắt cá chân cách đây 4 năm."
+        ],
+        [
+            "I had difficulty breathing 2 years ago.",
+            "aɪ hæd ˈdɪfɪkəlti ˈbriːðɪŋ 2 jɪəz əˈgəʊ.",
+            "Tôi bị khó thở cách đây 2 năm."
+        ],
+        [
+            "I have had depression 3 years ago.",
+            "aɪ hæv hæd dɪˈprɛʃən 3 jɪəz əˈgəʊ.",
+            "Tôi bị trầm cảm cách đây 3 năm."
+        ],
+        [
+            "I had difficulty sleeping 4 years ago.",
+            "aɪ hæd ˈdɪfɪkəlti ˈsliːpɪŋ 4 jɪəz əˈgəʊ.",
+            "Tôi khó ngủ cách đây 4 năm."
+        ],
+        [
+            "I have had an allergy 2 years ago.",
+            "aɪ hæv hæd ən ˈæləʤi 2 jɪəz əˈgəʊ.",
+            "Tôi từng bị dị ứng cách đây 2 năm."
+        ],
+        [
+            "I have had a stomachache 3 years ago.",
+            "aɪ hæv hæd ə ˈstʌməkeɪk 3 jɪəz əˈgəʊ.",
+            "Tôi bị đau dạ dày cách đây 3 năm."
+        ],
+        [
+            "I have had the flu 4 years ago.",
+            "aɪ hæv hæd ðə fluː 4 jɪəz əˈgəʊ.",
+            "Tôi đã bị cúm cách đây 4 năm."
+        ],
+        [
+            "I have had a small accident 2 years ago.",
+            "aɪ hæv hæd ə smɔːl ˈæksɪdənt 2 jɪəz əˈgəʊ.",
+            "Tôi đã bị một tai nạn nhỏ cách đây 2 năm."
+        ],
+        [
+            "I have had a terrible headache 3 years ago.",
+            "aɪ hæv hæd ə ˈtɛrəbl ˈhɛdeɪk 3 jɪəz əˈgəʊ.",
+            "Tôi đã bị một cơn đau đầu khủng khiếp cách đây 3 năm."
+        ],
+        [
+            "I have had a runny nose 4 years ago.",
+            "aɪ hæv hæd ə ˈrʌni nəʊz 4 jɪəz əˈgəʊ.",
+            "Tôi bị sổ mũi cách đây 4 năm."
+        ],
+        [
+            "I have had a sore throat 2 years ago.",
+            "aɪ hæv hæd ə sɔː θrəʊt 2 jɪəz əˈgəʊ.",
+            "Tôi bị viêm họng cách đây 2 năm."
+        ],
+        [
+            "I have had a toothache 3 years ago.",
+            "aɪ hæv hæd ə ˈtuːθeɪk 3 jɪəz əˈgəʊ.",
+            "Tôi bị đau răng cách đây 3 năm."
+        ],
+        [
+            "I have had an earache 4 years ago.",
+            "aɪ hæv hæd ən ˈɪəreɪk 4 jɪəz əˈgəʊ.",
+            "Tôi đã bị đau tai cách đây 4 năm."
+        ],
+        [
+            "I have had a cold 2 years ago.",
+            "aɪ hæv hæd ə kəʊld 2 jɪəz əˈgəʊ.",
+            "Tôi bị cảm cách đây 2 năm."
+        ],
+        [
+            "I have had a backache 3 years ago.",
+            "aɪ hæv hæd ə ˈbækeɪk 3 jɪəz əˈgəʊ.",
+            "Tôi đã bị đau lưng cách đây 3 năm."
+        ],
+        [
+            "I have had run down 4 years ago.",
+            "aɪ hæv hæd rʌn daʊn 4 jɪəz əˈgəʊ.",
+            "Tôi đã chạy xuống 4 năm trước."
+        ],
+        [
+            "I have had an illness 2 years ago.",
+            "aɪ hæv hæd ən ˈɪlnɪs 2 jɪəz əˈgəʊ.",
+            "Tôi bị bệnh cách đây 2 năm."
+        ],
+        [
+            "I have had insomnia 3 years ago.",
+            "aɪ hæv hæd ɪnˈsɒmnɪə 3 jɪəz əˈgəʊ.",
+            "Tôi bị mất ngủ cách đây 3 năm."
+        ],
+        [
+            "I have had a sprain 4 years ago.",
+            "aɪ hæv hæd ə spreɪn 4 jɪəz əˈgəʊ.",
+            "Tôi đã bị bong gân cách đây 4 năm."
+        ],
+        [
+            "I have had a cough 2 years ago.",
+            "aɪ hæv hæd ə kɒf 2 jɪəz əˈgəʊ.",
+            "Tôi bị ho cách đây 2 năm."
+        ],
+        [
+            "I have had anorexia 3 years ago.",
+            "aɪ hæv hæd ˌænəˈrɛksɪə 3 jɪəz əˈgəʊ.",
+            "Tôi mắc chứng biếng ăn cách đây 3 năm."
+        ],
+        [
+            "I have had tired 4 years ago.",
+            "aɪ hæv hæd ˈtaɪəd 4 jɪəz əˈgəʊ.",
+            "Tôi đã từng mệt mỏi 4 năm trước."
+        ]
+    ],
+    [
+        [
+            "My friend has just been sick for 2 weeks.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 2 wiːks.",
+            "Bạn tôi mới ốm được 2 tuần."
+        ],
+        [
+            "My friend has just been sick for 2 days.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 2 deɪz.",
+            "Bạn tôi mới ốm được 2 ngày."
+        ],
+        [
+            "My friend has just been sick just yesterday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk ʤʌst ˈjɛstədeɪ.",
+            "Bạn tôi vừa bị ốm hôm qua."
+        ],
+        [
+            "My friend has just been sick for 3 days.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 3 deɪz.",
+            "Bạn tôi mới ốm được 3 ngày."
+        ],
+        [
+            "My friend has just been sick for 4 days",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 4 deɪz",
+            "Bạn tôi mới ốm được 4 ngày."
+        ],
+        [
+            "My friend has just been sick for a week.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔːr ə wiːk.",
+            "Bạn tôi vừa ốm được một tuần."
+        ],
+        [
+            "My friend has just been sick yesterday morning.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk ˈjɛstədeɪ ˈmɔːnɪŋ.",
+            "Bạn tôi vừa bị ốm sáng hôm qua."
+        ],
+        [
+            "My friend has just been sick last Sunday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈsʌndeɪ.",
+            "Bạn tôi vừa bị ốm vào Chủ nhật tuần trước."
+        ],
+        [
+            "My friend has just been sick last Monday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈmʌndeɪ.",
+            "Bạn tôi vừa bị ốm thứ hai tuần trước."
+        ],
+        [
+            "My friend has just been sick last Tuesday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈtjuːzdeɪ.",
+            "Bạn tôi vừa bị ốm thứ ba tuần trước."
+        ],
+        [
+            "My friend has just been sick last Wednesday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈwɛnzdeɪ.",
+            "Bạn tôi vừa bị ốm hôm thứ Tư tuần trước."
+        ],
+        [
+            "My friend has just been sick last Thursday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈθɜːzdeɪ.",
+            "Bạn tôi vừa bị ốm hôm thứ Năm tuần trước."
+        ],
+        [
+            "My friend has just been sick last Friday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈfraɪdeɪ.",
+            "Bạn tôi vừa bị ốm thứ sáu tuần trước."
+        ],
+        [
+            "My friend has just been sick last Saturday.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk lɑːst ˈsætədeɪ.",
+            "Bạn tôi vừa bị ốm thứ bảy tuần trước."
+        ],
+        [
+            "My friend has just been sick yesterday afternoon.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk ˈjɛstədeɪ ˈɑːftəˈnuːn.",
+            "Bạn tôi vừa bị ốm chiều qua."
+        ],
+        [
+            "My friend has just been sick yesterday evening.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk ˈjɛstədeɪ ˈiːvnɪŋ.",
+            "Bạn tôi vừa bị ốm tối hôm qua."
+        ],
+        [
+            "My friend has just been sick this morning.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk ðɪs ˈmɔːnɪŋ.",
+            "Bạn tôi vừa bị ốm sáng nay."
+        ],
+        [
+            "My friend has just been sick for a few days.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔːr ə fjuː deɪz.",
+            "Bạn tôi mới ốm được vài ngày."
+        ],
+        [
+            "My friend has just been sick for 10 days.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 10 deɪz.",
+            "Bạn tôi vừa ốm được 10 ngày."
+        ],
+        [
+            "My friend has just been sick for 3 weeks.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 3 wiːks.",
+            "Bạn tôi mới ốm được 3 tuần."
+        ],
+        [
+            "My friend has just been sick for a month.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔːr ə mʌnθ.",
+            "Bạn tôi vừa ốm được một tháng."
+        ],
+        [
+            "My friend has just been sick for 6 days.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 6 deɪz.",
+            "Bạn tôi vừa ốm được 6 ngày."
+        ],
+        [
+            "My friend has just been sick for half a month.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː hɑːf ə mʌnθ.",
+            "Bạn tôi mới ốm được nửa tháng."
+        ],
+        [
+            "My friend has just been sick since 9 PM last night.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns 9 piː-ɛm lɑːst naɪt.",
+            "Bạn tôi vừa bị ốm từ 9 giờ tối qua."
+        ],
+        [
+            "My friend has just been sick since 4 AM this morning.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns 4 æm ðɪs ˈmɔːnɪŋ.",
+            "Bạn tôi vừa bị ốm từ 4 giờ sáng nay."
+        ],
+        [
+            "My friend has just been sick since He had to drink antibiotics",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns hiː hæd tuː drɪŋk ˌæntɪbaɪˈɒtɪks",
+            "Bạn tôi vừa bị ốm vì phải uống thuốc kháng sinh"
+        ],
+        [
+            "My friend has just been sick since He got vaccinated.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk sɪns hiː gɒt ˈvæksɪneɪtɪd.",
+            "Bạn của tôi vừa mới bị ốm kể từ khi Anh ấy đi tiêm phòng."
+        ],
+        [
+            "My friend has just been sick for 8 days.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 8 deɪz.",
+            "Bạn tôi vừa ốm được 8 ngày."
+        ],
+        [
+            "My friend has just been sick for 2 months.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 2 mʌnθs.",
+            "Bạn tôi mới ốm dậy được 2 tháng."
+        ],
+        [
+            "My friend has just been sick for 3 months.",
+            "maɪ frɛnd hæz ʤʌst biːn sɪk fɔː 3 mʌnθs.",
+            "Bạn tôi mới ốm được 3 tháng."
+        ]
+    ],
+    [
+        [
+            "It must be a watch",
+            "ɪt mʌst biː ə wɒʧ",
+            "Nó phải là một chiếc đồng hồ"
+        ],
+        [
+            "It must be a radio",
+            "ɪt mʌst biː ə ˈreɪdɪəʊ",
+            "Nó phải là một đài phát thanh"
+        ],
+        [
+            "It must be a television",
+            "ɪt mʌst biː ə ˈtɛlɪˌvɪʒən",
+            "Nó phải là một chiếc tivi"
+        ],
+        [
+            "It must be a computer",
+            "ɪt mʌst biː ə kəmˈpjuːtə",
+            "Nó phải là một máy tính"
+        ],
+        [
+            "It must be a laptop",
+            "ɪt mʌst biː ə ˈlæpˌtɒp",
+            "Nó phải là một máy tính xách tay"
+        ],
+        [
+            "It must be a camera",
+            "ɪt mʌst biː ə ˈkæmərə",
+            "Nó phải là một máy ảnh"
+        ],
+        [
+            "It must be a phone",
+            "ɪt mʌst biː ə fəʊn",
+            "Nó phải là một chiếc điện thoại"
+        ],
+        [
+            "It must be a screen",
+            "ɪt mʌst biː ə skriːn",
+            "Nó phải là một màn hình"
+        ],
+        [
+            "It must be a keyboard",
+            "ɪt mʌst biː ə ˈkiːbɔːd",
+            "Nó phải là một bàn phím"
+        ],
+        [
+            "It must be a stove",
+            "ɪt mʌst biː ə stəʊv",
+            "Nó phải là một cái bếp"
+        ],
+        [
+            "It must be a gas cooker",
+            "ɪt mʌst biː ə gæs ˈkʊkə",
+            "Nó phải là một cái bếp ga"
+        ],
+        [
+            "It must be a dishwasher",
+            "ɪt mʌst biː ə ˈdɪʃˌwɒʃə",
+            "Nó phải là một máy rửa chén"
+        ],
+        [
+            "It must be a washing machine",
+            "ɪt mʌst biː ə ˈwɒʃɪŋ məˈʃiːn",
+            "Nó phải là một máy giặt"
+        ],
+        [
+            "It must be an air conditioner",
+            "ɪt mʌst biː ən eə kənˈdɪʃənə",
+            "Nó phải là một máy điều hòa không khí"
+        ],
+        [
+            "It must be a dryer",
+            "ɪt mʌst biː ə ˈdraɪə",
+            "Nó phải là một máy sấy"
+        ],
+        [
+            "It must be a fan",
+            "ɪt mʌst biː ə fæn",
+            "Nó phải là một người hâm mộ"
+        ],
+        [
+            "It must be a clock",
+            "ɪt mʌst biː ə klɒk",
+            "Nó phải là một chiếc đồng hồ"
+        ],
+        [
+            "It must be a heater",
+            "ɪt mʌst biː ə ˈhiːtə",
+            "Nó phải là một lò sưởi"
+        ],
+        [
+            "It must be a fireplace",
+            "ɪt mʌst biː ə ˈfaɪəˌpleɪs",
+            "Nó phải là một lò sưởi"
+        ],
+        [
+            "It must be a hair dryer",
+            "ɪt mʌst biː ə heə ˈdraɪə",
+            "Nó phải là một máy sấy tóc"
+        ],
+        [
+            "It must be a refrigerator",
+            "ɪt mʌst biː ə rɪˈfrɪʤəreɪtə",
+            "Nó phải là một cái tủ lạnh"
+        ],
+        [
+            "It must be a rice cooker",
+            "ɪt mʌst biː ə raɪs ˈkʊkə",
+            "Nó phải là một nồi cơm điện"
+        ],
+        [
+            "It must be a telephone",
+            "ɪt mʌst biː ə ˈtɛlɪfəʊn",
+            "Nó phải là một chiếc điện thoại"
+        ],
+        [
+            "It must be a microwave",
+            "ɪt mʌst biː ə ˈmaɪkrəʊweɪv",
+            "Nó phải là một lò vi sóng"
+        ],
+        [
+            "It must be a freezer",
+            "ɪt mʌst biː ə ˈfriːzə",
+            "Nó phải là một tủ đông"
+        ],
+        [
+            "It must be a blender",
+            "ɪt mʌst biː ə ˈblɛndə",
+            "Nó phải là một máy xay sinh tố"
+        ],
+        [
+            "It must be a vacuum cleaner",
+            "ɪt mʌst biː ə ˈvækjʊəm ˈkliːnə",
+            "Nó phải là một máy hút bụi"
+        ],
+        [
+            "It must be an iron",
+            "ɪt mʌst biː ən ˈaɪən",
+            "Nó phải là một cái bàn là"
+        ],
+        [
+            "It must be a printer",
+            "ɪt mʌst biː ə ˈprɪntə",
+            "Nó phải là một máy in"
+        ],
+        [
+            "It must be an electronic stove",
+            "ɪt mʌst biː ən ɪlɛkˈtrɒnɪk stəʊv",
+            "Nó phải là một bếp điện tử"
+        ]
+    ],
+    [
+        [
+            "It usually takes a days",
+            "ɪt ˈjuːʒʊəli teɪks ə deɪz",
+            "Nó thường mất một ngày"
+        ],
+        [
+            "It usually takes 2 days",
+            "ɪt ˈjuːʒʊəli teɪks 2 deɪz",
+            "Nó thường mất 2 ngày"
+        ],
+        [
+            "It usually takes 3 days",
+            "ɪt ˈjuːʒʊəli teɪks 3 deɪz",
+            "Nó thường mất 3 ngày"
+        ],
+        [
+            "It usually takes 4 days",
+            "ɪt ˈjuːʒʊəli teɪks 4 deɪz",
+            "Nó thường mất 4 ngày"
+        ],
+        [
+            "It usually takes 5 days",
+            "ɪt ˈjuːʒʊəli teɪks 5 deɪz",
+            "Nó thường mất 5 ngày"
+        ],
+        [
+            "It usually takes 6 days",
+            "ɪt ˈjuːʒʊəli teɪks 6 deɪz",
+            "Nó thường mất 6 ngày"
+        ],
+        [
+            "It usually takes a week",
+            "ɪt ˈjuːʒʊəli teɪks ə wiːk",
+            "Nó thường mất một tuần"
+        ],
+        [
+            "It usually takes 2 weeks",
+            "ɪt ˈjuːʒʊəli teɪks 2 wiːks",
+            "Thường mất 2 tuần"
+        ],
+        [
+            "It usually takes 3 weeks",
+            "ɪt ˈjuːʒʊəli teɪks 3 wiːks",
+            "Thường mất 3 tuần"
+        ],
+        [
+            "It usually takes a month",
+            "ɪt ˈjuːʒʊəli teɪks ə mʌnθ",
+            "Nó thường mất một tháng"
+        ],
+        [
+            "It usually takes 2 months",
+            "ɪt ˈjuːʒʊəli teɪks 2 mʌnθs",
+            "Thường mất 2 tháng"
+        ],
+        [
+            "It usually takes 3 months",
+            "ɪt ˈjuːʒʊəli teɪks 3 mʌnθs",
+            "Thường mất 3 tháng"
+        ],
+        [
+            "It's will be ready tomorrow",
+            "ɪts wɪl biː ˈrɛdi təˈmɒrəʊ",
+            "Nó sẽ sẵn sàng vào ngày mai"
+        ],
+        [
+            "It's will be ready next week",
+            "ɪts wɪl biː ˈrɛdi nɛkst wiːk",
+            "Nó sẽ sẵn sàng vào tuần tới"
+        ],
+        [
+            "It's will be ready next 4 days",
+            "ɪts wɪl biː ˈrɛdi nɛkst 4 deɪz",
+            "Nó sẽ sẵn sàng trong 4 ngày tới"
+        ],
+        [
+            "It's will be ready next month",
+            "ɪts wɪl biː ˈrɛdi nɛkst mʌnθ",
+            "Nó sẽ sẵn sàng vào tháng tới"
+        ],
+        [
+            "It's will be ready after 6 pm today",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftə 6 pm təˈdeɪ",
+            "Nó sẽ sẵn sàng sau 6 giờ chiều hôm nay"
+        ],
+        [
+            "It's will be ready after 5 pm today",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftə 5 pm təˈdeɪ",
+            "Nó sẽ sẵn sàng sau 5 giờ chiều hôm nay"
+        ],
+        [
+            "It's will be ready after lunch",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftə lʌnʧ",
+            "Nó sẽ sẵn sàng sau bữa trưa"
+        ],
+        [
+            "It's will be ready after an hour",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftər ən ˈaʊə",
+            "Nó sẽ sẵn sàng sau một giờ"
+        ],
+        [
+            "It's will be ready after 2 hours",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftə 2 ˈaʊəz",
+            "Nó sẽ sẵn sàng sau 2 giờ"
+        ],
+        [
+            "It's will be ready after a few minutes",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftər ə fjuː ˈmɪnɪts",
+            "Nó sẽ sẵn sàng sau vài phút"
+        ],
+        [
+            "It's will be ready after tomorrow",
+            "ɪts wɪl biː ˈrɛdi ˈɑːftə təˈmɒrəʊ",
+            "Nó sẽ sẵn sàng sau ngày mai"
+        ],
+        [
+            "It's will be ready on Monday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈmʌndeɪ",
+            "Nó sẽ sẵn sàng vào thứ Hai"
+        ],
+        [
+            "It's will be ready on Tuesday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈtjuːzdeɪ",
+            "Nó sẽ sẵn sàng vào thứ Ba"
+        ],
+        [
+            "It's will be ready on Wednesday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈwɛnzdeɪ",
+            "Nó sẽ sẵn sàng vào thứ Tư"
+        ],
+        [
+            "It's will be ready on Friday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈfraɪdeɪ",
+            "Nó sẽ sẵn sàng vào thứ Sáu"
+        ],
+        [
+            "It's will be ready on Thursday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈθɜːzdeɪ",
+            "Nó sẽ sẵn sàng vào thứ Năm"
+        ],
+        [
+            "It's will be ready on Friday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈfraɪdeɪ",
+            "Nó sẽ sẵn sàng vào thứ Sáu"
+        ],
+        [
+            "It's will be ready on Thursday",
+            "ɪts wɪl biː ˈrɛdi ɒn ˈθɜːzdeɪ",
+            "Nó sẽ sẵn sàng vào thứ Năm"
+        ]
+    ],
+    [
+        [
+            "I travel mainly by car",
+            "aɪ ˈtrævl ˈmeɪnli baɪ kɑː",
+            "Tôi đi du lịch chủ yếu bằng ô tô"
+        ],
+        [
+            "I travel mainly by bus",
+            "aɪ ˈtrævl ˈmeɪnli baɪ bʌs",
+            "Tôi đi du lịch chủ yếu bằng xe buýt"
+        ],
+        [
+            "I travel mainly by motorbike",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊtəˌbaɪk",
+            "Tôi di chuyển chủ yếu bằng xe máy"
+        ],
+        [
+            "I travel mainly by bike",
+            "aɪ ˈtrævl ˈmeɪnli baɪ baɪk",
+            "Tôi đi du lịch chủ yếu bằng xe đạp"
+        ],
+        [
+            "I travel mainly by bicycle",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈbaɪsɪkl",
+            "Tôi di chuyển chủ yếu bằng xe đạp"
+        ],
+        [
+            "I travel mainly by scooter",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈskuːtə",
+            "Tôi đi du lịch chủ yếu bằng xe tay ga"
+        ],
+        [
+            "I travel mainly by tram",
+            "aɪ ˈtrævl ˈmeɪnli baɪ træm",
+            "Tôi đi du lịch chủ yếu bằng xe điện"
+        ],
+        [
+            "I travel mainly by moped",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊpɛd",
+            "Tôi đi du lịch chủ yếu bằng xe máy"
+        ],
+        [
+            "I travel mainly by taxi",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈtæksi",
+            "Tôi di chuyển chủ yếu bằng taxi"
+        ],
+        [
+            "I travel mainly underground",
+            "aɪ ˈtrævl ˈmeɪnli ˈʌndəgraʊnd",
+            "Tôi chủ yếu di chuyển bằng tài điện ngầm"
+        ],
+        [
+            "I travel mainly by high-speed train",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈhaɪˈspiːd treɪn",
+            "Tôi đi du lịch chủ yếu bằng tàu cao tốc"
+        ],
+        [
+            "I travel mainly by railway train",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈreɪlweɪ treɪn",
+            "Tôi đi du lịch chủ yếu bằng tàu hỏa"
+        ],
+        [
+            "I travel mainly by boat",
+            "aɪ ˈtrævl ˈmeɪnli baɪ bəʊt",
+            "Tôi đi du lịch chủ yếu bằng thuyền"
+        ],
+        [
+            "I travel mainly by ferry",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈfɛri",
+            "Tôi đi du lịch chủ yếu bằng phà"
+        ],
+        [
+            "I travel mainly by sailboat",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈseɪlbəʊt",
+            "Tôi đi du lịch chủ yếu bằng thuyền buồm"
+        ],
+        [
+            "I travel mainly by rowing boat",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈrəʊɪŋ bəʊt",
+            "Tôi đi du lịch chủ yếu bằng thuyền chèo"
+        ],
+        [
+            "I travel mainly by plane",
+            "aɪ ˈtrævl ˈmeɪnli baɪ pleɪn",
+            "Tôi đi du lịch chủ yếu bằng máy bay"
+        ],
+        [
+            "I travel mainly by helicopter",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈhɛlɪkɒptə",
+            "Tôi đi du lịch chủ yếu bằng máy bay trực thăng"
+        ],
+        [
+            "I travel mainly by ship",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ʃɪp",
+            "Tôi đi du lịch chủ yếu bằng tàu thủy"
+        ],
+        [
+            "I travel mainly on foot",
+            "aɪ ˈtrævl ˈmeɪnli ɒn fʊt",
+            "Tôi chủ yếu đi bộ"
+        ],
+        [
+            "I travel mainly by walking",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈwɔːkɪŋ",
+            "Tôi đi du lịch chủ yếu bằng cách đi bộ"
+        ],
+        [
+            "I travel mainly by car",
+            "aɪ ˈtrævl ˈmeɪnli baɪ kɑː",
+            "Tôi đi du lịch chủ yếu bằng ô tô"
+        ],
+        [
+            "I travel mainly by bus",
+            "aɪ ˈtrævl ˈmeɪnli baɪ bʌs",
+            "Tôi đi du lịch chủ yếu bằng xe buýt"
+        ],
+        [
+            "I travel mainly by motorbike",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊtəˌbaɪk",
+            "Tôi di chuyển chủ yếu bằng xe máy"
+        ],
+        [
+            "I travel mainly by bike",
+            "aɪ ˈtrævl ˈmeɪnli baɪ baɪk",
+            "Tôi đi du lịch chủ yếu bằng xe đạp"
+        ],
+        [
+            "I travel mainly by bicycle",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈbaɪsɪkl",
+            "Tôi di chuyển chủ yếu bằng xe đạp"
+        ],
+        [
+            "I travel mainly by scooter",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈskuːtə",
+            "Tôi đi du lịch chủ yếu bằng xe tay ga"
+        ],
+        [
+            "I travel mainly by tram",
+            "aɪ ˈtrævl ˈmeɪnli baɪ træm",
+            "Tôi đi du lịch chủ yếu bằng xe điện"
+        ],
+        [
+            "I travel mainly by moped",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈməʊpɛd",
+            "Tôi đi du lịch chủ yếu bằng xe máy"
+        ],
+        [
+            "I travel mainly by taxi",
+            "aɪ ˈtrævl ˈmeɪnli baɪ ˈtæksi",
+            "Tôi di chuyển chủ yếu bằng taxi"
+        ]
+    ],
+    [
+        [
+            "It takes me about 5 minutes",
+            "ɪt teɪks miː əˈbaʊt 5 ˈmɪnɪts",
+            "Tôi mất khoảng 5 phút"
+        ],
+        [
+            "It takes me about 6 minutes",
+            "ɪt teɪks miː əˈbaʊt 6 ˈmɪnɪts",
+            "Tôi mất khoảng 6 phút"
+        ],
+        [
+            "It takes me about 7 minutes",
+            "ɪt teɪks miː əˈbaʊt 7 ˈmɪnɪts",
+            "Tôi mất khoảng 7 phút"
+        ],
+        [
+            "It takes me about 8 minutes",
+            "ɪt teɪks miː əˈbaʊt 8 ˈmɪnɪts",
+            "Tôi mất khoảng 8 phút"
+        ],
+        [
+            "It takes me about 9 minutes",
+            "ɪt teɪks miː əˈbaʊt 9 ˈmɪnɪts",
+            "Tôi mất khoảng 9 phút"
+        ],
+        [
+            "It takes me about 10 minutes",
+            "ɪt teɪks miː əˈbaʊt 10 ˈmɪnɪts",
+            "Tôi mất khoảng 10 phút"
+        ],
+        [
+            "It takes me about 5 minutes",
+            "ɪt teɪks miː əˈbaʊt 5 ˈmɪnɪts",
+            "Tôi mất khoảng 5 phút"
+        ],
+        [
+            "It takes me about 6 minutes",
+            "ɪt teɪks miː əˈbaʊt 6 ˈmɪnɪts",
+            "Tôi mất khoảng 6 phút"
+        ],
+        [
+            "It takes me about 7 minutes",
+            "ɪt teɪks miː əˈbaʊt 7 ˈmɪnɪts",
+            "Tôi mất khoảng 7 phút"
+        ],
+        [
+            "It takes me about 8 minutes",
+            "ɪt teɪks miː əˈbaʊt 8 ˈmɪnɪts",
+            "Tôi mất khoảng 8 phút"
+        ],
+        [
+            "It takes me about 9 minutes",
+            "ɪt teɪks miː əˈbaʊt 9 ˈmɪnɪts",
+            "Tôi mất khoảng 9 phút"
+        ],
+        [
+            "It takes me about 10 minutes",
+            "ɪt teɪks miː əˈbaʊt 10 ˈmɪnɪts",
+            "Tôi mất khoảng 10 phút"
+        ],
+        [
+            "It takes me about 15 minutes",
+            "ɪt teɪks miː əˈbaʊt 15 ˈmɪnɪts",
+            "Tôi mất khoảng 15 phút"
+        ],
+        [
+            "It takes me about 45 minutes",
+            "ɪt teɪks miː əˈbaʊt 45 ˈmɪnɪts",
+            "Tôi mất khoảng 45 phút"
+        ],
+        [
+            "It takes me about 1 hour",
+            "ɪt teɪks miː əˈbaʊt 1 ˈaʊə",
+            "Tôi mất khoảng 1 giờ"
+        ],
+        [
+            "It takes me about 2 hours",
+            "ɪt teɪks miː əˈbaʊt 2 ˈaʊəz",
+            "Tôi mất khoảng 2 giờ"
+        ],
+        [
+            "It takes me about a quarter of an hour",
+            "ɪt teɪks miː əˈbaʊt ə ˈkwɔːtər ɒv ən ˈaʊə",
+            "Tôi mất khoảng một phần tư giờ"
+        ],
+        [
+            "It takes me about an hour and fifteen minutes",
+            "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd ˈfɪfˈtiːn ˈmɪnɪts",
+            "Tôi mất khoảng một giờ mười lăm phút"
+        ],
+        [
+            "It takes me about an hour and three-quarters of an hour",
+            "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd ˈθriːˈkwɔːtəz ɒv ən ˈaʊə",
+            "Tôi mất khoảng một giờ và ba phần tư giờ"
+        ],
+        [
+            "It takes me about three-quarters of an hour",
+            "ɪt teɪks miː əˈbaʊt ˈθriːˈkwɔːtəz ɒv ən ˈaʊə",
+            "Tôi mất khoảng 3/4 giờ"
+        ],
+        [
+            "It takes me about half an hour",
+            "ɪt teɪks miː əˈbaʊt hɑːf ən ˈaʊə",
+            "Tôi mất khoảng nửa giờ"
+        ],
+        [
+            "It takes me about an hour and 10 minutes",
+            "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd 10 ˈmɪnɪts",
+            "Tôi mất khoảng một giờ và 10 phút"
+        ],
+        [
+            "It takes me about an hour and 20 minutes",
+            "ɪt teɪks miː əˈbaʊt ən ˈaʊər ænd 20 ˈmɪnɪts",
+            "Tôi mất khoảng một giờ 20 phút"
+        ],
+        [
+            "It takes me about 25 minutes",
+            "ɪt teɪks miː əˈbaʊt 25 ˈmɪnɪts",
+            "Tôi mất khoảng 25 phút"
+        ],
+        [
+            "It takes me about 2 hours and 10 minutes",
+            "ɪt teɪks miː əˈbaʊt 2 ˈaʊəz ænd 10 ˈmɪnɪts",
+            "Tôi mất khoảng 2 giờ 10 phút"
+        ],
+        [
+            "It takes me about 3 hours",
+            "ɪt teɪks miː əˈbaʊt 3 ˈaʊəz",
+            "Tôi mất khoảng 3 giờ"
+        ],
+        [
+            "It takes me about 35 minutes",
+            "ɪt teɪks miː əˈbaʊt 35 ˈmɪnɪts",
+            "Tôi mất khoảng 35 phút"
+        ],
+        [
+            "It takes me about 50 minutes",
+            "ɪt teɪks miː əˈbaʊt 50 ˈmɪnɪts",
+            "Tôi mất khoảng 50 phút"
+        ],
+        [
+            "It takes me about 2 hours and a quarter of an hour",
+            "ɪt teɪks miː əˈbaʊt 2 ˈaʊəz ænd ə ˈkwɔːtər ɒv ən ˈaʊə",
+            "Tôi mất khoảng 2 giờ và một phần tư giờ"
+        ],
+        [
+            "It takes me about half 2 hours",
+            "ɪt teɪks miː əˈbaʊt hɑːf 2 ˈaʊəz",
+            "Tôi mất khoảng nửa giờ"
+        ]
+    ]
+]
