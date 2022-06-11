@@ -64,6 +64,7 @@ import Posts11 from "./components/A1_Posts_11"
 import Posts12 from "./components/A1_Posts_12"
 import Posts13 from "./components/A1_Posts_13"
 import Posts14 from "./components/A1_Posts_14"
+import Posts15 from "./components/A1_Posts_15"
 // import Words3000 from "./components/A2_3000Wds"
 
 
@@ -112,6 +113,7 @@ function App() {
             <Route path='/posts-12' element={<Posts12 />} />
             <Route path='/posts-13' element={<Posts13 />} />
             <Route path='/posts-14' element={<Posts14 />} />
+            <Route path='/posts-15' element={<Posts15 />} />
             {/* <Route path='/3000-basic-words' element={<Words3000 />} /> */}
 
 

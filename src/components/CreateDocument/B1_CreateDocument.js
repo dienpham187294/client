@@ -28,7 +28,7 @@ import {
     from "../../util/filedulieu/fileCreateDocument/A_GamePick"
 
 import ListFileNameExcelInput from "../../util/filedulieu/fileCreateDocument/A_listNameFileExcel.json"
-
+import All40lesson from "../../util/filedulieu/fileCreateDocument/D_Round1_40L.json"
 
 let Arruse = null
 
@@ -271,7 +271,8 @@ function C1_Create() {
             {showButton(ArrBTN3)}
             <div id="ResID" style={{ padding: "35px" }}></div>
             <div>
-                {showTestGame(FileGamePickNumber, IndexExcel)}
+                {/* {showTestGame(FileGamePickNumber, IndexExcel)} */}
+                {/* {Show40Ls(All40lesson)} */}
             </div>
         </div >
 
@@ -292,6 +293,7 @@ function showButton(ArrBTN) {
                     {e.name}
                 </button>
             )}
+
         </div>
     )
 }

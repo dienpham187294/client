@@ -147,6 +147,16 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div>
                 <div>
+                    <Link to={'/posts-15'}>
+                        <i></i>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            <i className="bi bi-book"></i>
+                            <span>Nội dung các bài thực hành!</span>
+                        </button>
+                    </Link>
+                </div>
+                <div>
                     <Link to={'/part-3-b'}>
                         <button
                             type="button" className="btn btn-secondary">

@@ -583,7 +583,7 @@ function Inser40Round1GD3() {
 
     let i = 0;
     let inT = setInterval(() => {
-        if (i <= Output2.length) {
+        if (i < Output2.length) {
             let Name = "III-A. Practice - " + (i + 1)
             InsertGD3(Name, TranferMulti([Output2[i]]))
             i++
@@ -610,12 +610,22 @@ function GDALL() {
     Output.forEach(ee => {
         Output2.push(NextStep(ee))
     })
+    let Output3 = []
+    for (let i = 0; i < 10; i++) {
+        let outT01 = []
+        for (let j = 0; j < 3; j++) {
+            Output2.forEach(e => {
+                outT01.push(e[i * 3 + j])
+            })
+        }
+        Output3.push(outT01)
+    }
 
     let i = 0;
     let inT = setInterval(() => {
-        if (i <= Output2.length) {
+        if (i < Output3.length) {
             let Name = "ALL - " + (i + 1)
-            InsertGDALL(Name, TranferMulti(Output2[i]))
+            InsertGDALL(Name, TranferMulti(Output3[i]))
             i++
         } else {
             clearInterval(inT)
