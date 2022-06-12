@@ -5,9 +5,9 @@ import stringSimilarity from "string-similarity"
 import ReadReactSpeech from "../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../util/Read/ReadMessage"
 // import Dictaphone from "../helpers/RegcognitionV1-0-1AI0.5 _03"
-import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
-import Check_ImageOrNot from "../util/mainPlayversion21/funtionInside/FN/Z_F_Check_ImageOrNot";
-// import $ from "jquery"
+// import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
+// import Check_ImageOrNot from "../util/mainPlayversion21/funtionInside/FN/Z_F_Check_ImageOrNot";
+import $ from "jquery"
 export default function LuyenGhepAm01() {
 
     const [DATA_NGHE, setDATA_NGHE] = useState([])
@@ -81,9 +81,14 @@ export default function LuyenGhepAm01() {
             </div>
             <input className="form-control" type={"text"} onChange={(e) => { setWrite(e.currentTarget.value) }} />
             <div>
-
-                {ID !== -1 ? Sosanh(DATA_NGHE[ID].Read, Write) : null}
+                {ID !== -1 ? Sosanh(DATA_NGHE[ID], Write) : null}
             </div>
+            <button style={{ display: "none" }} id="btnDung" onClick={() => {
+                setID(ID => (ID + 1) % DATA_NGHE.length)
+                setDung(D => D + 1)
+            }}>
+                X
+            </button>
             <p id="interrimID"></p>
             <h1 id="res"></h1>
             <ReadReactSpeech />
@@ -95,14 +100,23 @@ export default function LuyenGhepAm01() {
 
 function Sosanh(A, B) {
     try {
-        let i = stringSimilarity.compareTwoStrings(A.toLowerCase(), B.toLowerCase())
+        let i = stringSimilarity.compareTwoStrings(A["Read"].toLowerCase(), B.toLowerCase())
         let n = Math.floor(i * 100)
 
         return (
             <div>
                 {"Tương đồng: " + n + "%"}
                 <br />
-                {n > 95 ? A : null}
+                {n > 90 ?
+                    <div>
+                        {A["Read"]}
+                        <br />
+                        <button onClick={() => {
+                            $("#btnDung")[0].click()
+                        }}>
+                            Lấy điểm
+                        </button>
+                    </div> : null}
             </div>
         )
     } catch (error) {
