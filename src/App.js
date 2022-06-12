@@ -48,6 +48,7 @@ import LearnSts from "./components/C1_LEARNSTS"
 // import CMUSIC01 from "./components/C_Music01"
 import DLUYENGHE from "./components/D_LuyenNghe"
 import DLUYENGHE1 from "./components/D_LuyenNghe01"
+import DLUYENGHE2 from "./components/D_LuyenNghe02"
 import BaiHocPhienAm from "./components/A2_BaiHocPhienAm"
 import VideoAll from "./components/A2_Video_All"
 import Dangky from "./components/A2_Dangky"
@@ -165,6 +166,7 @@ function App() {
 
             <Route path='/listen' element={<DLUYENGHE />} />
             <Route path='/listen-01' element={<DLUYENGHE1 />} />
+            <Route path='/listen-02' element={<DLUYENGHE2 />} />
             <Route path='/test-AIipa' element={<ThuDoNhay />} />
             {/* <Route path='/thudonhaycn' element={<ThuDoNhayTQ />} />
             <Route path='/nhacipalyrics' element={<CMUSIC />} />

@@ -60,6 +60,12 @@ function showDATA_GHEPAM(DATA_GHEPAM, setD0_ListMenuSort, D0_ListMenuSort) {
                                     </Link>
                                     <i><b>({e.id})</b></i>
                                 </td>
+                                <td>
+                                    <Link to={"/listen-02?id=" + e.id}>
+                                        <i>{"Luyện tập 2"}</i>
+                                    </Link>
+                                    <i><b>({e.id})</b></i>
+                                </td>
                             </tr>
 
                         )
