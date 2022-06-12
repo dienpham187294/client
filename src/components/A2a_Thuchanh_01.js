@@ -3,6 +3,7 @@ import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
 import GamePlay from "../util/mainPlayversion21/S_GamePlay"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
+import { now } from "jquery";
 const ShowInterim = true
 
 export default function Thuchanh_01(props) {
@@ -38,7 +39,9 @@ export default function Thuchanh_01(props) {
     try {
       SET_Move(D0_DL[0].move)
       SET_DataToolR(D0_DL[0].dataTool)
-      SET_Data_Game(shuffleArr(D0_DL[1].coerdataoflession))
+      let date = new Date();
+      let n = date.getDate() % 10 + 3
+      SET_Data_Game(shuffleArrMultiTime(n, D0_DL[1].coerdataoflession))
       SET_PageChange(1);
     } catch (error) {
 
@@ -82,4 +85,13 @@ function MDG(
   this.stObj = {
     "inputSumit": "",
   }
+}
+
+
+function shuffleArrMultiTime(n, data) {
+  let output = data
+  for (let i = 0; i < n; i++) {
+    output = shuffleArr(data)
+  }
+  return output
 }

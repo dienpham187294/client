@@ -20,7 +20,15 @@ export default function A1_sidebar(props) {
                         </button>
                     </Link>
                 </div> */}
-
+                <div>
+                    <Link to={'/game-online'}>
+                        <button
+                            type="button" className="btn btn-secondary">
+                            {/* <i className="bi bi-bicycle"></i> */}
+                            <span>Trò chơi online</span>
+                        </button>
+                    </Link>
+                </div>
                 <div>
                     <Link to={'/ipa-study'}>
                         <i></i>

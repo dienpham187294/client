@@ -128,36 +128,36 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     );
 
 
-    useEffect(() => {
-        try {
+    // useEffect(() => {
+    //     try {
 
 
-            if (Score === 0) {
-                props.SOCKET.emit("emit_RES_Client_FirstTime", { id: props.SOCKET.id })
-            }
-            if (Score === 1) {
-                props.Total.stObj.timeCount = Date.now()
+    //         if (Score === 0) {
+    //             props.SOCKET.emit("emit_RES_Client_FirstTime", { id: props.SOCKET.id })
+    //         }
+    //         if (Score === 1) {
+    //             props.Total.stObj.timeCount = Date.now()
 
-            }
-            if (Score > 1) {
-                setD4_Time(secondToMinutes((Date.now() - props.Total.stObj.timeCount) / 1000))
-            }
-            if (Score > 0) {
+    //         }
+    //         if (Score > 1) {
+    //             setD4_Time(secondToMinutes((Date.now() - props.Total.stObj.timeCount) / 1000))
+    //         }
+    //         if (Score > 0) {
 
-                let currentdate = new Date();
-                let datetime = "Last Sync: " + currentdate.getDate() + "/"
-                    + (currentdate.getMonth() + 1) + "/"
-                    + currentdate.getFullYear() + " @ "
-                    + currentdate.getHours() + ":"
-                    + currentdate.getMinutes() + ":"
-                    + currentdate.getSeconds();
-                props.SOCKET.emit("emit_RES_Client", { name: props.NameOflession, score: Score, time: D4_Time, last: datetime })
-            }
-        } catch (error) {
-            console.log(error)
-        }
+    //             let currentdate = new Date();
+    //             let datetime = "Last Sync: " + currentdate.getDate() + "/"
+    //                 + (currentdate.getMonth() + 1) + "/"
+    //                 + currentdate.getFullYear() + " @ "
+    //                 + currentdate.getHours() + ":"
+    //                 + currentdate.getMinutes() + ":"
+    //                 + currentdate.getSeconds();
+    //             props.SOCKET.emit("emit_RES_Client", { name: props.NameOflession, score: Score, time: D4_Time, last: datetime })
+    //         }
+    //     } catch (error) {
+    //         console.log(error)
+    //     }
 
-    }, [Score])
+    // }, [Score])
 
 
 
