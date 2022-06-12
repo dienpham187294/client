@@ -91,7 +91,7 @@ function tableIn(Arr1) {
                             {e.submit}
                         </td>
                         <td>
-                            {e.IPA}
+                            {e.IP}
                         </td>
                     </tr>
                 )}
