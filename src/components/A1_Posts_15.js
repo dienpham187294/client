@@ -60,7 +60,7 @@ function showIn40Lesson(data) {
                 if (obj1.submit === "" && e.includes("Z")) {
                     obj1.submit = data[ii][i]
                 }
-                if (obj1.IPA === "" && e.includes("IPA")) {
+                if (obj1.IPA === "" && e.includes("IP")) {
                     obj1.IPA = data[ii][i]
                 }
             })
@@ -91,7 +91,7 @@ function tableIn(Arr1) {
                             {e.submit}
                         </td>
                         <td>
-                            {e.IP}
+                            {e.IPA}
                         </td>
                     </tr>
                 )}
