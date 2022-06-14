@@ -1,4 +1,95 @@
-const dlPhiemAm =[
+const dlPhiemAm = [
+
+    {
+        "ipa": null,
+        "des": "Bài 1: Ngữ Âm là gì? Vì sao học ngữ âm đầu tiên?",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/clE-K0j7zlg"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 2: Âm \"lạ\" trong tiếng Anh | Cặp /iː/ và /ɪ/, /uː/ và /ʊ/",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/oduSI66_w7I"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 3: Âm \"lạ\" trong tiếng Anh | Âm /ɑː/, /æ/ và /ʌ/, /ə/ và /ɜː/",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/mhPNSAn4YXA"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 4: Âm \"lạ\" trong tiếng Anh | Cặp /p/ và /b/, /t/ và /d/, /k/ và /g/",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/G--1FXMQMN8"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 5: Âm \"lạ\" trong tiếng Anh | Cặp /ʃ/ và /ʒ/, /tʃ/ và /dʒ/, /θ/ và /ð/",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/Ly8A-cfIw1E"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 6: Phát âm nguyên âm đôi",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/jT2G_TZLefA"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 7: Các âm tiếng Anh tương đồng tiếng Việt",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/BkRvtHX_Tro"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 8: Ôn tập 44 âm tiếng Anh",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/jIlKz3cnQiQ"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 9: Vì sao lại là TÁCH GHÉP ÂM?",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/mHddSN9gnOA"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 10: Thực hành tách ghép âm từ tiếng Anh thông dụng (P.1)",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/tubeuOhh_hDR8"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 11: Thực hành tách ghép âm từ tiếng Anh thông dụng (P.2)",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/3nce0FxwEmk"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 12: Thực hành tách ghép âm từ tiếng Anh thông dụng (P.3)",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/9anmLufVHgE"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 13: Tách ghép và Đọc câu tiếng Anh thông dụng (P.1)",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/-f95KsYK2Jo"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 14: Tách ghép và Đọc câu tiếng Anh thông dụng (P.2)",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/kU38lDlYLws"
+    },
+    {
+        "ipa": null,
+        "des": "Bài 15: Tách ghép và Đọc câu tiếng Anh thông dụng (P.3)",
+        "name": null,
+        "srcVideo": "https://youtube.com/embed/OZAo0qO8DFc"
+    },
     {
         "ipa": "/ɪ/",
         "des": "Âm i ngắn, giống âm “i” của tiếng Việt nhưng phát âm rất ngắn ( = 1/2 âm i), môi hơi mở rộng sang hai bên, lưỡi hạ thấp.",

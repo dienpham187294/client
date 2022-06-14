@@ -201,6 +201,36 @@ function Unifile(inX) {
     }
 }
 
+function Unifile_Outside() {
+    try {
+        let input = JSON.parse($("#ResID").text())
+        //  let getKeys = Object.keys(input[0])
+        // console.log(input)
+        let output = []
+        let i = input.length
+        let n = input[0].length
+
+        // console.log(input[i][n])
+        for (let m = 0; m < n; m++) {
+            let out = []
+            for (let j = 0; j < i; j++) {
+                out = out.concat(input[j][m])
+            }
+            output.push(out)
+        }
+
+
+
+        $("#ResID").text(JSON.stringify(output))
+        // return output
+
+    } catch (error) {
+        alert("Lỗi")
+        console.log(error)
+    }
+}
+
+
 function Unifile_02(inX, lenIdx) {
     try {
         let input = (inX)
@@ -261,6 +291,34 @@ function NextStep(inX) {
     }
 }
 
+function NextStep_OUTSIDE() {
+    try {
+        let rows = JSON.parse($("#ResID").text())
+        let Arr1 = rows[0]
+        let arr = []
+        rows.forEach((e, i) => {
+
+            if (i > 0) {
+                let obj = {}
+                Arr1.forEach((ee, i) => {
+                    obj[ee] = e[i]
+                })
+
+                arr.push(obj)
+            }
+
+        })
+        arr.forEach(e => {
+            delete e["null"]
+        })
+
+        $("#ResID").text(JSON.stringify(arr))
+
+    } catch (error) {
+        // alert("Lỗi")
+        console.log(error)
+    }
+}
 
 function MultiFiles(inX) {
     try {
@@ -726,8 +784,7 @@ function DGhepCauF() {
 
 
 export {
-    Unifile, Unifile_02, NextStep, Tranfer_01, MultiFiles, TranferMulti, Tranfer_ipa_red, InsertListenData,
-    InsertSpeakData, InsertPracticeData, InsertMainPronunciationCreate, InsertGD3, InsertGD4,
+    Unifile_Outside, NextStep_OUTSIDE,
     Inser40Round1GD3, Inser40Round2GD3, Inser40Round3GD3,
     GD4_01, GD4_02, GD4_03,
     DGhepCauF, GDALL

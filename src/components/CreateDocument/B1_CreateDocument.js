@@ -29,10 +29,10 @@ function C1_Create() {
             const input = document.getElementById('input')
 
             input.addEventListener('change', () => {
-                // let ArrIndex = $("#IndexExcel").text().split(" ").join("").split(",")
+                let ArrIndex = $("#IndexExcel").text().split(" ").join("").split(",")
                 // let ArrIndex = ["1"]
                 let ArrOUT = []
-                ListFileNameExcelInput.forEach(e => {
+                ArrIndex.forEach(e => {
                     readXlsxFile(input.files[0], { sheet: e }).then((rows) => {
                         ArrOUT.push(rows)
                         Arruse = ArrOUT
