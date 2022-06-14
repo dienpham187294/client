@@ -12,7 +12,7 @@
             "Where do you study?",
             "Tell me where you study.",
             "Massachusetts Institute of Technology",
-            "I am a student at Massachusetts Institute of Technology",
+            "I am a student at the Massachusetts Institute of Technology",
             "Cho tôi biết bạn học ở đâu.",
             "ˌmæsəˈʧuːsɪts ˈɪnstɪtjuːt ɒv tɛkˈnɒləʤi"
         ],
@@ -68,7 +68,7 @@
             "Where do you study?",
             "Tell me where you study.",
             "University of Washington",
-            "I am a student at University of Washington",
+            "I am a student at the University of Washington",
             "Cho tôi biết bạn học ở đâu.",
             "ˌjuːnɪˈvɜːsɪti ɒv ˈwɒʃɪŋtən"
         ],
@@ -100,7 +100,7 @@
             "Where do you study?",
             "Tell me where you study.",
             "University of California, Los Angeles",
-            "I am a student at University of California, Los Angeles",
+            "I am a student at the University of California, Los Angeles",
             "Cho tôi biết bạn học ở đâu.",
             "ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, Los ˈeɪnʤəlz"
         ],
@@ -180,7 +180,7 @@
             "Where do you study?",
             "Tell me where you study.",
             "University of Chicago",
-            "I am a student at University of Chicago",
+            "I am a student at the University of Chicago",
             "Cho tôi biết bạn học ở đâu.",
             "ˌjuːnɪˈvɜːsɪti ɒv ʃɪˈkɑːgəʊ"
         ],
@@ -196,7 +196,7 @@
             "Where do you study?",
             "Tell me where you study.",
             "University of Florida",
-            "I am a student at University of Florida",
+            "I am a student at the University of Florida",
             "Cho tôi biết bạn học ở đâu.",
             "ˌjuːnɪˈvɜːsɪti ɒv ˈflɒrɪdə"
         ],
@@ -212,7 +212,7 @@
             "Where do you study?",
             "Tell me where you study.",
             "University of California, San Diego",
-            "I am a student at University of California, San Diego",
+            "I am a student at the University of California, San Diego",
             "Cho tôi biết bạn học ở đâu.",
             "ˌjuːnɪˈvɜːsɪti ɒv ˌkæləˈfɔːniə, sæn ˈdjɛgəʊ"
         ],
@@ -261,7 +261,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Agribusiness Operations",
+            "My major is agribusiness operations",
             "Agribusiness Operations",
             "Bạn học ngành gì vậy?",
             "Agribusiness ˌɒpəˈreɪʃənz"
@@ -269,7 +269,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Agricultural Business & Management",
+            "My major is agricultural business & management",
             "Agricultural Business & Management",
             "Bạn học ngành gì vậy?",
             "ˌægrɪˈkʌlʧərəl ˈbɪznɪs & ˈmænɪʤmənt"
@@ -277,7 +277,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Agricultural Economics",
+            "My major is agricultural economics",
             "Agricultural Economics",
             "Bạn học ngành gì vậy?",
             "ˌægrɪˈkʌlʧərəl ˌiːkəˈnɒmɪks"
@@ -285,7 +285,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Agricultural Mechanization",
+            "My major is agricultural mechanization",
             "Agricultural Mechanization",
             "Bạn học ngành gì vậy?",
             "ˌægrɪˈkʌlʧərəl ˌmɛkənaɪˈzeɪʃən"
@@ -293,7 +293,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Agricultural Production",
+            "My major is agricultural production",
             "Agricultural Production",
             "Bạn học ngành gì vậy?",
             "ˌægrɪˈkʌlʧərəl prəˈdʌkʃən"
@@ -301,7 +301,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Agronomy & Crop Science",
+            "My major is agronomy & crop science",
             "Agronomy & Crop Science",
             "Bạn học ngành gì vậy?",
             "əˈgrɒnəmi & krɒp ˈsaɪəns"
@@ -309,7 +309,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Animal Sciences",
+            "My major is animal sciences",
             "Animal Sciences",
             "Bạn học ngành gì vậy?",
             "ˈænɪməl ˈsaɪənsɪz"
@@ -317,7 +317,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Food Sciences & Technology",
+            "My major is food sciences & technology",
             "Food Sciences & Technology",
             "Bạn học ngành gì vậy?",
             "fuːd ˈsaɪənsɪz & tɛkˈnɒləʤi"
@@ -325,7 +325,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Horticulture Operations & Management",
+            "My major is horticulture operations & management",
             "Horticulture Operations & Management",
             "Bạn học ngành gì vậy?",
             "ˈhɔːtɪkʌlʧər ˌɒpəˈreɪʃənz & ˈmænɪʤmənt"
@@ -333,7 +333,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Horticulture Science",
+            "My major is horticulture science",
             "Horticulture Science",
             "Bạn học ngành gì vậy?",
             "ˈhɔːtɪkʌlʧə ˈsaɪəns"
@@ -341,7 +341,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Natural Resources Conservation",
+            "My major is natural resources conservation",
             "Natural Resources Conservation",
             "Bạn học ngành gì vậy?",
             "ˈnæʧrəl rɪˈsɔːsɪz ˌkɒnsə(ː)ˈveɪʃən"
@@ -349,7 +349,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Environmental Science",
+            "My major is environmental science",
             "Environmental Science",
             "Bạn học ngành gì vậy?",
             "ɪnˌvaɪərənˈmɛntl ˈsaɪəns"
@@ -357,7 +357,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Forestry",
+            "My major is forestry",
             "Forestry",
             "Bạn học ngành gì vậy?",
             "ˈfɒrɪstri"
@@ -365,7 +365,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Natural Resources Management",
+            "My major in natural resources management",
             "Natural Resources Management",
             "Bạn học ngành gì vậy?",
             "ˈnæʧrəl rɪˈsɔːsɪz ˈmænɪʤmənt"
@@ -373,7 +373,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Wildlife & Wildlands Management",
+            "My major is wildlife & wildlands management",
             "Wildlife & Wildlands Management",
             "Bạn học ngành gì vậy?",
             "ˈwaɪldlaɪf & Wildlands ˈmænɪʤmənt"
@@ -381,7 +381,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Architectural Environmental Design",
+            "My major is architectural environmental design",
             "Architectural Environmental Design",
             "Bạn học ngành gì vậy?",
             "ˌɑːkɪˈtɛkʧərəl ɪnˌvaɪərənˈmɛntl dɪˈzaɪn"
@@ -389,7 +389,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Urban and Regional Planning",
+            "My major is the urban and regional planning",
             "Urban and Regional Planning",
             "Bạn học ngành gì vậy?",
             "ˈɜːbən ænd ˈriːʤənl ˈplænɪŋ"
@@ -397,7 +397,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Interior Architecture",
+            "My major is interior architecture",
             "Interior Architecture",
             "Bạn học ngành gì vậy?",
             "ɪnˈtɪərɪər ˈɑːkɪtɛkʧə"
@@ -405,7 +405,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Landscape Architecture",
+            "My major is landscape architecture",
             "Landscape Architecture",
             "Bạn học ngành gì vậy?",
             "ˈlænskeɪp ˈɑːkɪtɛkʧə"
@@ -413,7 +413,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Asian Area Studies",
+            "My major is Asian area studies",
             "Asian Area Studies",
             "Bạn học ngành gì vậy?",
             "ˈeɪʃ(ə)n ˈeərɪə ˈstʌdiz"
@@ -421,7 +421,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is European Area Studies",
+            "My major is European area studies",
             "European Area Studies",
             "Bạn học ngành gì vậy?",
             "ˌjʊərəˈpi(ː)ən ˈeərɪə ˈstʌdiz"
@@ -429,7 +429,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Latin American Area Studies",
+            "My major is Latin American area studies",
             "Latin American Area Studies",
             "Bạn học ngành gì vậy?",
             "ˈlætɪn əˈmɛrɪkən ˈeərɪə ˈstʌdiz"
@@ -437,7 +437,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is North American Area Studies",
+            "My major is north American area studies",
             "North American Area Studies",
             "Bạn học ngành gì vậy?",
             "nɔːθ əˈmɛrɪkən ˈeərɪə ˈstʌdiz"
@@ -445,7 +445,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Ethnic & Minority Studies",
+            "My major is ethnic & minority studies",
             "Ethnic & Minority Studies",
             "Bạn học ngành gì vậy?",
             "ˈɛθnɪk & maɪˈnɒrɪti ˈstʌdiz"
@@ -453,7 +453,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is African American Studies",
+            "My major is African American studies",
             "African American Studies",
             "Bạn học ngành gì vậy?",
             "ˈæfrɪkən əˈmɛrɪkən ˈstʌdiz"
@@ -461,7 +461,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Native American Studies",
+            "My major is native American studies",
             "Native American Studies",
             "Bạn học ngành gì vậy?",
             "ˈneɪtɪv əˈmɛrɪkən ˈstʌdiz"
@@ -469,7 +469,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Chicano Studies",
+            "My major is Chicano studies",
             "Chicano Studies",
             "Bạn học ngành gì vậy?",
             "Chicano ˈstʌdiz"
@@ -477,7 +477,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Women’s Studies",
+            "My major is women’s studies",
             "Women’s Studies",
             "Bạn học ngành gì vậy?",
             "ˈwɪmɪnz ˈstʌdiz"
@@ -485,7 +485,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Liberal Arts & General Studies",
+            "My major is liberal arts & general studies",
             "Liberal Arts & General Studies",
             "Bạn học ngành gì vậy?",
             "ˈlɪbərəl ɑːts & ˈʤɛnərəl ˈstʌdiz"
@@ -493,7 +493,7 @@
         [
             "Tell me your major!",
             "What is your major?",
-            "My major is Library Science",
+            "My major is library science",
             "Library Science",
             "Bạn học ngành gì vậy?",
             "ˈlaɪbrəri ˈsaɪəns"
@@ -1470,6 +1470,225 @@
     ],
     [
         [
+            "A18",
+            "B18",
+            "Z18",
+            "M18",
+            "IP"
+        ],
+        [
+            "How was the film Titanic?",
+            "It’s one of the best I’ve ever seen.",
+            "The best",
+            "Bộ phim Titanic như thế nào?",
+            "ðə bɛst"
+        ],
+        [
+            "How was the film Titanic?",
+            "I liked it very much.",
+            "Like",
+            "Bộ phim Titanic như thế nào?",
+            "laɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "I found it enjoyable.",
+            "Enjoyable",
+            "Bộ phim Titanic như thế nào?",
+            "ɪnˈʤɔɪəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was very good.",
+            "Good",
+            "Bộ phim Titanic như thế nào?",
+            "gʊd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was fantastic.",
+            "fantastic",
+            "Bộ phim Titanic như thế nào?",
+            "fænˈtæstɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "It wasn't bad.",
+            "Not bad",
+            "Bộ phim Titanic như thế nào?",
+            "nɒt bæd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was boring",
+            "Boring",
+            "Bộ phim Titanic như thế nào?",
+            "ˈbɔːrɪŋ"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was terrible.",
+            "terrible",
+            "Bộ phim Titanic như thế nào?",
+            "ˈtɛrəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It’s one of the best I’ve ever seen.",
+            "The best",
+            "Bộ phim Titanic như thế nào?",
+            "ðə bɛst"
+        ],
+        [
+            "How was the film Titanic?",
+            "I liked it very much.",
+            "Like",
+            "Bộ phim Titanic như thế nào?",
+            "laɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "I found it enjoyable.",
+            "Enjoyable",
+            "Bộ phim Titanic như thế nào?",
+            "ɪnˈʤɔɪəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was very good.",
+            "Good",
+            "Bộ phim Titanic như thế nào?",
+            "gʊd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was fantastic.",
+            "fantastic",
+            "Bộ phim Titanic như thế nào?",
+            "fænˈtæstɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "It wasn't bad.",
+            "Not bad",
+            "Bộ phim Titanic như thế nào?",
+            "nɒt bæd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was boring",
+            "Boring",
+            "Bộ phim Titanic như thế nào?",
+            "ˈbɔːrɪŋ"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was terrible.",
+            "terrible",
+            "Bộ phim Titanic như thế nào?",
+            "ˈtɛrəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It’s one of the best I’ve ever seen.",
+            "The best",
+            "Bộ phim Titanic như thế nào?",
+            "ðə bɛst"
+        ],
+        [
+            "How was the film Titanic?",
+            "I liked it very much.",
+            "Like",
+            "Bộ phim Titanic như thế nào?",
+            "laɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "I found it enjoyable.",
+            "Enjoyable",
+            "Bộ phim Titanic như thế nào?",
+            "ɪnˈʤɔɪəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was very good.",
+            "Good",
+            "Bộ phim Titanic như thế nào?",
+            "gʊd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was fantastic.",
+            "fantastic",
+            "Bộ phim Titanic như thế nào?",
+            "fænˈtæstɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "It wasn't bad.",
+            "Not bad",
+            "Bộ phim Titanic như thế nào?",
+            "nɒt bæd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was boring",
+            "Boring",
+            "Bộ phim Titanic như thế nào?",
+            "ˈbɔːrɪŋ"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was terrible.",
+            "terrible",
+            "Bộ phim Titanic như thế nào?",
+            "ˈtɛrəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It’s one of the best I’ve ever seen.",
+            "The best",
+            "Bộ phim Titanic như thế nào?",
+            "ðə bɛst"
+        ],
+        [
+            "How was the film Titanic?",
+            "I liked it very much.",
+            "Like",
+            "Bộ phim Titanic như thế nào?",
+            "laɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "I found it enjoyable.",
+            "Enjoyable",
+            "Bộ phim Titanic như thế nào?",
+            "ɪnˈʤɔɪəbl"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was very good.",
+            "Good",
+            "Bộ phim Titanic như thế nào?",
+            "gʊd"
+        ],
+        [
+            "How was the film Titanic?",
+            "It was fantastic.",
+            "fantastic",
+            "Bộ phim Titanic như thế nào?",
+            "fænˈtæstɪk"
+        ],
+        [
+            "How was the film Titanic?",
+            "It wasn't bad.",
+            "Not bad",
+            "Bộ phim Titanic như thế nào?",
+            "nɒt bæd"
+        ]
+    ],
+    [
+        [
             "A17",
             "Z17",
             "B171",
@@ -1720,225 +1939,6 @@
     ],
     [
         [
-            "A18",
-            "B18",
-            "Z18",
-            "M18",
-            "IP"
-        ],
-        [
-            "How was the film Titanic?",
-            "It’s one of the best I’ve ever seen.",
-            "The best",
-            "Bộ phim Titanic như thế nào?",
-            "ðə bɛst"
-        ],
-        [
-            "How was the film Titanic?",
-            "I liked it very much.",
-            "Like",
-            "Bộ phim Titanic như thế nào?",
-            "laɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "I found it enjoyable.",
-            "Enjoyable",
-            "Bộ phim Titanic như thế nào?",
-            "ɪnˈʤɔɪəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was very good.",
-            "Good",
-            "Bộ phim Titanic như thế nào?",
-            "gʊd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was fantastic.",
-            "fantastic",
-            "Bộ phim Titanic như thế nào?",
-            "fænˈtæstɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "It wasn't bad.",
-            "Not bad",
-            "Bộ phim Titanic như thế nào?",
-            "nɒt bæd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was boring",
-            "Boring",
-            "Bộ phim Titanic như thế nào?",
-            "ˈbɔːrɪŋ"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was terrible.",
-            "terrible",
-            "Bộ phim Titanic như thế nào?",
-            "ˈtɛrəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It’s one of the best I’ve ever seen.",
-            "The best",
-            "Bộ phim Titanic như thế nào?",
-            "ðə bɛst"
-        ],
-        [
-            "How was the film Titanic?",
-            "I liked it very much.",
-            "Like",
-            "Bộ phim Titanic như thế nào?",
-            "laɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "I found it enjoyable.",
-            "Enjoyable",
-            "Bộ phim Titanic như thế nào?",
-            "ɪnˈʤɔɪəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was very good.",
-            "Good",
-            "Bộ phim Titanic như thế nào?",
-            "gʊd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was fantastic.",
-            "fantastic",
-            "Bộ phim Titanic như thế nào?",
-            "fænˈtæstɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "It wasn't bad.",
-            "Not bad",
-            "Bộ phim Titanic như thế nào?",
-            "nɒt bæd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was boring",
-            "Boring",
-            "Bộ phim Titanic như thế nào?",
-            "ˈbɔːrɪŋ"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was terrible.",
-            "terrible",
-            "Bộ phim Titanic như thế nào?",
-            "ˈtɛrəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It’s one of the best I’ve ever seen.",
-            "The best",
-            "Bộ phim Titanic như thế nào?",
-            "ðə bɛst"
-        ],
-        [
-            "How was the film Titanic?",
-            "I liked it very much.",
-            "Like",
-            "Bộ phim Titanic như thế nào?",
-            "laɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "I found it enjoyable.",
-            "Enjoyable",
-            "Bộ phim Titanic như thế nào?",
-            "ɪnˈʤɔɪəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was very good.",
-            "Good",
-            "Bộ phim Titanic như thế nào?",
-            "gʊd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was fantastic.",
-            "fantastic",
-            "Bộ phim Titanic như thế nào?",
-            "fænˈtæstɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "It wasn't bad.",
-            "Not bad",
-            "Bộ phim Titanic như thế nào?",
-            "nɒt bæd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was boring",
-            "Boring",
-            "Bộ phim Titanic như thế nào?",
-            "ˈbɔːrɪŋ"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was terrible.",
-            "terrible",
-            "Bộ phim Titanic như thế nào?",
-            "ˈtɛrəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It’s one of the best I’ve ever seen.",
-            "The best",
-            "Bộ phim Titanic như thế nào?",
-            "ðə bɛst"
-        ],
-        [
-            "How was the film Titanic?",
-            "I liked it very much.",
-            "Like",
-            "Bộ phim Titanic như thế nào?",
-            "laɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "I found it enjoyable.",
-            "Enjoyable",
-            "Bộ phim Titanic như thế nào?",
-            "ɪnˈʤɔɪəbl"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was very good.",
-            "Good",
-            "Bộ phim Titanic như thế nào?",
-            "gʊd"
-        ],
-        [
-            "How was the film Titanic?",
-            "It was fantastic.",
-            "fantastic",
-            "Bộ phim Titanic như thế nào?",
-            "fænˈtæstɪk"
-        ],
-        [
-            "How was the film Titanic?",
-            "It wasn't bad.",
-            "Not bad",
-            "Bộ phim Titanic như thế nào?",
-            "nɒt bæd"
-        ]
-    ],
-    [
-        [
             "A19",
             "B19",
             "B19",
@@ -2154,225 +2154,6 @@
             "On January 14.",
             "Ngày chính xác bạn đến vào mùa hè là ngày nào?",
             "ɒn ˈʤænjʊəri 14."
-        ]
-    ],
-    [
-        [
-            "A21",
-            "Z21",
-            "B21",
-            "M21",
-            "IP"
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room with a sea view.",
-            "I would like a single room with a sea view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm wɪð ə siː vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room with a garden view.",
-            "I would like a single room with a garden view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm wɪð ə ˈgɑːdn vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room with a mountain view.",
-            "I would like a single room with a mountain view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm wɪð ə ˈmaʊntɪn vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room with a bathtub.",
-            "I would like a single room with a bathtub.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm wɪð ə ˈbɑːθtʌb."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a double bedroom.",
-            "I would like a double bedroom.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈdʌbl ˈbɛdru(ː)m."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a deluxe room with a sea view on the high floor.",
-            "I would like a deluxe room with a sea view on the high floor.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə dɪˈlʌks ruːm wɪð ə siː vjuː ɒn ðə haɪ flɔː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a twin's bedroom.",
-            "I would like a twin bedroom.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə twɪnz ˈbɛdru(ː)m."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a Queen sized bedroom.",
-            "I would like a Queen sized bedroom.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə kwiːn saɪzd ˈbɛdru(ː)m."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a double bedroom and balcony.",
-            "I would like a double bedroom and a balcony.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈdʌbl ˈbɛdru(ː)m ænd ˈbælkəni."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room on the high floor.",
-            "I would like a single room on the high floor.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm ɒn ðə haɪ flɔː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a double room with a city view.",
-            "I would like a double room with a city view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈdʌbl ruːm wɪð ə ˈsɪti vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room with a lake view.",
-            "I would like a single room with a lake view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm wɪð ə leɪk vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a double room with a sea view.",
-            "I would like a double room with a sea view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈdʌbl ruːm wɪð ə siː vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a connecting room.",
-            "I would like a connecting room.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə kəˈnɛktɪŋ ruːm."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a quiet room for 2 people.",
-            "I would like a quiet room for 2 people.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈkwaɪət ruːm fɔː 2 ˈpiːpl."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a ventilated room with 2 beds.",
-            "I would like a ventilated room with 2 beds.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈvɛntɪleɪtɪd ruːm wɪð 2 bɛdz."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a deluxe room with French style.",
-            "I would like a deluxe room in the French style.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə dɪˈlʌks ruːm wɪð frɛnʧ staɪl."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single room with a heater.",
-            "I would like a single room with a heater.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl ruːm wɪð ə ˈhiːtə."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a room with a lake view for 2 people.",
-            "I would like a room with a lake view for 2 people.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ruːm wɪð ə leɪk vjuː fɔː 2 ˈpiːpl."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a room with a sea view for 3 people.",
-            "I would like a room with a sea view for 3 people.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ruːm wɪð ə siː vjuː fɔː 3 ˈpiːpl."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a room with a mountain view for 2 people.",
-            "I would like a room with a mountain view for 2 people.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ruːm wɪð ə ˈmaʊntɪn vjuː fɔː 2 ˈpiːpl."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a room with a city view for 2 people and 2 children.",
-            "I would like a room with a city view for 2 people and 2 children.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ruːm wɪð ə ˈsɪti vjuː fɔː 2 ˈpiːpl ænd 2 ˈʧɪldrən."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "adjoining rooms.",
-            "I would like adjoining rooms.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "əˈʤɔɪnɪŋ ruːmz."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a triple room.",
-            "I would like a triple room.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈtrɪpl ruːm."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a deluxe triple room.",
-            "I would like a deluxe triple room.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə dɪˈlʌks ˈtrɪpl ruːm."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a room with a king-size bed.",
-            "I would like a room with a king-size bed.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ruːm wɪð ə ˈkɪŋsaɪz bɛd."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "two double rooms.",
-            "I would like two double rooms.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "tuː ˈdʌbl ruːmz."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a single with breakfast.",
-            "I would like a single with breakfast.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈsɪŋgl wɪð ˈbrɛkfəst."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a honeymoon suite with a sea view.",
-            "I would like a honeymoon suite with a sea view.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈhʌnɪmuːn swiːt wɪð ə siː vjuː."
-        ],
-        [
-            "What kind of room would you like on this holiday?",
-            "a double bed with a kitchenette.",
-            "I would like a double bed with a kitchenette.",
-            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
-            "ə ˈdʌbl bɛd wɪð ə ˌkɪʧɪˈnɛt."
         ]
     ],
     [
@@ -2627,221 +2408,221 @@
     ],
     [
         [
-            "A23",
-            "Z23",
-            "B23",
-            "M23",
+            "A21",
+            "Z21",
+            "B21",
+            "M21",
             "IP"
         ],
         [
-            "What color do you like?",
-            "black",
-            "I like black",
-            "Bạn thích màu gì?",
-            "blæk"
+            "What kind of room would you like on this holiday?",
+            "a single room with a sea view.",
+            "I would like a single room with a sea view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm wɪð ə siː vjuː."
         ],
         [
-            "What color do you like?",
-            "smoke grey color",
-            "I like the smoke grey color",
-            "Bạn thích màu gì?",
-            "sməʊk greɪ ˈkʌlə"
+            "What kind of room would you like on this holiday?",
+            "a single room with a garden view.",
+            "I would like a single room with a garden view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm wɪð ə ˈgɑːdn vjuː."
         ],
         [
-            "What color do you like?",
-            "brown",
-            "I like brown",
-            "Bạn thích màu gì?",
-            "braʊn"
+            "What kind of room would you like on this holiday?",
+            "a single room with a mountain view.",
+            "I would like a single room with a mountain view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm wɪð ə ˈmaʊntɪn vjuː."
         ],
         [
-            "What color do you like?",
-            "tawny",
-            "I like tawny",
-            "Bạn thích màu gì?",
-            "ˈtɔːni"
+            "What kind of room would you like on this holiday?",
+            "a single room with a bathtub.",
+            "I would like a single room with a bathtub.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm wɪð ə ˈbɑːθtʌb."
         ],
         [
-            "What color do you like?",
-            "umber",
-            "I like umber",
-            "Bạn thích màu gì?",
-            "ˈʌmbə"
+            "What kind of room would you like on this holiday?",
+            "a double bedroom.",
+            "I would like a double bedroom.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈdʌbl ˈbɛdru(ː)m."
         ],
         [
-            "What color do you like?",
-            "gaudy",
-            "I like gaudy",
-            "Bạn thích màu gì?",
-            "ˈgɔːdi"
+            "What kind of room would you like on this holiday?",
+            "a deluxe room with a sea view on the high floor.",
+            "I would like a deluxe room with a sea view on the high floor.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə dɪˈlʌks ruːm wɪð ə siː vjuː ɒn ðə haɪ flɔː."
         ],
         [
-            "What color do you like?",
-            "green",
-            "I like green",
-            "Bạn thích màu gì?",
-            "griːn"
+            "What kind of room would you like on this holiday?",
+            "a twin's bedroom.",
+            "I would like a twin bedroom.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə twɪnz ˈbɛdru(ː)m."
         ],
         [
-            "What color do you like?",
-            "bright green",
-            "I like bright green",
-            "Bạn thích màu gì?",
-            "braɪt griːn"
+            "What kind of room would you like on this holiday?",
+            "a Queen sized bedroom.",
+            "I would like a Queen sized bedroom.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə kwiːn saɪzd ˈbɛdru(ː)m."
         ],
         [
-            "What color do you like?",
-            "lime",
-            "I like lime",
-            "Bạn thích màu gì?",
-            "laɪm"
+            "What kind of room would you like on this holiday?",
+            "a double bedroom and balcony.",
+            "I would like a double bedroom and a balcony.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈdʌbl ˈbɛdru(ː)m ænd ˈbælkəni."
         ],
         [
-            "What color do you like?",
-            "blue",
-            "I like blue",
-            "Bạn thích màu gì?",
-            "bluː"
+            "What kind of room would you like on this holiday?",
+            "a single room on the high floor.",
+            "I would like a single room on the high floor.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm ɒn ðə haɪ flɔː."
         ],
         [
-            "What color do you like?",
-            "peacock blue",
-            "I like peacock blue",
-            "Bạn thích màu gì?",
-            "ˈpiːkɒk bluː"
+            "What kind of room would you like on this holiday?",
+            "a double room with a city view.",
+            "I would like a double room with a city view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈdʌbl ruːm wɪð ə ˈsɪti vjuː."
         ],
         [
-            "What color do you like?",
-            "salmon",
-            "I like salmon",
-            "Bạn thích màu gì?",
-            "ˈsæmən"
+            "What kind of room would you like on this holiday?",
+            "a single room with a lake view.",
+            "I would like a single room with a lake view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm wɪð ə leɪk vjuː."
         ],
         [
-            "What color do you like?",
-            "pink-red",
-            "I like pink and red",
-            "Bạn thích màu gì?",
-            "pɪŋk-rɛd"
+            "What kind of room would you like on this holiday?",
+            "a double room with a sea view.",
+            "I would like a double room with a sea view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈdʌbl ruːm wɪð ə siː vjuː."
         ],
         [
-            "What color do you like?",
-            "orchid",
-            "I like orchid",
-            "Bạn thích màu gì?",
-            "ˈɔːkɪd"
+            "What kind of room would you like on this holiday?",
+            "a connecting room.",
+            "I would like a connecting room.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə kəˈnɛktɪŋ ruːm."
         ],
         [
-            "What color do you like?",
-            "ruby",
-            "I like ruby",
-            "Bạn thích màu gì?",
-            "ˈruːbi"
+            "What kind of room would you like on this holiday?",
+            "a quiet room for 2 people.",
+            "I would like a quiet room for 2 people.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈkwaɪət ruːm fɔː 2 ˈpiːpl."
         ],
         [
-            "What color do you like?",
-            "deep red",
-            "I like deep red",
-            "Bạn thích màu gì?",
-            "diːp rɛd"
+            "What kind of room would you like on this holiday?",
+            "a ventilated room with 2 beds.",
+            "I would like a ventilated room with 2 beds.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈvɛntɪleɪtɪd ruːm wɪð 2 bɛdz."
         ],
         [
-            "What color do you like?",
-            "violet",
-            "I like violet",
-            "Bạn thích màu gì?",
-            "ˈvaɪəlɪt"
+            "What kind of room would you like on this holiday?",
+            "a deluxe room with French style.",
+            "I would like a deluxe room in the French style.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə dɪˈlʌks ruːm wɪð frɛnʧ staɪl."
         ],
         [
-            "What color do you like?",
-            "white",
-            "I like white",
-            "Bạn thích màu gì?",
-            "waɪt"
+            "What kind of room would you like on this holiday?",
+            "a single room with a heater.",
+            "I would like a single room with a heater.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl ruːm wɪð ə ˈhiːtə."
         ],
         [
-            "What color do you like?",
-            "orange",
-            "I like orange",
-            "Bạn thích màu gì?",
-            "ˈɒrɪnʤ"
+            "What kind of room would you like on this holiday?",
+            "a room with a lake view for 2 people.",
+            "I would like a room with a lake view for 2 people.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ruːm wɪð ə leɪk vjuː fɔː 2 ˈpiːpl."
         ],
         [
-            "What color do you like?",
-            "yellow",
-            "I like yellow",
-            "Bạn thích màu gì?",
-            "ˈjɛləʊ"
+            "What kind of room would you like on this holiday?",
+            "a room with a sea view for 3 people.",
+            "I would like a room with a sea view for 3 people.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ruːm wɪð ə siː vjuː fɔː 3 ˈpiːpl."
         ],
         [
-            "What color do you like?",
-            "pale yellow",
-            "I like pale yellow",
-            "Bạn thích màu gì?",
-            "peɪl ˈjɛləʊ"
+            "What kind of room would you like on this holiday?",
+            "a room with a mountain view for 2 people.",
+            "I would like a room with a mountain view for 2 people.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ruːm wɪð ə ˈmaʊntɪn vjuː fɔː 2 ˈpiːpl."
         ],
         [
-            "What color do you like?",
-            "bronze",
-            "I like bronze",
-            "Bạn thích màu gì?",
-            "brɒnz"
+            "What kind of room would you like on this holiday?",
+            "a room with a city view for 2 people and 2 children.",
+            "I would like a room with a city view for 2 people and 2 children.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ruːm wɪð ə ˈsɪti vjuː fɔː 2 ˈpiːpl ænd 2 ˈʧɪldrən."
         ],
         [
-            "What color do you like?",
-            "ochre",
-            "I like ochre",
-            "Bạn thích màu gì?",
-            "ˈəʊkə"
+            "What kind of room would you like on this holiday?",
+            "adjoining rooms.",
+            "I would like adjoining rooms.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "əˈʤɔɪnɪŋ ruːmz."
         ],
         [
-            "What color do you like?",
-            "dark green",
-            "I like dark green",
-            "Bạn thích màu gì?",
-            "dɑːk griːn"
+            "What kind of room would you like on this holiday?",
+            "a triple room.",
+            "I would like a triple room.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈtrɪpl ruːm."
         ],
         [
-            "What color do you like?",
-            "beige",
-            "I like beige",
-            "Bạn thích màu gì?",
-            "beɪʒ"
+            "What kind of room would you like on this holiday?",
+            "a deluxe triple room.",
+            "I would like a deluxe triple room.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə dɪˈlʌks ˈtrɪpl ruːm."
         ],
         [
-            "What color do you like?",
-            "grey",
-            "I like grey",
-            "Bạn thích màu gì?",
-            "greɪ"
+            "What kind of room would you like on this holiday?",
+            "a room with a king-size bed.",
+            "I would like a room with a king-size bed.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ruːm wɪð ə ˈkɪŋsaɪz bɛd."
         ],
         [
-            "What color do you like?",
-            "mint",
-            "I like mint",
-            "Bạn thích màu gì?",
-            "mɪnt"
+            "What kind of room would you like on this holiday?",
+            "two double rooms.",
+            "I would like two double rooms.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "tuː ˈdʌbl ruːmz."
         ],
         [
-            "What color do you like?",
-            "red-orange",
-            "I like red and orange",
-            "Bạn thích màu gì?",
-            "rɛd-ˈɒrɪnʤ"
+            "What kind of room would you like on this holiday?",
+            "a single with breakfast.",
+            "I would like a single with breakfast.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈsɪŋgl wɪð ˈbrɛkfəst."
         ],
         [
-            "What color do you like?",
-            "plum",
-            "I like plum",
-            "Bạn thích màu gì?",
-            "plʌm"
+            "What kind of room would you like on this holiday?",
+            "a honeymoon suite with a sea view.",
+            "I would like a honeymoon suite with a sea view.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈhʌnɪmuːn swiːt wɪð ə siː vjuː."
         ],
         [
-            "What color do you like?",
-            "purple",
-            "I like purple",
-            "Bạn thích màu gì?",
-            "ˈpɜːpl"
+            "What kind of room would you like on this holiday?",
+            "a double bed with a kitchenette.",
+            "I would like a double bed with a kitchenette.",
+            "Bạn muốn loại phòng nào trong kỳ nghỉ này?",
+            "ə ˈdʌbl bɛd wɪð ə ˌkɪʧɪˈnɛt."
         ]
     ],
     [
@@ -3123,6 +2904,225 @@
             "I love reading books",
             "Bạn thích làm gì trong thời gian rảnh rỗi?",
             "ˈriːdɪŋ bʊks"
+        ]
+    ],
+    [
+        [
+            "A23",
+            "Z23",
+            "B23",
+            "M23",
+            "IP"
+        ],
+        [
+            "What color do you like?",
+            "black",
+            "I like black",
+            "Bạn thích màu gì?",
+            "blæk"
+        ],
+        [
+            "What color do you like?",
+            "smoke grey color",
+            "I like the smoke grey color",
+            "Bạn thích màu gì?",
+            "sməʊk greɪ ˈkʌlə"
+        ],
+        [
+            "What color do you like?",
+            "brown",
+            "I like brown",
+            "Bạn thích màu gì?",
+            "braʊn"
+        ],
+        [
+            "What color do you like?",
+            "tawny",
+            "I like tawny",
+            "Bạn thích màu gì?",
+            "ˈtɔːni"
+        ],
+        [
+            "What color do you like?",
+            "umber",
+            "I like umber",
+            "Bạn thích màu gì?",
+            "ˈʌmbə"
+        ],
+        [
+            "What color do you like?",
+            "gaudy",
+            "I like gaudy",
+            "Bạn thích màu gì?",
+            "ˈgɔːdi"
+        ],
+        [
+            "What color do you like?",
+            "green",
+            "I like green",
+            "Bạn thích màu gì?",
+            "griːn"
+        ],
+        [
+            "What color do you like?",
+            "bright green",
+            "I like bright green",
+            "Bạn thích màu gì?",
+            "braɪt griːn"
+        ],
+        [
+            "What color do you like?",
+            "lime",
+            "I like lime",
+            "Bạn thích màu gì?",
+            "laɪm"
+        ],
+        [
+            "What color do you like?",
+            "blue",
+            "I like blue",
+            "Bạn thích màu gì?",
+            "bluː"
+        ],
+        [
+            "What color do you like?",
+            "peacock blue",
+            "I like peacock blue",
+            "Bạn thích màu gì?",
+            "ˈpiːkɒk bluː"
+        ],
+        [
+            "What color do you like?",
+            "salmon",
+            "I like salmon",
+            "Bạn thích màu gì?",
+            "ˈsæmən"
+        ],
+        [
+            "What color do you like?",
+            "pink-red",
+            "I like pink and red",
+            "Bạn thích màu gì?",
+            "pɪŋk-rɛd"
+        ],
+        [
+            "What color do you like?",
+            "orchid",
+            "I like orchid",
+            "Bạn thích màu gì?",
+            "ˈɔːkɪd"
+        ],
+        [
+            "What color do you like?",
+            "ruby",
+            "I like ruby",
+            "Bạn thích màu gì?",
+            "ˈruːbi"
+        ],
+        [
+            "What color do you like?",
+            "deep red",
+            "I like deep red",
+            "Bạn thích màu gì?",
+            "diːp rɛd"
+        ],
+        [
+            "What color do you like?",
+            "violet",
+            "I like violet",
+            "Bạn thích màu gì?",
+            "ˈvaɪəlɪt"
+        ],
+        [
+            "What color do you like?",
+            "white",
+            "I like white",
+            "Bạn thích màu gì?",
+            "waɪt"
+        ],
+        [
+            "What color do you like?",
+            "orange",
+            "I like orange",
+            "Bạn thích màu gì?",
+            "ˈɒrɪnʤ"
+        ],
+        [
+            "What color do you like?",
+            "yellow",
+            "I like yellow",
+            "Bạn thích màu gì?",
+            "ˈjɛləʊ"
+        ],
+        [
+            "What color do you like?",
+            "pale yellow",
+            "I like pale yellow",
+            "Bạn thích màu gì?",
+            "peɪl ˈjɛləʊ"
+        ],
+        [
+            "What color do you like?",
+            "bronze",
+            "I like bronze",
+            "Bạn thích màu gì?",
+            "brɒnz"
+        ],
+        [
+            "What color do you like?",
+            "ochre",
+            "I like ochre",
+            "Bạn thích màu gì?",
+            "ˈəʊkə"
+        ],
+        [
+            "What color do you like?",
+            "dark green",
+            "I like dark green",
+            "Bạn thích màu gì?",
+            "dɑːk griːn"
+        ],
+        [
+            "What color do you like?",
+            "beige",
+            "I like beige",
+            "Bạn thích màu gì?",
+            "beɪʒ"
+        ],
+        [
+            "What color do you like?",
+            "grey",
+            "I like grey",
+            "Bạn thích màu gì?",
+            "greɪ"
+        ],
+        [
+            "What color do you like?",
+            "mint",
+            "I like mint",
+            "Bạn thích màu gì?",
+            "mɪnt"
+        ],
+        [
+            "What color do you like?",
+            "red-orange",
+            "I like red and orange",
+            "Bạn thích màu gì?",
+            "rɛd-ˈɒrɪnʤ"
+        ],
+        [
+            "What color do you like?",
+            "plum",
+            "I like plum",
+            "Bạn thích màu gì?",
+            "plʌm"
+        ],
+        [
+            "What color do you like?",
+            "purple",
+            "I like purple",
+            "Bạn thích màu gì?",
+            "ˈpɜːpl"
         ]
     ],
     [
@@ -6656,8 +6656,8 @@
             "What kind of music do you enjoy listening to?",
             "What type of music do you like to listen to?",
             "easy listening",
-            "I enjoy listening to easy listening",
-            "I like listening to easy listening",
+            "I am easy listening.",
+            "I am easy listening.",
             "Bạn thích nghe loại nhạc nào?",
             "ˈiːzi ˈlɪsnɪŋ"
         ],
@@ -7912,6 +7912,225 @@
     ],
     [
         [
+            "A50",
+            "Z50",
+            "B50",
+            "M50",
+            "IP"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "a days",
+            "It usually takes a days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ə deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "2 days",
+            "It usually takes 2 days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "2 deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "3 days",
+            "It usually takes 3 days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "3 deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "4 days",
+            "It usually takes 4 days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "4 deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "5 days",
+            "It usually takes 5 days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "5 deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "6 days",
+            "It usually takes 6 days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "6 deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "a week",
+            "It usually takes a week",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ə wiːk"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "2 weeks",
+            "It usually takes 2 weeks",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "2 wiːks"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "3 weeks",
+            "It usually takes 3 weeks",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "3 wiːks"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "a month",
+            "It usually takes a month",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ə mʌnθ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "2 months",
+            "It usually takes 2 months",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "2 mʌnθs"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "3 months",
+            "It usually takes 3 months",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "3 mʌnθs"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "tomorrow",
+            "It's will be ready tomorrow",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "təˈmɒrəʊ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "next week",
+            "It's will be ready next week",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "nɛkst wiːk"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "next 4 days",
+            "It's will be ready next 4 days",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "nɛkst 4 deɪz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "next month",
+            "It's will be ready next month",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "nɛkst mʌnθ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after 6 pm today",
+            "It's will be ready after 6 pm today",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftə 6 pm təˈdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after 5 pm today",
+            "It's will be ready after 5 pm today",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftə 5 pm təˈdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after lunch",
+            "It's will be ready after lunch",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftə lʌnʧ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after an hour",
+            "It's will be ready after an hour",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftər ən ˈaʊə"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after 2 hours",
+            "It's will be ready after 2 hours",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftə 2 ˈaʊəz"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after a minutes",
+            "It's will be ready after a few minutes",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftər ə ˈmɪnɪts"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "after tomorrow",
+            "It's will be ready after tomorrow",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ˈɑːftə təˈmɒrəʊ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Monday",
+            "It's will be ready on Monday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈmʌndeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Tuesday",
+            "It's will be ready on Tuesday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈtjuːzdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Wednesday",
+            "It's will be ready on Wednesday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈwɛnzdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Friday",
+            "It's will be ready on Friday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈfraɪdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Thursday",
+            "It's will be ready on Thursday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈθɜːzdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Friday",
+            "It's will be ready on Friday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈfraɪdeɪ"
+        ],
+        [
+            "How long does it take if you order something from abroad?",
+            "on Thursday",
+            "It's will be ready on Thursday",
+            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
+            "ɒn ˈθɜːzdeɪ"
+        ]
+    ],
+    [
+        [
             "A47",
             "B47",
             "Z47",
@@ -8127,225 +8346,6 @@
             "tired - 4 years ago.",
             "Hãy kể cho tôi nghe về một căn bệnh mà bạn đã từng mắc phải.",
             "ˈtaɪəd - 4 jɪəz əˈgəʊ."
-        ]
-    ],
-    [
-        [
-            "A48",
-            "Z48",
-            "B48",
-            "M48",
-            "IP"
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 2 weeks.",
-            "My friend has just been sick for 2 weeks.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 2 wiːks."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 2 days.",
-            "My friend has just been sick for 2 days.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 2 deɪz."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "just yesterday.",
-            "My friend has just been sick just yesterday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "ʤʌst ˈjɛstədeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 3 days.",
-            "My friend has just been sick for 3 days.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 3 deɪz."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 4 days",
-            "My friend has just been sick for 4 days",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 4 deɪz"
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for a week.",
-            "My friend has just been sick for a week.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔːr ə wiːk."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "yesterday morning.",
-            "My friend has just been sick yesterday morning.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "ˈjɛstədeɪ ˈmɔːnɪŋ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Sunday.",
-            "My friend has just been sick last Sunday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈsʌndeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Monday.",
-            "My friend has just been sick last Monday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈmʌndeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Tuesday.",
-            "My friend has just been sick last Tuesday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈtjuːzdeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Wednesday.",
-            "My friend has just been sick last Wednesday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈwɛnzdeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Thursday.",
-            "My friend has just been sick last Thursday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈθɜːzdeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Friday.",
-            "My friend has just been sick last Friday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈfraɪdeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "last Saturday.",
-            "My friend has just been sick last Saturday.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "lɑːst ˈsætədeɪ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "yesterday afternoon.",
-            "My friend has just been sick yesterday afternoon.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "ˈjɛstədeɪ ˈɑːftəˈnuːn."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "yesterday evening.",
-            "My friend has just been sick yesterday evening.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "ˈjɛstədeɪ ˈiːvnɪŋ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "this morning.",
-            "My friend has just been sick this morning.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "ðɪs ˈmɔːnɪŋ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for a few days.",
-            "My friend has just been sick for a few days.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔːr ə fjuː deɪz."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 10 days.",
-            "My friend has just been sick for 10 days.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 10 deɪz."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 3 weeks.",
-            "My friend has just been sick for 3 weeks.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 3 wiːks."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for a month.",
-            "My friend has just been sick for a month.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔːr ə mʌnθ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 6 days.",
-            "My friend has just been sick for 6 days.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 6 deɪz."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for half a month.",
-            "My friend has just been sick for half a month.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː hɑːf ə mʌnθ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "since 9 PM last night.",
-            "My friend has just been sick since 9 PM last night.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "sɪns 9 piː-ɛm lɑːst naɪt."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "since 4 AM this morning.",
-            "My friend has just been sick since 4 AM this morning.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "sɪns 4 æm ðɪs ˈmɔːnɪŋ."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "since He had drunk antibiotics",
-            "My friend has just been sick since He had to drink antibiotics",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "sɪns hiː hæd drʌŋk ˌæntɪbaɪˈɒtɪks"
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "since He got vaccinated.",
-            "My friend has just been sick since He got vaccinated.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "sɪns hiː gɒt ˈvæksɪneɪtɪd."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 8 days.",
-            "My friend has just been sick for 8 days.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 8 deɪz."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 2 months.",
-            "My friend has just been sick for 2 months.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 2 mʌnθs."
-        ],
-        [
-            "Tell me the last time you heard someone was sick",
-            "for 3 months.",
-            "My friend has just been sick for 3 months.",
-            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
-            "fɔː 3 mʌnθs."
         ]
     ],
     [
@@ -8569,440 +8569,221 @@
     ],
     [
         [
-            "A50",
-            "Z50",
-            "B50",
-            "M50",
+            "A48",
+            "Z48",
+            "B48",
+            "M48",
             "IP"
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "a days",
-            "It usually takes a days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ə deɪz"
+            "Tell me the last time you heard someone was sick",
+            "for 2 weeks.",
+            "My friend has just been sick for 2 weeks.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 2 wiːks."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "2 days",
-            "It usually takes 2 days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "2 deɪz"
+            "Tell me the last time you heard someone was sick",
+            "for 2 days.",
+            "My friend has just been sick for 2 days.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 2 deɪz."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "3 days",
-            "It usually takes 3 days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "3 deɪz"
+            "Tell me the last time you heard someone was sick",
+            "just yesterday.",
+            "My friend has just been sick just yesterday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "ʤʌst ˈjɛstədeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "4 days",
-            "It usually takes 4 days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "4 deɪz"
+            "Tell me the last time you heard someone was sick",
+            "for 3 days.",
+            "My friend has just been sick for 3 days.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 3 deɪz."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "5 days",
-            "It usually takes 5 days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "5 deɪz"
+            "Tell me the last time you heard someone was sick",
+            "for 4 days",
+            "My friend has just been sick for 4 days",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 4 deɪz"
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "6 days",
-            "It usually takes 6 days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "6 deɪz"
+            "Tell me the last time you heard someone was sick",
+            "for a week.",
+            "My friend has just been sick for a week.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔːr ə wiːk."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "a week",
-            "It usually takes a week",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ə wiːk"
+            "Tell me the last time you heard someone was sick",
+            "yesterday morning.",
+            "My friend has just been sick yesterday morning.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "ˈjɛstədeɪ ˈmɔːnɪŋ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "2 weeks",
-            "It usually takes 2 weeks",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "2 wiːks"
+            "Tell me the last time you heard someone was sick",
+            "last Sunday.",
+            "My friend has just been sick last Sunday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈsʌndeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "3 weeks",
-            "It usually takes 3 weeks",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "3 wiːks"
+            "Tell me the last time you heard someone was sick",
+            "last Monday.",
+            "My friend has just been sick last Monday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈmʌndeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "a month",
-            "It usually takes a month",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ə mʌnθ"
+            "Tell me the last time you heard someone was sick",
+            "last Tuesday.",
+            "My friend has just been sick last Tuesday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈtjuːzdeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "2 months",
-            "It usually takes 2 months",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "2 mʌnθs"
+            "Tell me the last time you heard someone was sick",
+            "last Wednesday.",
+            "My friend has just been sick last Wednesday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈwɛnzdeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "3 months",
-            "It usually takes 3 months",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "3 mʌnθs"
+            "Tell me the last time you heard someone was sick",
+            "last Thursday.",
+            "My friend has just been sick last Thursday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈθɜːzdeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "tomorrow",
-            "It's will be ready tomorrow",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "təˈmɒrəʊ"
+            "Tell me the last time you heard someone was sick",
+            "last Friday.",
+            "My friend has just been sick last Friday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈfraɪdeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "next week",
-            "It's will be ready next week",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "nɛkst wiːk"
+            "Tell me the last time you heard someone was sick",
+            "last Saturday.",
+            "My friend has just been sick last Saturday.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "lɑːst ˈsætədeɪ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "next 4 days",
-            "It's will be ready next 4 days",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "nɛkst 4 deɪz"
+            "Tell me the last time you heard someone was sick",
+            "yesterday afternoon.",
+            "My friend has just been sick yesterday afternoon.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "ˈjɛstədeɪ ˈɑːftəˈnuːn."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "next month",
-            "It's will be ready next month",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "nɛkst mʌnθ"
+            "Tell me the last time you heard someone was sick",
+            "yesterday evening.",
+            "My friend has just been sick yesterday evening.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "ˈjɛstədeɪ ˈiːvnɪŋ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after 6 pm today",
-            "It's will be ready after 6 pm today",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftə 6 pm təˈdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "this morning.",
+            "My friend has just been sick this morning.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "ðɪs ˈmɔːnɪŋ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after 5 pm today",
-            "It's will be ready after 5 pm today",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftə 5 pm təˈdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "for a few days.",
+            "My friend has just been sick for a few days.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔːr ə fjuː deɪz."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after lunch",
-            "It's will be ready after lunch",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftə lʌnʧ"
+            "Tell me the last time you heard someone was sick",
+            "for 10 days.",
+            "My friend has just been sick for 10 days.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 10 deɪz."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after an hour",
-            "It's will be ready after an hour",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftər ən ˈaʊə"
+            "Tell me the last time you heard someone was sick",
+            "for 3 weeks.",
+            "My friend has just been sick for 3 weeks.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 3 wiːks."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after 2 hours",
-            "It's will be ready after 2 hours",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftə 2 ˈaʊəz"
+            "Tell me the last time you heard someone was sick",
+            "for a month.",
+            "My friend has just been sick for a month.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔːr ə mʌnθ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after a minutes",
-            "It's will be ready after a few minutes",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftər ə ˈmɪnɪts"
+            "Tell me the last time you heard someone was sick",
+            "for 6 days.",
+            "My friend has just been sick for 6 days.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 6 deɪz."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "after tomorrow",
-            "It's will be ready after tomorrow",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ˈɑːftə təˈmɒrəʊ"
+            "Tell me the last time you heard someone was sick",
+            "for half a month.",
+            "My friend has just been sick for half a month.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː hɑːf ə mʌnθ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Monday",
-            "It's will be ready on Monday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈmʌndeɪ"
+            "Tell me the last time you heard someone was sick",
+            "since 9 PM last night.",
+            "My friend has just been sick since 9 PM last night.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "sɪns 9 piː-ɛm lɑːst naɪt."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Tuesday",
-            "It's will be ready on Tuesday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈtjuːzdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "since 4 AM this morning.",
+            "My friend has just been sick since 4 AM this morning.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "sɪns 4 æm ðɪs ˈmɔːnɪŋ."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Wednesday",
-            "It's will be ready on Wednesday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈwɛnzdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "since He had drunk antibiotics",
+            "My friend has just been sick since He had to drink antibiotics",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "sɪns hiː hæd drʌŋk ˌæntɪbaɪˈɒtɪks"
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Friday",
-            "It's will be ready on Friday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈfraɪdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "since He got vaccinated.",
+            "My friend has just been sick since He got vaccinated.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "sɪns hiː gɒt ˈvæksɪneɪtɪd."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Thursday",
-            "It's will be ready on Thursday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈθɜːzdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "for 8 days.",
+            "My friend has just been sick for 8 days.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 8 deɪz."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Friday",
-            "It's will be ready on Friday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈfraɪdeɪ"
+            "Tell me the last time you heard someone was sick",
+            "for 2 months.",
+            "My friend has just been sick for 2 months.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 2 mʌnθs."
         ],
         [
-            "How long does it take if you order something from abroad?",
-            "on Thursday",
-            "It's will be ready on Thursday",
-            "Mất bao lâu nếu bạn đặt hàng từ nước ngoài?",
-            "ɒn ˈθɜːzdeɪ"
-        ]
-    ],
-    [
-        [
-            "A51",
-            "Z51",
-            "B51",
-            "M51",
-            "IP"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by car",
-            "I travel mainly by car",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ kɑː"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by bus",
-            "I travel mainly by bus",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ bʌs"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by motorbike",
-            "I travel mainly by motorbike",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈməʊtəˌbaɪk"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by bike",
-            "I travel mainly by bike",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ baɪk"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by bicycle",
-            "I travel mainly by bicycle",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈbaɪsɪkl"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by scooter",
-            "I travel mainly by scooter",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈskuːtə"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by tram",
-            "I travel mainly by tram",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ træm"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by moped",
-            "I travel mainly by moped",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈməʊpɛd"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by taxi",
-            "I travel mainly by taxi",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈtæksi"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by underground",
-            "I travel mainly underground",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈʌndəgraʊnd"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by high-speed train",
-            "I travel mainly by high-speed train",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈhaɪˈspiːd treɪn"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by railway train",
-            "I travel mainly by railway train",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈreɪlweɪ treɪn"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by boat",
-            "I travel mainly by boat",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ bəʊt"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by ferry",
-            "I travel mainly by ferry",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈfɛri"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by sailboat",
-            "I travel mainly by sailboat",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈseɪlbəʊt"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by rowing boat",
-            "I travel mainly by rowing boat",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈrəʊɪŋ bəʊt"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by plane",
-            "I travel mainly by plane",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ pleɪn"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by helicopter",
-            "I travel mainly by helicopter",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈhɛlɪkɒptə"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by ship",
-            "I travel mainly by ship",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ʃɪp"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "on foot",
-            "I travel mainly on foot",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "ɒn fʊt"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by walking",
-            "I travel mainly by walking",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈwɔːkɪŋ"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by car",
-            "I travel mainly by car",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ kɑː"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by bus",
-            "I travel mainly by bus",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ bʌs"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by motorbike",
-            "I travel mainly by motorbike",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈməʊtəˌbaɪk"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by bike",
-            "I travel mainly by bike",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ baɪk"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by bicycle",
-            "I travel mainly by bicycle",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈbaɪsɪkl"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by scooter",
-            "I travel mainly by scooter",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈskuːtə"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by tram",
-            "I travel mainly by tram",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ træm"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by moped",
-            "I travel mainly by moped",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈməʊpɛd"
-        ],
-        [
-            "What means of transport do you normally use?",
-            "by taxi",
-            "I travel mainly by taxi",
-            "Bạn thường sử dụng phương tiện giao thông nào?",
-            "baɪ ˈtæksi"
+            "Tell me the last time you heard someone was sick",
+            "for 3 months.",
+            "My friend has just been sick for 3 months.",
+            "Hãy kể cho tôi nghe lần cuối cùng bạn nghe thấy ai đó bị ốm",
+            "fɔː 3 mʌnθs."
         ]
     ],
     [
@@ -9222,6 +9003,225 @@
             "It takes me about half 2 hours",
             "Bạn mất bao lâu để đi làm?",
             "55 ˈmɪnɪts"
+        ]
+    ],
+    [
+        [
+            "A51",
+            "Z51",
+            "B51",
+            "M51",
+            "IP"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by car",
+            "I travel mainly by car",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ kɑː"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by bus",
+            "I travel mainly by bus",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ bʌs"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by motorbike",
+            "I travel mainly by motorbike",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈməʊtəˌbaɪk"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by bike",
+            "I travel mainly by bike",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ baɪk"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by bicycle",
+            "I travel mainly by bicycle",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈbaɪsɪkl"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by scooter",
+            "I travel mainly by scooter",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈskuːtə"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by tram",
+            "I travel mainly by tram",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ træm"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by moped",
+            "I travel mainly by moped",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈməʊpɛd"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by taxi",
+            "I travel mainly by taxi",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈtæksi"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by underground",
+            "I travel mainly underground",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈʌndəgraʊnd"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by high-speed train",
+            "I travel mainly by high-speed train",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈhaɪˈspiːd treɪn"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by railway train",
+            "I travel mainly by railway train",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈreɪlweɪ treɪn"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by boat",
+            "I travel mainly by boat",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ bəʊt"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by ferry",
+            "I travel mainly by ferry",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈfɛri"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by sailboat",
+            "I travel mainly by sailboat",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈseɪlbəʊt"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by rowing boat",
+            "I travel mainly by rowing boat",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈrəʊɪŋ bəʊt"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by plane",
+            "I travel mainly by plane",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ pleɪn"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by helicopter",
+            "I travel mainly by helicopter",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈhɛlɪkɒptə"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by ship",
+            "I travel mainly by ship",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ʃɪp"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "on foot",
+            "I travel mainly on foot",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "ɒn fʊt"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by walking",
+            "I travel mainly by walking",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈwɔːkɪŋ"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by car",
+            "I travel mainly by car",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ kɑː"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by bus",
+            "I travel mainly by bus",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ bʌs"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by motorbike",
+            "I travel mainly by motorbike",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈməʊtəˌbaɪk"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by bike",
+            "I travel mainly by bike",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ baɪk"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by bicycle",
+            "I travel mainly by bicycle",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈbaɪsɪkl"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by scooter",
+            "I travel mainly by scooter",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈskuːtə"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by tram",
+            "I travel mainly by tram",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ træm"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by moped",
+            "I travel mainly by moped",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈməʊpɛd"
+        ],
+        [
+            "What means of transport do you normally use?",
+            "by taxi",
+            "I travel mainly by taxi",
+            "Bạn thường sử dụng phương tiện giao thông nào?",
+            "baɪ ˈtæksi"
         ]
     ]
 ]

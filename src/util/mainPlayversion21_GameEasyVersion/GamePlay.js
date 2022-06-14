@@ -27,6 +27,8 @@ import Handle_OBJFN from "./funtionInside/FN/DF_Handle_OBJFN"
 import Handle_OBJFN_01 from "./funtionInside/FN/DF_Handle_OBJFN_01"
 import G_S_ACTION from "./funtionInside/G_S_ACTION"
 import H_S_Data_ScoreList from "./funtionInside/H_S_Data_ScoreList"
+
+import PXI from "./funtionInside/PIXI/A4_pixiJs"
 let ArrPictch = [0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1, 1.1, 1.2, 0.9, 1]
 
 
@@ -48,7 +50,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     const [STATUS_E_S_MOVE, setSTATUS_E_S_MOVE] = useState(false)
     const [Mark_F_S_People, setMark_F_S_People] = useState([])
     const [STATUS_F_S_People, setSTATUS_F_S_People] = useState(false)
-
+    const [Data_Commands_02, setData_Commands_02] = useState([])
     const [Data_F_S_People, setData_F_S_People] = useState([])
 
     const [Data_ScoreList, setData_ScoreList] = useState([])
@@ -58,6 +60,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
     const [eS_CountPercentRight, seteS_CountPercentRight] = useState("")
     useEffect(() => {
         props.SET_Data_Commands(Info_StrickAnwers_Reactdata)
+
+        setData_Commands_02(Info_StrickAnwers_Reactdata.concat("can you speak again"))
     }, [Info_StrickAnwers_Reactdata])
     useEffect(() => {
         if (DataAction !== null) {
@@ -221,7 +225,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                                         showSubmitSyxtax,
                                         Info_ToSunmit_Reactdata,
                                         props.NameOflession, Score, Sai, Boqua, D4_Time,
-                                        eS_CountPercentRight, eS_CountPercentWrong
+                                        eS_CountPercentRight, eS_CountPercentWrong, props.Total, Data_Commands_02
                                     )}
                                     {showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, Info_Icon_Reactdata, SET_ShowHint, ShowHint)}
                                 </div>
@@ -251,9 +255,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 </span>
                 <span id="percentID_SAI">{eS_CountPercentWrong}---</span>
                 <span id="percentID_DUNG">{eS_CountPercentRight}---</span>
-                <button onClick={() => {
-                    $("#GameBox").show()
-                }}>GameBox</button>
+
             </div>
             <div>
                 <i>Hành động trước, sửa chữa sau.</i>
@@ -302,10 +304,49 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}
                 {DataAction !== null ? G_S_ACTION(DataAction, SET_DataAction, props.Data_Commands, showOptionToRead, Score, showHintAlot, props.Total, DataActionSearch, SET_DataActionSearch) : null}
             </div>
+            <div style={{
+                position: "fixed",
+                right: "0px",
+                float: "right",
+                width: "150px"
+            }}>
+                <button className="btn btn-sm btn-outline-primary" onClick={() => {
+                    if ($("#GameBox").is(":hidden")) {
+                        $("#GameBox").show()
+                    } else {
+                        $("#GameBox").hide()
+                    }
+                    $("#ID_PixijsDiv").hide()
+                }}>GameTable</button>
+                <br />
+                <button className="btn btn-sm btn-outline-primary"
+                    onClick={() => {
+                        if ($("#ID_PixijsDiv").is(":hidden")) {
+                            $("#ID_PixijsDiv").show()
+                        } else {
+                            $("#ID_PixijsDiv").hide()
+                        }
+                        $("#GameBox").hide()
+                    }}>GameMap</button>
+                <br />
+                <button className="btn btn-sm btn-outline-primary"
+                    onClick={() => {
+                        $("#ID_PixijsDiv").hide()
+                        $("#GameBox").hide()
+                    }}>BACK</button>
+            </div>
+            <div
+                id="ID_PixijsDiv"
+                style={{
+                    position: "fixed", top: "70px",
+                    left: "500px", backgroundColor: "white",
+                    overflow: "auto", textAlign: "center", zIndex: 4,
+                    borderRadius: '5px'
+                }}
+            >
+                <PXI />
+            </div>
             <div id="GameBox" className="H_S_Data_ScoreList" style={{ display: "none" }}>
-                <button onClick={() => {
-                    $("#GameBox").hide()
-                }}>Hide</button>
                 {H_S_Data_ScoreList(Score)}
             </div>
             <ReadReactSpeech />

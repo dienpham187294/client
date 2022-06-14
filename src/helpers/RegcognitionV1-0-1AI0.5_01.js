@@ -13,7 +13,7 @@ let commands = [];
 let arr = ["can you speak again"]
 
 function Dictaphone({ Data, Total, ThreshHold }) {
-  
+
 
     useEffect(() => {
         commands = [{

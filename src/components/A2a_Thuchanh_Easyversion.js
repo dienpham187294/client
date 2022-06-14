@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import T0_linkApi from "../util/toolAll/T0_linkApi";
 import queryString from 'query-string';
-import GamePlay from "../util/mainPlayversion21/S_GamePlay"
+import GamePlay from "../util/mainPlayversion21_GameEasyVersion/S_GamePlay"
 import shuffleArr from "../util/filedulieu1/dataHelperFunction/shuffleArr";
 
 const ShowInterim = true

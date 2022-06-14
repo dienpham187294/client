@@ -21,7 +21,7 @@ import ThuchanhmenuPart4 from './components/A2a_Thuchanh_menu_part4';
 import ThuchanhmenuPart5 from './components/A2a_Thuchanh_menu_part5';
 import ThuchanhmenuGame from './components/A2a_Thuchanh_menu_game';
 import Thuchanh01 from './components/A2a_Thuchanh_01';
-
+import ThuchanhEasyVersion from './components/A2a_Thuchanh_Easyversion';
 import Thuchanh02 from './components/A2a_Thuchanh_02';
 // import Thuchanhnangcao from './components/A2a_Thuchannangcao';
 
@@ -133,7 +133,10 @@ function App() {
             <Route path='/part-4' element={<ThuchanhmenuPart4 ApiReq={"get4"} Linkto={"prac-2"} />} />
             <Route path='/part-5' element={<ThuchanhmenuPart5 ApiReq={"get5"} Linkto={"prac-2"} />} />
 
-            <Route path='/game-online' element={<ThuchanhmenuGame ApiReq={"getGame"} Linkto={"prac-2"} />} />
+            <Route path='/game-online' element={<ThuchanhmenuGame ApiReq={"getGame"} Linkto={"prac-game-online"} />} />
+            <Route path='/prac-game-online' element={<ThuchanhEasyVersion SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />
+
+
 
             <Route path='/Pronunciation01' element={<Thuchanh01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.2} />} />
             <Route path='/prac-2' element={<Thuchanh01 SOCKET={SOCKET} ApiReq={"loadDataPronunciation"} ThreshHold={0.6} />} />

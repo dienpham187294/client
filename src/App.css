@@ -533,7 +533,7 @@ a:hover {
     position: fixed;
     text-align: left;
     padding: 5px;
-    height: 350px;
+    top: 70px;
     overflow-y: auto;
     font-size: small;
     bottom: 5%;

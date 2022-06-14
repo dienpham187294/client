@@ -74,13 +74,13 @@ function C1_Create() {
             <input onChange={(e) => { SetIndexExcel(e.currentTarget.value.trim()) }} type={"text"} />
             <hr />
             {/* {showButton(ArrBTN2)} */}
-
+            {showButton(TransferData)}
             <hr />
             {showButton(GameCreate)}
             <div id="ResID" style={{ padding: "35px" }}></div>
-            <div>
+            {/* <div>
                 {ShowJSX["showTestGame"](FileGamePickNumber, IndexExcel)}
-            </div>
+            </div> */}
         </div >
 
     )
