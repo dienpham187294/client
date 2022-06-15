@@ -11,7 +11,7 @@ export default function showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, In
                         onMouseLeave={() => { SET_ShowHint(!ShowHint) }}
                     />
                 </div>
-                <div className="col-8">
+                <div className="col-8" style={{ userSelect: "none" }}>
                     {ShowInfoHint(Info_Icon_Reactdata)}
                 </div>
             </div>
@@ -19,7 +19,7 @@ export default function showTopLeftPart1(Info_Avatar_Reactdata, ShowInfoHint, In
             <div>
                 <input className="form-control" type={"text"} placeHolder="Draft" />
             </div>
-        </div>
+        </div >
     } catch (error) {
         console.log(error)
         return null

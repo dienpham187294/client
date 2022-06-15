@@ -2,7 +2,7 @@ import $ from "jquery"
 import DataInput1 from "../util/filedulieu/3000tuthongdung/1000sentsWithMeaningANDHint.json"
 import DataInput2 from "../util/filedulieu/3000tuthongdung/1200sentsWithMeaningAndHint.json"
 import { useState } from "react"
-
+import stringSimilarity from "string-similarity"
 const DataInput1000sts = [].concat(DataInput1, DataInput2)
 
 export default function Lesson() {
@@ -19,6 +19,7 @@ export default function Lesson() {
                     SetDataUse(DataInput1000sts.slice(i * 5, 5 + i * 5))
                 }} />
             </div>
+            {/* <h5 id="percent"></h5> */}
             {Show_tienganhphothong_Write(DataUse)}
         </div>
     )
@@ -61,8 +62,12 @@ function showThread(text, n, meaning, ipa) {
     return (
         <>
             <b style={{ color: "blue" }}>{meaning}</b>
+            <h5 id={n}></h5>
             <br />
-            <input type={"text"} className="form-control" />
+            <input className="form-control" type={"text"} onChange={(e) => { Sosanh(e.currentTarget.value, text, n) }} />
+            <div>
+                {/* {ID !== -1 ? Sosanh(DATA_NGHE[ID], Write) : null} */}
+            </div>
             <br />
             {arrIn1.map((e, i) =>
                 <button
@@ -86,3 +91,29 @@ function showThread(text, n, meaning, ipa) {
     )
 }
 
+function Sosanh(A, B, id) {
+    try {
+        let i = stringSimilarity.compareTwoStrings(A.toLowerCase(), B.toLowerCase())
+        let n = Math.floor(i * 100)
+        $("#" + id).text("Tương đồng: " + n + "%")
+        // return (
+        //     <div>
+        //         {"Tương đồng: " + n + "%"}
+        //         <br />
+        //         {n > 90 ?
+        //             <div>
+        //                 {A["Read"]}
+        //                 <br />
+        //                 <button onClick={() => {
+        //                     $("#btnDung")[0].click()
+        //                 }}>
+        //                     Lấy điểm
+        //                 </button>
+        //             </div> : null}
+        //     </div>
+        // )
+    } catch (error) {
+        return null
+    }
+
+}
