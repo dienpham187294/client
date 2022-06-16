@@ -1,9 +1,11 @@
+import PickRandom from "../PickRandom";
 export default function Handle_OBJFN(command, Total) {
 
     try {
         if (command.end_successfull) {
             Total.stObj.StateOfListen = "none";
-            Total.fnObj.SET_Score(S => S + 1)
+            let AddScore = PickRandom([1000, 2000, 3000, 4000, 5000])
+            Total.fnObj.SET_Score(S => S + AddScore)
             Total.fnObj.SET_Avatar_Reactdata(null)
             Total.fnObj.setSTATUS_F_S_People(false)
 

@@ -13,8 +13,8 @@ export default function showTopCenter1(
                     <div>
                         <i style={{ fontSize: "small" }}>{NameOflession}</i>
                         <br />
-                        <b> Điểm: {Score}
-                            <span style={{ color: "red" }}> Chọn sai: {Sai} </span>
+                        <b>  Cash: {Score} $
+                            <span style={{ color: "red" }}>  {Sai} </span>
                             | <span style={{ color: "red" }}>{Boqua}</span> </b>
                         <span>
                             {D4_Time}
@@ -27,7 +27,7 @@ export default function showTopCenter1(
                         : <span id="showInterimID" style={{ color: "violet", backgroundColor: "violet" }}></span>}
 
                     <div id="ArrRead">
-                  
+
                     </div>
                 </div>
                 <div className="col-4">
