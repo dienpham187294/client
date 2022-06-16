@@ -186,7 +186,7 @@ function showtableWithoutInput(eee, Total) {
     try {
         let arrOfKeys = Object.keys(eee[0])
         return (
-            <table className="table">
+            <table className="table" style={{ userSelect: "none" }}>
                 <thead>
                     <tr>
                         {arrOfKeys.map((e, i) => <th key={i}>{e}</th>)}

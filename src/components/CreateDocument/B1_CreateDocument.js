@@ -10,8 +10,8 @@ import readXlsxFile from 'read-excel-file'
 
 import FileGamePickNumber from "../../util/filedulieu/fileCreateDocument/gamePickNumber.json"
 
-import * as TransferData from "../../util/filedulieu/fileCreateDocument/A_InputData_Tranfer_01"
-import * as GameCreate from "../../util/filedulieu/fileCreateDocument/A_GamePick"
+import * as TransferData from "../../util/filedulieu/fileCreateDocument/Create_A_InputData_Tranfer_01"
+import * as GameCreate from "../../util/filedulieu/fileCreateDocument/Create_A_GamePick"
 import * as ShowJSX from "../../util/filedulieu/fileCreateDocument/B_JSX_SHOW"
 import ListFileNameExcelInput from "../../util/filedulieu/fileCreateDocument/A_listNameFileExcel.json"
 // import All40lesson from "../../util/filedulieu/fileCreateDocument/D_Round1_40L.json"

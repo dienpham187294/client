@@ -781,13 +781,26 @@ function DGhepCauF() {
     console.log(JSON.stringify(output))
 }
 
+function CreateListDataTable() {
 
+    let output = []
+    DGhepCau.forEach(ee => {
+        ee.forEach(e => {
+            let obj = {
+                "Words": e[0],
+            }
+            output.push(obj)
+        })
+    })
+    console.log(JSON.stringify(output))
+
+}
 
 export {
     Unifile_Outside, NextStep_OUTSIDE,
     Inser40Round1GD3, Inser40Round2GD3, Inser40Round3GD3,
     GD4_01, GD4_02, GD4_03,
-    DGhepCauF, GDALL
+    DGhepCauF, GDALL, CreateListDataTable
 }
 
 
