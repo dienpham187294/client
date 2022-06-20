@@ -35,7 +35,7 @@ function showTestGame(Data, Data2C, SetDataInputC, Score, DataInputFinal) {
         return (
             <div>
                 {/* {JSON.stringify(Arrr)} */}
-                <i>Truy tìm kho báu - 1 điểm tương đương 1 cơ hội dò 1 ô vuông</i>
+                <i>Truy tìm kho báu - 2000$ tương đương 1 cơ hội dò 1 ô vuông</i>
                 <table className="table table-sm table-bordered">
                     <tbody>
                         {Arrr.map((e, i) =>
@@ -43,10 +43,10 @@ function showTestGame(Data, Data2C, SetDataInputC, Score, DataInputFinal) {
                                 {Arrr2.map((ee, ii) =>
                                     <td
                                         onClick={() => {
-                                            if (Data2C.length - 2 < Score) {
+                                            if (Data2C.length - 2 < Score / 2000 && !Data2C.includes(e + "" + ee)) {
                                                 SetDataInputC(Data2C.concat([e + "" + ee]))
                                             } else {
-                                                alert("Need more score!")
+                                               
                                             }
                                         }}
                                         style={{
