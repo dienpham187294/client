@@ -56,6 +56,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
     const [eS_CountPercentWrong, seteS_CountPercentWrong] = useState("")
     const [eS_CountPercentRight, seteS_CountPercentRight] = useState("")
+
+    const [Update, setUpdate] = useState(1)
     useEffect(() => {
         props.SET_Data_Commands(Info_StrickAnwers_Reactdata)
     }, [Info_StrickAnwers_Reactdata])
@@ -124,7 +126,7 @@ function ArrOfPeopeAppear_ReactJSX(props) {
 
             props.Total.fnObj.seteS_CountPercentRight = seteS_CountPercentRight
             props.Total.fnObj.seteS_CountPercentWrong = seteS_CountPercentWrong
-        }, []
+        }, [Update]
     );
 
 
@@ -296,7 +298,8 @@ function ArrOfPeopeAppear_ReactJSX(props) {
                 {showHintPartWhenOpenTool(ShowHint, Info_Icon_Reactdata)}
                 {showToPickPerson(
                     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
-                    props.ArrOfPeopeAppear_ReactData, ADD_01, props.Total
+                    props.ArrOfPeopeAppear_ReactData, ADD_01, props.Total,
+                    setUpdate
                 )}
                 {STATUS_E_S_MOVE ? E_S_MOVE(props.Move, Mark_F_S_People, setSTATUS_F_S_People, setData_F_S_People) : null}
                 {F_S_People(Data_F_S_People, STATUS_F_S_People, ADD_02, setSTATUS_F_S_People, props.Total)}

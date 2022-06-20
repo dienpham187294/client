@@ -5,7 +5,8 @@ import PickRandom from "./PickRandom";
 export default function showToPickPerson(
     DataShowToPick, SET_DataShowToPick, StatusShowToPick, SET_StatusShowToPick,
     ArrOfPeopeAppear_ReactData, ADD_01,
-    Total
+    Total,
+    setUpdate
 ) {
     try {
 
@@ -25,7 +26,8 @@ export default function showToPickPerson(
                                 SET_StatusShowToPick,
                                 Total,
                                 Show,
-                                ArrOfPeopeAppear_ReactData
+                                ArrOfPeopeAppear_ReactData,
+                                setUpdate
                             )
                         }
                     </div>
@@ -46,7 +48,8 @@ function showDivMain(
     SET_StatusShowToPick,
     Total,
     Show,
-    ArrOfPeopeAppear_ReactData
+    ArrOfPeopeAppear_ReactData,
+    setUpdate
 ) {
 
     let Arr = []
@@ -92,12 +95,18 @@ function showDivMain(
                         <div key={i}
                             style={{ display: "inline-block", margin: "5px", border: "1px solid green", borderRadius: "5px" }}
                             onClick={() => {
+                                try {
+                                    Total.fnObj.SET_DataAction(null)
+                                    updateDataShowToPick(DataShowToPick, SET_DataShowToPick, e)
+                                    ADD_01(e, Total)
+                                    Total.fnObj.SET_Boqua(B => B + 1)
+                                    Total.stObj.inputSumit = ""
+                                } catch (error) {
+                                    console.log(error)
+                                    setUpdate(U => U + 1)
+                                }
 
-                                Total.fnObj.SET_DataAction(null)
-                                updateDataShowToPick(DataShowToPick, SET_DataShowToPick, e)
-                                ADD_01(e, Total)
-                                Total.fnObj.SET_Boqua(B => B + 1)
-                                Total.stObj.inputSumit = ""
+
                             }}
                         >
                             {Show(ArrOfPeopeAppear_ReactData[e].total)}
