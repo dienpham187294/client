@@ -2,13 +2,13 @@ import { Link } from 'react-router-dom';
 export default function A1_sidebar(props) {
     return (
         <div className="A1_01_sidebar">
-            <div className="A1_01_sidebar_02" >
+            {/* <div className="A1_01_sidebar_02" >
                 <div>
                     <Link to={'/home'}>
                         Khởi động
                     </Link>
                 </div>
-            </div>
+            </div> */}
 
             <div className="A1_01_sidebar_01">
                 {/* <div>
@@ -21,13 +21,18 @@ export default function A1_sidebar(props) {
                     </Link>
                 </div> */}
                 <div>
-                    <Link to={'/game-online'}>
+                    {/* <Link to={'/game-online'}>
                         <button
                             type="button" className="btn btn-secondary">
-                            {/* <i className="bi bi-bicycle"></i> */}
+                            <i className="bi bi-bicycle"></i>
                             <span>Trò chơi online</span>
                         </button>
-                    </Link>
+                    </Link> */}
+                    <a href='https://phamvandien.com/' target={"_self"}>
+                        <button
+                            className="btn btn-secondary"
+                        >Trò chơi online</button>
+                    </a>
                 </div>
                 <div>
                     <Link to={'/ipa-study'}>

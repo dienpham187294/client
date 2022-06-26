@@ -774,3 +774,13 @@ a:hover {
     margin-top: 5px;
     padding: 5px
 }
+
+.A1PricingIMG {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.A1PricingIMG img {
+    width: 80%;
+}
