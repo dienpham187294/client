@@ -78,12 +78,12 @@ export default async function ReadMessage(text, voiceNum, rate, pitch, mode) {
                     let msg = new SpeechSynthesisUtterance();
                     let voices = window.speechSynthesis.getVoices();
                     msg.voice = voices[voiceNum + 4];
-                    msg.rate = rate;
-                    msg.pitch = pitch;
+                    msg.rate = rate - 0.1;
+                    msg.pitch = pitch - 0.1;
                     msg.text = text;
                     speechSynthesis.speak(msg);
                     try {
-                        $("#id_test_rate").text(rate)
+                        $("#id_test_rate").text(rate - 0.1)
                     } catch (error) {
 
                     }
@@ -97,10 +97,10 @@ export default async function ReadMessage(text, voiceNum, rate, pitch, mode) {
             try {
 
                 await $("#SpeechText").val(text)
-                await $("#SpeechRate").val(rate)
-                await $("#SpeechPitch").val(pitch)
+                await $("#SpeechRate").val(rate - 0.1)
+                await $("#SpeechPitch").val(pitch - 0.1)
                 try {
-                    $("#id_test_rate").text(rate)
+                    $("#id_test_rate").text(rate - 0.1)
                 } catch (error) {
 
                 }
