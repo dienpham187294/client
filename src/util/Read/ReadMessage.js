@@ -106,9 +106,6 @@ export default async function ReadMessage(text, voiceNum, rate, pitch, mode) {
                 }
                 await $("#SpeechTextBtn")[0].click();
 
-
-
-
                 if (voiceNum === 1) {
                     await $("#SpeechVoice").val("Google UK English Female")
                     await $("#SpeechVoiceBtn")[0].click();
