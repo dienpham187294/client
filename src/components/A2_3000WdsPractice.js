@@ -33,79 +33,89 @@ export default function A2Words3000Practice() {
     return (
         <div className="container">
             <hr />
-            <div className="A1Pricing_div1">
-                <i>Logic Các bước ghép âm.</i>
-                <table className="table-sm">
-                    <tbody>
-                        <tr>
-                            <td>1. Đếm được có bao nhiêu tiếng.</td>
-                        </tr>
-                        <tr>
-                            <td>2. Xác định nguyên âm đơn chính của từng tiếng.</td>
-                        </tr>
-                        <tr>
-                            <td>3. Ghép từ trái sang phải theo logic.</td>
-                        </tr>
-                        <tr>
-                            <td>4. Đọc nhanh lên.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Lưu ý:
-                                <br />
-                                + Âm nào có mặt thì phải có khẩu hình âm đó.
-                                <br />
-                                + Âm nguyên đơn chính đọc dài hơn mấy âm phía sau.
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <input onChange={(e) => {
-                let i = e.currentTarget.value
-                if (WordsData[i] !== undefined) {
-                    setpractice(WordsData[i])
-                    setDataCmd(WordsData[i].word)
 
-                }
-                console.log(WordsData[i])
-                // console.log(WordsData[i].Words.word)
-            }} type={"number"} defaultValue="0" />
-            <button
-                className="btn btn-outline-primary"
-                onClick={() => {
-                    ReadMessage(practice.word, 1, 0.9, 0.9)
-                }}
-            >
-                Read
-            </button>
+
             <div
                 style={{
                     border: "1px solid black",
                     borderRadius: "5px",
                     width: "100%",
-                    padding: "150px"
+                    padding: "100px"
                 }}
             >
-                <div
-                    style={{
-                        width: "100%",
-                        textAlign: "center",
-                        height:"100px"
-                    }}
-                    id="res"></div>
-                <div>
-                    {showWords(practice)}
+                <div className="row">
+                    <div className="col-8">
+                        <div
+                            style={{
+                                width: "100%",
+                                textAlign: "center",
+                                height: "100px"
+                            }}
+                            id="res"></div>
+                        <div>
+                            {showWords(practice)}
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <input onChange={(e) => {
+                            let i = e.currentTarget.value
+                            if (WordsData[i] !== undefined) {
+                                setpractice(WordsData[i])
+                                setDataCmd(WordsData[i].word)
+
+                            }
+                            console.log(WordsData[i])
+                            // console.log(WordsData[i].Words.word)
+                        }} type={"number"} defaultValue="0" />
+                        <button
+                            className="btn btn-outline-primary"
+                            onClick={() => {
+                                ReadMessage(practice.word, 1, 0.9, 0.9)
+                            }}
+                        >
+                            Read
+                        </button>
+                        <div>
+                            <i>Logic Các bước ghép âm.</i>
+                            <table className="table-sm">
+                                <tbody>
+                                    <tr>
+                                        <td>1. Đếm được có bao nhiêu tiếng.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2. Xác định nguyên âm đơn chính của từng tiếng.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3. Ghép từ trái sang phải theo logic.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4. Đọc nhanh lên.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Lưu ý:
+                                            <br />
+                                            + Âm nào có mặt thì phải có khẩu hình âm đó.
+                                            <br />
+                                            + Âm nguyên đơn chính đọc dài hơn mấy âm phía sau.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <ReadReactSpeech />
+                        <Dictaphone
+                            Data={DataCmd} Xuly={Xuly}
+                        />
+                    </div>
                 </div>
+
             </div>
 
 
 
             {/* <h1 >{InterRim}</h1> */}
-            <ReadReactSpeech />
-            <Dictaphone
-                Data={DataCmd} Xuly={Xuly}
-            />
+
 
             <div>{showDetail(practice.meanGoogle)}</div>
         </div>
