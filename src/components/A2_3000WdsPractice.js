@@ -2,27 +2,27 @@ import { useState, useEffect } from "react"
 import ReadReactSpeech from "../helpers/Read_ReactSpeechSlow"
 import ReadMessage from "../util/Read/ReadMessage"
 import Dictaphone from "../helpers/RegcognitionV1-0-1AI0.5 _03"
+import WordsData from "../util/filedulieu/3000tuthongdung/tuvung3000thongdung"
 import $ from "jquery"
 let i = 0
-export default function A2Words3000Practice(props) {
-    const [DataCmd, setDataCmd] = useState(props.ArrPractice[0].word)
-    const [practice, setpractice] = useState(props.ArrPractice[0])
-    const [InterRim, setInterRim] = useState("")
+export default function A2Words3000Practice() {
+    const [DataCmd, setDataCmd] = useState("")
+    const [practice, setpractice] = useState("")
+
+
 
     function Xuly(interim) {
-
         let input = interim.toLowerCase()
         try {
             if (input.includes(DataCmd)) {
                 let i = input.split(DataCmd).join(`<i class="cmdInterrim">` + DataCmd + `</i>`)
-
                 let str = `<div>` +
                     i
                     + `</div>`
 
                 $("#res").html(str)
             } else {
-                $("#res").text(input)
+                $("#res").text(".")
             }
 
         } catch (error) {
@@ -31,50 +31,81 @@ export default function A2Words3000Practice(props) {
     }
 
     return (
-        <div className="A2Words3000Practice">
+        <div className="container">
             <hr />
+            <div className="A1Pricing_div1">
+                <i>Logic Các bước ghép âm.</i>
+                <table className="table-sm">
+                    <tbody>
+                        <tr>
+                            <td>1. Đếm được có bao nhiêu tiếng.</td>
+                        </tr>
+                        <tr>
+                            <td>2. Xác định nguyên âm đơn chính của từng tiếng.</td>
+                        </tr>
+                        <tr>
+                            <td>3. Ghép từ trái sang phải theo logic.</td>
+                        </tr>
+                        <tr>
+                            <td>4. Đọc nhanh lên.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Lưu ý:
+                                <br />
+                                + Âm nào có mặt thì phải có khẩu hình âm đó.
+                                <br />
+                                + Âm nguyên đơn chính đọc dài hơn mấy âm phía sau.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <input onChange={(e) => {
+                let i = e.currentTarget.value
+                if (WordsData[i] !== undefined) {
+                    setpractice(WordsData[i])
+                    setDataCmd(WordsData[i].word)
+
+                }
+                console.log(WordsData[i])
+                // console.log(WordsData[i].Words.word)
+            }} type={"number"} defaultValue="0" />
             <button
-                className="btn btn-primary"
+                className="btn btn-outline-primary"
                 onClick={() => {
-                    i = (i + 1) % props.ArrPractice.length
-                    setpractice(props.ArrPractice[i])
-                    setDataCmd(props.ArrPractice[i].word)
-                }}
-            >
-                Next
-            </button>
-            <button
-                className="btn btn-primary"
-                onClick={() => {
-                    ReadMessage(props.ArrPractice[i].word, 1, 0.4, 1)
+                    ReadMessage(practice.word, 1, 0.9, 0.9)
                 }}
             >
                 Read
             </button>
-            <button
-                className="btn btn-primary"
-                onClick={() => {
-                    $("#res").text("")
+            <div
+                style={{
+                    border: "1px solid black",
+                    borderRadius: "5px",
+                    width: "100%",
+                    padding: "150px"
                 }}
             >
-                X
-            </button>
-            <div>
-                {showWords([practice])}
+                <div
+                    style={{
+                        width: "100%",
+                        textAlign: "center"
+                    }}
+                    id="res"></div>
+                <div>
+                    {showWords(practice)}
+                </div>
             </div>
-            {/* <p id="interrimID"></p> */}
-            <div id="res"></div>
-            <h1 >{InterRim}</h1>
+
+
+
+            {/* <h1 >{InterRim}</h1> */}
             <ReadReactSpeech />
             <Dictaphone
                 Data={DataCmd} Xuly={Xuly}
             />
-            <button
-                className="A2Words3000PracticeBtn"
-                onClick={() => { props.SET_ArrPractice(null) }}
-            >
-                Exit
-            </button>
+
             <div>{showDetail(practice.meanGoogle)}</div>
         </div>
 
@@ -110,7 +141,7 @@ function showMeaning(Mean) {
                 {ArrIn.map((e, i) =>
                     <div key={i}>
                         <h5>Từ loại: {e}</h5>
-                        {showMeaningDetail(Mean[e])}
+                        {showMeaningDetail(Mean[e], i)}
                     </div>
                 )}
             </div>
@@ -120,8 +151,16 @@ function showMeaning(Mean) {
     }
 }
 
-function showMeaningDetail(Detail) {
+function showMeaningDetail(Detail, n) {
     try {
+        try {
+            if (n === 0) {
+                $("#exam").text(Detail[0].example)
+            }
+
+        } catch (error) {
+
+        }
 
         return (
             <div className="A2Words3000PracticeMeanGoogle_III">
@@ -158,43 +197,48 @@ function showSynonyms(Synonyms) {
 function showWords(Words) {
     try {
         return (
-            <table className="table table-striped">
-                <thead>
-                    <tr>
-                        <th>IPA_UK</th>
-                        <th>IPA_US</th>
-                        <th>Từ vựng</th>
-                        <th>Từ loại</th>
-                        <th>Nghĩa</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        Words.map((e, i) =>
-                            <tr key={i} >
-                                <td className="iconX1">
-                                    <i><b>{e.ipaUK}</b></i>
-                                </td>
-                                <td className="iconX1">
-                                    <i><b>{e.ipaUS}</b></i>
-                                </td>
-                                <td >
-                                    <i><b>{e.word}</b></i>
-                                </td>
-                                <td >
-                                    <i><b>{e.partsOfSpeech}</b></i>
-                                </td>
-                                <td >
-                                    <i><b>{e.mean}</b></i>
-                                </td>
+            <div>
+                <div className="row" style={{ textAlign: "center" }}>
+                    <div className="col-6">
+                        <h5>US</h5>
+                        <h1 style={{ color: "red" }}>{Words.ipaUK}</h1>
+                    </div>
+                    <div className="col-6">
+                        <h5>UK</h5>
+                        <h1 style={{ color: "blue" }}>{Words.ipaUS}</h1>
+                    </div>
+                </div>
 
-                            </tr>
 
-                        )
-                    }
-                </tbody>
+                <table className="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Từ vựng</th>
+                            <th>Từ loại</th>
+                            <th>Nghĩa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr key={i} >
+                            <td >
+                                <i><b>{Words.word}</b></i>
+                            </td>
+                            <td >
+                                <i><b>{Words.partsOfSpeech}</b></i>
+                            </td>
+                            <td >
+                                <i><b>{Words.mean}</b></i>
+                            </td>
 
-            </table>
+                        </tr>
+
+
+
+                    </tbody>
+
+                </table>
+                <h5 id="exam"></h5>
+            </div>
 
         )
     } catch (error) {

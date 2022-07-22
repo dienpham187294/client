@@ -13,14 +13,11 @@ function Dictaphone({ Data, Xuly }) {
     // useEffect(() => {
     //     commands = [{
     //         command: Data,
-    //         callback: (command, n, i) => { Xuly(`${command}`, n, i) },
-    //         isFuzzyMatch: true,
+    //         callback: (command) => { Xuly(`${command}`) },
     //         fuzzyMatchingThreshold: 0.2,
     //         bestMatchOnly: true
     //     }]
     // }, [Data])
-
-
 
     const {
         listening,
@@ -33,9 +30,7 @@ function Dictaphone({ Data, Xuly }) {
 
     useEffect(() => {
         if (interimTranscript !== "") {
-
             Xuly(interimTranscript)
-
         }
     }, [interimTranscript])
     return (<div>
@@ -50,7 +45,8 @@ function Dictaphone({ Data, Xuly }) {
             id="idStopLisening"
             className="btn btn-danger ml-3"
             onClick={stopListening}
-        >Click to stop</button>
+        >Click to stop</button>.
+        {/* <p>{interimTranscript}</p> */}
     </div>
     );
 };
