@@ -33,7 +33,11 @@ function Dictaphone({ Data, Xuly }) {
             Xuly(interimTranscript)
         }
     }, [interimTranscript])
-    return (<div>
+    return (<div
+        onClick={() => {
+            $("#res").text("")
+        }}
+    >
         <p>Microphone: {listening ? 'on' : 'off'}</p>
         <button
             className='btn btn-primary'
@@ -41,7 +45,6 @@ function Dictaphone({ Data, Xuly }) {
             onClick={startListening}
         >Click to talk</button>
         <button
-
             id="idStopLisening"
             className="btn btn-danger ml-3"
             onClick={stopListening}

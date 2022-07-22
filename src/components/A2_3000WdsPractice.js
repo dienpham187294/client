@@ -22,7 +22,7 @@ export default function A2Words3000Practice() {
 
                 $("#res").html(str)
             } else {
-                $("#res").text(".")
+                $("#res").text(input)
             }
 
         } catch (error) {
@@ -90,7 +90,8 @@ export default function A2Words3000Practice() {
                 <div
                     style={{
                         width: "100%",
-                        textAlign: "center"
+                        textAlign: "center",
+                        height:"100px"
                     }}
                     id="res"></div>
                 <div>
