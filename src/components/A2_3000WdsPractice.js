@@ -40,10 +40,15 @@ export default function A2Words3000Practice() {
                     border: "1px solid black",
                     borderRadius: "5px",
                     width: "100%",
-                    padding: "100px"
+                    padding: "10px 100px"
                 }}
             >
                 <div className="row">
+                    <div style={{ textAlign: "center" }}>
+                        <h5>Cách ghép âm tiếng anh như tiếng việt</h5>
+                        <i>Không điêu luyện, hay ho, quý tộc như bản xứ, nhưng dễ dùng, dễ áp dụng. Dành cho bình dân.</i>
+                    </div>
+
                     <div className="col-8">
                         <div
                             style={{
@@ -98,6 +103,51 @@ export default function A2Words3000Practice() {
                                             + Âm nào có mặt thì phải có khẩu hình âm đó.
                                             <br />
                                             + Âm nguyên đơn chính đọc dài hơn mấy âm phía sau.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <b><i>Nguyên âm đơn chính UỂ OẢI</i></b>
+                            <table className="table">
+                                <tbody>
+                                    <tr>
+                                        <td>U</td>
+                                        <td>E</td>
+                                        <td>O</td>
+                                        <td>A</td>
+                                        <td>I</td>
+                                        <td>Ơ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            /ʊ /
+                                            <br />
+                                            /u:/
+                                        </td>
+                                        <td>
+                                            /e /
+                                        </td>
+                                        <td>
+                                            /ɒ /
+                                            <br />
+                                            /ɔ:/
+                                        </td>
+                                        <td>
+                                            /æ/
+                                            <br />
+                                            /ʌ /
+                                            <br />
+                                            /ɑ:/
+                                        </td>
+                                        <td>
+                                            /ɪ/
+                                            <br />
+                                            /i:/
+                                        </td>
+                                        <td>
+                                            /ə /
+                                            <br />
+                                            /ɜ:/
                                         </td>
                                     </tr>
                                 </tbody>
