@@ -69,7 +69,7 @@ export default function Header() {
             <hr />
           </div>
           <div>
-            {" "}
+            {"  "}
             <h1>RÈN LUYỆN KỸ NĂNG TIẾNG ANH</h1>
           </div>
           <div className="col-12">
