@@ -1,108 +1,112 @@
 @media only screen and (min-width: 600px) {
-    .brandname {
-        font-size: 26px;
-        font-family: "Lucida Console", "Courier New", monospace;
-        letter-spacing: -1px;
-        margin-right: 1em;
-        line-height: 70px;
-    }
+  .brandname {
+    font-size: 26px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: -1px;
+    margin-right: 1em;
+    line-height: 70px;
+  }
 
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
 
-    .divSlogan {
-        text-align: right;
-    }
+  .divSlogan {
+    text-align: right;
+  }
 
-    .slogan {
-        font-size: 23px;
-        font-family: "Lucida Console", "Courier New", monospace;
-        letter-spacing: -1px;
-        margin-right: 1em;
-        align-content: center;
-        line-height: 70px;
-    }
+  .slogan {
+    font-size: 23px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: -1px;
+    margin-right: 1em;
+    align-content: center;
+    line-height: 70px;
+  }
 
+  .divUL {
+    /* border: 3px solid blue; */
+    border-radius: 5px;
+    width: 1000px;
+    margin-left: 50%;
+    padding: 15px;
+    transform: translateX(-50%);
+  }
 
-    .divUL {
-        /* border: 3px solid blue; */
-        border-radius: 5px;
-        width: 1000px;
-        margin-left: 50%;
-        padding: 15px;
-        transform: translateX(-50%);
-    }
+  main img {
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
 
-    main img {
-        width: 1000px;
-        border: 1px solid black;
-        border-radius: 10px;
-    }
-
-    .dangky {
-        max-width: 600px;
-        border: 1px solid blue;
-        border-radius: 5px;
-        padding: 15px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
+  .dangky {
+    max-width: 600px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .brandname {
-        font-size: 20px;
-        font-family: "Lucida Console", "Courier New", monospace;
-        letter-spacing: 2px;
-        margin-right: 1em;
-        line-height: 70px;
-    }
+  .brandname {
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+    margin-right: 1em;
+    line-height: 70px;
+  }
 
-    .divSlogan {
-        display: none;
-    }
+  .divSlogan {
+    display: none;
+  }
 
-    .logo {
-        width: 60px;
-        height: 60px;
-    }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
 
-    main img {
-        width: 350px;
-        border: 1px solid black;
-        border-radius: 10px;
-    }
+  main img {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
 }
 
 ul {
-    text-align: left;
-    font-size: larger;
+  text-align: left;
+  font-size: larger;
 }
-
 h1 {
-    text-align: center;
+  text-align: center;
+}
+.textDiv {
+  text-align: left;
+  font-size: larger;
+}
+h2 {
+  text-align: justify;
 }
 
 img {
-    margin: 10px;
+  margin: 10px;
 }
 
 .hrefBox {
-    border: 1px solid red;
-    border-radius: 10px;
-    padding: 15px;
-    width: 300px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    /* background-color: beige; */
-
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /* background-color: beige; */
 }
 .hrefBox a {
-    color: red;
-    font-size: larger;
-    font-weight: 0700;
+  color: red;
+  font-size: larger;
+  font-weight: 0700;
 }
