@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-// import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow";
-// import ReadMessage from "../../util/Read/ReadMessage";
+import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow";
+import ReadMessage from "../../util/Read/ReadMessage";
 import data from "../../util/Data_GiaoAn/1120_GA_LV0_ver1.json";
 let i = 0;
 export default function A2Words3000Practice() {
@@ -222,7 +222,7 @@ export default function A2Words3000Practice() {
           <hr />
         </div>
       </div>
-      {/* <ReadReactSpeech /> */}
+      <ReadReactSpeech />
     </div>
   );
 }
@@ -242,22 +242,53 @@ function showGiaoan(data) {
       <hr />
       {data.map((e, i) => (
         <div>
-          {i + 1}. <b className="blueColor"> {e.uSay}</b> -
-          <b className="redColor">{e.uHint}</b> -
+          {i + 1}.{" "}
+          <b
+            onClick={() => {
+              i++;
+              ReadMessage(e.uSay, (i % 2) + 1, 0.6, 0.9);
+            }}
+            className="blueColor cursorCss"
+          >
+            {" "}
+            {e.uSay}
+          </b>{" "}
+          -<b className="redColor">{e.uHint}</b> -
           <b className="blueColor">{e.uSayIPA}</b>
           <hr />
           <table className="table table-striped">
             <tbody>
               {e.arrQS.map((e, i) => (
                 <tr>
-                  <td>{e.mRespond}</td>
-                  <td>{e.submit}</td>
+                  <td
+                    onClick={() => {
+                      i++;
+                      ReadMessage(e.mRespond, (i % 2) + 1, 0.6, 0.9);
+                    }}
+                    className="cursorCss"
+                  >
+                    {e.mRespond}
+                  </td>
+                  <td
+                    onClick={() => {
+                      i++;
+                      ReadMessage(e.submit, (i % 2) + 1, 0.6, 0.9);
+                    }}
+                    className="cursorCss"
+                  >
+                    {e.submit}
+                  </td>
                   <td>{e.mean}</td>
                   <td>{e.ipa}</td>
                 </tr>
               ))}
             </tbody>
           </table>
+          <input
+            className="form-control upSizeCss"
+            type={"text"}
+          />
+          <hr />
         </div>
       ))}
     </div>

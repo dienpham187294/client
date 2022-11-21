@@ -776,3 +776,10 @@ a:hover {
 .blueColor {
   color: blue;
 }
+.cursorCss {
+  cursor: pointer;
+}
+.upSizeCss {
+  
+  font-weight: bolder;
+}
