@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/A1_Header";
 import A2BaiHocPhienAm from "./components/A2_SoSanhPhienAm";
 import Giaoan from "./components/Giaoan/main";
-import GiaoanIMG from "./components/Giaoan/main_hinhanh";
+import GiaoanIMG from "./components/Giaoan/main_IMG";
 // import Words3000 from "./components/A2_3000WdsPractice"
 
 function App() {

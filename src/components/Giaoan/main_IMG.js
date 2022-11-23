@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ReadReactSpeech from "../../helpers/Read_ReactSpeechSlow";
 import ReadMessage from "../../util/Read/ReadMessage";
-import data from "./1120_GA_LV0_ver1.json";
+import data from "./hinhanh.json";
 let i = 0;
 export default function A2Words3000Practice() {
   const [getDataShowGiaoan, setataShowGiaoan] = useState([]);
@@ -276,7 +276,7 @@ function showGiaoan(data) {
                     }}
                     className="cursorCss"
                   >
-                    {e.submit}
+                    {<img src={e.submit} width="250px" />}
                   </td>
                   <td>{e.mean}</td>
                   <td>{e.ipa}</td>

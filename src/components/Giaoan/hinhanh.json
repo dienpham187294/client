@@ -1,0 +1,110 @@
+[
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/zvPz9Zm5/1.png",
+    "mSay01": "I have a ball",
+    "mSayIPA01": "aɪ hæv ə bɔːl",
+    "sub02": "https://i.postimg.cc/1zZmxrdg/2.png",
+    "mSay02": "I have a bike",
+    "mSayIPA02": "aɪ hæv ə baɪk",
+    "mean01": "tôi có một quả bóng",
+    "mean02": "tôi có một chiếc xe đạp"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/Pr9fyjzQ/3.png",
+    "mSay01": "I have a book",
+    "mSayIPA01": "aɪ hæv ə bʊk",
+    "sub02": "https://i.postimg.cc/LXxZv8T8/1.png",
+    "mSay02": "I have a cake",
+    "mSayIPA02": "aɪ hæv ə keɪk",
+    "mean01": "tôi có một cuốn sách",
+    "mean02": "tôi có một cái bánh"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/zBzgngTQ/2.png",
+    "mSay01": "I have a car",
+    "mSayIPA01": "aɪ hæv ə kɑː",
+    "sub02": "https://i.postimg.cc/3wCG4B0p/3.png",
+    "mSay02": "I have a cup",
+    "mSayIPA02": "aɪ hæv ə kʌp",
+    "mean01": "tôi có một chiếc xe hơi",
+    "mean02": "tôi có một cái cốc"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/tJ7ncGSt/4.png",
+    "mSay01": "I have a cat",
+    "mSayIPA01": "aɪ hæv ə kæt",
+    "sub02": "https://i.postimg.cc/05JmRD9p/1.png",
+    "mSay02": "I have an apple",
+    "mSayIPA02": "aɪ hæv ən ˈæpl",
+    "mean01": "tôi có một con mèo",
+    "mean02": "tôi có một quả táo"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/5yvFBdsP/2.png",
+    "mSay01": "I have a can",
+    "mSayIPA01": "aɪ hæv ə kæn",
+    "sub02": "https://i.postimg.cc/dtPCq30g/3.png",
+    "mSay02": "I have a bag",
+    "mSayIPA02": "aɪ hæv ə bæg",
+    "mean01": "tôi có một lon",
+    "mean02": "tôi có một cái túi"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/4N69nG7y/4.png",
+    "mSay01": "I have a hat",
+    "mSayIPA01": "aɪ hæv ə hæt",
+    "sub02": "https://i.postimg.cc/T2Crcf2s/1.png",
+    "mSay02": "I have a dog",
+    "mSayIPA02": "aɪ hæv ə dɒg",
+    "mean01": "tôi có một chiếc mũ",
+    "mean02": "tôi có một con chó"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/PxM19kWP/2.png",
+    "mSay01": "I have a duck",
+    "mSayIPA01": "aɪ hæv ə dʌk",
+    "sub02": "https://i.postimg.cc/gjk3PBs4/3.png",
+    "mSay02": "I have a desk",
+    "mSayIPA02": "aɪ hæv ə dɛsk",
+    "mean01": "tôi có một con vịt",
+    "mean02": "tôi có một cái bàn"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/wMfLxcbz/4.png",
+    "mSay01": "I have a door",
+    "mSayIPA01": "aɪ hæv ə dɔː",
+    "sub02": "https://i.postimg.cc/R0hRyDhz/5.png",
+    "mSay02": "I have a pen",
+    "mSayIPA02": "aɪ hæv ə pɛn",
+    "mean01": "tôi có một cánh cửa",
+    "mean02": "tôi có một cây bút"
+  },
+  {
+    "uSay": "you have",
+    "uHint": "Bạn có gì?(hæv)",
+    "sub01": "https://i.postimg.cc/9QJbxhWp/6.png",
+    "mSay01": "I have a pencil",
+    "mSayIPA01": "aɪ hæv ə ˈpɛnsl",
+    "sub02": "https://i.postimg.cc/g2Y4qJPj/7.png",
+    "mSay02": "I have a bell",
+    "mSayIPA02": "aɪ hæv ə bɛl",
+    "mean01": "tôi có một cây bút chì",
+    "mean02": "tôi có một cái chuông"
+  }
+]
